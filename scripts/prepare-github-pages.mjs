@@ -2,7 +2,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { extname, join, relative, resolve } from 'node:path';
 
 const outputRoot = resolve('dist/client');
-const githubBasePath = '/WMS_UIUX_HoaNamv2';
+const githubBasePath = '/SystemHNWeb';
 const textExtensions = new Set(['.css', '.html', '.js', '.json', '.map', '.svg', '.txt']);
 
 async function walk(directory) {

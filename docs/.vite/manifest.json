@@ -1,17 +1,17 @@
 {
   "_framework-D_rUT4EX.js": {
-    "file": "WMS_UIUX_HoaNamv2/_next/static/chunks/framework-D_rUT4EX.js",
+    "file": "SystemHNWeb/_next/static/chunks/framework-D_rUT4EX.js",
     "name": "framework",
     "imports": [
       "_rolldown-runtime-C60lm6uB.js"
     ]
   },
   "_rolldown-runtime-C60lm6uB.js": {
-    "file": "WMS_UIUX_HoaNamv2/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+    "file": "SystemHNWeb/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "WMS_UIUX_HoaNamv2/_next/static/chunks/page-DyVW6Ogo.js",
+    "file": "SystemHNWeb/_next/static/chunks/page-DyVW6Ogo.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -20,11 +20,11 @@
       "_framework-D_rUT4EX.js"
     ],
     "css": [
-      "WMS_UIUX_HoaNamv2/_next/static/css/page.DlOzCv4U.css"
+      "SystemHNWeb/_next/static/css/page.DlOzCv4U.css"
     ]
   },
   "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "WMS_UIUX_HoaNamv2/_next/static/chunks/app-route-prefetch-policy-BQnQXK3F.js",
+    "file": "SystemHNWeb/_next/static/chunks/app-route-prefetch-policy-DLlpKbRP.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -33,7 +33,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "WMS_UIUX_HoaNamv2/_next/static/chunks/layout-segment-context-BHy2WXsF.js",
+    "file": "SystemHNWeb/_next/static/chunks/layout-segment-context-CrGgEG97.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -44,7 +44,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/streamed-icons.js": {
-    "file": "WMS_UIUX_HoaNamv2/_next/static/chunks/streamed-icons-Bumrcy-j.js",
+    "file": "SystemHNWeb/_next/static/chunks/streamed-icons-Bumrcy-j.js",
     "name": "streamed-icons",
     "src": "node_modules/vinext/dist/shims/streamed-icons.js",
     "isDynamicEntry": true,
@@ -54,7 +54,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "WMS_UIUX_HoaNamv2/_next/static/chunks/index-DClOh2y4.js",
+    "file": "SystemHNWeb/_next/static/chunks/index-BbgijguM.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
