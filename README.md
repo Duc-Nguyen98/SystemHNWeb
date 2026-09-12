@@ -1,11 +1,21 @@
-# SystemHNWeb · Hoa Nam WMS AUTH UI Baseline
+# SystemHNWeb · Hoa Nam WMS UI/UX Preview
 
-Preview tách riêng các màn hình Web AUTH đã chốt:
+Gallery Web System riêng cho Dev xem và tải ảnh thiết kế.
 
-- Desktop: 1920 × 1080 px.
-- Tablet dọc: 1440 × 2048 px; kiểm tra responsive thêm ở viewport logic 768 × 1024.
-- AUTH-01: Đăng nhập.
-- AUTH-02: Xác nhận phiên đăng nhập.
-- States: loading, validation error, starting shift, session expired.
+**GitHub Pages:** https://duc-nguyen98.github.io/SystemHNWeb/
 
-Mở `index.html` để xem preview và tải từng ảnh độc lập. Đây là Web System riêng, không gộp với Scanner App.
+| Nhóm | Desktop | Tablet dọc | Tổng |
+|---|---|---|---:|
+| Đăng nhập & Xác nhận phiên | 6 ảnh · 1920 × 1080 | 6 ảnh · 1440 × 2048 | 12 |
+| Tổng quan — 9 trạng thái | 9 ảnh · 1920 × 1080 | 9 ảnh · 1600 × 2560 | 18 |
+
+## Truy cập trực tiếp
+
+- [AUTH Desktop](https://duc-nguyen98.github.io/SystemHNWeb/#auth-desktop)
+- [AUTH Tablet](https://duc-nguyen98.github.io/SystemHNWeb/#auth-tablet)
+- [Tổng quan Desktop](https://duc-nguyen98.github.io/SystemHNWeb/#overview-desktop)
+- [Tổng quan Tablet](https://duc-nguyen98.github.io/SystemHNWeb/#overview-tablet)
+
+Mỗi màn có liên kết xem kích thước đầy đủ và tải riêng. Tổng quan dùng JPG tối ưu cho Pages; bộ PNG nguyên bản đã được bàn giao riêng. WebP chỉ dùng cho thumbnail. Các ảnh AUTH đã có được giữ nguyên.
+
+GitHub Pages dùng nhánh `main`, thư mục `/docs`. Các file gallery ở thư mục gốc và `/docs` được đồng bộ. Không dùng thư mục hoặc bản preview của Scanner App cho Web System này.
