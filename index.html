@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hoa Nam WMS · AUTH UI Baseline</title>
+  <style>
+    :root{--navy:#003B63;--cta:#004E74;--link:#086590;--pale:#EAF5F8;--line:#D9E8EF;--ink:#12344b;--muted:#627c8e;--surface:#f5fafc;--success:#16865b;--warning:#b97809;--danger:#c2413a}
+    *{box-sizing:border-box} body{margin:0;background:var(--surface);color:var(--ink);font-family:Public Sans,Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .shell{max-width:1440px;margin:0 auto;padding:32px 28px 56px}.hero{background:linear-gradient(135deg,#003b63 0%,#005e82 65%,#0b7898 100%);color:#fff;border-radius:20px;padding:32px;box-shadow:0 16px 36px #003b631f}.eyebrow{font-size:13px;letter-spacing:.12em;text-transform:uppercase;opacity:.82}.hero h1{margin:10px 0 8px;font-size:clamp(28px,4vw,52px);line-height:1.05}.hero p{margin:0;max-width:720px;font-size:16px;line-height:1.6;color:#d9eff7}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.pill{padding:8px 12px;border:1px solid #ffffff40;border-radius:999px;background:#ffffff16;font-size:13px}
+    .toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:28px 0 18px;flex-wrap:wrap}.tabs{display:flex;gap:8px;flex-wrap:wrap}.tab{border:1px solid var(--line);background:#fff;color:var(--link);border-radius:10px;padding:10px 16px;font-weight:700;cursor:pointer}.tab.active{background:var(--cta);color:#fff;border-color:var(--cta)}.legend{color:var(--muted);font-size:14px}
+    .viewport{display:none}.viewport.active{display:block}.section-title{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:28px 0 14px}.section-title h2{margin:0;color:var(--navy);font-size:24px}.section-title p{margin:0;color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:0 7px 22px #003b630b}.card h3{margin:4px 2px 12px;color:var(--navy);font-size:16px}.preview{display:block;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:#edf6f8}.preview img{display:block;width:100%;height:auto}.actions{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 2px 0}.tag{font-size:12px;color:var(--muted)}.download{color:var(--link);font-size:13px;font-weight:800;text-decoration:none}.download:hover{text-decoration:underline}.note{margin-top:30px;padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:var(--pale);color:var(--ink);line-height:1.6;font-size:14px}.footer{margin-top:42px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:860px){.shell{padding:20px 14px 40px}.hero{padding:24px}.grid{grid-template-columns:1fr}.section-title{align-items:start;flex-direction:column}.toolbar{align-items:flex-start}}
+  </style>
+</head>
+<body>
+<main class="shell">
+  <header class="hero">
+    <div class="eyebrow">Hoa Nam WMS · Web System</div>
+    <h1>AUTH UI/UX baseline</h1>
+    <p>Preview độc lập cho màn Đăng nhập và Xác nhận phiên đăng nhập. Desktop và Tablet dùng cùng một context, cùng component và cùng token màu.</p>
+    <div class="meta"><span class="pill">Desktop · 1920 × 1080</span><span class="pill">Tablet dọc · 1440 × 2048</span><span class="pill">AUTH-01 · AUTH-02</span></div>
+  </header>
+  <div class="toolbar"><div class="tabs" role="tablist"><button class="tab active" data-target="desktop">Desktop ngang</button><button class="tab" data-target="tablet">Tablet dọc</button></div><div class="legend">Mỗi ảnh là một file độc lập để DEV tải xuống.</div></div>
+
+  <section id="desktop" class="viewport active" aria-label="Desktop preview">
+    <div class="section-title"><div><h2>Desktop · 1920 × 1080</h2><p>Bản ngang chuẩn để kiểm tra trên màn hình Full HD.</p></div></div>
+    <div class="grid">
+      <article class="card"><h3>AUTH-01 · Đăng nhập</h3><a class="preview" href="previews/auth-jpg/desktop/AUTH-01-dang-nhap-desktop-1920x1080.jpg" target="_blank"><img src="previews/auth-jpg/desktop/AUTH-01-dang-nhap-desktop-1920x1080.jpg" alt="AUTH-01 Đăng nhập Desktop"></a><div class="actions"><span class="tag">Default</span><a class="download" download href="previews/auth-jpg/desktop/AUTH-01-dang-nhap-desktop-1920x1080.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-02 · Xác nhận phiên</h3><a class="preview" href="previews/auth-jpg/desktop/AUTH-02-xac-nhan-phien-desktop-1920x1080.jpg" target="_blank"><img src="previews/auth-jpg/desktop/AUTH-02-xac-nhan-phien-desktop-1920x1080.jpg" alt="AUTH-02 Xác nhận phiên Desktop"></a><div class="actions"><span class="tag">Default</span><a class="download" download href="previews/auth-jpg/desktop/AUTH-02-xac-nhan-phien-desktop-1920x1080.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-01 · Loading</h3><a class="preview" href="previews/auth-jpg/desktop/states/AUTH-01-dang-nhap-loading-desktop-1920x1080.jpg" target="_blank"><img src="previews/auth-jpg/desktop/states/AUTH-01-dang-nhap-loading-desktop-1920x1080.jpg" alt="AUTH-01 Loading Desktop"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/desktop/states/AUTH-01-dang-nhap-loading-desktop-1920x1080.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-01 · Validation error</h3><a class="preview" href="previews/auth-jpg/desktop/states/AUTH-01-dang-nhap-validation-error-desktop-1920x1080.jpg" target="_blank"><img src="previews/auth-jpg/desktop/states/AUTH-01-dang-nhap-validation-error-desktop-1920x1080.jpg" alt="AUTH-01 Validation error Desktop"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/desktop/states/AUTH-01-dang-nhap-validation-error-desktop-1920x1080.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-02 · Đang bắt đầu ca</h3><a class="preview" href="previews/auth-jpg/desktop/states/AUTH-02-xac-nhan-phien-starting-desktop-1920x1080.jpg" target="_blank"><img src="previews/auth-jpg/desktop/states/AUTH-02-xac-nhan-phien-starting-desktop-1920x1080.jpg" alt="AUTH-02 Starting Desktop"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/desktop/states/AUTH-02-xac-nhan-phien-starting-desktop-1920x1080.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-02 · Phiên hết hạn</h3><a class="preview" href="previews/auth-jpg/desktop/states/AUTH-02-xac-nhan-phien-expired-desktop-1920x1080.jpg" target="_blank"><img src="previews/auth-jpg/desktop/states/AUTH-02-xac-nhan-phien-expired-desktop-1920x1080.jpg" alt="AUTH-02 Expired Desktop"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/desktop/states/AUTH-02-xac-nhan-phien-expired-desktop-1920x1080.jpg">Tải ảnh ↗</a></div></article>
+    </div>
+  </section>
+
+  <section id="tablet" class="viewport" aria-label="Tablet preview">
+    <div class="section-title"><div><h2>Tablet dọc · 1440 × 2048</h2><p>Bản dọc cho tablet 10.9–11 inch; kiểm tra thêm ở viewport logic 768 × 1024.</p></div></div>
+    <div class="grid">
+      <article class="card"><h3>AUTH-01 · Đăng nhập</h3><a class="preview" href="previews/auth-jpg/tablet/AUTH-01-dang-nhap-tablet-1440x2048.jpg" target="_blank"><img src="previews/auth-jpg/tablet/AUTH-01-dang-nhap-tablet-1440x2048.jpg" alt="AUTH-01 Đăng nhập Tablet"></a><div class="actions"><span class="tag">Default</span><a class="download" download href="previews/auth-jpg/tablet/AUTH-01-dang-nhap-tablet-1440x2048.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-02 · Xác nhận phiên</h3><a class="preview" href="previews/auth-jpg/tablet/AUTH-02-xac-nhan-phien-tablet-1440x2048.jpg" target="_blank"><img src="previews/auth-jpg/tablet/AUTH-02-xac-nhan-phien-tablet-1440x2048.jpg" alt="AUTH-02 Xác nhận phiên Tablet"></a><div class="actions"><span class="tag">Default</span><a class="download" download href="previews/auth-jpg/tablet/AUTH-02-xac-nhan-phien-tablet-1440x2048.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-01 · Loading</h3><a class="preview" href="previews/auth-jpg/tablet/states/AUTH-01-dang-nhap-loading-tablet-1440x2048.jpg" target="_blank"><img src="previews/auth-jpg/tablet/states/AUTH-01-dang-nhap-loading-tablet-1440x2048.jpg" alt="AUTH-01 Loading Tablet"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/tablet/states/AUTH-01-dang-nhap-loading-tablet-1440x2048.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-01 · Validation error</h3><a class="preview" href="previews/auth-jpg/tablet/states/AUTH-01-dang-nhap-validation-error-tablet-1440x2048.jpg" target="_blank"><img src="previews/auth-jpg/tablet/states/AUTH-01-dang-nhap-validation-error-tablet-1440x2048.jpg" alt="AUTH-01 Validation error Tablet"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/tablet/states/AUTH-01-dang-nhap-validation-error-tablet-1440x2048.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-02 · Đang bắt đầu ca</h3><a class="preview" href="previews/auth-jpg/tablet/states/AUTH-02-xac-nhan-phien-starting-tablet-1440x2048.jpg" target="_blank"><img src="previews/auth-jpg/tablet/states/AUTH-02-xac-nhan-phien-starting-tablet-1440x2048.jpg" alt="AUTH-02 Starting Tablet"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/tablet/states/AUTH-02-xac-nhan-phien-starting-tablet-1440x2048.jpg">Tải ảnh ↗</a></div></article>
+      <article class="card"><h3>AUTH-02 · Phiên hết hạn</h3><a class="preview" href="previews/auth-jpg/tablet/states/AUTH-02-xac-nhan-phien-expired-tablet-1440x2048.jpg" target="_blank"><img src="previews/auth-jpg/tablet/states/AUTH-02-xac-nhan-phien-expired-tablet-1440x2048.jpg" alt="AUTH-02 Expired Tablet"></a><div class="actions"><span class="tag">State</span><a class="download" download href="previews/auth-jpg/tablet/states/AUTH-02-xac-nhan-phien-expired-tablet-1440x2048.jpg">Tải ảnh ↗</a></div></article>
+    </div>
+  </section>
+
+  <div class="note"><strong>DEV hand-off:</strong> Desktop và Tablet là cùng một hệ thống responsive. Không thêm SSO, OTP, CAPTCHA, mobile bottom navigation, camera/NFC hoặc module ngoài phạm vi AUTH. Xem thêm <a href="handoff-AUTH-SCREEN-EXPORT-MANIFEST-v1.md">manifest bàn giao</a>.</div>
+  <div class="footer">Hoa Nam WMS · AUTH UI/UX baseline · SystemHNWeb</div>
+</main>
+<script>
+  document.querySelectorAll('.tab').forEach(function(button){button.addEventListener('click',function(){document.querySelectorAll('.tab').forEach(function(b){b.classList.remove('active')});document.querySelectorAll('.viewport').forEach(function(v){v.classList.remove('active')});button.classList.add('active');document.getElementById(button.dataset.target).classList.add('active')})});
+</script>
+</body>
+</html>
