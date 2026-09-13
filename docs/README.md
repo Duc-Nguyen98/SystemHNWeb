@@ -39,3 +39,5 @@ Mỗi màn có liên kết xem kích thước đầy đủ và tải riêng. Gal
 Gallery giới hạn vùng xem nhanh tối đa 700 px, nên thumbnail 1440 px đủ cho màn hình 2×. Thuộc tính `width`/`height` của mỗi ảnh khớp với file thumbnail thực tế, không khai báo kích thước canvas 1920/1600 cho file thumbnail nhỏ hơn.
 
 GitHub Pages dùng nhánh `main`, thư mục `/docs`. Các file gallery ở thư mục gốc và `/docs` được đồng bộ. Không dùng thư mục hoặc bản preview của Scanner App cho Web System này.
+
+Pages build requested for main commit 3996767.
