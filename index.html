@@ -27,11 +27,12 @@
     <div class="eyebrow">Hoa Nam WMS · Web System</div>
     <h1>Thư viện màn hình UI/UX</h1>
     <p>Đăng nhập, Xác nhận phiên, khôi phục tài khoản và Tổng quan. Chọn nhóm màn hình, chọn thiết bị, rồi mở ảnh để xem chi tiết hoặc tải về cho Dev.</p>
-    <div class="meta"><span class="pill">44 màn hình</span><span class="pill">Desktop & Tablet dọc</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01</span></div>
+    <div class="meta"><span class="pill">70 màn hình</span><span class="pill">Desktop & Tablet dọc</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01 · FILTER v2</span></div>
   </header>
   <nav class="module-nav" aria-label="Nhóm màn hình">
     <button type="button" class="tab active" data-module-button="auth" aria-pressed="true">Đăng nhập & Phiên · 26</button>
     <button type="button" class="tab" data-module-button="overview" aria-pressed="false">Tổng quan · 18</button>
+    <button type="button" class="tab" data-module-button="filter" aria-pressed="false">Tổng quan · Bộ lọc v2 · 26</button>
   </nav>
   <div class="toolbar"><div class="tabs" role="group" aria-label="Thiết bị"><button type="button" class="tab active" data-device-button="desktop" aria-pressed="true">Desktop ngang</button><button type="button" class="tab" data-device-button="tablet" aria-pressed="false">Tablet dọc</button></div><div class="legend" id="gallery-info" role="status">Đăng nhập & Phiên · 13 màn · Desktop ngang</div></div>
   <section id="auth-desktop" class="viewport" data-module="auth" data-device="desktop" aria-label="AUTH desktop" hidden>
@@ -147,6 +148,7 @@
           <div class="actions"><span class="tag">Urgent · 1600 × 2560</span><a class="download" download href="previews/overview-jpg/tablet/overview-state-09-urgent-tablet-1600x2560.jpg">Tải JPG ↓</a></div>
         </article></div>
     </section>
+<section id="filter-desktop" class="viewport" data-module="filter" data-device="desktop" hidden><div class="section-title"><div><h2>Bộ lọc biểu đồ · Desktop</h2><p>13 trạng thái MAP-01 · 1920 × 1080.</p></div><a class="download" href="previews/overview-filter-v2/index.html#desktop">Mở gallery đầy đủ ↗</a></div><div class="note"><strong>QA gallery v2:</strong> Mở bộ preview riêng để xem từng trạng thái, phóng to và tải preview.</div></section><section id="filter-tablet" class="viewport" data-module="filter" data-device="tablet" hidden><div class="section-title"><div><h2>Bộ lọc biểu đồ · Tablet</h2><p>13 trạng thái MAP-01 · 1600 × 2560 (@2x).</p></div><a class="download" href="previews/overview-filter-v2/index.html#tablet">Mở gallery đầy đủ ↗</a></div><div class="note"><strong>QA gallery v2:</strong> Mở bộ preview riêng để xem từng trạng thái, phóng to và tải preview.</div></section>
   <noscript><p class="note">Bật JavaScript để chuyển nhóm màn hình. Các ảnh có trong <a href="previews/overview-jpg/desktop/overview-state-01-loading-desktop-1920x1080.jpg">bộ Tổng quan Desktop</a> và <a href="previews/overview-jpg/tablet/overview-state-01-loading-tablet-1600x2560.jpg">bộ Tổng quan Tablet</a>.</p></noscript>
   <div class="note"><strong>Bàn giao cho Dev:</strong> Mở ảnh để xem đầy đủ kích thước. Ảnh gốc JPG chất lượng cao tải xuống giữ nguyên kích thước canvas; thumbnail WebP chỉ dùng để xem nhanh và luôn có srcset 2×. Tài liệu: <a href="handoff-AUTH-SCREEN-EXPORT-MANIFEST-v2.md">Đăng nhập & Phiên</a> · <a href="handoff-OVERVIEW-STATES-v2.md">Tổng quan</a>.</div>
   <footer class="footer">Hoa Nam WMS · Web System · <a href="https://github.com/Duc-Nguyen98/SystemHNWeb" target="_blank" rel="noopener">SystemHNWeb</a></footer>
@@ -169,11 +171,11 @@
       button.classList.toggle('active', active);
       button.setAttribute('aria-pressed', String(active));
     });
-    document.getElementById('gallery-info').textContent = (current.module === 'overview' ? 'Tổng quan · 9 màn' : 'Đăng nhập & Phiên · 13 màn') + ' · ' + (current.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc');
+    document.getElementById('gallery-info').textContent = current.module === 'overview' ? 'Tổng quan · 9 màn · ' + (current.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc') : current.module === 'filter' ? 'Bộ lọc biểu đồ · 13 state · ' + (current.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc') : 'Đăng nhập & Phiên · 13 màn · ' + (current.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc');
     if (writeHash) history.replaceState(null, '', '#' + current.module + '-' + current.device);
   }
   function readHash() {
-    const match = location.hash.match(/^#(auth|overview)-(desktop|tablet)$/);
+    const match = location.hash.match(/^#(auth|overview|filter)-(desktop|tablet)$/);
     if (match) current = {module: match[1], device: match[2]};
     else if (['#desktop', '#tablet'].includes(location.hash)) current = {module: 'auth', device: location.hash.slice(1)};
     applyState(false);
