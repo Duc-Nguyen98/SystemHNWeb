@@ -1,6 +1,6 @@
 # SystemHNWeb · Hoa Nam WMS UI/UX Preview
 
-Gallery Web System riêng cho Dev xem và tải ảnh thiết kế.
+Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 và AUTH-02 đã được redesign v3 với PNG 1:1, layout Desktop/Tablet tách rõ và các state lõi đồng bộ.
 
 **GitHub Pages:** https://duc-nguyen98.github.io/SystemHNWeb/
 
@@ -23,6 +23,8 @@ Gallery Web System riêng cho Dev xem và tải ảnh thiết kế.
 Các màn mới có bản Desktop Full HD 1920 × 1080 px và Tablet dọc 1440 × 2048 px. Bộ cũ vẫn giữ nguyên route ảnh và nội dung.
 
 ## Truy cập trực tiếp
+
+- [AUTH core redesign v3](handoff-AUTH-CORE-REDESIGN-v3.md)
 
 - [AUTH Desktop](https://duc-nguyen98.github.io/SystemHNWeb/#auth-desktop)
 - [AUTH Tablet](https://duc-nguyen98.github.io/SystemHNWeb/#auth-tablet)
