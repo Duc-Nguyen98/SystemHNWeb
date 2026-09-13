@@ -15,6 +15,14 @@
   
     [hidden]{display:none!important}.viewport{display:block}
     .module-nav{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0 12px}
+    .filter-banner{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin:18px 0 22px;padding:18px 20px;border:1px solid #b9dce7;border-radius:14px;background:linear-gradient(135deg,#eef8fb,#fff);box-shadow:0 7px 22px #003b6309}
+    .filter-banner strong{display:block;color:var(--navy);font-size:15px;margin-bottom:4px}
+    .filter-banner p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+    .filter-banner .banner-actions{display:flex;gap:10px;flex-wrap:wrap}
+    .filter-banner .banner-link{display:inline-flex;align-items:center;min-height:44px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);color:var(--link);background:#fff;font-size:13px;font-weight:800;text-decoration:none}
+    .filter-banner .banner-link.primary{border-color:var(--cta);background:var(--cta);color:#fff}
+    .filter-banner .banner-link:hover{text-decoration:underline}
+    @media(max-width:860px){.filter-banner{align-items:flex-start}.filter-banner .banner-actions{width:100%}.filter-banner .banner-link{flex:1;justify-content:center}}
     .toolbar{margin-top:14px}.tab{min-height:44px;font:inherit;font-weight:600}
     .tab:focus-visible,.download:focus-visible,.preview:focus-visible{outline:3px solid #1683a8;outline-offset:4px}
     .actions{flex-wrap:wrap}.download{min-height:44px;display:inline-flex;align-items:center}
@@ -26,13 +34,17 @@
   <header class="hero">
     <div class="eyebrow">Hoa Nam WMS · Web System</div>
     <h1>Thư viện màn hình UI/UX</h1>
-    <p>Đăng nhập, Xác nhận phiên, khôi phục tài khoản và Tổng quan. Chọn nhóm màn hình, chọn thiết bị, rồi mở ảnh để xem chi tiết hoặc tải về cho Dev.</p>
-    <div class="meta"><span class="pill">44 màn hình</span><span class="pill">Desktop & Tablet dọc</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01</span></div>
+    <p>Đăng nhập, Xác nhận phiên, khôi phục tài khoản, Tổng quan và bộ lọc biểu đồ/datepicker. Chọn nhóm màn hình, chọn thiết bị, rồi mở ảnh để xem chi tiết hoặc tải về cho Dev.</p>
+    <div class="meta"><span class="pill">44 màn hình chính</span><span class="pill">26 state filter QA</span><span class="pill">Desktop & Tablet dọc</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01</span></div>
   </header>
   <nav class="module-nav" aria-label="Nhóm màn hình">
     <button type="button" class="tab active" data-module-button="auth" aria-pressed="true">Đăng nhập & Phiên · 26</button>
     <button type="button" class="tab" data-module-button="overview" aria-pressed="false">Tổng quan · 18</button>
   </nav>
+  <aside class="filter-banner" aria-label="Bộ lọc biểu đồ và datepicker QA">
+    <div><strong>MAP-01 · Bộ lọc biểu đồ / Datepicker QA v2</strong><p>13 trạng thái × 2 viewport · màu và range đã khóa theo baseline Hoa Nam.</p></div>
+    <div class="banner-actions"><a class="banner-link primary" href="previews/overview-filter-v2/index.html">Mở gallery filter ↗</a><a class="banner-link" href="handoff-OVERVIEW-FILTER-QA-v2.md">Handoff QA ↗</a></div>
+  </aside>
   <div class="toolbar"><div class="tabs" role="group" aria-label="Thiết bị"><button type="button" class="tab active" data-device-button="desktop" aria-pressed="true">Desktop ngang</button><button type="button" class="tab" data-device-button="tablet" aria-pressed="false">Tablet dọc</button></div><div class="legend" id="gallery-info" role="status">Đăng nhập & Phiên · 13 màn · Desktop ngang</div></div>
   <section id="auth-desktop" class="viewport" data-module="auth" data-device="desktop" aria-label="AUTH desktop" hidden>
     <div class="section-title"><div><h2>Desktop · 1920 × 1080</h2><p>Bản ngang chuẩn để kiểm tra trên màn hình Full HD.</p></div></div>
