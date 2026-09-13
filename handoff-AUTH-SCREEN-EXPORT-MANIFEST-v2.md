@@ -28,7 +28,7 @@ Mỗi màn hình có một ảnh Desktop và một ảnh Tablet, không gộp co
 ## Quy tắc chất lượng ảnh
 
 - JPG chất lượng cao là nguồn xem/tải chính trong gallery; giữ nguyên canvas Desktop 1920×1080 và Tablet 1440×2048.
-- JPG cũ được giữ để không phá các liên kết đã bàn giao trước đó.
+- Toàn bộ ảnh AUTH dùng cùng treatment hero kho Hoa Nam không có nhân vật; AUTH-02 chỉ thay phần nội dung card phiên làm việc.
 - Thumbnail WebP tối thiểu 2× chiều rộng card, hiện dùng 1440 px cho Desktop và 1400 px cho Tablet.
 - Mỗi `<img>` dùng `srcset` gồm thumbnail 2× và ảnh gốc; `sizes` khớp với CSS card.
 - Thuộc tính `width`/`height` khớp với kích thước thumbnail thực tế và giữ đúng tỉ lệ ảnh.

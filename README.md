@@ -33,4 +33,8 @@ Mỗi màn có liên kết xem kích thước đầy đủ và tải riêng. Ả
 
 Gallery giới hạn vùng xem nhanh tối đa 700 px, nên thumbnail 1440 px đủ cho màn hình 2×. Thuộc tính `width`/`height` của mỗi ảnh khớp với file thumbnail thực tế, không khai báo kích thước canvas 1920/1600 cho file thumbnail nhỏ hơn.
 
-GitHub Pages dùng nhánh `main`, thư mục `/docs`. Các file gallery ở thư mục gốc và `/docs` được đồng bộ. Không dùng thư mục hoặc bản preview của Scanner App cho Web System này.
+GitHub Pages dùng nhánh `main`, thư mục `/docs`. Tất cả màn AUTH dùng cùng treatment hero kho Hoa Nam màu xanh; AUTH-02 chỉ thay nội dung card phiên làm việc. Các file gallery ở thư mục gốc và `/docs` phải giống nhau byte-for-byte.
+
+Trước khi commit/deploy, chạy `python tools/sync_gallery_assets.py` rồi `python tools/validate_gallery.py`. Lệnh kiểm tra sẽ bắt lỗi ảnh AUTH-02 lệch hero AUTH-01, sai canvas, thiếu `srcset` hoặc bản sao `/docs` bị cũ.
+
+Không dùng thư mục hoặc bản preview của Scanner App cho Web System này.
