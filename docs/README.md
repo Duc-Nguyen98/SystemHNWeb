@@ -41,3 +41,6 @@ Gallery giới hạn vùng xem nhanh tối đa 700 px, nên thumbnail 1440 px đ
 GitHub Pages dùng nhánh `main`, thư mục `/docs`. Các file gallery ở thư mục gốc và `/docs` được đồng bộ. Không dùng thư mục hoặc bản preview của Scanner App cho Web System này.
 
 Pages build requested for main commit 3996767.
+
+
+Orientation QA: [Viewport & Orientation handoff](handoff-VIEWPORT-ORIENTATION-QA-v1.md). Gallery đã tách Desktop ngang, Tablet dọc và Tablet ngang; artwork Tablet ngang đang được đánh dấu thiếu riêng để không dùng nhầm ảnh dọc.
