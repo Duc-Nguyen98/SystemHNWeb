@@ -1,0 +1,64 @@
+name: Gallery quality gate
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+concurrency:
+  group: gallery-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+jobs:
+  browser-tests:
+    name: Viewer tests (${{ matrix.browser }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, firefox, webkit]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps ${{ matrix.browser }}
+      - run: npm test
+        env:
+          QA_BROWSERS: ${{ matrix.browser }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: viewer-regression-${{ matrix.browser }}
+          path: artifacts/qa
+  viewer-regression:
+    name: viewer-regression
+    needs: browser-tests
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require every browser to pass
+        run: test "${{ needs.browser-tests.result }}" = success
+  package-pages:
+    needs: viewer-regression
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Record the verified deployment revision
+        run: node -e "require('node:fs').writeFileSync('docs/deployment.json', JSON.stringify({revision:process.env.GITHUB_SHA,run:process.env.GITHUB_RUN_ID,qualityGate:'passed'}))"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+  deploy:
+    needs: package-pages
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish verified gallery
+        id: deployment
+        uses: actions/deploy-pages@v4

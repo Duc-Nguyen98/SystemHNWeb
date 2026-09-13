@@ -1,0 +1,2 @@
+/* Author display:grid must not override the browser's hidden state. */
+[hidden]{display:none!important}
