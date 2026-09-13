@@ -27,6 +27,9 @@
     .tab:focus-visible,.download:focus-visible,.preview:focus-visible{outline:3px solid #1683a8;outline-offset:4px}
     .actions{flex-wrap:wrap}.download{min-height:44px;display:inline-flex;align-items:center}
     .tag{line-height:1.5}.hero h1{max-width:850px}.footer a,.note a{color:var(--link)}
+
+    .orientation-panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 8px 20px #003b630d}.orientation-status{display:flex;align-items:center;gap:10px;flex-wrap:wrap;color:var(--navy);font-size:15px}.status-dot{width:10px;height:10px;border-radius:50%;background:var(--warning);box-shadow:0 0 0 4px #b9780920}.orientation-panel>p{max-width:780px;color:var(--muted);line-height:1.6}.orientation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.orientation-card{border:1px solid var(--line);border-radius:12px;padding:16px;background:linear-gradient(180deg,#fff,#f7fbfc)}.orientation-card h3{margin:0 0 8px;font-size:16px}.orientation-card p,.orientation-card li{color:var(--muted);font-size:14px;line-height:1.5}.orientation-card ul{margin:8px 0 0;padding-left:18px}.orientation-card .banner-link{display:inline-block;margin-top:8px}@media(max-width:720px){.orientation-grid{grid-template-columns:1fr}}
+    .image-viewer-hint{font-size:12px;color:var(--muted);margin-top:8px}
 </style>
 </head>
 <body>
@@ -35,7 +38,7 @@
     <div class="eyebrow">Hoa Nam WMS · Web System</div>
     <h1>Thư viện màn hình UI/UX</h1>
     <p>Đăng nhập, Xác nhận phiên, khôi phục tài khoản, Tổng quan và bộ lọc biểu đồ/datepicker. Chọn nhóm màn hình, chọn thiết bị, rồi mở ảnh để xem chi tiết hoặc tải về cho Dev.</p>
-    <div class="meta"><span class="pill">44 màn hình chính</span><span class="pill">26 state filter QA</span><span class="pill">Desktop & Tablet dọc</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01</span></div>
+    <div class="meta"><span class="pill">44 màn hình chính</span><span class="pill">26 state filter QA</span><span class="pill">Desktop + Tablet dọc/ngang</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01</span></div>
   </header>
   <nav class="module-nav" aria-label="Nhóm màn hình">
     <button type="button" class="tab active" data-module-button="auth" aria-pressed="true">Đăng nhập & Phiên · 26</button>
@@ -45,7 +48,7 @@
     <div><strong>MAP-01 · Bộ lọc biểu đồ / Datepicker QA v2</strong><p>13 trạng thái × 2 viewport · màu và range đã khóa theo baseline Hoa Nam.</p></div>
     <div class="banner-actions"><a class="banner-link primary" href="previews/overview-filter-v2/index.html">Mở gallery filter ↗</a><a class="banner-link" href="handoff-OVERVIEW-FILTER-QA-v2.md">Handoff QA ↗</a></div>
   </aside>
-  <div class="toolbar"><div class="tabs" role="group" aria-label="Thiết bị"><button type="button" class="tab active" data-device-button="desktop" aria-pressed="true">Desktop ngang</button><button type="button" class="tab" data-device-button="tablet" aria-pressed="false">Tablet dọc</button></div><div class="legend" id="gallery-info" role="status">Đăng nhập & Phiên · 13 màn · Desktop ngang</div></div>
+  <div class="toolbar"><div class="tabs" role="group" aria-label="Thiết bị"><button type="button" class="tab active" data-device-button="desktop" aria-pressed="true">Desktop ngang</button><button type="button" class="tab" data-device-button="tablet" aria-pressed="false">Tablet dọc</button><button type="button" class="tab" data-device-button="tablet-landscape" aria-pressed="false">Tablet ngang</button></div><div class="legend" id="gallery-info" role="status">Đăng nhập & Phiên · 13 màn · Desktop ngang</div></div>
   <section id="auth-desktop" class="viewport" data-module="auth" data-device="desktop" aria-label="AUTH desktop" hidden>
     <div class="section-title"><div><h2>Desktop · 1920 × 1080</h2><p>Bản ngang chuẩn để kiểm tra trên màn hình Full HD.</p></div></div>
     <div class="grid">
@@ -159,6 +162,29 @@
           <div class="actions"><span class="tag">Urgent · 1600 × 2560</span><a class="download" download href="previews/overview-jpg/tablet/overview-state-09-urgent-tablet-1600x2560.jpg">Tải JPG ↓</a></div>
         </article></div>
     </section>
+
+  <section id="auth-tablet-landscape" class="viewport" data-module="auth" data-device="tablet-landscape" aria-label="AUTH tablet ngang" hidden>
+    <div class="section-title"><div><h2>Tablet ngang · 1280 × 800 CSS px</h2><p>Khung kiểm tra landscape chuẩn cho tablet 10.9–11". Artwork riêng cần export 2560 × 1600 px @2x.</p></div></div>
+    <div class="orientation-panel">
+      <div class="orientation-status"><span class="status-dot"></span><strong>Đang chờ artwork Tablet ngang</strong><span class="tag">Không dùng ảnh dọc để nghiệm thu ngang</span></div>
+      <p>Repo hiện có 13 trạng thái AUTH ở bản Tablet dọc. Các màn landscape cần được xuất riêng theo khung 1280 × 800 CSS px để kiểm tra reflow, vùng bấm và thứ tự nội dung.</p>
+      <div class="orientation-grid">
+        <article class="orientation-card"><h3>AUTH · 13 trạng thái</h3><p>Nguồn đối chiếu: Tablet dọc · 1600 × 2560 export.</p><a class="banner-link" href="#auth-tablet">Mở bản dọc để đối chiếu ↗</a></article>
+        <article class="orientation-card"><h3>Tiêu chí nghiệm thu</h3><ul><li>Canvas 1280 × 800 CSS px.</li><li>Không xoay ảnh dọc thay cho responsive layout.</li><li>Popup và vùng bấm không tràn cạnh.</li></ul></article>
+      </div>
+    </div>
+  </section>
+  <section id="overview-tablet-landscape" class="viewport" data-module="overview" data-device="tablet-landscape" aria-label="Tổng quan tablet ngang" hidden>
+    <div class="section-title"><div><h2>Tổng quan · Tablet ngang · 1280 × 800 CSS px</h2><p>9 trạng thái Tổng quan cần artwork landscape riêng · export 2560 × 1600 px @2x.</p></div><a class="download" href="handoff-VIEWPORT-ORIENTATION-QA-v1.md">Đặc tả orientation ↗</a></div>
+    <div class="orientation-panel">
+      <div class="orientation-status"><span class="status-dot"></span><strong>Artwork Tablet ngang chưa được đẩy lên</strong><span class="tag">P0 · bổ sung trước UAT</span></div>
+      <p>Để tránh DEV lấy nhầm ảnh dọc, trạng thái thiếu được hiển thị rõ tại đây. Khi có file landscape, đặt vào thư mục asset riêng và cập nhật manifest theo đúng mã MAP-01.</p>
+      <div class="orientation-grid">
+        <article class="orientation-card"><h3>MAP-01 · 9 trạng thái</h3><p>Nguồn đối chiếu hiện tại: Tablet dọc · 1600 × 2560 export.</p><a class="banner-link" href="#overview-tablet">Mở bản dọc để đối chiếu ↗</a></article>
+        <article class="orientation-card"><h3>Filter / Datepicker · 13 trạng thái</h3><p>Gallery QA v2 hiện có Desktop và Tablet dọc; chưa có export ngang riêng.</p><a class="banner-link" href="previews/overview-filter-v2/index.html">Mở gallery filter ↗</a></article>
+      </div>
+    </div>
+  </section>
   <noscript><p class="note">Bật JavaScript để chuyển nhóm màn hình. Các ảnh có trong <a href="previews/overview-jpg/desktop/overview-state-01-loading-desktop-1920x1080.jpg">bộ Tổng quan Desktop</a> và <a href="previews/overview-jpg/tablet/overview-state-01-loading-tablet-1600x2560.jpg">bộ Tổng quan Tablet</a>.</p></noscript>
   <div class="note"><strong>Bàn giao cho Dev:</strong> Mở ảnh để xem đầy đủ kích thước. Ảnh core AUTH dùng PNG nét cao; các state còn lại dùng JPG chất lượng cao; mỗi ảnh tải xuống giữ nguyên kích thước canvas; thumbnail WebP chỉ dùng để xem nhanh và luôn có srcset 2×. Tài liệu: <a href="handoff-AUTH-SCREEN-EXPORT-MANIFEST-v2.md">Đăng nhập & Phiên</a> · <a href="handoff-OVERVIEW-STATES-v2.md">Tổng quan</a> · <a href="previews/overview-filter-v2/index.html">Filter/date picker QA v2 (26 state)</a> · <a href="handoff-OVERVIEW-FILTER-QA-v2.md">Handoff QA</a>.</div>
   <footer class="footer">Hoa Nam WMS · Web System · <a href="https://github.com/Duc-Nguyen98/SystemHNWeb" target="_blank" rel="noopener">SystemHNWeb</a></footer>
@@ -181,13 +207,13 @@
       button.classList.toggle('active', active);
       button.setAttribute('aria-pressed', String(active));
     });
-    document.getElementById('gallery-info').textContent = (current.module === 'overview' ? 'Tổng quan · 9 màn' : 'Đăng nhập & Phiên · 13 màn') + ' · ' + (current.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc');
+    const deviceLabels = {desktop:'Desktop ngang · 1920 × 1080', tablet:'Tablet dọc · 800 × 1280 CSS', 'tablet-landscape':'Tablet ngang · 1280 × 800 CSS'}; document.getElementById('gallery-info').textContent = (current.module === 'overview' ? 'Tổng quan · 9 màn' : 'Đăng nhập & Phiên · 13 màn') + ' · ' + deviceLabels[current.device];
     if (writeHash) history.replaceState(null, '', '#' + current.module + '-' + current.device);
   }
   function readHash() {
-    const match = location.hash.match(/^#(auth|overview)-(desktop|tablet)$/);
+    const match = location.hash.match(/^#(auth|overview)-(desktop|tablet|tablet-landscape)$/);
     if (match) current = {module: match[1], device: match[2]};
-    else if (['#desktop', '#tablet'].includes(location.hash)) current = {module: 'auth', device: location.hash.slice(1)};
+    else if (['#desktop', '#tablet', '#tablet-landscape'].includes(location.hash)) current = {module: 'auth', device: location.hash.slice(1)};
     applyState(false);
   }
   document.querySelectorAll('[data-module-button]').forEach(button => button.addEventListener('click', () => {
@@ -198,6 +224,17 @@
   }));
   addEventListener('hashchange', readHash);
   readHash();
+
+  function openImageViewer(anchor){
+    const src = anchor.getAttribute('href'); if(!src) return;
+    const card = anchor.closest('.card'); const title = card ? (card.querySelector('h3')?.textContent || 'Preview') : 'Preview';
+    const isDesktop = /desktop/i.test(src); const dims = isDesktop ? '1920 × 1080 px' : '1600 × 2560 px @2x · 800 × 1280 CSS px';
+    const w = window.open('', '_blank'); if(!w) return;
+    const esc = value => String(value).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+    w.document.write('<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+' · Hoa Nam WMS</title><style>html,body{height:100%;margin:0}body{font-family:Inter,system-ui,sans-serif;background:#eef6f8;color:#003b63;display:flex;flex-direction:column}.bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 16px;background:#fff;border-bottom:1px solid #d9e8ef;box-shadow:0 4px 16px #003b6314}.title{font-weight:700;margin-right:auto}.meta{font-size:12px;color:#627c8e}.bar button{border:1px solid #d9e8ef;background:#fff;color:#004e74;border-radius:8px;padding:7px 10px;font-weight:700;cursor:pointer}.bar button.primary{background:#004e74;color:#fff;border-color:#004e74}.stage{flex:1;overflow:auto;display:grid;place-items:center;padding:20px}.frame{transform-origin:center center;transition:transform .15s ease;max-width:none;display:block;box-shadow:0 14px 34px #003b6326;background:#fff}</style></head><body><header class="bar"><div class="title">'+esc(title)+'</div><div class="meta">'+dims+'</div><button id="fit">Vừa màn hình</button><button id="one">1:1</button><button id="minus">−</button><button id="plus">＋</button><button id="close" class="primary">Đóng</button></header><main class="stage"><img id="frame" class="frame" src="'+esc(src)+'" alt="'+esc(title)+'"></main><script>const img=document.getElementById("frame"),stage=document.querySelector(".stage");let scale=1;function paint(){img.style.transform="scale("+scale+")"}function fit(){if(!img.naturalWidth)return;scale=Math.min((stage.clientWidth-40)/img.naturalWidth,(stage.clientHeight-40)/img.naturalHeight,1);paint()}img.addEventListener("load",fit);document.getElementById("fit").onclick=fit;document.getElementById("one").onclick=()=>{scale=1;paint()};document.getElementById("minus").onclick=()=>{scale=Math.max(.1,scale-.1);paint()};document.getElementById("plus").onclick=()=>{scale=Math.min(4,scale+.1);paint()};document.getElementById("close").onclick=()=>window.close();addEventListener("resize",fit);addEventListener("keydown",e=>{if(e.key==="+")document.getElementById("plus").click();if(e.key==="-")document.getElementById("minus").click();if(e.key==="0")document.getElementById("one").click();if(e.key==="f")document.getElementById("fit").click();if(e.key==="Escape")window.close()});<\/script></body></html>');
+    w.document.close();
+  }
+  document.querySelectorAll('.preview').forEach(anchor => { anchor.addEventListener('click', event => { event.preventDefault(); openImageViewer(anchor); }); });
 </script>
 </body>
 </html>
