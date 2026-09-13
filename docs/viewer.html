@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Xem màn hình · Hoa Nam WMS</title>
+  <link rel="stylesheet" href="assets/viewer.css">
+  <script type="module" src="assets/viewer.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <div class="heading"><h1 id="title">Xem màn hình</h1><p id="metadata">Đang tải ảnh gốc…</p></div>
+    <nav class="controls" aria-label="Điều khiển ảnh">
+      <button id="fit" disabled>Vừa màn hình</button>
+      <button id="width" disabled>Vừa chiều rộng</button>
+      <button id="one" title="Một pixel ảnh trên một pixel màn hình" disabled>1:1 pixel</button>
+      <button id="minus" aria-label="Thu nhỏ" disabled>−</button>
+      <output id="zoom" aria-live="polite">—</output>
+      <button id="plus" aria-label="Phóng to" disabled>+</button>
+      <button id="fullscreen" disabled>Toàn màn hình</button>
+      <a id="download" hidden download>Tải ảnh gốc</a>
+      <button id="close">Đóng</button>
+    </nav>
+  </header>
+  <main id="stage" class="stage" tabindex="0" aria-label="Ảnh thiết kế, dùng phím mũi tên để cuộn">
+    <div id="canvas" class="canvas"><img id="frame" alt="" hidden draggable="false"></div>
+    <p id="status" role="status">Đang tải ảnh gốc…</p>
+  </main>
+  <footer id="hint">Giữ đúng tỉ lệ ảnh · f: vừa màn hình · w: vừa chiều rộng · 0: 1:1 · +/−: thu phóng</footer>
+  <noscript>Bật JavaScript để sử dụng trình xem. <a href="index.html">Quay lại thư viện</a></noscript>
+</body>
+</html>

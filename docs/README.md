@@ -9,7 +9,7 @@ Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 và 
 | Đăng nhập & Xác nhận phiên | 13 ảnh · 1920 × 1080 | 13 ảnh · 1440 × 2048 | 26 |
 | Tổng quan — 9 trạng thái | 9 ảnh · 1920 × 1080 | 9 ảnh · 1600 × 2560 | 18 |
 | MAP-01 — Filter/date picker QA v2 | 13 state · 1920 × 1080 | 13 state · 1600 × 2560 | 26 |
-| **Toàn bộ gallery** | **22 ảnh** | **22 ảnh** | **44** |
+| **Toàn bộ gallery** | **35 ảnh/state** | **35 ảnh/state** | **70** |
 
 ## AUTH bổ sung
 
@@ -38,9 +38,41 @@ Mỗi màn có liên kết xem kích thước đầy đủ và tải riêng. Gal
 
 Gallery giới hạn vùng xem nhanh tối đa 700 px, nên thumbnail 1440 px đủ cho màn hình 2×. Thuộc tính `width`/`height` của mỗi ảnh khớp với file thumbnail thực tế, không khai báo kích thước canvas 1920/1600 cho file thumbnail nhỏ hơn.
 
-GitHub Pages dùng nhánh `main`, thư mục `/docs`. Các file gallery ở thư mục gốc và `/docs` được đồng bộ. Không dùng thư mục hoặc bản preview của Scanner App cho Web System này.
+GitHub Pages xuất bản thư mục `/docs` của nhánh `main` bằng workflow sau khi quality gate đạt. Các file gallery ở thư mục gốc và `/docs` được đồng bộ. Không dùng thư mục hoặc bản preview của Scanner App cho Web System này.
 
-Pages build requested for main commit 3996767.
+Revision đang phục vụ được ghi tại `deployment.json` sau mỗi lần phát hành đạt kiểm tra.
 
 
 Orientation QA: [Viewport & Orientation handoff](handoff-VIEWPORT-ORIENTATION-QA-v1.md). Gallery đã tách Desktop ngang, Tablet dọc và Tablet ngang; artwork Tablet ngang đang được đánh dấu thiếu riêng để không dùng nhầm ảnh dọc.
+
+## Sửa trình xem DEV · 13/09/2026
+
+Trình xem chung `viewer.html?screen=<id>` là nguồn duy nhất cho 70 màn ở gallery chính và 26 liên kết ở gallery bộ lọc. Không tạo lại trình xem bằng `document.write`, không dùng thumbnail hoặc ảnh nhúng 480 px cho xem chi tiết.
+
+- **Vừa màn hình:** tính từ vùng còn lại sau toolbar/footer, giữ đủ bốn mép.
+- **Vừa chiều rộng:** giữ tỉ lệ, cho cuộn dọc.
+- **1:1 pixel:** một pixel ảnh trên một pixel màn hình; không phải một CSS pixel. Hoạt động cả khi DPR dưới 1 do browser zoom-out.
+- **+/−:** đổi kích thước layout thực, không transform; dừng tại 100% độ phân giải gốc.
+- **Toàn màn hình / Tải ảnh gốc:** mở rộng vùng xem hoặc tải đúng bytes đã kiểm tra hash.
+
+Ảnh dọc trên cửa sổ ngang có khoảng trống hai bên khi xem trọn màn — đây là giữ đúng tỉ lệ, không phải cắt ảnh. Muốn đọc lớn hơn, dùng Vừa chiều rộng hoặc 1:1 rồi cuộn. Ảnh bitmap không thể phóng vô hạn mà vẫn giữ chi tiết; không upscale để giả ảnh sắc nét.
+
+### Kiểm tra trước khi bàn giao
+
+```sh
+npm ci
+npx playwright install --with-deps chromium firefox webkit
+npm run sync
+QA_BROWSERS=chromium,firefox,webkit npm test
+npm run serve
+```
+
+PowerShell: đặt `$env:QA_BROWSERS='chromium,firefox,webkit'` trước `npm test`. `npm run serve` chỉ mở máy chủ local tại `http://127.0.0.1:4174`, không publish.
+
+`screen-manifest.json` lưu ID, loại thiết bị, kích thước ảnh thật, kích thước CSS nếu đã xác định, hash và nguồn gốc. 26 PNG filter được khôi phục nguyên vẹn từ gói `HN-WMS-OVERVIEW-FILTER-STATES-v2`, khớp SHA-256 trong ASSET-MANIFEST.csv. 44 ảnh AUTH/Tổng quan không đổi bytes.
+
+Quality gate kiểm tra 70 nguồn ảnh, 96 liên kết, kích thước, hash, root/docs parity, 12 viewport/DPR, fit/native/scroll/resize/rotate, tải ảnh, fullscreen và lỗi tài nguyên. Không cập nhật hash/kích thước để bỏ qua lỗi nếu chưa đối chiếu artwork được duyệt.
+
+Workflow `.github/workflows/gallery-quality.yml` kiểm tra Chromium, Firefox và WebKit trong ba job độc lập. Job `viewer-regression` chỉ đạt khi cả ba job đạt. `package-pages` và `deploy` phụ thuộc quality gate, chỉ chạy trên `main`, không xuất bản từ PR hoặc nhánh tính năng. `deployment.json` ghi revision/run đã qua kiểm tra để đối chiếu website sau phát hành.
+
+Khi phát hành lần đầu theo yêu cầu được duyệt ngày 13/09/2026: đặt Pages dùng GitHub Actions và đặt `viewer-regression` làm required check của nhánh `main`, áp dụng cả quản trị viên, không force-push hoặc xóa nhánh. Các lần sửa tiếp theo đi qua nhánh riêng và kiểm tra đạt trước khi merge. Không tắt required check hoặc đổi hash chỉ để bỏ qua lỗi.
