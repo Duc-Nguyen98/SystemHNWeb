@@ -7,7 +7,8 @@ Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 và 
 | Nhóm | Desktop | Tablet dọc | Tổng |
 |---|---:|---:|---:|
 | Đăng nhập & Xác nhận phiên | 13 ảnh · 1920 × 1080 | 13 ảnh · 1440 × 2048 | 26 |
-| Tổng quan — 9 trạng thái | 9 ảnh · 1920 × 1080 | 9 ảnh · 1600 × 2560 | 18 |\n| MAP-01 — Filter/date picker QA v2 | 13 state · 1920 × 1080 | 13 state · 1600 × 2560 | 26 |
+| Tổng quan — 9 trạng thái | 9 ảnh · 1920 × 1080 | 9 ảnh · 1600 × 2560 | 18 |
+| MAP-01 — Filter/date picker QA v2 | 13 state · 1920 × 1080 | 13 state · 1600 × 2560 | 26 |
 | **Toàn bộ gallery** | **22 ảnh** | **22 ảnh** | **44** |
 
 ## AUTH bổ sung
@@ -25,6 +26,8 @@ Các màn mới có bản Desktop Full HD 1920 × 1080 px và Tablet dọc 1440 
 ## Truy cập trực tiếp
 
 - [AUTH core redesign v3](handoff-AUTH-CORE-REDESIGN-v3.md)
+- [MAP-01 filter/date picker QA v2](previews/overview-filter-v2/index.html)
+- [Handoff Design + QA filter v2](handoff-OVERVIEW-FILTER-QA-v2.md)
 
 - [AUTH Desktop](https://duc-nguyen98.github.io/SystemHNWeb/#auth-desktop)
 - [AUTH Tablet](https://duc-nguyen98.github.io/SystemHNWeb/#auth-tablet)
