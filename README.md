@@ -1,6 +1,6 @@
 # SystemHNWeb · Hoa Nam WMS UI/UX Preview
 
-Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 và AUTH-02 đã được redesign v3 với PNG 1:1, layout Desktop/Tablet tách rõ và các state lõi đồng bộ. Bộ filter/date picker MAP-01 v2 có gallery QA riêng với 13 state cho mỗi viewport.
+Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 và AUTH-02 đã được redesign v3 với PNG 1:1, layout Desktop/Tablet tách rõ và các state lõi đồng bộ. Bộ filter/date picker MAP-01 v2 có gallery QA riêng với 13 state cho mỗi viewport. RPT-IN-01 v2 là Master Report Layout đầu tiên, bám shell và màu của màn Tổng Quan Hoa Nam.
 
 **GitHub Pages:** https://duc-nguyen98.github.io/SystemHNWeb/
 
@@ -9,7 +9,8 @@ Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 và 
 | Đăng nhập & Xác nhận phiên | 13 ảnh · 1920 × 1080 | 13 ảnh · 1440 × 2048 | 26 |
 | Tổng quan — 9 trạng thái | 9 ảnh · 1920 × 1080 | 9 ảnh · 1600 × 2560 | 18 |
 | MAP-01 — Filter/date picker QA v2 | 13 state · 1920 × 1080 | 13 state · 1600 × 2560 | 26 |
-| **Toàn bộ gallery** | **35 ảnh/state** | **35 ảnh/state** | **70** |
+| RPT-IN-01 — Báo cáo Nhập kho · Master v2 | 1 ảnh · 1920 × 1080 | 1 ảnh · 1600 × 2560 | 2 |
+| **Toàn bộ gallery** | **36 ảnh/state** | **36 ảnh/state** | **72** |
 
 ## AUTH bổ sung
 
@@ -28,11 +29,14 @@ Các màn mới có bản Desktop Full HD 1920 × 1080 px và Tablet dọc 1440 
 - [AUTH core redesign v3](handoff-AUTH-CORE-REDESIGN-v3.md)
 - [MAP-01 filter/date picker QA v2](previews/overview-filter-v2/index.html)
 - [Handoff Design + QA filter v2](handoff-OVERVIEW-FILTER-QA-v2.md)
+- [RPT-IN-01 Master Report Layout v2](handoff-INBOUND-REPORT-MASTER-v2.md)
 
 - [AUTH Desktop](https://duc-nguyen98.github.io/SystemHNWeb/#auth-desktop)
 - [AUTH Tablet](https://duc-nguyen98.github.io/SystemHNWeb/#auth-tablet)
 - [Tổng quan Desktop](https://duc-nguyen98.github.io/SystemHNWeb/#overview-desktop)
 - [Tổng quan Tablet](https://duc-nguyen98.github.io/SystemHNWeb/#overview-tablet)
+- [Báo cáo Nhập kho Desktop](https://duc-nguyen98.github.io/SystemHNWeb/#inbound-report-desktop)
+- [Báo cáo Nhập kho Tablet](https://duc-nguyen98.github.io/SystemHNWeb/#inbound-report-tablet)
 
 Mỗi màn có liên kết xem kích thước đầy đủ và tải riêng. Gallery filter v2 là bộ kiểm tra component riêng, không thay thế gallery Dashboard 44 màn. Ảnh gốc JPG chất lượng cao nằm trong `previews/auth-jpg/` và `previews/overview-jpg/`, giữ nguyên canvas 1920×1080 hoặc 1440×2048/1600×2560; đây là nguồn xem/tải pixel 1:1. Thumbnail WebP trong `*-thumbs/` có kích thước tối thiểu 2× chiều rộng hiển thị và được khai báo bằng `srcset`/`sizes`.
 
@@ -47,7 +51,7 @@ Orientation QA: [Viewport & Orientation handoff](handoff-VIEWPORT-ORIENTATION-QA
 
 ## Sửa trình xem DEV · 13/09/2026
 
-Trình xem chung `viewer.html?screen=<id>` là nguồn duy nhất cho 70 màn ở gallery chính và 26 liên kết ở gallery bộ lọc. Không tạo lại trình xem bằng `document.write`, không dùng thumbnail hoặc ảnh nhúng 480 px cho xem chi tiết.
+Trình xem chung `viewer.html?screen=<id>` là nguồn duy nhất cho 72 màn ở gallery chính và 26 liên kết ở gallery bộ lọc. Không tạo lại trình xem bằng `document.write`, không dùng thumbnail hoặc ảnh nhúng 480 px cho xem chi tiết.
 
 - **Vừa màn hình:** tính từ vùng còn lại sau toolbar/footer, giữ đủ bốn mép.
 - **Vừa chiều rộng:** giữ tỉ lệ, cho cuộn dọc.
@@ -71,7 +75,7 @@ PowerShell: đặt `$env:QA_BROWSERS='chromium,firefox,webkit'` trước `npm te
 
 `screen-manifest.json` lưu ID, loại thiết bị, kích thước ảnh thật, kích thước CSS nếu đã xác định, hash và nguồn gốc. 26 PNG filter được khôi phục nguyên vẹn từ gói `HN-WMS-OVERVIEW-FILTER-STATES-v2`, khớp SHA-256 trong ASSET-MANIFEST.csv. 44 ảnh AUTH/Tổng quan không đổi bytes.
 
-Quality gate kiểm tra 70 nguồn ảnh, 96 liên kết, kích thước, hash, root/docs parity, 12 viewport/DPR, fit/native/scroll/resize/rotate, tải ảnh, fullscreen và lỗi tài nguyên. Không cập nhật hash/kích thước để bỏ qua lỗi nếu chưa đối chiếu artwork được duyệt.
+Quality gate kiểm tra 72 nguồn ảnh, 98 liên kết, kích thước, hash, root/docs parity, 12 viewport/DPR, fit/native/scroll/resize/rotate, tải ảnh, fullscreen và lỗi tài nguyên. Không cập nhật hash/kích thước để bỏ qua lỗi nếu chưa đối chiếu artwork được duyệt.
 
 Workflow `.github/workflows/gallery-quality.yml` kiểm tra Chromium, Firefox và WebKit trong ba job độc lập. Job `viewer-regression` chỉ đạt khi cả ba job đạt. `package-pages` và `deploy` phụ thuộc quality gate, chỉ chạy trên `main`, không xuất bản từ PR hoặc nhánh tính năng. `deployment.json` ghi revision/run đã qua kiểm tra để đối chiếu website sau phát hành.
 

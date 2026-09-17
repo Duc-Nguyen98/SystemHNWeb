@@ -771,6 +771,30 @@
       "sha256": "6739c9d2663fbb05f1f211999733fb6c442afe5e7af936f37c13858d13450a4d",
       "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-13-filter-permission-denied-tablet-1600x2560.png",
       "title": "MAP-01-13 · Permission denied"
+    },
+    {
+      "id": "inbound-report-desktop-01",
+      "device": "desktop",
+      "src": "previews/inbound-report-v2/desktop/RPT-IN-01-bao-cao-nhap-kho-desktop-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "cssWidth": 1920,
+      "cssHeight": 1080,
+      "sha256": "01317c8776574e24d5ca872d280a738c8f8e91da951eed7e43a2914b15dd3589",
+      "provenance": "RPT-IN-01 Master Report Layout v2; five-point visual correction",
+      "title": "RPT-IN-01 · Báo cáo Nhập kho · Desktop"
+    },
+    {
+      "id": "inbound-report-tablet-01",
+      "device": "tablet",
+      "src": "previews/inbound-report-v2/tablet/RPT-IN-01-bao-cao-nhap-kho-tablet-1600x2560.png",
+      "width": 1600,
+      "height": 2560,
+      "cssWidth": 800,
+      "cssHeight": 1280,
+      "sha256": "ce98c502c2db474d0b5264d2ca33c768b512488ca609f3ff6c44483dfa68b7b8",
+      "provenance": "RPT-IN-01 Master Report Layout v2; five-point visual correction",
+      "title": "RPT-IN-01 · Báo cáo Nhập kho · Tablet"
     }
   ]
 }
