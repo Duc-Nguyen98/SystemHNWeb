@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Gallery thiết kế Hoa Nam WMS: Đăng nhập, Xác nhận phiên và 18 màn trạng thái Tổng quan cho Desktop và Tablet. Xem và tải từng ảnh riêng.">
+  <meta name="description" content="Gallery thiết kế Hoa Nam WMS: Đăng nhập, Xác nhận phiên, Tổng quan và Master Report Layout cho Desktop và Tablet. Xem và tải từng ảnh riêng.">
   <title>Hoa Nam WMS · UI/UX Preview</title>
   <style>
     :root{--navy:#003B63;--cta:#004E74;--link:#086590;--pale:#EAF5F8;--line:#D9E8EF;--ink:#12344b;--muted:#627c8e;--surface:#f5fafc;--success:#16865b;--warning:#b97809;--danger:#c2413a}
@@ -37,12 +37,13 @@
   <header class="hero">
     <div class="eyebrow">Hoa Nam WMS · Web System</div>
     <h1>Thư viện màn hình UI/UX</h1>
-    <p>Đăng nhập, Xác nhận phiên, khôi phục tài khoản, Tổng quan và bộ lọc biểu đồ/datepicker. Chọn nhóm màn hình, chọn thiết bị, rồi mở ảnh để xem chi tiết hoặc tải về cho Dev.</p>
-    <div class="meta"><span class="pill">44 màn hình chính</span><span class="pill">26 state filter QA</span><span class="pill">Desktop ngang + Tablet dọc</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01</span></div>
+    <p>Đăng nhập, Xác nhận phiên, khôi phục tài khoản, Tổng quan, bộ lọc biểu đồ/datepicker và Master Report Layout. Chọn nhóm màn hình, chọn thiết bị, rồi mở ảnh để xem chi tiết hoặc tải về cho Dev.</p>
+    <div class="meta"><span class="pill">46 màn hình chính</span><span class="pill">26 state filter QA</span><span class="pill">Desktop ngang + Tablet dọc</span><span class="pill">AUTH-01 → AUTH-OPS · MAP-01 · RPT-IN-01</span></div>
   </header>
   <nav class="module-nav" aria-label="Nhóm màn hình">
     <button type="button" class="tab active" data-module-button="auth" aria-pressed="true">Đăng nhập & Phiên · 26</button>
     <button type="button" class="tab" data-module-button="overview" aria-pressed="false">Tổng quan · 18</button>
+    <button type="button" class="tab" data-module-button="inbound-report" aria-pressed="false">Báo cáo Nhập kho · 2</button>
   </nav>
 
   <div class="toolbar"><div class="tabs" role="group" aria-label="Thiết bị"><button type="button" class="tab active" data-device-button="desktop" aria-pressed="true">Desktop ngang</button><button type="button" class="tab" data-device-button="tablet" aria-pressed="false">Tablet dọc</button></div><div class="legend" id="gallery-info" role="status">Đăng nhập & Phiên · 13 màn · Desktop ngang</div></div>
@@ -162,12 +163,29 @@
 
   
   
-  <noscript><p class="note">Bật JavaScript để chuyển nhóm màn hình. Các ảnh có trong <a href="previews/overview-jpg/desktop/overview-state-01-loading-desktop-1920x1080.jpg">bộ Tổng quan Desktop</a> và <a href="previews/overview-jpg/tablet/overview-state-01-loading-tablet-1600x2560.jpg">bộ Tổng quan Tablet</a>.</p></noscript>
-  <div class="note"><strong>Bàn giao cho Dev:</strong> Mở ảnh để xem đầy đủ kích thước. Ảnh core AUTH dùng PNG nét cao; các state còn lại dùng JPG chất lượng cao; mỗi ảnh tải xuống giữ nguyên kích thước canvas; thumbnail WebP chỉ dùng để xem nhanh và luôn có srcset 2×. Tài liệu: <a href="handoff-AUTH-SCREEN-EXPORT-MANIFEST-v2.md">Đăng nhập & Phiên</a> · <a href="handoff-OVERVIEW-STATES-v2.md">Tổng quan</a> · <a href="previews/overview-filter-v2/index.html">Filter/date picker QA v2 (26 state)</a> · <a href="handoff-OVERVIEW-FILTER-QA-v2.md">Handoff QA</a> · <a href="handoff-MAP-01-FILTER-BACKUP-QA-v1.md">Backup QA ↗</a>.</div>
+  <section id="inbound-report-desktop" class="viewport" data-module="inbound-report" data-device="desktop" aria-label="Báo cáo Nhập kho Desktop ngang" hidden>
+    <div class="section-title"><div><h2>Báo cáo Nhập kho · Desktop ngang</h2><p>Master Report Layout v2 · 1920 × 1080 px · đã xử lý 5 điểm khóa.</p></div><a class="download" href="handoff-INBOUND-REPORT-MASTER-v2.md">Tài liệu bàn giao ↗</a></div>
+    <div class="grid"><article class="card">
+      <h3>RPT-IN-01 · Báo cáo Nhập kho · Master</h3>
+      <a class="preview" href="viewer.html?screen=inbound-report-desktop-01" target="_blank" rel="noopener noreferrer" aria-label="Mở Báo cáo Nhập kho Hoa Nam — Desktop 1920 × 1080"><img loading="lazy" decoding="async" src="previews/inbound-report-v2/desktop/RPT-IN-01-bao-cao-nhap-kho-desktop-1920x1080.png" width="1920" height="1080" alt="Báo cáo Nhập kho Hoa Nam Desktop"></a>
+      <div class="actions"><span class="tag">Master Report Layout v2 · 1920 × 1080</span><a class="download" download href="previews/inbound-report-v2/desktop/RPT-IN-01-bao-cao-nhap-kho-desktop-1920x1080.png">Tải PNG gốc ↓</a></div>
+    </article></div>
+  </section>
+  <section id="inbound-report-tablet" class="viewport" data-module="inbound-report" data-device="tablet" aria-label="Báo cáo Nhập kho Tablet dọc" hidden>
+    <div class="section-title"><div><h2>Báo cáo Nhập kho · Tablet dọc</h2><p>Master Report Layout v2 · 1600 × 2560 px @2x · 800 × 1280 CSS px.</p></div><a class="download" href="handoff-INBOUND-REPORT-MASTER-v2.md">Tài liệu bàn giao ↗</a></div>
+    <div class="grid"><article class="card">
+      <h3>RPT-IN-01 · Báo cáo Nhập kho · Master</h3>
+      <a class="preview" href="viewer.html?screen=inbound-report-tablet-01" target="_blank" rel="noopener noreferrer" aria-label="Mở Báo cáo Nhập kho Hoa Nam — Tablet 1600 × 2560"><img loading="lazy" decoding="async" src="previews/inbound-report-v2/tablet/RPT-IN-01-bao-cao-nhap-kho-tablet-1600x2560.png" width="1600" height="2560" alt="Báo cáo Nhập kho Hoa Nam Tablet"></a>
+      <div class="actions"><span class="tag">Master Report Layout v2 · 1600 × 2560 px @2x</span><a class="download" download href="previews/inbound-report-v2/tablet/RPT-IN-01-bao-cao-nhap-kho-tablet-1600x2560.png">Tải PNG gốc ↓</a></div>
+    </article></div>
+  </section>
+
+  <noscript><p class="note">Bật JavaScript để chuyển nhóm màn hình. Các ảnh có trong <a href="previews/overview-jpg/desktop/overview-state-01-loading-desktop-1920x1080.jpg">bộ Tổng quan Desktop</a>, <a href="previews/overview-jpg/tablet/overview-state-01-loading-tablet-1600x2560.jpg">bộ Tổng quan Tablet</a> và <a href="previews/inbound-report-v2/desktop/RPT-IN-01-bao-cao-nhap-kho-desktop-1920x1080.png">Báo cáo Nhập kho</a>.</p></noscript>
+  <div class="note"><strong>Bàn giao cho Dev:</strong> Mở ảnh để xem đầy đủ kích thước. Ảnh core AUTH dùng PNG nét cao; các state còn lại dùng JPG/PNG chất lượng cao; mỗi ảnh tải xuống giữ nguyên kích thước canvas; thumbnail WebP chỉ dùng để xem nhanh và luôn có srcset 2×. Tài liệu: <a href="handoff-AUTH-SCREEN-EXPORT-MANIFEST-v2.md">Đăng nhập & Phiên</a> · <a href="handoff-OVERVIEW-STATES-v2.md">Tổng quan</a> · <a href="previews/overview-filter-v2/index.html">Filter/date picker QA v2 (26 state)</a> · <a href="handoff-OVERVIEW-FILTER-QA-v2.md">Handoff QA</a> · <a href="handoff-INBOUND-REPORT-MASTER-v2.md">Master Report Layout</a>.</div>
   <footer class="footer">Hoa Nam WMS · Web System · <a href="https://github.com/Duc-Nguyen98/SystemHNWeb" target="_blank" rel="noopener">SystemHNWeb</a></footer>
 </main>
 <script>
-  const modules = ['auth', 'overview'];
+  const modules = ['auth', 'overview', 'inbound-report'];
   const devices = ['desktop', 'tablet'];
   let current = { module: 'auth', device: 'desktop' };
   function applyState(writeHash) {
@@ -184,11 +202,13 @@
       button.classList.toggle('active', active);
       button.setAttribute('aria-pressed', String(active));
     });
-    const deviceLabels = {desktop:'Desktop ngang · 1920 × 1080', tablet:'Tablet dọc · kích thước gốc theo từng ảnh'}; document.getElementById('gallery-info').textContent = (current.module === 'overview' ? 'Tổng quan · 9 màn' : 'Đăng nhập & Phiên · 13 màn') + ' · ' + deviceLabels[current.device];
+    const deviceLabels = {desktop:'Desktop ngang · 1920 × 1080', tablet:'Tablet dọc · kích thước gốc theo từng ảnh'};
+    const moduleLabels = {auth:'Đăng nhập & Phiên · 13 màn', overview:'Tổng quan · 9 màn', 'inbound-report':'Báo cáo Nhập kho · 1 màn'};
+    document.getElementById('gallery-info').textContent = moduleLabels[current.module] + ' · ' + deviceLabels[current.device];
     if (writeHash) history.replaceState(null, '', '#' + current.module + '-' + current.device);
   }
   function readHash() {
-    const match = location.hash.match(/^#(auth|overview)-(desktop|tablet)$/);
+    const match = location.hash.match(/^#(auth|overview|inbound-report)-(desktop|tablet)$/);
     if (match) current = {module: match[1], device: match[2]};
     else if (['#desktop', '#tablet'].includes(location.hash)) current = {module: 'auth', device: location.hash.slice(1)};
     applyState(false);
