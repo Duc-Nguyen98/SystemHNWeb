@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { assertDriveStateCoverage, stateIdentity } from './drive-state-policy.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const read = path => readFile(resolve(root, path));
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -24,6 +25,8 @@ for (const screen of manifest.screens) {
 }
 assert.equal(ids.size, 84, 'Update the reviewed inventory when adding/removing screens');
 const driveIds = new Set();
+const allDriveIds = new Set(driveManifest.screens.map(screen => screen.id));
+const oldDriveIds = new Set();
 for (const screen of driveManifest.screens) {
   assert(!driveIds.has(screen.id), `Duplicate Drive screen ${screen.id}`); driveIds.add(screen.id);
   assert(typeof screen.fileName === 'string' && /\.(png|jpg)$/i.test(screen.fileName), `${screen.id} missing handoff filename`);
@@ -42,11 +45,25 @@ for (const screen of driveManifest.screens) {
   assert.equal(hash(thumb), hash(await read(`docs/${screen.thumb}`)), `${screen.id} deployed thumbnail mismatch`);
   assert(['desktop', 'tablet'].includes(screen.device), `${screen.id} invalid device`);
   assert(Array.isArray(screen.sourcePaths) && screen.sourcePaths.length > 0, `${screen.id} missing Drive provenance`);
+  const state = stateIdentity(screen.title);
+  if (state) { assert.equal(screen.stateCode, state.code); assert.equal(screen.stateName, state.name); }
+  for (const alias of screen.aliases || []) {
+    assert(!oldDriveIds.has(alias) && !allDriveIds.has(alias), `Ambiguous legacy viewer link: ${alias}`);
+    oldDriveIds.add(alias);
+  }
+  if (screen.origin === 'ai-supplement') {
+    assert.equal(screen.stage, 'review', 'AI supplements must not be marked as approved delivery');
+    assert.equal(screen.reviewStatus, 'needs-owner-review');
+    assert(screen.designReferences?.length && screen.promptId, `${screen.id}: missing generation provenance`);
+    assert.equal(hash(await read(screen.sourcePaths[0])), screen.sha256, `${screen.id}: supplement source mismatch`);
+    assert(screen.fileName.includes(`${screen.width}x${screen.height}`), 'Supplement filename must use native dimensions');
+  }
 }
+const coverage = assertDriveStateCoverage(driveManifest);
 assert.equal(driveIds.size, driveManifest.total, 'Drive manifest total mismatch');
 assert.equal(driveManifest.groups.reduce((sum, group) => sum + group.count, 0), driveManifest.total, 'Drive group totals mismatch');
 const driveHtml = (await read('drive-gallery.html')).toString();
-assert(driveHtml.includes("fetch('drive-screen-manifest.json')"), 'Drive gallery must load its reviewed manifest');
+assert(driveHtml.includes("fetch('drive-screen-manifest.json', { cache: 'no-store' })"), 'Drive gallery must load its current reviewed manifest, not stale cached inventory');
 assert(driveHtml.includes('viewer.html?collection=drive&screen='), 'Drive gallery must use the shared full-resolution viewer');
 assert.equal(driveHtml, (await read('docs/drive-gallery.html')).toString(), 'Root/docs drift: drive-gallery.html');
 for (const page of ['index.html', 'previews/overview-filter-v2/index.html']) {
@@ -78,3 +95,4 @@ async function compare(path) {
 await compare('assets');
 for (const file of ['viewer.html', 'screen-manifest.json', 'drive-screen-manifest.json']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Root/docs drift: ${file}`);
 console.log(`PASS: 84 primary boards + ${driveManifest.total} Drive screens, dimensions, hashes, downloads and root/docs parity.`);
+console.log(`PASS: state coverage for ${coverage.checkedScreens} screens / ${coverage.checkedGroups} groups; ${coverage.exemptGroups} unfinished groups (<=3 images) exempt.`);

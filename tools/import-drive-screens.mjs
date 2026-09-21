@@ -1,14 +1,20 @@
-import { access, copyFile, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { access, mkdir, mkdtemp, readFile, readdir, rename, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { basename, dirname, extname, relative, resolve, sep } from 'node:path';
+import { dirname, extname, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { correctedGroup, outboundTitle, stateIdentity, assertDriveStateCoverage } from './drive-state-policy.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const sourceRoot = resolve(process.argv[2] || resolve(root, '..'));
+const args = process.argv.slice(2);
+const reviewedOnly = args.includes('--reviewed-only');
+const sourceRoot = resolve(args.find(arg => !arg.startsWith('--')) || resolve(root, '..'));
 const outputRoot = resolve(root, 'previews', 'drive-screens');
 const manifestPath = resolve(root, 'drive-screen-manifest.json');
 const imageExtensions = new Set(['.png', '.jpg', '.jpeg']);
+const previousManifest = JSON.parse(await readFile(manifestPath, 'utf8'));
+const supplements = JSON.parse(await readFile(resolve(root, 'design-supplements/manifest.json'), 'utf8'));
+const reviewedSources = new Map(previousManifest.screens.filter(screen => screen.origin !== 'ai-supplement').flatMap(screen => screen.sourcePaths.map(path => [path, screen.sha256])));
 
 // Drive review exports sometimes arrive with UUID or timestamp-only filenames.
 // Keep those names in sourcePaths for provenance, but publish a stable,
@@ -88,6 +94,7 @@ async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     const path = resolve(directory, entry.name);
+    if (path === root) continue;
     if (entry.isDirectory()) files.push(...await walk(path));
     else files.push(path);
   }
@@ -115,6 +122,9 @@ const updateTopLevels = new Set(relativeCandidates.filter(({ relativePath }) => 
 }).map(({ relativePath }) => relativePath.split('/')[0]));
 
 const selected = relativeCandidates.filter(({ relativePath }) => {
+  // Scoped repairs must not ingest other design work arriving in the shared
+  // Drive export while this import is running.
+  if (reviewedOnly) return reviewedSources.has(relativePath);
   const parts = relativePath.split('/');
   if (parts.length === 1) return false;
   if (relativePath.startsWith('dang_nhap& phien_lam_viec/dang_nhap/update2/')) return false;
@@ -122,13 +132,28 @@ const selected = relativeCandidates.filter(({ relativePath }) => {
   if (parts.length === 2 && updateTopLevels.has(parts[0])) return false;
   return true;
 }).sort((a, b) => a.relativePath.localeCompare(b.relativePath, 'vi', { numeric: true }));
+if (reviewedOnly) {
+  const available = new Set(selected.map(item => item.relativePath));
+  for (const path of reviewedSources.keys()) if (!available.has(path)) throw new Error(`Reviewed source missing: ${path}`);
+}
 
-await rm(outputRoot, { recursive: true, force: true });
-await mkdir(outputRoot, { recursive: true });
+// Supplemental artwork is versioned inside the repo, separately from Drive.
+// It survives every re-import and is never represented as approved source art.
+for (const item of supplements.screens) {
+  const path = resolve(root, 'design-supplements', item.file);
+  if (!path.startsWith(`${resolve(root, 'design-supplements')}${sep}`)) throw new Error('Invalid supplement path');
+  await access(path);
+  selected.push({ path, relativePath: `design-supplements/${item.file}`, supplement: item });
+}
+
+// Build in isolation. A corrupt source must not erase the working gallery.
+await mkdir(resolve(root, 'artifacts'), { recursive: true });
+const staging = await mkdtemp(resolve(root, 'artifacts/drive-import-'));
 
 const byHash = new Map();
 for (const item of selected) {
   const sha256 = createHash('sha256').update(await readFile(item.path)).digest('hex');
+  if (reviewedOnly && !item.supplement && reviewedSources.get(item.relativePath) !== sha256) throw new Error(`Reviewed source changed: ${item.relativePath}`);
   if (byHash.has(sha256)) {
     byHash.get(sha256).sourcePaths.push(item.relativePath);
     continue;
@@ -150,19 +175,21 @@ async function mapConcurrent(items, limit, fn) {
 }
 
 const screens = await mapConcurrent([...byHash.values()], 8, async item => {
-  const metadata = await sharp(item.path).metadata();
+  const sourceBytes = await readFile(item.path);
+  if (createHash('sha256').update(sourceBytes).digest('hex') !== item.sha256) throw new Error(`Source changed during import: ${item.relativePath}`);
+  const metadata = await sharp(sourceBytes).metadata();
   if (!metadata.width || !metadata.height) throw new Error(`Missing dimensions: ${item.relativePath}`);
   const parts = item.relativePath.split('/');
   const groupParts = parts.slice(0, -1).filter(part => !/^update\d*$/i.test(part));
-  const group = groupParts.join('/');
-  const groupTitle = groupNames.get(group) || group.replace(/[_&]+/g, ' ').replace(/\s+/g, ' ').trim();
   const filename = parts.at(-1);
   const sourceStem = filename.replace(extname(filename), '');
-  const semanticTitle = semanticTitles.get(sourceStem);
-  const device = /tablet/i.test(filename) || (!/desktop/i.test(filename) && metadata.height > metadata.width) ? 'tablet' : 'desktop';
+  const group = item.supplement?.group || correctedGroup(sourceStem, groupParts.join('/'));
+  const groupTitle = groupNames.get(group) || group.replace(/[_&]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const semanticTitle = item.supplement?.title || semanticTitles.get(sourceStem) || outboundTitle(sourceStem, group);
+  const device = item.supplement?.device || (/tablet/i.test(filename) || (!/desktop/i.test(filename) && metadata.height > metadata.width) ? 'tablet' : 'desktop');
   const extension = extname(filename).toLowerCase() === '.jpeg' ? '.jpg' : extname(filename).toLowerCase();
   const shortHash = item.sha256.slice(0, 10);
-  const stage = /candidate|review|chatgpt image|^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(sourceStem) ? 'review' : 'delivery';
+  const stage = item.supplement || /candidate|review|chatgpt image|^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(sourceStem) ? 'review' : 'delivery';
   const handoffStem = semanticTitle
     ? `${semanticTitle.replace(/\s+/g, '_')}_${device.toUpperCase()}_${metadata.width}x${metadata.height}_${stage.toUpperCase()}`
     : sourceStem;
@@ -170,13 +197,13 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
   const groupSlug = slug(group);
   const src = `previews/drive-screens/originals/${groupSlug}/${device}/${base}${extension}`;
   const thumb = `previews/drive-screens/thumbs/${groupSlug}/${device}/${base}.webp`;
-  const srcPath = resolve(root, src);
-  const thumbPath = resolve(root, thumb);
+  const srcPath = resolve(staging, relative(outputRoot, resolve(root, src)));
+  const thumbPath = resolve(staging, relative(outputRoot, resolve(root, thumb)));
   await mkdir(dirname(srcPath), { recursive: true });
   await mkdir(dirname(thumbPath), { recursive: true });
-  await copyFile(item.path, srcPath);
-  const thumbInfo = await sharp(item.path).resize({ width: 900, height: 900, fit: 'inside', withoutEnlargement: true })
-    .webp({ quality: 76, effort: 2 }).toFile(thumbPath);
+  await writeFile(srcPath, sourceBytes);
+  const thumbInfo = await sharp(sourceBytes).resize({ width: 900, height: 900, fit: 'inside', withoutEnlargement: true })
+    .webp({ quality: 76, effort: 2 }).toFile(thumbPath).catch(error => { throw new Error(`Cannot decode ${item.relativePath}: ${error.message}`); });
   const screen = {
     id: `drive-${groupSlug}-${slug(handoffStem)}-${shortHash}`,
     title: semanticTitle || displayTitle(filename),
@@ -186,6 +213,18 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
     thumbWidth: thumbInfo.width, thumbHeight: thumbInfo.height,
     sha256: item.sha256, sourcePaths: item.sourcePaths
   };
+  const state = stateIdentity(screen.title);
+  if (state) { screen.stateCode = state.code; screen.stateName = state.name; }
+  if (item.supplement) {
+    screen.origin = 'ai-supplement';
+    screen.reviewStatus = 'needs-owner-review';
+    screen.designReferences = item.supplement.references;
+    screen.promptId = item.supplement.promptId;
+  }
+  // Preserve shared viewer links across renames/regrouping, by immutable bytes.
+  const previous = previousManifest.screens.find(candidate => candidate.sha256 === item.sha256);
+  const aliases = [...new Set([...(previous?.aliases || []), ...(previous && previous.id !== screen.id ? [previous.id] : [])])].filter(id => id !== screen.id);
+  if (aliases.length) screen.aliases = aliases;
   return screen;
 });
 
@@ -199,11 +238,24 @@ const groups = [...new Map(screens.map(screen => [screen.group, screen.groupTitl
 const manifest = {
   version: 1,
   importedAt: '2026-09-22',
-  provenance: 'Drive workspace export supplied by the repository owner',
+  provenance: 'Drive workspace export supplied by the repository owner; AI supplements are explicitly marked for owner review',
   exclusions: ['AUTH-01 and Tổng quan assets already present in the primary gallery', 'top-level duplicate baselines when an update set exists', 'non-image files and root asset.png'],
   total: screens.length,
   groups,
   screens
 };
-await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+assertDriveStateCoverage(manifest);
+const backup = `${staging}-previous`;
+const stagedManifest = `${staging}-manifest.json`;
+await writeFile(stagedManifest, `${JSON.stringify(manifest, null, 2)}\n`);
+await rename(outputRoot, backup);
+let installed = false;
+try {
+  await rename(staging, outputRoot); installed = true;
+  await rename(stagedManifest, manifestPath);
+} catch (error) {
+  if (installed) await rename(outputRoot, staging);
+  await rename(backup, outputRoot);
+  throw error;
+}
 console.log(`Imported ${screens.length} unique Drive screens across ${groups.length} groups.`);

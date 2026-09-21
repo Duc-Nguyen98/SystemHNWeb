@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-22",
+  "tool": "built-in imagegen",
+  "reviewStatus": "needs-owner-review",
+  "note": "Supplemental designs, not approved Drive originals. Native output dimensions are measured during import; images are not upscaled to pretend to match a requested canvas.",
+  "screens": [
+    {
+      "file": "HN_HISTORY_P20_MAINTENANCE_DESKTOP_REVIEW.png",
+      "title": "HN BaoCao LichSuNhapXuatKho P20 Maintenance",
+      "group": "bao_cao_lich_su_nhap_xuat_kho",
+      "device": "desktop",
+      "promptId": "history-p20-desktop",
+      "references": ["bao_cao_lich_su_nhap_xuat_kho/update/HN_BaoCao_LichSuNhapXuatKho_P20_Maintenance_Tablet_1600x2560.png", "bao_cao_lich_su_nhap_xuat_kho/update/HN_BaoCao_LichSuNhapXuatKho_P17_403_Forbidden_Desktop_1920x1080.png"]
+    },
+    {
+      "file": "HN_TKDS_P12_SESSION_EXPIRED_TABLET_REVIEW.png",
+      "title": "HN TKDS P12 session expired",
+      "group": "ton_kho&doi_soat",
+      "device": "tablet",
+      "promptId": "tkds-p12-tablet",
+      "references": ["ton_kho&doi_soat/update/HN-TKDS-P12-session-expired-desktop-1920x1080.png", "ton_kho&doi_soat/update/HN-TKDS-P11-server-error-tablet-1600x2560.png"]
+    },
+    {
+      "file": "HN_BAO_CAO_XUAT_KHO_P08_ROW_HIGHLIGHT_TABLET_REVIEW.png",
+      "title": "HN BAO CAO XUAT KHO P08 ROW HIGHLIGHT",
+      "group": "bao_cao_xuat_kho",
+      "device": "tablet",
+      "promptId": "outbound-p08-tablet",
+      "references": ["bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-row-highlight-desktop-1920x1080.png", "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-default-tablet-1280x2048.png"]
+    },
+    {
+      "file": "HN_HISTORY_P16_401_SESSION_EXPIRED_DESKTOP_REVIEW.png",
+      "title": "HN BaoCao LichSuNhapXuatKho P16 401 SessionExpired",
+      "group": "bao_cao_lich_su_nhap_xuat_kho",
+      "device": "desktop",
+      "promptId": "history-p16-desktop",
+      "references": ["bao_cao_lich_su_nhap_xuat_kho/update/HN_BaoCao_LichSuNhapXuatKho_P17_403_Forbidden_Desktop_1920x1080.png", "bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P12-session-expired-desktop-1920x1080.png"]
+    },
+    {
+      "file": "HN_HISTORY_P16_401_SESSION_EXPIRED_TABLET_REVIEW.png",
+      "title": "HN BaoCao LichSuNhapXuatKho P16 401 SessionExpired",
+      "group": "bao_cao_lich_su_nhap_xuat_kho",
+      "device": "tablet",
+      "promptId": "history-p16-tablet",
+      "references": ["bao_cao_lich_su_nhap_xuat_kho/update/HN_BaoCao_LichSuNhapXuatKho_P17_403_Forbidden_Tablet_1600x2560.png", "bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P12-session-expired-tablet-1600x2560.png"]
+    },
+    {
+      "file": "HN_TRACE_REPORT_P10_DATA_QUALITY_WARNING_DESKTOP_REVIEW.png",
+      "title": "HN TRACE REPORT P10 data quality warning",
+      "group": "bao_cao_truy_vet_hang_hoa",
+      "device": "desktop",
+      "promptId": "trace-p10-desktop",
+      "references": ["bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P01-default-desktop-1920x1080.png"]
+    },
+    {
+      "file": "HN_TRACE_REPORT_P10_DATA_QUALITY_WARNING_TABLET_REVIEW.png",
+      "title": "HN TRACE REPORT P10 data quality warning",
+      "group": "bao_cao_truy_vet_hang_hoa",
+      "device": "tablet",
+      "promptId": "trace-p10-tablet",
+      "references": ["bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P01-default-tablet-1600x2560.png"]
+    }
+  ]
+}

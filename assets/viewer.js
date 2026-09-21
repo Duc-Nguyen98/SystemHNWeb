@@ -71,7 +71,7 @@ addEventListener('keydown', event => {
 });
 try {
   const manifestFile = collection === 'drive' ? 'drive-screen-manifest.json' : 'screen-manifest.json';
-  const response = await fetch(new URL(`../${manifestFile}`, import.meta.url));
+  const response = await fetch(new URL(`../${manifestFile}`, import.meta.url), { cache: 'no-store' });
   if (!response.ok) throw new Error('Không tải được danh sách ảnh.');
   const manifest = await response.json();
   const requestedId = params.get('screen');
@@ -80,7 +80,8 @@ try {
     'AUTH-01-dang-nhap-loading-tablet-1440x2048': 'AUTH-01-dang-nhap-loading-tablet-1600x2560',
     'AUTH-01-dang-nhap-validation-error-tablet-1440x2048': 'AUTH-01-dang-nhap-validation-error-tablet-1600x2560'
   };
-  screen = manifest.screens.find(item => item.id === (aliases[requestedId] || requestedId));
+  const resolvedId = aliases[requestedId] || requestedId;
+  screen = manifest.screens.find(item => item.id === resolvedId || item.aliases?.includes(resolvedId));
   if (!screen) throw new Error('Không tìm thấy màn hình. Vui lòng quay lại thư viện để chọn ảnh.');
   $('title').textContent = screen.title; document.title = `${screen.title} · Hoa Nam WMS`;
   img.alt = screen.title;
@@ -88,7 +89,8 @@ try {
   await img.decode().catch(() => { throw new Error('Không tải được ảnh gốc. Vui lòng tải lại trang hoặc quay lại thư viện.'); });
   if (img.naturalWidth !== screen.width || img.naturalHeight !== screen.height) throw new Error('Kích thước ảnh không khớp hồ sơ bàn giao. Vui lòng tải lại trang hoặc liên hệ người phụ trách thư viện.');
   const css = screen.cssWidth ? ` · ${screen.cssWidth} × ${screen.cssHeight} CSS px` : '';
-  $('metadata').textContent = `${screen.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc'} · ${img.naturalWidth} × ${img.naturalHeight} px ảnh gốc${css}`;
+  const review = screen.origin === 'ai-supplement' ? ' · AI bổ sung — cần chủ thiết kế duyệt' : '';
+  $('metadata').textContent = `${screen.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc'} · ${img.naturalWidth} × ${img.naturalHeight} px ảnh gốc${css}${review}`;
   $('download').href = img.src;
   $('download').download = screen.fileName || screen.src.split('/').at(-1);
   $('download').hidden = false;
