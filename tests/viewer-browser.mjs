@@ -65,13 +65,13 @@ try {
           await page.setViewportSize({width,height});
           results.checks.push({engineName,width,height,deviceScaleFactor,id:screen.id,mode:'native/edges/zoom/resize/rotate/width/keyboard'});
         }
-        console.log(`${engineName}: 84 boards + interactions at ${width}x${height} DPR ${deviceScaleFactor}`);
+        console.log(`${engineName}: ${manifest.screens.length} boards + interactions at ${width}x${height} DPR ${deviceScaleFactor}`);
         await context.close();
       }
       const page=await browser.newPage({viewport:{width:1366,height:768}}); page.on('pageerror',e=>results.errors.push(e.message));
       for(const prefix of ['', 'docs/']) {
         for(const screen of manifest.screens) {await open(page,screen,prefix);fitAssertions(await measure(page),screen);results.checks.push({engineName,prefix,id:screen.id,mode:'base-path'});}
-        for(const [route,hash,count] of [['index.html','auth-desktop',19],['index.html','auth-tablet',19],['index.html','overview-desktop',23],['index.html','overview-tablet',23],['previews/overview-filter-v2/index.html','desktop',13],['previews/overview-filter-v2/index.html','tablet',13]]) {
+        for(const [route,hash,count] of [['index.html','auth-desktop',19],['index.html','auth-tablet',19],['index.html','overview-desktop',23],['index.html','overview-tablet',23],['index.html','danh-muc-san-pham-desktop',20],['index.html','danh-muc-san-pham-tablet',20],['previews/overview-filter-v2/index.html','desktop',13],['previews/overview-filter-v2/index.html','tablet',13]]) {
           await page.goto(`${base}/${prefix}${route}#${hash}`);
           // Same-document navigation resolves before hashchange in WebKit.
           await page.waitForFunction(expected => [...document.querySelectorAll('a.preview')].filter(a=>a.getClientRects().length>0).length===expected,count);
