@@ -3,7 +3,8 @@
 ## Kích thước bàn giao
 
 - Desktop tiêu chuẩn: **1920 × 1080 px** (Full HD).
-- Tablet tiêu chuẩn 10.9–11 inch: **1440 × 2048 px**; kiểm tra CSS thêm ở viewport logic 768 × 1024.
+- AUTH-01 Tablet tiêu chuẩn: **1600 × 2560 px**, tương ứng viewport logic **800 × 1280 @2x**.
+- Các màn AUTH hỗ trợ legacy vẫn dùng **1440 × 2048 px** và không được gắn nhãn giả thành 1600 × 2560.
 
 ## Bộ màn hình AUTH
 
@@ -11,10 +12,16 @@ Mỗi màn hình có một ảnh Desktop và một ảnh Tablet, không gộp co
 
 | Mã | Màn hình / trạng thái |
 |---|---|
-| AUTH-01 | Đăng nhập |
-| AUTH-02 | Xác nhận phiên làm việc |
-| AUTH-01 | Loading |
+| AUTH-01 | Đăng nhập — Mặc định |
 | AUTH-01 | Validation error |
+| AUTH-01 | Authentication failed |
+| AUTH-01 | Submitting |
+| AUTH-01 | Offline before submit |
+| AUTH-01 | Outcome unknown |
+| AUTH-01 | Rate limited |
+| AUTH-01 | Account unavailable |
+| AUTH-01 | Auth service unavailable |
+| AUTH-02 | Xác nhận phiên làm việc |
 | AUTH-02 | Đang bắt đầu ca |
 | AUTH-02 | Phiên hết hạn |
 | AUTH-03 | OTP / Verify |
@@ -27,7 +34,8 @@ Mỗi màn hình có một ảnh Desktop và một ảnh Tablet, không gộp co
 
 ## Quy tắc chất lượng ảnh
 
-- JPG chất lượng cao là nguồn xem/tải chính trong gallery; giữ nguyên canvas Desktop 1920×1080 và Tablet 1440×2048.
+- JPG chất lượng cao là nguồn xem/tải chính trong gallery; AUTH-01 giữ canvas Desktop 1920×1080 và Tablet 1600×2560.
+- Artwork Tablet người dùng cung cấp có dữ liệu 1280×2048 và đã được chuẩn hóa theo đúng tỉ lệ lên canvas khóa 1600×2560.
 - JPG cũ được giữ để không phá các liên kết đã bàn giao trước đó.
 - Thumbnail WebP tối thiểu 2× chiều rộng card, hiện dùng 1440 px cho Desktop và 1400 px cho Tablet.
 - Mỗi `<img>` dùng `srcset` gồm thumbnail 2× và ảnh gốc; `sizes` khớp với CSS card.

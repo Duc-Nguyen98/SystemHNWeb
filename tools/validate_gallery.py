@@ -1,4 +1,4 @@
-"""Compatibility entry point; the shared validator covers all 72 boards."""
+"""Compatibility entry point; the shared validator covers all 84 boards."""
 from pathlib import Path
 import subprocess
 
