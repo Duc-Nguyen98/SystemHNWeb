@@ -63,7 +63,7 @@ for (const match of cards) {
   }
   replacements.push([card, updated]);
 }
-if (core !== 44 || manifest.screens.length !== 70) throw new Error('Unexpected gallery inventory');
+if (core !== 46 || manifest.screens.length !== 72) throw new Error('Unexpected gallery inventory');
 for (const [old, updated] of replacements) html = html.replace(old, updated);
 html = html.replace(/\n  function openImageViewer[\s\S]*?(?=<\/script>)/, '\n');
 await writeFile(resolve(root, 'index.html'), html);
@@ -81,4 +81,4 @@ for (const match of [...detail.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)]
 detail = detail.replace(/function openPreview[\s\S]*?(?=if\(location.hash)/, '');
 await writeFile(resolve(root, 'previews/overview-filter-v2/index.html'), detail);
 await writeFile(resolve(root, 'screen-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-console.log('Migrated 70 boards, restored 26 verified original PNGs, retained all existing board content.');
+console.log('Migrated 72 boards, restored 26 verified original PNGs, retained all existing board content.');
