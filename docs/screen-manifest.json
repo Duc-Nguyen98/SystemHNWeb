@@ -4,13 +4,93 @@
   "screens": [
     {
       "id": "AUTH-01-dang-nhap-desktop-1920x1080",
-      "title": "AUTH-01 · Đăng nhập",
-      "src": "previews/auth-png/desktop/AUTH-01-dang-nhap-desktop-1920x1080.png",
+      "title": "AUTH-01 · Đăng nhập — Mặc định",
+      "src": "previews/auth-jpg/desktop/AUTH-01-login-master-desktop-1920x1080.jpg",
       "device": "desktop",
       "width": 1920,
       "height": 1080,
-      "sha256": "065764ed278d6d510da18272e21e4f7a8b4f8429e4594ac457c8d2e4269f73c7",
-      "provenance": "Existing gallery original; unchanged bytes"
+      "sha256": "5199d8444a17252c16752b891174a327655fbbc4871932e595fc6975a355c9aa",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-dang-nhap-validation-error-desktop-1920x1080",
+      "title": "AUTH-01 · Lỗi kiểm tra dữ liệu",
+      "src": "previews/auth-jpg/desktop/AUTH-01-validation-error-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "842ebf62c7018b272e42d2a4e554bc361e2ed45706a11973de0cd2fd3c36b3db",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-authentication-failed-desktop-1920x1080",
+      "title": "AUTH-01 · Xác thực thất bại",
+      "src": "previews/auth-jpg/desktop/AUTH-01-authentication-failed-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "dd9f783dc753cb4950ac56e9a7c2093d17b8106b091f905b07baa64b887e565f",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-dang-nhap-loading-desktop-1920x1080",
+      "title": "AUTH-01 · Đang đăng nhập",
+      "src": "previews/auth-jpg/desktop/AUTH-01-submitting-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2f1b90b37913e547737cab9eeede7c00d6b0875406db51f312e345ae916b9b58",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-offline-before-submit-desktop-1920x1080",
+      "title": "AUTH-01 · Không có kết nối mạng",
+      "src": "previews/auth-jpg/desktop/AUTH-01-offline-before-submit-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ae95148a26bbc90179dc97041b42d5686c33ebb933bbcbf6a77f4e1546899ff5",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-outcome-unknown-desktop-1920x1080",
+      "title": "AUTH-01 · Chưa xác định kết quả",
+      "src": "previews/auth-jpg/desktop/AUTH-01-outcome-unknown-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "093c69cae12f6be4de770391e0f9b775db1496f3fc8db27ac0146eec9ff6e943",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-rate-limited-desktop-1920x1080",
+      "title": "AUTH-01 · Thử đăng nhập quá nhiều lần",
+      "src": "previews/auth-jpg/desktop/AUTH-01-rate-limited-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "72f6922f0dab89435c87e04e40ebaf94e4c62251c68c48dacc0f572d17dd4443",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-account-unavailable-desktop-1920x1080",
+      "title": "AUTH-01 · Tài khoản không khả dụng",
+      "src": "previews/auth-jpg/desktop/AUTH-01-account-unavailable-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cfbb0bf45e2db4e5e87b683d32a9e907acf2ed7adc8194e809cf7e520b76618b",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
+    },
+    {
+      "id": "AUTH-01-auth-service-unavailable-desktop-1920x1080",
+      "title": "AUTH-01 · Dịch vụ xác thực không khả dụng",
+      "src": "previews/auth-jpg/desktop/AUTH-01-auth-service-unavailable-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "94f9ae3330fac6be5d7af03c59d888ab9b40be1e93d18fc7cfccf2b10155f9c2",
+      "provenance": "User-approved AUTH-01 replacement set · 2026-09-21"
     },
     {
       "id": "AUTH-02-xac-nhan-phien-desktop-1920x1080",
@@ -20,26 +100,6 @@
       "width": 1920,
       "height": 1080,
       "sha256": "610efca5de40de9c4157da3954fd01da406bdaacbc93a5d45703fb7c867cf546",
-      "provenance": "Existing gallery original; unchanged bytes"
-    },
-    {
-      "id": "AUTH-01-dang-nhap-loading-desktop-1920x1080",
-      "title": "AUTH-01 · Loading",
-      "src": "previews/auth-png/desktop/AUTH-01-dang-nhap-loading-desktop-1920x1080.png",
-      "device": "desktop",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "0adfe0182ebacff26c639b77590b9c7dce589525a20715f426f2290493e824b7",
-      "provenance": "Existing gallery original; unchanged bytes"
-    },
-    {
-      "id": "AUTH-01-dang-nhap-validation-error-desktop-1920x1080",
-      "title": "AUTH-01 · Validation error",
-      "src": "previews/auth-png/desktop/AUTH-01-dang-nhap-validation-error-desktop-1920x1080.png",
-      "device": "desktop",
-      "width": 1920,
-      "height": 1080,
-      "sha256": "a7094d22a14916b22aab20272035c339883613099b5d6090633bfe6034400466",
       "provenance": "Existing gallery original; unchanged bytes"
     },
     {
@@ -133,14 +193,112 @@
       "provenance": "Existing gallery original; unchanged bytes"
     },
     {
-      "id": "AUTH-01-dang-nhap-tablet-1440x2048",
-      "title": "AUTH-01 · Đăng nhập",
-      "src": "previews/auth-png/tablet/AUTH-01-dang-nhap-tablet-1440x2048.png",
+      "id": "AUTH-01-dang-nhap-tablet-1600x2560",
+      "title": "AUTH-01 · Đăng nhập — Mặc định",
+      "src": "previews/auth-jpg/tablet/AUTH-01-login-master-tablet-1600x2560.jpg",
       "device": "tablet",
-      "width": 1440,
-      "height": 2048,
-      "sha256": "7fc1b4b58ef0242d3b4762d5cf5fd5eab7d56f4a110e00ffcfffe74cbea38fe9",
-      "provenance": "Existing gallery original; unchanged bytes"
+      "width": 1600,
+      "height": 2560,
+      "sha256": "8bf04423db52973dd8d2012b70383c31bcffc184ba76c656d3289e82bfc9fd69",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-dang-nhap-validation-error-tablet-1600x2560",
+      "title": "AUTH-01 · Lỗi kiểm tra dữ liệu",
+      "src": "previews/auth-jpg/tablet/AUTH-01-validation-error-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "a506db9fd601f8afbfaa7deb81f47edfb8a3c0a4e3b043ca14c6a8878580150b",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-authentication-failed-tablet-1600x2560",
+      "title": "AUTH-01 · Xác thực thất bại",
+      "src": "previews/auth-jpg/tablet/AUTH-01-authentication-failed-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "ea053275aa616d95f63399e4ae69820058d264c10cb884154d22a2bbfe4b344f",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-dang-nhap-loading-tablet-1600x2560",
+      "title": "AUTH-01 · Đang đăng nhập",
+      "src": "previews/auth-jpg/tablet/AUTH-01-submitting-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "8a3862f3093e97fc915295c0cb766cf92bd3e3ebeffee3bedc58b013485f82a9",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-offline-before-submit-tablet-1600x2560",
+      "title": "AUTH-01 · Không có kết nối mạng",
+      "src": "previews/auth-jpg/tablet/AUTH-01-offline-before-submit-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "272651f8956af479cc1445a18c779ad1f43274a240942f8245e97c7e28771dab",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-outcome-unknown-tablet-1600x2560",
+      "title": "AUTH-01 · Chưa xác định kết quả",
+      "src": "previews/auth-jpg/tablet/AUTH-01-outcome-unknown-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "2de31074c086d5bb765029e2488b1702d149a89461a034e21665c73814840da6",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-rate-limited-tablet-1600x2560",
+      "title": "AUTH-01 · Thử đăng nhập quá nhiều lần",
+      "src": "previews/auth-jpg/tablet/AUTH-01-rate-limited-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "8653cfc1f641923b851bcd1148a82b69e7fb59b228e93745b4fccab76c6d8966",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-account-unavailable-tablet-1600x2560",
+      "title": "AUTH-01 · Tài khoản không khả dụng",
+      "src": "previews/auth-jpg/tablet/AUTH-01-account-unavailable-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "7ca2e53b0b75525587c0b97febcee8c5fc087a057b46b888ffd9ccfeebaffab6",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
+      "id": "AUTH-01-auth-service-unavailable-tablet-1600x2560",
+      "title": "AUTH-01 · Dịch vụ xác thực không khả dụng",
+      "src": "previews/auth-jpg/tablet/AUTH-01-auth-service-unavailable-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "b52dfafbe5dabe7a3f2eae7d1452d8c53134f29665c2f628530b82225788db03",
+      "provenance": "User-approved AUTH-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
     },
     {
       "id": "AUTH-02-xac-nhan-phien-tablet-1440x2048",
@@ -150,26 +308,6 @@
       "width": 1440,
       "height": 2048,
       "sha256": "773649b1f3b5970b8a38ad628176ffa36ea05f1a8e7428502af2069fa05e140d",
-      "provenance": "Existing gallery original; unchanged bytes"
-    },
-    {
-      "id": "AUTH-01-dang-nhap-loading-tablet-1440x2048",
-      "title": "AUTH-01 · Loading",
-      "src": "previews/auth-png/tablet/AUTH-01-dang-nhap-loading-tablet-1440x2048.png",
-      "device": "tablet",
-      "width": 1440,
-      "height": 2048,
-      "sha256": "c68446accc2cebb2aa579c4c3a75e8e4c6c7100e401f3c1121dad40304be77ac",
-      "provenance": "Existing gallery original; unchanged bytes"
-    },
-    {
-      "id": "AUTH-01-dang-nhap-validation-error-tablet-1440x2048",
-      "title": "AUTH-01 · Validation error",
-      "src": "previews/auth-png/tablet/AUTH-01-dang-nhap-validation-error-tablet-1440x2048.png",
-      "device": "tablet",
-      "width": 1440,
-      "height": 2048,
-      "sha256": "b25ead809e5117f7dddd77ef72270271f69509277d807a64831f3c05a777205e",
       "provenance": "Existing gallery original; unchanged bytes"
     },
     {

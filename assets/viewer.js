@@ -70,7 +70,13 @@ try {
   const response = await fetch(new URL('../screen-manifest.json', import.meta.url));
   if (!response.ok) throw new Error('Không tải được danh sách ảnh.');
   const manifest = await response.json();
-  screen = manifest.screens.find(item => item.id === new URLSearchParams(location.search).get('screen'));
+  const requestedId = new URLSearchParams(location.search).get('screen');
+  const aliases = {
+    'AUTH-01-dang-nhap-tablet-1440x2048': 'AUTH-01-dang-nhap-tablet-1600x2560',
+    'AUTH-01-dang-nhap-loading-tablet-1440x2048': 'AUTH-01-dang-nhap-loading-tablet-1600x2560',
+    'AUTH-01-dang-nhap-validation-error-tablet-1440x2048': 'AUTH-01-dang-nhap-validation-error-tablet-1600x2560'
+  };
+  screen = manifest.screens.find(item => item.id === (aliases[requestedId] || requestedId));
   if (!screen) throw new Error('Không tìm thấy màn hình. Vui lòng quay lại thư viện để chọn ảnh.');
   $('title').textContent = screen.title; document.title = `${screen.title} · Hoa Nam WMS`;
   img.alt = screen.title;
