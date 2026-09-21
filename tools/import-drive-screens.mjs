@@ -4,6 +4,7 @@ import { dirname, extname, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 import { correctedGroup, outboundTitle, stateIdentity, assertDriveStateCoverage } from './drive-state-policy.mjs';
+import { applyBusinessRepair } from './apply-business-repair.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -14,7 +15,9 @@ const manifestPath = resolve(root, 'drive-screen-manifest.json');
 const imageExtensions = new Set(['.png', '.jpg', '.jpeg']);
 const previousManifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const supplements = JSON.parse(await readFile(resolve(root, 'design-supplements/manifest.json'), 'utf8'));
-const reviewedSources = new Map(previousManifest.screens.filter(screen => screen.origin !== 'ai-supplement').flatMap(screen => screen.sourcePaths.map(path => [path, screen.sha256])));
+const repairPlan = JSON.parse(await readFile(resolve(root, 'design-source/business-v1/targets.json'), 'utf8'));
+const importHistory = previousManifest.screens.map(screen => repairPlan.targets.find(t => t.collection === 'drive' && t.id === screen.id)?.original || screen);
+const reviewedSources = new Map(importHistory.filter(screen => screen.origin !== 'ai-supplement').flatMap(screen => screen.sourcePaths.map(path => [path, screen.sha256])));
 
 // Drive review exports sometimes arrive with UUID or timestamp-only filenames.
 // Keep those names in sourcePaths for provenance, but publish a stable,
@@ -222,7 +225,7 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
     screen.promptId = item.supplement.promptId;
   }
   // Preserve shared viewer links across renames/regrouping, by immutable bytes.
-  const previous = previousManifest.screens.find(candidate => candidate.sha256 === item.sha256);
+  const previous = importHistory.find(candidate => candidate.sha256 === item.sha256);
   const aliases = [...new Set([...(previous?.aliases || []), ...(previous && previous.id !== screen.id ? [previous.id] : [])])].filter(id => id !== screen.id);
   if (aliases.length) screen.aliases = aliases;
   return screen;
@@ -259,3 +262,4 @@ try {
   throw error;
 }
 console.log(`Imported ${screens.length} unique Drive screens across ${groups.length} groups.`);
+await applyBusinessRepair({ driveOnly: true });

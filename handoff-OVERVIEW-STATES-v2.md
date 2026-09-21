@@ -1,5 +1,7 @@
 # Tổng quan Hoa Nam WMS — State preview v2
 
+> Cập nhật 22/09/2026: 20 liên kết Tổng quan và 26 liên kết Filter hiện trỏ tới bản sửa nghiệp vụ `business-v1`, **cần duyệt**, dùng fixture minh họa chung. Nội dung bên dưới mô tả bộ cũ; bản cũ được lưu để đối chiếu, không còn là nguồn viewer chính. Xem [biên bản và dữ liệu đề xuất](handoff-BUSINESS-REPAIR-v1.md).
+
 20 ảnh thiết kế riêng: 10 Desktop và 10 Tablet.
 
 | Thiết bị | Số ảnh | Kích thước ảnh |

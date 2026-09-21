@@ -1,0 +1,133 @@
+{
+  "version": "business-v1",
+  "reviewStatus": "needs-owner-review",
+  "source": "design-source/business-v1",
+  "screens": [
+    {
+      "module": "auth",
+      "state": "session-expired",
+      "device": "desktop",
+      "file": "design-source/business-v1/renders/auth-session-expired-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5a15ff16574b02ff1861fa76362220576a798cd89fc5e91f558410a99776edb3"
+    },
+    {
+      "module": "warranty",
+      "state": "default",
+      "device": "desktop",
+      "file": "design-source/business-v1/renders/warranty-default-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0505b1c0acf3dcf9f70a27fbd69a008afd06618df3aee16af7d8d3d3c29f7fc7"
+    },
+    {
+      "module": "outbound",
+      "state": "p7",
+      "device": "desktop",
+      "file": "design-source/business-v1/renders/outbound-p7-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5437be783772dad2e5416754ce40eaca8385dc6735c3330a7e94b8058ea9ac44"
+    },
+    {
+      "module": "overview",
+      "state": "default",
+      "device": "desktop",
+      "file": "design-source/business-v1/renders/overview-default-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "83c8f7419edb8d3bc8aee7ec9d564e5df9cb26502bd1247ab88bba703b062b22"
+    },
+    {
+      "module": "filter",
+      "state": "6",
+      "device": "desktop",
+      "file": "design-source/business-v1/renders/filter-6-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c6bf5f74c4e04e13fe754f241e83f983d831139f7f21bd9bda21af4778a7e8a3"
+    },
+    {
+      "module": "filter",
+      "state": "7",
+      "device": "desktop",
+      "file": "design-source/business-v1/renders/filter-7-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d95e859e43f657438811472814a92c4978414270cf80aa79e71d579289997ba5"
+    },
+    {
+      "module": "filter",
+      "state": "9",
+      "device": "desktop",
+      "file": "design-source/business-v1/renders/filter-9-desktop.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "68a68656e5b6734708ffc6b26b01cd78547d368bbb08b738254af9fc06315849"
+    },
+    {
+      "module": "auth",
+      "state": "session-expired",
+      "device": "tablet",
+      "file": "design-source/business-v1/renders/auth-session-expired-tablet.png",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "4b3ec582e483e79a9a8b29154c93ba5e6bfdcc6eda9788ae69721ad2f965a2ac"
+    },
+    {
+      "module": "warranty",
+      "state": "default",
+      "device": "tablet",
+      "file": "design-source/business-v1/renders/warranty-default-tablet.png",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "80fee064eaf42bf9cbe068d3338cb87388396a5bac89dbc7dea59e004502a5be"
+    },
+    {
+      "module": "outbound",
+      "state": "p7",
+      "device": "tablet",
+      "file": "design-source/business-v1/renders/outbound-p7-tablet.png",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "a6d74549a86e9d2f26db2944700609560de2e5030f706707a7367d416f502759"
+    },
+    {
+      "module": "overview",
+      "state": "default",
+      "device": "tablet",
+      "file": "design-source/business-v1/renders/overview-default-tablet.png",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "9b01ff177c5c65fecac359ff34d6e86c2eba59eeaa9d36203d81774aee9b5169"
+    },
+    {
+      "module": "filter",
+      "state": "6",
+      "device": "tablet",
+      "file": "design-source/business-v1/renders/filter-6-tablet.png",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "3e452517c7e4ac177d35dc91e5a778d22b7c51ce6fb5fdd98e3840834d77af78"
+    },
+    {
+      "module": "filter",
+      "state": "7",
+      "device": "tablet",
+      "file": "design-source/business-v1/renders/filter-7-tablet.png",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "404f6fc9ebf08045ad33bcd890cff2a21c2bf4e3c896c00c87f5e580c7a7ceaa"
+    },
+    {
+      "module": "filter",
+      "state": "9",
+      "device": "tablet",
+      "file": "design-source/business-v1/renders/filter-9-tablet.png",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "4e1eec5614b23c67968d9c8d8da50bd79c89f86a437671ecd2a60a4ce78e7c83"
+    }
+  ]
+}

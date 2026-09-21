@@ -16,7 +16,7 @@
   <header class="hero">
     <a class="back" href="index.html">← Thư viện chính</a>
     <h1>Màn hình thiết kế từ Drive</h1>
-    <p>Bộ ảnh theo từng nghiệp vụ, có tìm kiếm, lọc Desktop/Tablet và tải ảnh riêng. Ảnh nguồn Drive được giữ nguyên; ảnh AI bổ sung có nhãn cần duyệt.</p>
+    <p>Bộ ảnh theo từng nghiệp vụ, có tìm kiếm, lọc Desktop/Tablet và tải ảnh riêng. Bản sửa nghiệp vụ và ảnh AI bổ sung đều có nhãn cần duyệt. <a href="business-repair.html" style="color:white">Xem đợt sửa ưu tiên và baseline →</a></p>
     <div class="summary"><span class="pill" id="total">Đang tải…</span><span class="pill" id="groups">— nhóm nghiệp vụ</span><span class="pill" id="supplements"></span><span class="pill">Nhập ngày 22/09/2026</span></div>
   </header>
   <section class="filters" aria-label="Bộ lọc">
@@ -35,7 +35,7 @@
   const $ = id => document.getElementById(id);
   $('total').textContent = `${manifest.total} màn hình`;
   $('groups').textContent = `${manifest.groups.length} nhóm nghiệp vụ`;
-  $('supplements').textContent = `${manifest.screens.filter(screen => screen.origin === 'ai-supplement').length} ảnh AI bổ sung · cần duyệt`;
+  $('supplements').textContent = `${manifest.screens.filter(screen => screen.origin === 'native-repair').length} bản sửa nghiệp vụ · ${manifest.screens.filter(screen => screen.origin === 'ai-supplement').length} ảnh AI · cần duyệt`;
   for (const item of manifest.groups) {
     const option = document.createElement('option'); option.value = item.id; option.textContent = `${item.title} · ${item.count}`; $('group').append(option);
   }
@@ -50,11 +50,11 @@
       const img = document.createElement('img'); img.loading = 'lazy'; img.decoding = 'async'; img.src = screen.thumb; img.width = screen.thumbWidth; img.height = screen.thumbHeight; img.alt = `${screen.title} · ${screen.groupTitle}`; preview.append(img); article.append(preview);
       const meta = document.createElement('div'); meta.className = 'meta';
       const badges = document.createElement('div'); badges.className = 'badges';
-      const stageLabel = screen.origin === 'ai-supplement' ? 'AI bổ sung · cần duyệt' : screen.stage === 'review' ? 'Bản review' : 'Bàn giao';
+      const stageLabel = screen.origin === 'native-repair' ? 'Sửa nghiệp vụ · cần duyệt' : screen.origin === 'ai-supplement' ? 'AI bổ sung · cần duyệt' : screen.stage === 'review' ? 'Bản review' : 'Ảnh nguồn · chưa xác minh duyệt';
       for (const [text, className] of [[screen.device === 'desktop' ? 'Desktop' : 'Tablet', ''], [`${screen.width} × ${screen.height}`, ''], [stageLabel, screen.stage]]) { const badge = document.createElement('span'); badge.className = `badge ${className}`; badge.textContent = text; badges.append(badge); }
       const download = document.createElement('a'); download.className = 'download'; download.href = screen.src; download.download = screen.fileName; download.textContent = 'Tải ảnh ↓';
       meta.append(badges, download); article.append(meta);
-      const source = document.createElement('div'); source.className = 'source'; source.title = `${screen.origin === 'ai-supplement' ? 'Nguồn bổ sung bằng AI (chưa duyệt)' : 'Nguồn Drive'}:\n${screen.sourcePaths.join('\n')}`; source.textContent = `${screen.groupTitle} · ${screen.fileName}`; article.append(source);
+      const source = document.createElement('div'); source.className = 'source'; source.title = `${screen.origin === 'native-repair' ? 'Nguồn dựng lại HTML/SVG (chưa duyệt)' : screen.origin === 'ai-supplement' ? 'Nguồn bổ sung bằng AI (chưa duyệt)' : 'Nguồn Drive'}:\n${screen.sourcePaths.join('\n')}`; source.textContent = `${screen.groupTitle} · ${screen.fileName}`; article.append(source);
       fragment.append(article);
     }
     $('grid').replaceChildren(fragment); $('empty').hidden = screens.length > 0; $('result').textContent = `Hiển thị ${screens.length}/${manifest.total} màn hình`;

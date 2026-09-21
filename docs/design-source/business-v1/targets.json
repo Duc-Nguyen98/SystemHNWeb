@@ -1,0 +1,3042 @@
+{
+  "version": 1,
+  "basedOn": "da7ea46",
+  "reviewStatus": "needs-owner-review",
+  "targets": [
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-desktop-1672x941-review-9471ea2919",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/9471ea2919f73d2dc9c0083695ef301d32fb96164bb48dc16886bb414581e94b.png",
+      "original": {
+        "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-desktop-1672x941-review-9471ea2919",
+        "title": "HN BaoCao LichSuNhapXuatKho P16 401 SessionExpired",
+        "fileName": "HN_BaoCao_LichSuNhapXuatKho_P16_401_SessionExpired_DESKTOP_1672x941_REVIEW.png",
+        "group": "bao_cao_lich_su_nhap_xuat_kho",
+        "groupTitle": "Báo cáo lịch sử nhập xuất kho",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/bao-cao-lich-su-nhap-xuat-kho/desktop/hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-desktop-1672x941-review-9471ea2919.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-lich-su-nhap-xuat-kho/desktop/hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-desktop-1672x941-review-9471ea2919.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "9471ea2919f73d2dc9c0083695ef301d32fb96164bb48dc16886bb414581e94b",
+        "sourcePaths": [
+          "design-supplements/HN_HISTORY_P16_401_SESSION_EXPIRED_DESKTOP_REVIEW.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "401 SESSION EXPIRED",
+        "origin": "ai-supplement",
+        "reviewStatus": "needs-owner-review",
+        "designReferences": [
+          "bao_cao_lich_su_nhap_xuat_kho/update/HN_BaoCao_LichSuNhapXuatKho_P17_403_Forbidden_Desktop_1920x1080.png",
+          "bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P12-session-expired-desktop-1920x1080.png"
+        ],
+        "promptId": "history-p16-desktop"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-tablet-992x1586-review-a87fc2d3ce",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/a87fc2d3cee126e5e6cabedff8043660e033d96c24a51b4f289b2a62b6f68354.png",
+      "original": {
+        "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-tablet-992x1586-review-a87fc2d3ce",
+        "title": "HN BaoCao LichSuNhapXuatKho P16 401 SessionExpired",
+        "fileName": "HN_BaoCao_LichSuNhapXuatKho_P16_401_SessionExpired_TABLET_992x1586_REVIEW.png",
+        "group": "bao_cao_lich_su_nhap_xuat_kho",
+        "groupTitle": "Báo cáo lịch sử nhập xuất kho",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/bao-cao-lich-su-nhap-xuat-kho/tablet/hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-tablet-992x1586-review-a87fc2d3ce.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-lich-su-nhap-xuat-kho/tablet/hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-tablet-992x1586-review-a87fc2d3ce.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "a87fc2d3cee126e5e6cabedff8043660e033d96c24a51b4f289b2a62b6f68354",
+        "sourcePaths": [
+          "design-supplements/HN_HISTORY_P16_401_SESSION_EXPIRED_TABLET_REVIEW.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "401 SESSION EXPIRED",
+        "origin": "ai-supplement",
+        "reviewStatus": "needs-owner-review",
+        "designReferences": [
+          "bao_cao_lich_su_nhap_xuat_kho/update/HN_BaoCao_LichSuNhapXuatKho_P17_403_Forbidden_Tablet_1600x2560.png",
+          "bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P12-session-expired-tablet-1600x2560.png"
+        ],
+        "promptId": "history-p16-tablet"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-desktop-1920x1080-v1-2-f63ca2f8d5",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/f63ca2f8d518df2c4592aeff1300424662ddba19e0a75c2f032ecd6e807f9a5b.png",
+      "original": {
+        "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-desktop-1920x1080-v1-2-f63ca2f8d5",
+        "title": "HN PKG LABEL P16 SessionExpired",
+        "fileName": "HN_PKG_LABEL_P16_SessionExpired_Desktop_1920x1080_v1.2.png",
+        "group": "bao_cao_nhan_dong_goi_in_lai",
+        "groupTitle": "Báo cáo nhãn đóng gói & in lại",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-nhan-dong-goi-in-lai/desktop/hn-pkg-label-p16-sessionexpired-desktop-1920x1080-v1-2-f63ca2f8d5.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-nhan-dong-goi-in-lai/desktop/hn-pkg-label-p16-sessionexpired-desktop-1920x1080-v1-2-f63ca2f8d5.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "f63ca2f8d518df2c4592aeff1300424662ddba19e0a75c2f032ecd6e807f9a5b",
+        "sourcePaths": [
+          "bao_cao_nhan_dong_goi_in_lai/update/HN_PKG_LABEL_P16_SessionExpired_Desktop_1920x1080_v1.2.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-tablet-1600x2560-v1-2-80f8005056",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/80f8005056820fa74a26b4c1330e26a18e6f525b60f123d3a4f96e5376e3966a.png",
+      "original": {
+        "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-tablet-1600x2560-v1-2-80f8005056",
+        "title": "HN PKG LABEL P16 SessionExpired",
+        "fileName": "HN_PKG_LABEL_P16_SessionExpired_Tablet_1600x2560_v1.2.png",
+        "group": "bao_cao_nhan_dong_goi_in_lai",
+        "groupTitle": "Báo cáo nhãn đóng gói & in lại",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-nhan-dong-goi-in-lai/tablet/hn-pkg-label-p16-sessionexpired-tablet-1600x2560-v1-2-80f8005056.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-nhan-dong-goi-in-lai/tablet/hn-pkg-label-p16-sessionexpired-tablet-1600x2560-v1-2-80f8005056.webp",
+        "width": 1600,
+        "height": 2560,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "80f8005056820fa74a26b4c1330e26a18e6f525b60f123d3a4f96e5376e3966a",
+        "sourcePaths": [
+          "bao_cao_nhan_dong_goi_in_lai/update/HN_PKG_LABEL_P16_SessionExpired_Tablet_1600x2560_v1.2.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-desktop-1920x1080-934eadf095",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/934eadf09511f346d9d910cf040c3566573e0cc2e01a2ef9e342a20181250679.png",
+      "original": {
+        "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-desktop-1920x1080-934eadf095",
+        "title": "HN TRACE REPORT P12 session expired",
+        "fileName": "HN-TRACE-REPORT-P12-session-expired-desktop-1920x1080.png",
+        "group": "bao_cao_truy_vet_hang_hoa",
+        "groupTitle": "Báo cáo truy vết hàng hóa",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-truy-vet-hang-hoa/desktop/hn-trace-report-p12-session-expired-desktop-1920x1080-934eadf095.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-truy-vet-hang-hoa/desktop/hn-trace-report-p12-session-expired-desktop-1920x1080-934eadf095.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "934eadf09511f346d9d910cf040c3566573e0cc2e01a2ef9e342a20181250679",
+        "sourcePaths": [
+          "bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P12-session-expired-desktop-1920x1080.png"
+        ],
+        "stateCode": "P12",
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-tablet-1600x2560-224f93c4b1",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/224f93c4b1c575fbd060fe8cb19ffc646bb6d2d11f177021f1d42d7444d663d5.png",
+      "original": {
+        "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-tablet-1600x2560-224f93c4b1",
+        "title": "HN TRACE REPORT P12 session expired",
+        "fileName": "HN-TRACE-REPORT-P12-session-expired-tablet-1600x2560.png",
+        "group": "bao_cao_truy_vet_hang_hoa",
+        "groupTitle": "Báo cáo truy vết hàng hóa",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-truy-vet-hang-hoa/tablet/hn-trace-report-p12-session-expired-tablet-1600x2560-224f93c4b1.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-truy-vet-hang-hoa/tablet/hn-trace-report-p12-session-expired-tablet-1600x2560-224f93c4b1.webp",
+        "width": 1600,
+        "height": 2560,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "224f93c4b1c575fbd060fe8cb19ffc646bb6d2d11f177021f1d42d7444d663d5",
+        "sourcePaths": [
+          "bao_cao_truy_vet_hang_hoa/update/HN-TRACE-REPORT-P12-session-expired-tablet-1600x2560.png"
+        ],
+        "stateCode": "P12",
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-desktop-1920x1080-delivery-95231d3865",
+      "render": {
+        "module": "outbound",
+        "state": "p1",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/95231d3865bc9d7a9b43259ca33833a82ae52874836806ac5859f7f65d14baef.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-desktop-1920x1080-delivery-95231d3865",
+        "title": "HN BAO CAO XUAT KHO P01 DEFAULT",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P01_DEFAULT_DESKTOP_1920x1080_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p01-default-desktop-1920x1080-delivery-95231d3865.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p01-default-desktop-1920x1080-delivery-95231d3865.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "95231d3865bc9d7a9b43259ca33833a82ae52874836806ac5859f7f65d14baef",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/bao-cao-xuat-kho-default-desktop-1920x1080.png"
+        ],
+        "stateCode": "P01",
+        "stateName": "DEFAULT",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-bao-cao-xuat-kho-default-desktop-1920x1080-95231d3865"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p02-loading-desktop-1672x941-delivery-051799ce08",
+      "render": {
+        "module": "outbound",
+        "state": "p2",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/051799ce0838b2625415a973367dde4552f8d39c7791d2e9c39ae21db4422f56.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p02-loading-desktop-1672x941-delivery-051799ce08",
+        "title": "HN BAO CAO XUAT KHO P02 LOADING",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P02_LOADING_DESKTOP_1672x941_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p02-loading-desktop-1672x941-delivery-051799ce08.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p02-loading-desktop-1672x941-delivery-051799ce08.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "051799ce0838b2625415a973367dde4552f8d39c7791d2e9c39ae21db4422f56",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-loading-desktop-1920x1080-v2.png"
+        ],
+        "stateCode": "P02",
+        "stateName": "LOADING",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-loading-desktop-1920x1080-v2-051799ce08"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p03-empty-desktop-1672x941-delivery-0d132dc742",
+      "render": {
+        "module": "outbound",
+        "state": "p3",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/0d132dc7423fb1b53ecb014bfd997e0144d16bfc47e1e3d5e5f44db4dc87ab22.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p03-empty-desktop-1672x941-delivery-0d132dc742",
+        "title": "HN BAO CAO XUAT KHO P03 EMPTY",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P03_EMPTY_DESKTOP_1672x941_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p03-empty-desktop-1672x941-delivery-0d132dc742.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p03-empty-desktop-1672x941-delivery-0d132dc742.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "0d132dc7423fb1b53ecb014bfd997e0144d16bfc47e1e3d5e5f44db4dc87ab22",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-emty-desktop-1920x1080-v2.png"
+        ],
+        "stateCode": "P03",
+        "stateName": "EMPTY",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-emty-desktop-1920x1080-v2-0d132dc742"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p04-error-desktop-1920x1080-delivery-4c2b6350ff",
+      "render": {
+        "module": "outbound",
+        "state": "p4",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/4c2b6350fff417dcfc90c591d0fde87bd233f740e659d033720a95bf9784f4d2.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p04-error-desktop-1920x1080-delivery-4c2b6350ff",
+        "title": "HN BAO CAO XUAT KHO P04 ERROR",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P04_ERROR_DESKTOP_1920x1080_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p04-error-desktop-1920x1080-delivery-4c2b6350ff.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p04-error-desktop-1920x1080-delivery-4c2b6350ff.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "4c2b6350fff417dcfc90c591d0fde87bd233f740e659d033720a95bf9784f4d2",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-error-desktop-1920x1080-v2.png"
+        ],
+        "stateCode": "P04",
+        "stateName": "ERROR",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-error-desktop-1920x1080-v2-4c2b6350ff"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p05-invalid-date-range-desktop-1920x1080-delivery-e96eb56c21",
+      "render": {
+        "module": "outbound",
+        "state": "p5",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/e96eb56c21ccbeec99dc0353a547916d94bd8d2a26305f8fb5fc81b210d96412.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p05-invalid-date-range-desktop-1920x1080-delivery-e96eb56c21",
+        "title": "HN BAO CAO XUAT KHO P05 INVALID DATE RANGE",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P05_INVALID_DATE_RANGE_DESKTOP_1920x1080_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p05-invalid-date-range-desktop-1920x1080-delivery-e96eb56c21.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p05-invalid-date-range-desktop-1920x1080-delivery-e96eb56c21.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "e96eb56c21ccbeec99dc0353a547916d94bd8d2a26305f8fb5fc81b210d96412",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-invalid-date-range-desktop-1920x1080.png"
+        ],
+        "stateCode": "P05",
+        "stateName": "INVALID DATE RANGE",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-invalid-date-range-desktop-1920x1080-e96eb56c21"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p06-no-search-result-desktop-1920x1080-delivery-c26a765a50",
+      "render": {
+        "module": "outbound",
+        "state": "p6",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/c26a765a50990249455587b2925a52da33a49f7292148b3c8fb7b88a8ab2e24b.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p06-no-search-result-desktop-1920x1080-delivery-c26a765a50",
+        "title": "HN BAO CAO XUAT KHO P06 NO SEARCH RESULT",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P06_NO_SEARCH_RESULT_DESKTOP_1920x1080_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p06-no-search-result-desktop-1920x1080-delivery-c26a765a50.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p06-no-search-result-desktop-1920x1080-delivery-c26a765a50.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "c26a765a50990249455587b2925a52da33a49f7292148b3c8fb7b88a8ab2e24b",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-no-search-result-desktop-1920x1080.png"
+        ],
+        "stateCode": "P06",
+        "stateName": "NO SEARCH RESULT",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-no-search-result-desktop-1920x1080-c26a765a50"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p07-readonly-desktop-1920x1080-delivery-58290fb836",
+      "render": {
+        "module": "outbound",
+        "state": "p7",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/58290fb83698fceaef7fbfb0a9c8255db39b70335010deb5f6603362be26e611.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p07-readonly-desktop-1920x1080-delivery-58290fb836",
+        "title": "HN BAO CAO XUAT KHO P07 READONLY",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P07_READONLY_DESKTOP_1920x1080_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p07-readonly-desktop-1920x1080-delivery-58290fb836.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p07-readonly-desktop-1920x1080-delivery-58290fb836.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "58290fb83698fceaef7fbfb0a9c8255db39b70335010deb5f6603362be26e611",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-readonly-desktop-1920x1080.png"
+        ],
+        "stateCode": "P07",
+        "stateName": "READONLY",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-readonly-desktop-1920x1080-58290fb836"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p08-row-highlight-desktop-1920x1080-delivery-0c6a57b72d",
+      "render": {
+        "module": "outbound",
+        "state": "p8",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/0c6a57b72de985512f9508cb916c03760425e9974e6312bec8cf889110aead32.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p08-row-highlight-desktop-1920x1080-delivery-0c6a57b72d",
+        "title": "HN BAO CAO XUAT KHO P08 ROW HIGHLIGHT",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P08_ROW_HIGHLIGHT_DESKTOP_1920x1080_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p08-row-highlight-desktop-1920x1080-delivery-0c6a57b72d.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p08-row-highlight-desktop-1920x1080-delivery-0c6a57b72d.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "0c6a57b72de985512f9508cb916c03760425e9974e6312bec8cf889110aead32",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-row-highlight-desktop-1920x1080.png"
+        ],
+        "stateCode": "P08",
+        "stateName": "ROW HIGHLIGHT",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-row-highlight-desktop-1920x1080-0c6a57b72d"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p09-success-update-desktop-1920x1080-delivery-8cb7ef4137",
+      "render": {
+        "module": "outbound",
+        "state": "p9",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/8cb7ef41378319abefaff5b67b7f1e9ea87a0aa08c3e061bee1ca8c85ac1a4c7.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p09-success-update-desktop-1920x1080-delivery-8cb7ef4137",
+        "title": "HN BAO CAO XUAT KHO P09 SUCCESS UPDATE",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P09_SUCCESS_UPDATE_DESKTOP_1920x1080_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p09-success-update-desktop-1920x1080-delivery-8cb7ef4137.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/desktop/hn-bao-cao-xuat-kho-p09-success-update-desktop-1920x1080-delivery-8cb7ef4137.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "8cb7ef41378319abefaff5b67b7f1e9ea87a0aa08c3e061bee1ca8c85ac1a4c7",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-golden-export-desktop-warning-repaired.png"
+        ],
+        "stateCode": "P09",
+        "stateName": "SUCCESS UPDATE",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-golden-export-desktop-warning-repaired-8cb7ef4137"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-tablet-1280x2048-delivery-e81a1f999d",
+      "render": {
+        "module": "outbound",
+        "state": "p1",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/e81a1f999d701d9cf1a4f428cddbefcb1d9ff901dfc1d2623f8785d347a1ff5d.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-tablet-1280x2048-delivery-e81a1f999d",
+        "title": "HN BAO CAO XUAT KHO P01 DEFAULT",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P01_DEFAULT_TABLET_1280x2048_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p01-default-tablet-1280x2048-delivery-e81a1f999d.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p01-default-tablet-1280x2048-delivery-e81a1f999d.webp",
+        "width": 1280,
+        "height": 2048,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "e81a1f999d701d9cf1a4f428cddbefcb1d9ff901dfc1d2623f8785d347a1ff5d",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-default-tablet-1280x2048.png"
+        ],
+        "stateCode": "P01",
+        "stateName": "DEFAULT",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-default-tablet-1280x2048-e81a1f999d"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p02-loading-tablet-992x1586-delivery-686dbe8c3e",
+      "render": {
+        "module": "outbound",
+        "state": "p2",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/686dbe8c3e6cc077d6ac34980a8ab8c47ace16b27b38eb2df1f420b650fb9f81.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p02-loading-tablet-992x1586-delivery-686dbe8c3e",
+        "title": "HN BAO CAO XUAT KHO P02 LOADING",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P02_LOADING_TABLET_992x1586_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p02-loading-tablet-992x1586-delivery-686dbe8c3e.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p02-loading-tablet-992x1586-delivery-686dbe8c3e.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "686dbe8c3e6cc077d6ac34980a8ab8c47ace16b27b38eb2df1f420b650fb9f81",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-loading-tablet-1280x2048.png"
+        ],
+        "stateCode": "P02",
+        "stateName": "LOADING",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-loading-tablet-1280x2048-686dbe8c3e"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p03-empty-tablet-992x1586-delivery-c0e9467bbb",
+      "render": {
+        "module": "outbound",
+        "state": "p3",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/c0e9467bbb0b5c3ee823a75741330f8232740873477ba035c0f747e812d0179c.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p03-empty-tablet-992x1586-delivery-c0e9467bbb",
+        "title": "HN BAO CAO XUAT KHO P03 EMPTY",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P03_EMPTY_TABLET_992x1586_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p03-empty-tablet-992x1586-delivery-c0e9467bbb.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p03-empty-tablet-992x1586-delivery-c0e9467bbb.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "c0e9467bbb0b5c3ee823a75741330f8232740873477ba035c0f747e812d0179c",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-emty-tablet-1280x2048.png"
+        ],
+        "stateCode": "P03",
+        "stateName": "EMPTY",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-emty-tablet-1280x2048-c0e9467bbb"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p04-error-tablet-1280x2048-delivery-82bb64e2d9",
+      "render": {
+        "module": "outbound",
+        "state": "p4",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/82bb64e2d9c960666f5bd46709f4218480430bf1072b2083f4061b5ceeccf5fc.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p04-error-tablet-1280x2048-delivery-82bb64e2d9",
+        "title": "HN BAO CAO XUAT KHO P04 ERROR",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P04_ERROR_TABLET_1280x2048_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p04-error-tablet-1280x2048-delivery-82bb64e2d9.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p04-error-tablet-1280x2048-delivery-82bb64e2d9.webp",
+        "width": 1280,
+        "height": 2048,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "82bb64e2d9c960666f5bd46709f4218480430bf1072b2083f4061b5ceeccf5fc",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-error-tablet-1280x2048-v2.png"
+        ],
+        "stateCode": "P04",
+        "stateName": "ERROR",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-error-tablet-1280x2048-v2-82bb64e2d9"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p05-invalid-date-range-tablet-1280x2048-delivery-ff64e4500a",
+      "render": {
+        "module": "outbound",
+        "state": "p5",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/ff64e4500a6ee1b7ae9494f9133ef48de79fe52d12a52f721ecf3c981e4ec89d.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p05-invalid-date-range-tablet-1280x2048-delivery-ff64e4500a",
+        "title": "HN BAO CAO XUAT KHO P05 INVALID DATE RANGE",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P05_INVALID_DATE_RANGE_TABLET_1280x2048_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p05-invalid-date-range-tablet-1280x2048-delivery-ff64e4500a.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p05-invalid-date-range-tablet-1280x2048-delivery-ff64e4500a.webp",
+        "width": 1280,
+        "height": 2048,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "ff64e4500a6ee1b7ae9494f9133ef48de79fe52d12a52f721ecf3c981e4ec89d",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-invalid-date-range-tablet-1280x2048.png"
+        ],
+        "stateCode": "P05",
+        "stateName": "INVALID DATE RANGE",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-invalid-date-range-tablet-1280x2048-ff64e4500a"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p06-no-search-result-tablet-1280x2048-delivery-102b488109",
+      "render": {
+        "module": "outbound",
+        "state": "p6",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/102b4881090aefaa049d7a9f44952b8b9eb81b6b1362a12fc15a9d05fb18b511.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p06-no-search-result-tablet-1280x2048-delivery-102b488109",
+        "title": "HN BAO CAO XUAT KHO P06 NO SEARCH RESULT",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P06_NO_SEARCH_RESULT_TABLET_1280x2048_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p06-no-search-result-tablet-1280x2048-delivery-102b488109.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p06-no-search-result-tablet-1280x2048-delivery-102b488109.webp",
+        "width": 1280,
+        "height": 2048,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "102b4881090aefaa049d7a9f44952b8b9eb81b6b1362a12fc15a9d05fb18b511",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-no-search-result-tablet-1280x2048.png"
+        ],
+        "stateCode": "P06",
+        "stateName": "NO SEARCH RESULT",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-no-search-result-tablet-1280x2048-102b488109"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p07-readonly-tablet-1280x2048-delivery-9dce91e74b",
+      "render": {
+        "module": "outbound",
+        "state": "p7",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/9dce91e74be7a5e3938c70807386e765b7dff3104628c45195bf86f02e4ae8ff.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p07-readonly-tablet-1280x2048-delivery-9dce91e74b",
+        "title": "HN BAO CAO XUAT KHO P07 READONLY",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P07_READONLY_TABLET_1280x2048_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p07-readonly-tablet-1280x2048-delivery-9dce91e74b.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p07-readonly-tablet-1280x2048-delivery-9dce91e74b.webp",
+        "width": 1280,
+        "height": 2048,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "9dce91e74be7a5e3938c70807386e765b7dff3104628c45195bf86f02e4ae8ff",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-readonly-tablet-1280x2048.png"
+        ],
+        "stateCode": "P07",
+        "stateName": "READONLY",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-readonly-tablet-1280x2048-9dce91e74b"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p08-row-highlight-tablet-992x1586-review-39cd095d00",
+      "render": {
+        "module": "outbound",
+        "state": "p8",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/39cd095d00124c76ff9787e5a2476a5782b4d9fc98169c8b42c4cd821927b5f9.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p08-row-highlight-tablet-992x1586-review-39cd095d00",
+        "title": "HN BAO CAO XUAT KHO P08 ROW HIGHLIGHT",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P08_ROW_HIGHLIGHT_TABLET_992x1586_REVIEW.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p08-row-highlight-tablet-992x1586-review-39cd095d00.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p08-row-highlight-tablet-992x1586-review-39cd095d00.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "39cd095d00124c76ff9787e5a2476a5782b4d9fc98169c8b42c4cd821927b5f9",
+        "sourcePaths": [
+          "design-supplements/HN_BAO_CAO_XUAT_KHO_P08_ROW_HIGHLIGHT_TABLET_REVIEW.png"
+        ],
+        "stateCode": "P08",
+        "stateName": "ROW HIGHLIGHT",
+        "origin": "ai-supplement",
+        "reviewStatus": "needs-owner-review",
+        "designReferences": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-row-highlight-desktop-1920x1080.png",
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-default-tablet-1280x2048.png"
+        ],
+        "promptId": "outbound-p08-tablet"
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p09-success-update-tablet-1280x2048-delivery-8cea35d2d1",
+      "render": {
+        "module": "outbound",
+        "state": "p9",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/8cea35d2d142e5d165497305eaa3857f133ca3569b9f6f501a4b74a0920461df.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p09-success-update-tablet-1280x2048-delivery-8cea35d2d1",
+        "title": "HN BAO CAO XUAT KHO P09 SUCCESS UPDATE",
+        "fileName": "HN_BAO_CAO_XUAT_KHO_P09_SUCCESS_UPDATE_TABLET_1280x2048_DELIVERY.png",
+        "group": "bao_cao_xuat_kho",
+        "groupTitle": "Báo cáo xuất kho",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p09-success-update-tablet-1280x2048-delivery-8cea35d2d1.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-kho/tablet/hn-bao-cao-xuat-kho-p09-success-update-tablet-1280x2048-delivery-8cea35d2d1.webp",
+        "width": 1280,
+        "height": 2048,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "8cea35d2d142e5d165497305eaa3857f133ca3569b9f6f501a4b74a0920461df",
+        "sourcePaths": [
+          "bao_cao_xuat_kho/update/hoa-nam-bao-cao-xuat-kho-success-update-tablet-1280x2048.png"
+        ],
+        "stateCode": "P09",
+        "stateName": "SUCCESS UPDATE",
+        "aliases": [
+          "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-success-update-tablet-1280x2048-8cea35d2d1"
+        ]
+      },
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-desktop-1920x1080-1b7fb81351",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/1b7fb8135114a07ee1957674bee31009aa0258369fa634c1b25ba286310dd4cb.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-desktop-1920x1080-1b7fb81351",
+        "title": "HN DEALER RECIPIENT REPORT P12 session expired",
+        "fileName": "HN-DEALER-RECIPIENT-REPORT-P12-session-expired-desktop-1920x1080.png",
+        "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
+        "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-theo-nguoi-nhan-dai-ly/desktop/hn-dealer-recipient-report-p12-session-expired-desktop-1920x1080-1b7fb81351.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-theo-nguoi-nhan-dai-ly/desktop/hn-dealer-recipient-report-p12-session-expired-desktop-1920x1080-1b7fb81351.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "1b7fb8135114a07ee1957674bee31009aa0258369fa634c1b25ba286310dd4cb",
+        "sourcePaths": [
+          "bao_cao_xuat_theo_nguoi_nhan_dai_ly/update/HN-DEALER-RECIPIENT-REPORT-P12-session-expired-desktop-1920x1080.png"
+        ],
+        "stateCode": "P12",
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-tablet-1600x2560-d6141b8f79",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/d6141b8f799984e28b0342896dafdc49a3354ba58594888f7c5a185ea75b0287.png",
+      "original": {
+        "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-tablet-1600x2560-d6141b8f79",
+        "title": "HN DEALER RECIPIENT REPORT P12 session expired",
+        "fileName": "HN-DEALER-RECIPIENT-REPORT-P12-session-expired-tablet-1600x2560.png",
+        "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
+        "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/bao-cao-xuat-theo-nguoi-nhan-dai-ly/tablet/hn-dealer-recipient-report-p12-session-expired-tablet-1600x2560-d6141b8f79.png",
+        "thumb": "previews/drive-screens/thumbs/bao-cao-xuat-theo-nguoi-nhan-dai-ly/tablet/hn-dealer-recipient-report-p12-session-expired-tablet-1600x2560-d6141b8f79.webp",
+        "width": 1600,
+        "height": 2560,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "d6141b8f799984e28b0342896dafdc49a3354ba58594888f7c5a185ea75b0287",
+        "sourcePaths": [
+          "bao_cao_xuat_theo_nguoi_nhan_dai_ly/update/HN-DEALER-RECIPIENT-REPORT-P12-session-expired-tablet-1600x2560.png"
+        ],
+        "stateCode": "P12",
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0",
+      "render": {
+        "module": "warranty",
+        "state": "default",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/b15f1839b014158cbe2400a642081e20c58b735917d24354205def9ad1b6f509.png",
+      "original": {
+        "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0",
+        "title": "HN BAO HANH PHIEU XUAT LINH KIEN P01 DEFAULT",
+        "fileName": "HN_BAO_HANH_PHIEU_XUAT_LINH_KIEN_P01_DEFAULT_DESKTOP_1672x941_REVIEW.png",
+        "group": "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh",
+        "groupTitle": "Bảo hành sửa chữa · Phiếu xuất linh kiện",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/desktop/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0.png",
+        "thumb": "previews/drive-screens/thumbs/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/desktop/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "b15f1839b014158cbe2400a642081e20c58b735917d24354205def9ad1b6f509",
+        "sourcePaths": [
+          "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh/c0e60604-46de-4c86-8062-07102254c5b8.png"
+        ],
+        "stateCode": "P01",
+        "stateName": "DEFAULT"
+      },
+      "reason": "Wrong module artwork; restore warranty fixture contract"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f",
+      "render": {
+        "module": "warranty",
+        "state": "default",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/9cf17a7f2fb1b378894e3652eca2e09bd3c7a5ae73998410ab50933756c2e4f3.png",
+      "original": {
+        "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f",
+        "title": "HN BAO HANH PHIEU XUAT LINH KIEN P01 DEFAULT",
+        "fileName": "HN_BAO_HANH_PHIEU_XUAT_LINH_KIEN_P01_DEFAULT_TABLET_1600x2560_REVIEW.png",
+        "group": "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh",
+        "groupTitle": "Bảo hành sửa chữa · Phiếu xuất linh kiện",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/tablet/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f.png",
+        "thumb": "previews/drive-screens/thumbs/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/tablet/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f.webp",
+        "width": 1600,
+        "height": 2560,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "9cf17a7f2fb1b378894e3652eca2e09bd3c7a5ae73998410ab50933756c2e4f3",
+        "sourcePaths": [
+          "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh/380a919c-f250-41a9-a0a4-124b37266cd4.png"
+        ],
+        "stateCode": "P01",
+        "stateName": "DEFAULT"
+      },
+      "reason": "Wrong module artwork; restore warranty fixture contract"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-desktop-1920x1080-7bb5e725f2",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/7bb5e725f2af91fc8cbc5c4a677303c6c3fb41286d773c2e38f6e2b31336c06e.png",
+      "original": {
+        "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-desktop-1920x1080-7bb5e725f2",
+        "title": "HN DanhMuc DanhMucSanPham P16 401 SessionExpired",
+        "fileName": "HN_DanhMuc_DanhMucSanPham_P16_401_SessionExpired_Desktop_1920x1080.png",
+        "group": "danh_muc_san_pham",
+        "groupTitle": "Danh mục sản phẩm",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/danh-muc-san-pham/desktop/hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-desktop-1920x1080-7bb5e725f2.png",
+        "thumb": "previews/drive-screens/thumbs/danh-muc-san-pham/desktop/hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-desktop-1920x1080-7bb5e725f2.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "7bb5e725f2af91fc8cbc5c4a677303c6c3fb41286d773c2e38f6e2b31336c06e",
+        "sourcePaths": [
+          "danh_muc_san_pham/update/HN_DanhMuc_DanhMucSanPham_P16_401_SessionExpired_Desktop_1920x1080.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "401 SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-tablet-1600x2560-d7b4d24d8f",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/d7b4d24d8f6245b44f6fdab047e8be7b59b38fa9ae3802c6b9b581ef74be5de1.png",
+      "original": {
+        "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-tablet-1600x2560-d7b4d24d8f",
+        "title": "HN DanhMuc DanhMucSanPham P16 401 SessionExpired",
+        "fileName": "HN_DanhMuc_DanhMucSanPham_P16_401_SessionExpired_Tablet_1600x2560.png",
+        "group": "danh_muc_san_pham",
+        "groupTitle": "Danh mục sản phẩm",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/danh-muc-san-pham/tablet/hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-tablet-1600x2560-d7b4d24d8f.png",
+        "thumb": "previews/drive-screens/thumbs/danh-muc-san-pham/tablet/hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-tablet-1600x2560-d7b4d24d8f.webp",
+        "width": 1600,
+        "height": 2560,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "d7b4d24d8f6245b44f6fdab047e8be7b59b38fa9ae3802c6b9b581ef74be5de1",
+        "sourcePaths": [
+          "danh_muc_san_pham/update/HN_DanhMuc_DanhMucSanPham_P16_401_SessionExpired_Tablet_1600x2560.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "401 SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-desktop-1920x1080-2a1b75be70",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/2a1b75be70a8c1691439253ecf0cff41cc92b9b7a906bd0233cf4c4beb35b9cf.png",
+      "original": {
+        "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-desktop-1920x1080-2a1b75be70",
+        "title": "HN DanhMuc DanhSachSKU P16 401 SessionExpired",
+        "fileName": "HN_DanhMuc_DanhSachSKU_P16_401_SessionExpired_Desktop_1920x1080.png",
+        "group": "danh_sach_SKU",
+        "groupTitle": "Danh sách SKU",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/danh-sach-sku/desktop/hn-danhmuc-danhsachsku-p16-401-sessionexpired-desktop-1920x1080-2a1b75be70.png",
+        "thumb": "previews/drive-screens/thumbs/danh-sach-sku/desktop/hn-danhmuc-danhsachsku-p16-401-sessionexpired-desktop-1920x1080-2a1b75be70.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "2a1b75be70a8c1691439253ecf0cff41cc92b9b7a906bd0233cf4c4beb35b9cf",
+        "sourcePaths": [
+          "danh_sach_SKU/update/HN_DanhMuc_DanhSachSKU_P16_401_SessionExpired_Desktop_1920x1080.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "401 SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-tablet-1600x2560-e19dd26d76",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/e19dd26d76f23b75155c24c7f225b25a3d5bc0920f7cf311e3be408100321f44.png",
+      "original": {
+        "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-tablet-1600x2560-e19dd26d76",
+        "title": "HN DanhMuc DanhSachSKU P16 401 SessionExpired",
+        "fileName": "HN_DanhMuc_DanhSachSKU_P16_401_SessionExpired_Tablet_1600x2560.png",
+        "group": "danh_sach_SKU",
+        "groupTitle": "Danh sách SKU",
+        "device": "tablet",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/danh-sach-sku/tablet/hn-danhmuc-danhsachsku-p16-401-sessionexpired-tablet-1600x2560-e19dd26d76.png",
+        "thumb": "previews/drive-screens/thumbs/danh-sach-sku/tablet/hn-danhmuc-danhsachsku-p16-401-sessionexpired-tablet-1600x2560-e19dd26d76.webp",
+        "width": 1600,
+        "height": 2560,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "e19dd26d76f23b75155c24c7f225b25a3d5bc0920f7cf311e3be408100321f44",
+        "sourcePaths": [
+          "danh_sach_SKU/update/HN_DanhMuc_DanhSachSKU_P16_401_SessionExpired_Tablet_1600x2560.png"
+        ],
+        "stateCode": "P16",
+        "stateName": "401 SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-desktop-1672x941-review-12fef87b17",
+      "render": {
+        "module": "auth",
+        "state": "access-denied",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/12fef87b17e8d77b1649c6876836c639defff1a8ce2df3a9ed4d0e5dc708739e.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-desktop-1672x941-review-12fef87b17",
+        "title": "AUTH 02 access denied",
+        "fileName": "AUTH-02-access-denied-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-access-denied-desktop-1672x941-review-12fef87b17.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-access-denied-desktop-1672x941-review-12fef87b17.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "12fef87b17e8d77b1649c6876836c639defff1a8ce2df3a9ed4d0e5dc708739e",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-access-denied-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "ACCESS DENIED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-desktop-1672x941-review-0843dbedb4",
+      "render": {
+        "module": "auth",
+        "state": "account-unavailable",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/0843dbedb4a65dad4b7b28825703e415c07eb3ea7525c88184192d7c7c33b11c.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-desktop-1672x941-review-0843dbedb4",
+        "title": "AUTH 02 account unavailable",
+        "fileName": "AUTH-02-account-unavailable-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-account-unavailable-desktop-1672x941-review-0843dbedb4.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-account-unavailable-desktop-1672x941-review-0843dbedb4.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "0843dbedb4a65dad4b7b28825703e415c07eb3ea7525c88184192d7c7c33b11c",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-account-unavailable-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "ACCOUNT UNAVAILABLE"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-desktop-1672x941-review-1797ee3cb7",
+      "render": {
+        "module": "auth",
+        "state": "checking-session",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/1797ee3cb78a0549756d9ca778e112e46fcd207202e70acf231964c4ca907ed1.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-desktop-1672x941-review-1797ee3cb7",
+        "title": "AUTH 02 checking session",
+        "fileName": "AUTH-02-checking-session-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-checking-session-desktop-1672x941-review-1797ee3cb7.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-checking-session-desktop-1672x941-review-1797ee3cb7.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "1797ee3cb78a0549756d9ca778e112e46fcd207202e70acf231964c4ca907ed1",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-checking-session-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "CHECKING SESSION"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-desktop-1672x941-review-5defdeaabc",
+      "render": {
+        "module": "auth",
+        "state": "confirmation-failed",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/5defdeaabcd40b919e8bcf4290706f99a2a542e9b3c814d0f6893818778a22f5.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-desktop-1672x941-review-5defdeaabc",
+        "title": "AUTH 02 confirmation failed",
+        "fileName": "AUTH-02-confirmation-failed-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-confirmation-failed-desktop-1672x941-review-5defdeaabc.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-confirmation-failed-desktop-1672x941-review-5defdeaabc.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "5defdeaabcd40b919e8bcf4290706f99a2a542e9b3c814d0f6893818778a22f5",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-confirmation-failed-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "CONFIRMATION FAILED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-desktop-1672x941-review-89d43d813e",
+      "render": {
+        "module": "auth",
+        "state": "context-load-error",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/89d43d813eb2eaf8abc3336f05e66bd1433b03f4fa6261a9dd9ad99d0428b4cd.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-desktop-1672x941-review-89d43d813e",
+        "title": "AUTH 02 context load error",
+        "fileName": "AUTH-02-context-load-error-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-context-load-error-desktop-1672x941-review-89d43d813e.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-context-load-error-desktop-1672x941-review-89d43d813e.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "89d43d813eb2eaf8abc3336f05e66bd1433b03f4fa6261a9dd9ad99d0428b4cd",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-context-load-error-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "CONTEXT LOAD ERROR"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-desktop-1672x941-review-103573ab67",
+      "render": {
+        "module": "auth",
+        "state": "default",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/103573ab6762228c4b4318fc05a613cf00c5a91e60f74b5b777687407eef858c.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-desktop-1672x941-review-103573ab67",
+        "title": "AUTH 02 default",
+        "fileName": "AUTH-02-default-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-default-desktop-1672x941-review-103573ab67.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-default-desktop-1672x941-review-103573ab67.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "103573ab6762228c4b4318fc05a613cf00c5a91e60f74b5b777687407eef858c",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-default-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "DEFAULT"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-desktop-1672x941-review-3b5a164874",
+      "render": {
+        "module": "auth",
+        "state": "entering-system",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/3b5a164874003582399211e80dd9b61c6fe53e926da27f77f75af81785e29566.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-desktop-1672x941-review-3b5a164874",
+        "title": "AUTH 02 entering system",
+        "fileName": "AUTH-02-entering-system-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-entering-system-desktop-1672x941-review-3b5a164874.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-entering-system-desktop-1672x941-review-3b5a164874.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "3b5a164874003582399211e80dd9b61c6fe53e926da27f77f75af81785e29566",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-entering-system-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "ENTERING SYSTEM"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-desktop-1672x941-review-f05af59aac",
+      "render": {
+        "module": "auth",
+        "state": "offline-before-submit",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/f05af59aacd22bdc8bdaa47904f86e936f29a922e2d0f91143e6e75d3c8246b0.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-desktop-1672x941-review-f05af59aac",
+        "title": "AUTH 02 offline before submit",
+        "fileName": "AUTH-02-offline-before-submit-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-offline-before-submit-desktop-1672x941-review-f05af59aac.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-offline-before-submit-desktop-1672x941-review-f05af59aac.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "f05af59aacd22bdc8bdaa47904f86e936f29a922e2d0f91143e6e75d3c8246b0",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-offline-before-submit-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "OFFLINE BEFORE SUBMIT"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-desktop-1672x941-review-32ae0effd0",
+      "render": {
+        "module": "auth",
+        "state": "outcome-unknown",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/32ae0effd00e1fc0f10575ebbe21e8f34dc8698945f6d7d0a4f6a5a406c3ce10.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-desktop-1672x941-review-32ae0effd0",
+        "title": "AUTH 02 outcome unknown",
+        "fileName": "AUTH-02-outcome-unknown-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-outcome-unknown-desktop-1672x941-review-32ae0effd0.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-outcome-unknown-desktop-1672x941-review-32ae0effd0.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "32ae0effd00e1fc0f10575ebbe21e8f34dc8698945f6d7d0a4f6a5a406c3ce10",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-outcome-unknown-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "OUTCOME UNKNOWN"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-desktop-1672x941-review-be3ff092e7",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/be3ff092e787104d885dc01aa550be0a75f5d49470840dbd722495348a355659.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-desktop-1672x941-review-be3ff092e7",
+        "title": "AUTH 02 session expired",
+        "fileName": "AUTH-02-session-expired-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-session-expired-desktop-1672x941-review-be3ff092e7.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-session-expired-desktop-1672x941-review-be3ff092e7.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "be3ff092e787104d885dc01aa550be0a75f5d49470840dbd722495348a355659",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-session-expired-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-desktop-1672x941-review-d67fcd2efd",
+      "render": {
+        "module": "auth",
+        "state": "warehouse-suspended",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/d67fcd2efd5df92a47270e9124f9b93dce428f290201b88518400e55eae35ddf.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-desktop-1672x941-review-d67fcd2efd",
+        "title": "AUTH 02 warehouse suspended",
+        "fileName": "AUTH-02-warehouse-suspended-desktop-1672x941-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "desktop",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-warehouse-suspended-desktop-1672x941-review-d67fcd2efd.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/desktop/auth-02-warehouse-suspended-desktop-1672x941-review-d67fcd2efd.webp",
+        "width": 1672,
+        "height": 941,
+        "thumbWidth": 900,
+        "thumbHeight": 507,
+        "sha256": "d67fcd2efd5df92a47270e9124f9b93dce428f290201b88518400e55eae35ddf",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-warehouse-suspended-desktop-1672x941-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "WAREHOUSE SUSPENDED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-tablet-993x1584-review-0bc3a0221f",
+      "render": {
+        "module": "auth",
+        "state": "access-denied",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/0bc3a0221ffc34bcc8b4db05e527c189b6a856711ec370ee3365020c4ed63012.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-tablet-993x1584-review-0bc3a0221f",
+        "title": "AUTH 02 access denied",
+        "fileName": "AUTH-02-access-denied-tablet-993x1584-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-access-denied-tablet-993x1584-review-0bc3a0221f.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-access-denied-tablet-993x1584-review-0bc3a0221f.webp",
+        "width": 993,
+        "height": 1584,
+        "thumbWidth": 564,
+        "thumbHeight": 900,
+        "sha256": "0bc3a0221ffc34bcc8b4db05e527c189b6a856711ec370ee3365020c4ed63012",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-access-denied-tablet-993x1584-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "ACCESS DENIED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-tablet-992x1586-review-386726a4aa",
+      "render": {
+        "module": "auth",
+        "state": "account-unavailable",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/386726a4aa1960e2e111b0a78e33a412e76a5c6b3ba599dc6c4bae23cb513537.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-tablet-992x1586-review-386726a4aa",
+        "title": "AUTH 02 account unavailable",
+        "fileName": "AUTH-02-account-unavailable-tablet-992x1586-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-account-unavailable-tablet-992x1586-review-386726a4aa.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-account-unavailable-tablet-992x1586-review-386726a4aa.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "386726a4aa1960e2e111b0a78e33a412e76a5c6b3ba599dc6c4bae23cb513537",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-account-unavailable-tablet-992x1586-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "ACCOUNT UNAVAILABLE"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-tablet-992x1586-review-4a0a35efb3",
+      "render": {
+        "module": "auth",
+        "state": "checking-session",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/4a0a35efb3f06e126c9bf8ff5afe2fda4f3fe7fe717ca8b6ac8e0be3445d37ed.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-tablet-992x1586-review-4a0a35efb3",
+        "title": "AUTH 02 checking session",
+        "fileName": "AUTH-02-checking-session-tablet-992x1586-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-checking-session-tablet-992x1586-review-4a0a35efb3.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-checking-session-tablet-992x1586-review-4a0a35efb3.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "4a0a35efb3f06e126c9bf8ff5afe2fda4f3fe7fe717ca8b6ac8e0be3445d37ed",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-checking-session-tablet-992x1586-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "CHECKING SESSION"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-tablet-992x1586-review-01d3238eaa",
+      "render": {
+        "module": "auth",
+        "state": "confirmation-failed",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/01d3238eaaef97ba26c21b97c5b4be4d7a41863c4781c6aa6e5899bd9d8b38ba.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-tablet-992x1586-review-01d3238eaa",
+        "title": "AUTH 02 confirmation failed",
+        "fileName": "AUTH-02-confirmation-failed-tablet-992x1586-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-confirmation-failed-tablet-992x1586-review-01d3238eaa.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-confirmation-failed-tablet-992x1586-review-01d3238eaa.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "01d3238eaaef97ba26c21b97c5b4be4d7a41863c4781c6aa6e5899bd9d8b38ba",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-confirmation-failed-tablet-992x1586-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "CONFIRMATION FAILED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-tablet-992x1585-review-80d2de83e6",
+      "render": {
+        "module": "auth",
+        "state": "context-load-error",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/80d2de83e6f5bf6078a2709ee746a6cfdc0aa44b8a5163eb0356af2bbd8cf367.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-tablet-992x1585-review-80d2de83e6",
+        "title": "AUTH 02 context load error",
+        "fileName": "AUTH-02-context-load-error-tablet-992x1585-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-context-load-error-tablet-992x1585-review-80d2de83e6.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-context-load-error-tablet-992x1585-review-80d2de83e6.webp",
+        "width": 992,
+        "height": 1585,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "80d2de83e6f5bf6078a2709ee746a6cfdc0aa44b8a5163eb0356af2bbd8cf367",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-context-load-error-tablet-992x1585-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "CONTEXT LOAD ERROR"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-tablet-992x1586-review-58876e76d3",
+      "render": {
+        "module": "auth",
+        "state": "default",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/58876e76d375f1c8d488aeead78dc3525adf5a04599799b38acef33f52a725cb.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-tablet-992x1586-review-58876e76d3",
+        "title": "AUTH 02 default",
+        "fileName": "AUTH-02-default-tablet-992x1586-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-default-tablet-992x1586-review-58876e76d3.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-default-tablet-992x1586-review-58876e76d3.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "58876e76d375f1c8d488aeead78dc3525adf5a04599799b38acef33f52a725cb",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-default-tablet-992x1586-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "DEFAULT"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-tablet-992x1586-review-11161c93e5",
+      "render": {
+        "module": "auth",
+        "state": "entering-system",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/11161c93e5c61a829cc82ad266522290759dc6094cfe66290bd95081f4e28bef.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-tablet-992x1586-review-11161c93e5",
+        "title": "AUTH 02 entering system",
+        "fileName": "AUTH-02-entering-system-tablet-992x1586-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-entering-system-tablet-992x1586-review-11161c93e5.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-entering-system-tablet-992x1586-review-11161c93e5.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "11161c93e5c61a829cc82ad266522290759dc6094cfe66290bd95081f4e28bef",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-entering-system-tablet-992x1586-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "ENTERING SYSTEM"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-tablet-992x1585-review-29647fce89",
+      "render": {
+        "module": "auth",
+        "state": "offline-before-submit",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/29647fce89245a297c3f70b15ec0800151ecc634430bf8adcb49c3223d5740eb.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-tablet-992x1585-review-29647fce89",
+        "title": "AUTH 02 offline before submit",
+        "fileName": "AUTH-02-offline-before-submit-tablet-992x1585-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-offline-before-submit-tablet-992x1585-review-29647fce89.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-offline-before-submit-tablet-992x1585-review-29647fce89.webp",
+        "width": 992,
+        "height": 1585,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "29647fce89245a297c3f70b15ec0800151ecc634430bf8adcb49c3223d5740eb",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-offline-before-submit-tablet-992x1585-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "OFFLINE BEFORE SUBMIT"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-tablet-993x1584-review-b46c449a40",
+      "render": {
+        "module": "auth",
+        "state": "outcome-unknown",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/b46c449a40f02f2719ce5dab2d9b9745adaf37db5df0264d295f094d57fbe764.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-tablet-993x1584-review-b46c449a40",
+        "title": "AUTH 02 outcome unknown",
+        "fileName": "AUTH-02-outcome-unknown-tablet-993x1584-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-outcome-unknown-tablet-993x1584-review-b46c449a40.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-outcome-unknown-tablet-993x1584-review-b46c449a40.webp",
+        "width": 993,
+        "height": 1584,
+        "thumbWidth": 564,
+        "thumbHeight": 900,
+        "sha256": "b46c449a40f02f2719ce5dab2d9b9745adaf37db5df0264d295f094d57fbe764",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-outcome-unknown-tablet-993x1584-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "OUTCOME UNKNOWN"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-tablet-992x1586-review-be91eb684a",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/be91eb684a8aad6ae9367c56aec11f743e93ba1366d2911269a8bec220801636.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-tablet-992x1586-review-be91eb684a",
+        "title": "AUTH 02 session expired",
+        "fileName": "AUTH-02-session-expired-tablet-992x1586-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-session-expired-tablet-992x1586-review-be91eb684a.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-session-expired-tablet-992x1586-review-be91eb684a.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "be91eb684a8aad6ae9367c56aec11f743e93ba1366d2911269a8bec220801636",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-session-expired-tablet-992x1586-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-tablet-992x1586-review-d213f0ad40",
+      "render": {
+        "module": "auth",
+        "state": "warehouse-suspended",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/d213f0ad40a75a97dec09671d70a3cd2d5405e08d0615ea4c3b0934b75102f73.png",
+      "original": {
+        "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-tablet-992x1586-review-d213f0ad40",
+        "title": "AUTH 02 warehouse suspended",
+        "fileName": "AUTH-02-warehouse-suspended-tablet-992x1586-review.png",
+        "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+        "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-warehouse-suspended-tablet-992x1586-review-d213f0ad40.png",
+        "thumb": "previews/drive-screens/thumbs/dang-nhap-phien-lam-viec-phien-lam-viec/tablet/auth-02-warehouse-suspended-tablet-992x1586-review-d213f0ad40.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "d213f0ad40a75a97dec09671d70a3cd2d5405e08d0615ea4c3b0934b75102f73",
+        "sourcePaths": [
+          "dang_nhap& phien_lam_viec/phien_lam_viec/update/AUTH-02-warehouse-suspended-tablet-992x1586-review.png"
+        ],
+        "stateCode": null,
+        "stateName": "WAREHOUSE SUSPENDED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-ton-kho-doi-soat-hn-tkds-p12-session-expired-desktop-1920x1080-b3011f6902",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/drive/b3011f6902509780336fbfbde3e2913b47ed9c37abb10aaa0c32ee1a1cf56a02.png",
+      "original": {
+        "id": "drive-ton-kho-doi-soat-hn-tkds-p12-session-expired-desktop-1920x1080-b3011f6902",
+        "title": "HN TKDS P12 session expired",
+        "fileName": "HN-TKDS-P12-session-expired-desktop-1920x1080.png",
+        "group": "ton_kho&doi_soat",
+        "groupTitle": "Tồn kho & đối soát",
+        "device": "desktop",
+        "stage": "delivery",
+        "src": "previews/drive-screens/originals/ton-kho-doi-soat/desktop/hn-tkds-p12-session-expired-desktop-1920x1080-b3011f6902.png",
+        "thumb": "previews/drive-screens/thumbs/ton-kho-doi-soat/desktop/hn-tkds-p12-session-expired-desktop-1920x1080-b3011f6902.webp",
+        "width": 1920,
+        "height": 1080,
+        "thumbWidth": 900,
+        "thumbHeight": 506,
+        "sha256": "b3011f6902509780336fbfbde3e2913b47ed9c37abb10aaa0c32ee1a1cf56a02",
+        "sourcePaths": [
+          "ton_kho&doi_soat/update/HN-TKDS-P12-session-expired-desktop-1920x1080.png"
+        ],
+        "stateCode": "P12",
+        "stateName": "SESSION EXPIRED"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "id": "drive-ton-kho-doi-soat-hn-tkds-p12-session-expired-tablet-992x1586-review-c6e6cc339c",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/drive/c6e6cc339c08255bde32d982a3ee00dd3b861c2bc0385b248e8af97a638f9619.png",
+      "original": {
+        "id": "drive-ton-kho-doi-soat-hn-tkds-p12-session-expired-tablet-992x1586-review-c6e6cc339c",
+        "title": "HN TKDS P12 session expired",
+        "fileName": "HN_TKDS_P12_session_expired_TABLET_992x1586_REVIEW.png",
+        "group": "ton_kho&doi_soat",
+        "groupTitle": "Tồn kho & đối soát",
+        "device": "tablet",
+        "stage": "review",
+        "src": "previews/drive-screens/originals/ton-kho-doi-soat/tablet/hn-tkds-p12-session-expired-tablet-992x1586-review-c6e6cc339c.png",
+        "thumb": "previews/drive-screens/thumbs/ton-kho-doi-soat/tablet/hn-tkds-p12-session-expired-tablet-992x1586-review-c6e6cc339c.webp",
+        "width": 992,
+        "height": 1586,
+        "thumbWidth": 563,
+        "thumbHeight": 900,
+        "sha256": "c6e6cc339c08255bde32d982a3ee00dd3b861c2bc0385b248e8af97a638f9619",
+        "sourcePaths": [
+          "design-supplements/HN_TKDS_P12_SESSION_EXPIRED_TABLET_REVIEW.png"
+        ],
+        "stateCode": "P12",
+        "stateName": "SESSION EXPIRED",
+        "origin": "ai-supplement",
+        "reviewStatus": "needs-owner-review",
+        "designReferences": [
+          "ton_kho&doi_soat/update/HN-TKDS-P12-session-expired-desktop-1920x1080.png",
+          "ton_kho&doi_soat/update/HN-TKDS-P11-server-error-tablet-1600x2560.png"
+        ],
+        "promptId": "tkds-p12-tablet"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "id": "AUTH-02-xac-nhan-phien-desktop-1920x1080",
+      "render": {
+        "module": "auth",
+        "state": "default",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/610efca5de40de9c4157da3954fd01da406bdaacbc93a5d45703fb7c867cf546.png",
+      "original": {
+        "id": "AUTH-02-xac-nhan-phien-desktop-1920x1080",
+        "title": "AUTH-02 · Xác nhận phiên",
+        "src": "previews/auth-png/desktop/AUTH-02-xac-nhan-phien-desktop-1920x1080.png",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "610efca5de40de9c4157da3954fd01da406bdaacbc93a5d45703fb7c867cf546",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "id": "AUTH-02-xac-nhan-phien-starting-desktop-1920x1080",
+      "render": {
+        "module": "auth",
+        "state": "entering-system",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/8ddd4fda95194bbc23badbf94f2eefbdebfb07e1213572afe63247dccacd9e84.png",
+      "original": {
+        "id": "AUTH-02-xac-nhan-phien-starting-desktop-1920x1080",
+        "title": "AUTH-02 · Đang bắt đầu ca",
+        "src": "previews/auth-png/desktop/AUTH-02-xac-nhan-phien-starting-desktop-1920x1080.png",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "8ddd4fda95194bbc23badbf94f2eefbdebfb07e1213572afe63247dccacd9e84",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "id": "AUTH-02-xac-nhan-phien-expired-desktop-1920x1080",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/9f9822e6a6713aba0511b14df2410bf7561a75082e099439d205d79dcb272308.png",
+      "original": {
+        "id": "AUTH-02-xac-nhan-phien-expired-desktop-1920x1080",
+        "title": "AUTH-02 · Phiên hết hạn",
+        "src": "previews/auth-png/desktop/AUTH-02-xac-nhan-phien-expired-desktop-1920x1080.png",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "9f9822e6a6713aba0511b14df2410bf7561a75082e099439d205d79dcb272308",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "id": "AUTH-02-xac-nhan-phien-tablet-1440x2048",
+      "render": {
+        "module": "auth",
+        "state": "default",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/773649b1f3b5970b8a38ad628176ffa36ea05f1a8e7428502af2069fa05e140d.png",
+      "original": {
+        "id": "AUTH-02-xac-nhan-phien-tablet-1440x2048",
+        "title": "AUTH-02 · Xác nhận phiên",
+        "src": "previews/auth-png/tablet/AUTH-02-xac-nhan-phien-tablet-1440x2048.png",
+        "device": "tablet",
+        "width": 1440,
+        "height": 2048,
+        "sha256": "773649b1f3b5970b8a38ad628176ffa36ea05f1a8e7428502af2069fa05e140d",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "id": "AUTH-02-xac-nhan-phien-starting-tablet-1440x2048",
+      "render": {
+        "module": "auth",
+        "state": "entering-system",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/3bfdbd99256f13fa5961897386f86b2bc9be4dc9bb3da4630549607a7b5320ae.png",
+      "original": {
+        "id": "AUTH-02-xac-nhan-phien-starting-tablet-1440x2048",
+        "title": "AUTH-02 · Đang bắt đầu ca",
+        "src": "previews/auth-png/tablet/AUTH-02-xac-nhan-phien-starting-tablet-1440x2048.png",
+        "device": "tablet",
+        "width": 1440,
+        "height": 2048,
+        "sha256": "3bfdbd99256f13fa5961897386f86b2bc9be4dc9bb3da4630549607a7b5320ae",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "id": "AUTH-02-xac-nhan-phien-expired-tablet-1440x2048",
+      "render": {
+        "module": "auth",
+        "state": "session-expired",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/557183a2a6cd08981087937d07baab23befc023864c0b70f14b6ecdd6af3ecb5.png",
+      "original": {
+        "id": "AUTH-02-xac-nhan-phien-expired-tablet-1440x2048",
+        "title": "AUTH-02 · Phiên hết hạn",
+        "src": "previews/auth-png/tablet/AUTH-02-xac-nhan-phien-expired-tablet-1440x2048.png",
+        "device": "tablet",
+        "width": 1440,
+        "height": 2048,
+        "sha256": "557183a2a6cd08981087937d07baab23befc023864c0b70f14b6ecdd6af3ecb5",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-01-default-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "default",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/7ef460ea75c671e19096c35b498b51d13887297388eead99349e22686e3eb25f.jpg",
+      "original": {
+        "id": "overview-state-01-default-desktop-1920x1080",
+        "title": "MAP-01 · Mặc định",
+        "src": "previews/overview-jpg/desktop/overview-state-01-default-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7ef460ea75c671e19096c35b498b51d13887297388eead99349e22686e3eb25f",
+        "provenance": "User-approved MAP-01 replacement set · 2026-09-21"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-01-loading-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "loading",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/bb13ad9b058b98fc5e0fefe618e2ebe965dd79dd752bb3d9e604e89f7e7d3534.jpg",
+      "original": {
+        "id": "overview-state-01-loading-desktop-1920x1080",
+        "title": "MAP-01 · Đang tải",
+        "src": "previews/overview-jpg/desktop/overview-state-01-loading-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "bb13ad9b058b98fc5e0fefe618e2ebe965dd79dd752bb3d9e604e89f7e7d3534",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-02-empty-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "empty",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/ebcf625b63b5bc018a971855a9f3f385ad0deb9b44b3f72ac25e353f29acf7f0.jpg",
+      "original": {
+        "id": "overview-state-02-empty-desktop-1920x1080",
+        "title": "MAP-01 · Chưa có dữ liệu",
+        "src": "previews/overview-jpg/desktop/overview-state-02-empty-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "ebcf625b63b5bc018a971855a9f3f385ad0deb9b44b3f72ac25e353f29acf7f0",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-03-error-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "error",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/57a6da29d550e985fe3deb0eca66b21fad581e7ff762bff97fc8fcc527bddbf6.jpg",
+      "original": {
+        "id": "overview-state-03-error-desktop-1920x1080",
+        "title": "MAP-01 · Lỗi tải dữ liệu",
+        "src": "previews/overview-jpg/desktop/overview-state-03-error-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "57a6da29d550e985fe3deb0eca66b21fad581e7ff762bff97fc8fcc527bddbf6",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-04-permission-denied-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "permission-denied",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/17f85509a3c7f63226949a170872cfd9237253ccc983ecccb8d7f2e0a490cbed.jpg",
+      "original": {
+        "id": "overview-state-04-permission-denied-desktop-1920x1080",
+        "title": "MAP-01 · Không có quyền truy cập",
+        "src": "previews/overview-jpg/desktop/overview-state-04-permission-denied-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "17f85509a3c7f63226949a170872cfd9237253ccc983ecccb8d7f2e0a490cbed",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-05-pending-approval-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "pending",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/c37b428d178e50dd02e69840d7c2311f4b107ffd4fb801e648bf71498d8ce403.jpg",
+      "original": {
+        "id": "overview-state-05-pending-approval-desktop-1920x1080",
+        "title": "MAP-01 · Chờ duyệt",
+        "src": "previews/overview-jpg/desktop/overview-state-05-pending-approval-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "c37b428d178e50dd02e69840d7c2311f4b107ffd4fb801e648bf71498d8ce403",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-06-processing-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "processing",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/5c2aa774137b8fee93cfc27b1088b9919ed4c4f94550fc2815ebe2e856f1218a.jpg",
+      "original": {
+        "id": "overview-state-06-processing-desktop-1920x1080",
+        "title": "MAP-01 · Đang xử lý",
+        "src": "previews/overview-jpg/desktop/overview-state-06-processing-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "5c2aa774137b8fee93cfc27b1088b9919ed4c4f94550fc2815ebe2e856f1218a",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-07-completed-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "completed",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/32b6d8370216d2fced8fb6a833d54011f7bfa9fa4f761aafc55b23cc78f4fd31.jpg",
+      "original": {
+        "id": "overview-state-07-completed-desktop-1920x1080",
+        "title": "MAP-01 · Hoàn thành",
+        "src": "previews/overview-jpg/desktop/overview-state-07-completed-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "32b6d8370216d2fced8fb6a833d54011f7bfa9fa4f761aafc55b23cc78f4fd31",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-08-overdue-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "overdue",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/0f03b6d067316207a29c5a0961d5d15f860d03d73a9ee7ad567e550361950bec.jpg",
+      "original": {
+        "id": "overview-state-08-overdue-desktop-1920x1080",
+        "title": "MAP-01 · Quá hạn",
+        "src": "previews/overview-jpg/desktop/overview-state-08-overdue-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "0f03b6d067316207a29c5a0961d5d15f860d03d73a9ee7ad567e550361950bec",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-09-urgent-desktop-1920x1080",
+      "render": {
+        "module": "overview",
+        "state": "urgent",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/bf850345d2d0c2eb31d3ccd51b05219f5f9099e572d7201c48777451c4e26eb7.jpg",
+      "original": {
+        "id": "overview-state-09-urgent-desktop-1920x1080",
+        "title": "MAP-01 · Khẩn cấp",
+        "src": "previews/overview-jpg/desktop/overview-state-09-urgent-desktop-1920x1080.jpg",
+        "device": "desktop",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "bf850345d2d0c2eb31d3ccd51b05219f5f9099e572d7201c48777451c4e26eb7",
+        "provenance": "Existing gallery original; unchanged bytes"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-01",
+      "render": {
+        "module": "filter",
+        "state": "1",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/33b18b2f2df8b76ac6b65046173f9665ffd8543022cabbc2e92ab0590724a33f.png",
+      "original": {
+        "id": "filter-desktop-01",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-01-default-7d-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "33b18b2f2df8b76ac6b65046173f9665ffd8543022cabbc2e92ab0590724a33f",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-01-default-7d-desktop-1920x1080.png",
+        "title": "MAP-01-01 · Mặc định · 7 ngày"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-02",
+      "render": {
+        "module": "filter",
+        "state": "2",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/ddfe21a1a77ff44d1989cb4cf064568848c99ee583020c2190b84e756f44ce2d.png",
+      "original": {
+        "id": "filter-desktop-02",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-02-hover-focus-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "ddfe21a1a77ff44d1989cb4cf064568848c99ee583020c2190b84e756f44ce2d",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-02-hover-focus-desktop-1920x1080.png",
+        "title": "MAP-01-02 · Hover / Focus"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-03",
+      "render": {
+        "module": "filter",
+        "state": "3",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/ab4da92b74d5a25a531b02017d6c79e61e495392cf84f58b84177e50a81ca3f0.png",
+      "original": {
+        "id": "filter-desktop-03",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-03-open-menu-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "ab4da92b74d5a25a531b02017d6c79e61e495392cf84f58b84177e50a81ca3f0",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-03-open-menu-desktop-1920x1080.png",
+        "title": "MAP-01-03 · Mở menu"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-04",
+      "render": {
+        "module": "filter",
+        "state": "4",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/af85e98873202b40166b2f1ecfb62e622ba3984c3c174d9b907627e9a4928661.png",
+      "original": {
+        "id": "filter-desktop-04",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-04-selected-14d-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "af85e98873202b40166b2f1ecfb62e622ba3984c3c174d9b907627e9a4928661",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-04-selected-14d-desktop-1920x1080.png",
+        "title": "MAP-01-04 · Đã chọn · 14 ngày"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-05",
+      "render": {
+        "module": "filter",
+        "state": "5",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/4a6a2d606e86e6f99e5fc2bedf9447cfdac375be87dfbe1d26877ceb2a9bb5c6.png",
+      "original": {
+        "id": "filter-desktop-05",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-05-selected-30d-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "4a6a2d606e86e6f99e5fc2bedf9447cfdac375be87dfbe1d26877ceb2a9bb5c6",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-05-selected-30d-desktop-1920x1080.png",
+        "title": "MAP-01-05 · Đã chọn · 30 ngày"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-06",
+      "render": {
+        "module": "filter",
+        "state": "6",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/dd14ba0fa67d1d30780879bda4efcf1b6bb6dd9019c4b133b3c359239160ce2b.png",
+      "original": {
+        "id": "filter-desktop-06",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-06-custom-picker-open-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "dd14ba0fa67d1d30780879bda4efcf1b6bb6dd9019c4b133b3c359239160ce2b",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-06-custom-picker-open-desktop-1920x1080.png",
+        "title": "MAP-01-06 · Tùy chỉnh · Mở picker"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-07",
+      "render": {
+        "module": "filter",
+        "state": "7",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/1c046fada318ca6820a62650f8f0da98dbf03690a8a6e22305b662e8746b89cc.png",
+      "original": {
+        "id": "filter-desktop-07",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-07-custom-picker-invalid-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "1c046fada318ca6820a62650f8f0da98dbf03690a8a6e22305b662e8746b89cc",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-07-custom-picker-invalid-desktop-1920x1080.png",
+        "title": "MAP-01-07 · Tùy chỉnh · Không hợp lệ"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-08",
+      "render": {
+        "module": "filter",
+        "state": "8",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/9eaa572b114785a5cceecbd2f4bc5b66f3701a8afdc705ecb0c8c1da8494fce8.png",
+      "original": {
+        "id": "filter-desktop-08",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-08-custom-range-applied-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "9eaa572b114785a5cceecbd2f4bc5b66f3701a8afdc705ecb0c8c1da8494fce8",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-08-custom-range-applied-desktop-1920x1080.png",
+        "title": "MAP-01-08 · Tùy chỉnh · Đã áp dụng"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-09",
+      "render": {
+        "module": "filter",
+        "state": "9",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/716df357ec5815c3ac5298f571a6471fba72fdd801fd3ed5217b0e3e0107bba8.png",
+      "original": {
+        "id": "filter-desktop-09",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-09-tooltip-hover-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "716df357ec5815c3ac5298f571a6471fba72fdd801fd3ed5217b0e3e0107bba8",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-09-tooltip-hover-desktop-1920x1080.png",
+        "title": "MAP-01-09 · Tooltip biểu đồ"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-10",
+      "render": {
+        "module": "filter",
+        "state": "10",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/5ef297510c194eac4d318a600db5e4bea82f29b99d26e0213601d7c559ee17b9.png",
+      "original": {
+        "id": "filter-desktop-10",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-10-filter-loading-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "5ef297510c194eac4d318a600db5e4bea82f29b99d26e0213601d7c559ee17b9",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-10-filter-loading-desktop-1920x1080.png",
+        "title": "MAP-01-10 · Loading"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-11",
+      "render": {
+        "module": "filter",
+        "state": "11",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/6450b1b95f89909f335ca45440b06301c2bd75235bde9fad558b54942974b386.png",
+      "original": {
+        "id": "filter-desktop-11",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-11-filter-empty-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "6450b1b95f89909f335ca45440b06301c2bd75235bde9fad558b54942974b386",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-11-filter-empty-desktop-1920x1080.png",
+        "title": "MAP-01-11 · Empty"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-12",
+      "render": {
+        "module": "filter",
+        "state": "12",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/0fe4f80b227d2323eda865c7815df7f20f6c1a538a0b81f844f0158f0a5b833f.png",
+      "original": {
+        "id": "filter-desktop-12",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-12-filter-error-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "0fe4f80b227d2323eda865c7815df7f20f6c1a538a0b81f844f0158f0a5b833f",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-12-filter-error-desktop-1920x1080.png",
+        "title": "MAP-01-12 · Error"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-desktop-13",
+      "render": {
+        "module": "filter",
+        "state": "13",
+        "device": "desktop"
+      },
+      "archived": "design-archive/business-v1/main/bfaaf8236e9188985e7b961c8823a53c138f8dd86fc4c178a5206084c0574495.png",
+      "original": {
+        "id": "filter-desktop-13",
+        "device": "desktop",
+        "src": "previews/overview-filter-v2/originals/desktop/MAP-01-13-filter-permission-denied-desktop-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "cssWidth": 1920,
+        "cssHeight": 1080,
+        "sha256": "bfaaf8236e9188985e7b961c8823a53c138f8dd86fc4c178a5206084c0574495",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-13-filter-permission-denied-desktop-1920x1080.png",
+        "title": "MAP-01-13 · Permission denied"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-01-default-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "default",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/e116deed89c71e77a1640a65442497862a30ff1f6adbb9146cc1c8658219dc89.jpg",
+      "original": {
+        "id": "overview-state-01-default-tablet-1600x2560",
+        "title": "MAP-01 · Mặc định",
+        "src": "previews/overview-jpg/tablet/overview-state-01-default-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "e116deed89c71e77a1640a65442497862a30ff1f6adbb9146cc1c8658219dc89",
+        "provenance": "User-approved MAP-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-01-loading-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "loading",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/4dca6c507da24de45e3214796d0f352056651c0dd5e9b9bbebef9d62bdb56492.jpg",
+      "original": {
+        "id": "overview-state-01-loading-tablet-1600x2560",
+        "title": "MAP-01 · Đang tải",
+        "src": "previews/overview-jpg/tablet/overview-state-01-loading-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "4dca6c507da24de45e3214796d0f352056651c0dd5e9b9bbebef9d62bdb56492",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-02-empty-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "empty",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/e1f131aad372463c16571a13a1aea183020a57a42075e4fc62567c47ab847e8f.jpg",
+      "original": {
+        "id": "overview-state-02-empty-tablet-1600x2560",
+        "title": "MAP-01 · Chưa có dữ liệu",
+        "src": "previews/overview-jpg/tablet/overview-state-02-empty-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "e1f131aad372463c16571a13a1aea183020a57a42075e4fc62567c47ab847e8f",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-03-error-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "error",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/9a838e0458f403846e5eb9ac8e141e39ecfedeada9d95b95bff98b1328ae7cc4.jpg",
+      "original": {
+        "id": "overview-state-03-error-tablet-1600x2560",
+        "title": "MAP-01 · Lỗi tải dữ liệu",
+        "src": "previews/overview-jpg/tablet/overview-state-03-error-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "9a838e0458f403846e5eb9ac8e141e39ecfedeada9d95b95bff98b1328ae7cc4",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-04-permission-denied-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "permission-denied",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/6281a6c0e5aa91f0fc2b293e53d8f645ab1cbfdbef826f851d42be0d2fb38c8d.jpg",
+      "original": {
+        "id": "overview-state-04-permission-denied-tablet-1600x2560",
+        "title": "MAP-01 · Không có quyền truy cập",
+        "src": "previews/overview-jpg/tablet/overview-state-04-permission-denied-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "6281a6c0e5aa91f0fc2b293e53d8f645ab1cbfdbef826f851d42be0d2fb38c8d",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-05-pending-approval-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "pending",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/53627c2c861764d7fa67ff0be81b0f3cedfbbef6de2765ad923d3f249f575138.jpg",
+      "original": {
+        "id": "overview-state-05-pending-approval-tablet-1600x2560",
+        "title": "MAP-01 · Chờ duyệt",
+        "src": "previews/overview-jpg/tablet/overview-state-05-pending-approval-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "53627c2c861764d7fa67ff0be81b0f3cedfbbef6de2765ad923d3f249f575138",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-06-processing-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "processing",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/6adb41e067cd9c2a402809def75dcf51135f14923ca03f6780ae3010777237b2.jpg",
+      "original": {
+        "id": "overview-state-06-processing-tablet-1600x2560",
+        "title": "MAP-01 · Đang xử lý",
+        "src": "previews/overview-jpg/tablet/overview-state-06-processing-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "6adb41e067cd9c2a402809def75dcf51135f14923ca03f6780ae3010777237b2",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-07-completed-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "completed",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/0fe4580fb5e2ff130cb99ea02a59f83e9560fa50c2ba8c124be4ec8fc7dea608.jpg",
+      "original": {
+        "id": "overview-state-07-completed-tablet-1600x2560",
+        "title": "MAP-01 · Hoàn thành",
+        "src": "previews/overview-jpg/tablet/overview-state-07-completed-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "0fe4580fb5e2ff130cb99ea02a59f83e9560fa50c2ba8c124be4ec8fc7dea608",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-08-overdue-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "overdue",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/3840c3b7226e8f48ec713103ae708695762c1dec719354e64f0363990e16d0f5.jpg",
+      "original": {
+        "id": "overview-state-08-overdue-tablet-1600x2560",
+        "title": "MAP-01 · Quá hạn",
+        "src": "previews/overview-jpg/tablet/overview-state-08-overdue-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "3840c3b7226e8f48ec713103ae708695762c1dec719354e64f0363990e16d0f5",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "overview-state-09-urgent-tablet-1600x2560",
+      "render": {
+        "module": "overview",
+        "state": "urgent",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/7481b92b48707effeb7c651dfc298681cc6a3f9bf4fe70eaca26a7ea1fe2443b.jpg",
+      "original": {
+        "id": "overview-state-09-urgent-tablet-1600x2560",
+        "title": "MAP-01 · Khẩn cấp",
+        "src": "previews/overview-jpg/tablet/overview-state-09-urgent-tablet-1600x2560.jpg",
+        "device": "tablet",
+        "width": 1600,
+        "height": 2560,
+        "sha256": "7481b92b48707effeb7c651dfc298681cc6a3f9bf4fe70eaca26a7ea1fe2443b",
+        "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
+        "cssWidth": 800,
+        "cssHeight": 1280
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-01",
+      "render": {
+        "module": "filter",
+        "state": "1",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/e0da968decb09673e8f7c75de1d0f0e282b506b2fe44c99d9093768b306c67b4.png",
+      "original": {
+        "id": "filter-tablet-01",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-01-default-7d-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "e0da968decb09673e8f7c75de1d0f0e282b506b2fe44c99d9093768b306c67b4",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-01-default-7d-tablet-1600x2560.png",
+        "title": "MAP-01-01 · Mặc định · 7 ngày"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-02",
+      "render": {
+        "module": "filter",
+        "state": "2",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/cf8393b556f0206ead012910f7a304599a3f43977cb1a5c3d09bfd5e4dc3ee4f.png",
+      "original": {
+        "id": "filter-tablet-02",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-02-hover-focus-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "cf8393b556f0206ead012910f7a304599a3f43977cb1a5c3d09bfd5e4dc3ee4f",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-02-hover-focus-tablet-1600x2560.png",
+        "title": "MAP-01-02 · Hover / Focus"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-03",
+      "render": {
+        "module": "filter",
+        "state": "3",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/84871e3c07b76a434db0ddaa59b47a85d9c3f2f3bf1bd61a842289830e16dcaf.png",
+      "original": {
+        "id": "filter-tablet-03",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-03-open-menu-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "84871e3c07b76a434db0ddaa59b47a85d9c3f2f3bf1bd61a842289830e16dcaf",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-03-open-menu-tablet-1600x2560.png",
+        "title": "MAP-01-03 · Mở menu"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-04",
+      "render": {
+        "module": "filter",
+        "state": "4",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/4761bfbce9751c59d0ce440330563c19322ac387f7eb671ee4d3a96e0f5bdfcc.png",
+      "original": {
+        "id": "filter-tablet-04",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-04-selected-14d-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "4761bfbce9751c59d0ce440330563c19322ac387f7eb671ee4d3a96e0f5bdfcc",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-04-selected-14d-tablet-1600x2560.png",
+        "title": "MAP-01-04 · Đã chọn · 14 ngày"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-05",
+      "render": {
+        "module": "filter",
+        "state": "5",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/f6905194c4dc02f35e4be7c61dc1c7771140cc39cb8b215232082e33f06a9b2b.png",
+      "original": {
+        "id": "filter-tablet-05",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-05-selected-30d-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "f6905194c4dc02f35e4be7c61dc1c7771140cc39cb8b215232082e33f06a9b2b",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-05-selected-30d-tablet-1600x2560.png",
+        "title": "MAP-01-05 · Đã chọn · 30 ngày"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-06",
+      "render": {
+        "module": "filter",
+        "state": "6",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/b0b72e7a856037a799692ec11f33ae4ce8a3c619bc2f0949e1f023b2a42a9f70.png",
+      "original": {
+        "id": "filter-tablet-06",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-06-custom-picker-open-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "b0b72e7a856037a799692ec11f33ae4ce8a3c619bc2f0949e1f023b2a42a9f70",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-06-custom-picker-open-tablet-1600x2560.png",
+        "title": "MAP-01-06 · Tùy chỉnh · Mở picker"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-07",
+      "render": {
+        "module": "filter",
+        "state": "7",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/495e6c23cadc373e7b578c31c97b71eb1158fc6f2594b61b1cc7e4618f7d165e.png",
+      "original": {
+        "id": "filter-tablet-07",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-07-custom-picker-invalid-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "495e6c23cadc373e7b578c31c97b71eb1158fc6f2594b61b1cc7e4618f7d165e",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-07-custom-picker-invalid-tablet-1600x2560.png",
+        "title": "MAP-01-07 · Tùy chỉnh · Không hợp lệ"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-08",
+      "render": {
+        "module": "filter",
+        "state": "8",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/85673231ee87221b2870b7e18a4be9e35f08a20ba74291e3ac9ac9a158d1e7bd.png",
+      "original": {
+        "id": "filter-tablet-08",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-08-custom-range-applied-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "85673231ee87221b2870b7e18a4be9e35f08a20ba74291e3ac9ac9a158d1e7bd",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-08-custom-range-applied-tablet-1600x2560.png",
+        "title": "MAP-01-08 · Tùy chỉnh · Đã áp dụng"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-09",
+      "render": {
+        "module": "filter",
+        "state": "9",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/38c61bdd6341cb471db565700058c235a281ffd5baf1f6f09e6f4a9891cb7067.png",
+      "original": {
+        "id": "filter-tablet-09",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-09-tooltip-hover-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "38c61bdd6341cb471db565700058c235a281ffd5baf1f6f09e6f4a9891cb7067",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-09-tooltip-hover-tablet-1600x2560.png",
+        "title": "MAP-01-09 · Tooltip biểu đồ"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-10",
+      "render": {
+        "module": "filter",
+        "state": "10",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/2dee1a2b6e2e6a09f46dd610f6fb84e6d3b68b7e8b424775bbf806e195f03117.png",
+      "original": {
+        "id": "filter-tablet-10",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-10-filter-loading-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "2dee1a2b6e2e6a09f46dd610f6fb84e6d3b68b7e8b424775bbf806e195f03117",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-10-filter-loading-tablet-1600x2560.png",
+        "title": "MAP-01-10 · Loading"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-11",
+      "render": {
+        "module": "filter",
+        "state": "11",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/3a31eb5ee07e16721a09ab7f640f87cb4ab4d7fabf460e88aadfc315b0ccde45.png",
+      "original": {
+        "id": "filter-tablet-11",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-11-filter-empty-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "3a31eb5ee07e16721a09ab7f640f87cb4ab4d7fabf460e88aadfc315b0ccde45",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-11-filter-empty-tablet-1600x2560.png",
+        "title": "MAP-01-11 · Empty"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-12",
+      "render": {
+        "module": "filter",
+        "state": "12",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/dc00b22579a334c880fc01b89740e526f3d607842454c800d2bd0dfe0a33aabd.png",
+      "original": {
+        "id": "filter-tablet-12",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-12-filter-error-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "dc00b22579a334c880fc01b89740e526f3d607842454c800d2bd0dfe0a33aabd",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-12-filter-error-tablet-1600x2560.png",
+        "title": "MAP-01-12 · Error"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "id": "filter-tablet-13",
+      "render": {
+        "module": "filter",
+        "state": "13",
+        "device": "tablet"
+      },
+      "archived": "design-archive/business-v1/main/6739c9d2663fbb05f1f211999733fb6c442afe5e7af936f37c13858d13450a4d.png",
+      "original": {
+        "id": "filter-tablet-13",
+        "device": "tablet",
+        "src": "previews/overview-filter-v2/originals/tablet/MAP-01-13-filter-permission-denied-tablet-1600x2560.png",
+        "width": 1600,
+        "height": 2560,
+        "cssWidth": 800,
+        "cssHeight": 1280,
+        "sha256": "6739c9d2663fbb05f1f211999733fb6c442afe5e7af936f37c13858d13450a4d",
+        "provenance": "HN-WMS-OVERVIEW-FILTER-STATES-v2/ASSET-MANIFEST.csv:MAP-01-13-filter-permission-denied-tablet-1600x2560.png",
+        "title": "MAP-01-13 · Permission denied"
+      },
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Rà soát và bổ sung trạng thái · 22/09/2026
 
+> Hồ sơ lịch sử của commit da7ea46. Sau audit UI/UX, đợt sửa nghiệp vụ mới đã thay một phần ảnh và điều chỉnh review status. Xem [biên bản hiện hành](handoff-BUSINESS-REPAIR-v1.md) và [sổ baseline](baseline-register.json). Kết quả đủ file trong hồ sơ này không phải duyệt thiết kế.
+
 ## Kết quả
 
 Gallery có 376 ảnh: 369 ảnh nguồn hiện có giữ nguyên byte và 7 ảnh AI bổ sung.

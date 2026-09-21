@@ -11,7 +11,18 @@ const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const manifest = JSON.parse(await read('screen-manifest.json'));
 const driveManifest = JSON.parse(await read('drive-screen-manifest.json'));
 const ids = new Set();
+async function validateNative(screen) {
+  if (screen.origin !== 'native-repair') return;
+  assert.equal(screen.reviewStatus, 'needs-owner-review');
+  assert.equal(screen.baselineStatus, 'candidate-not-approved');
+  assert.equal(hash(await read(screen.nativeSource)), screen.sha256, 'Native source drift');
+  assert.equal(hash(await read(screen.supersedes.archive)), screen.supersedes.sha256, 'Pre-repair archive drift');
+  assert.equal(screen.width, screen.device === 'desktop' ? 1920 : 1600);
+  assert.equal(screen.height, screen.device === 'desktop' ? 1080 : 2560);
+  assert(screen.canonicalDesignKey && screen.fileName.includes(`${screen.width}x${screen.height}`));
+}
 for (const screen of manifest.screens) {
+  await validateNative(screen);
   assert(!ids.has(screen.id), `Duplicate ${screen.id}`); ids.add(screen.id);
   assert(/^previews\/[\w./-]+\.(png|jpg)$/.test(screen.src) && !screen.src.includes('..'), `Original path required: ${screen.id}`);
   assert(!screen.src.includes('thumb'), `Thumbnail used for detail: ${screen.id}`);
@@ -28,6 +39,7 @@ const driveIds = new Set();
 const allDriveIds = new Set(driveManifest.screens.map(screen => screen.id));
 const oldDriveIds = new Set();
 for (const screen of driveManifest.screens) {
+  await validateNative(screen);
   assert(!driveIds.has(screen.id), `Duplicate Drive screen ${screen.id}`); driveIds.add(screen.id);
   assert(typeof screen.fileName === 'string' && /\.(png|jpg)$/i.test(screen.fileName), `${screen.id} missing handoff filename`);
   assert(!/^[0-9a-f]{8}(?:\s|[-_][0-9a-f]{4})/i.test(screen.title), `${screen.id} still exposes an opaque UUID title`);
@@ -93,6 +105,8 @@ async function compare(path) {
   }
 }
 await compare('assets');
+await compare('design-source/business-v1');
+for (const file of ['business-repair.html','baseline-register.json','handoff-BUSINESS-REPAIR-v1.md']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Business handoff drift: ${file}`);
 for (const file of ['viewer.html', 'screen-manifest.json', 'drive-screen-manifest.json']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Root/docs drift: ${file}`);
 console.log(`PASS: 84 primary boards + ${driveManifest.total} Drive screens, dimensions, hashes, downloads and root/docs parity.`);
 console.log(`PASS: state coverage for ${coverage.checkedScreens} screens / ${coverage.checkedGroups} groups; ${coverage.exemptGroups} unfinished groups (<=3 images) exempt.`);

@@ -53,16 +53,17 @@ try {
     assert.equal(await page.locator('.card').count(), 2, 'misleading golden-export is paired with success-update');
     await page.locator('#search').fill('');
     await page.locator('#group').selectOption('');
-    assert.equal(await page.locator('.badge').getByText('AI bổ sung · cần duyệt', { exact: true }).count(), 7, 'supplement review labels');
+    assert.equal(await page.locator('.badge').getByText('AI bổ sung · cần duyệt', { exact: true }).count(), 3, 'supplement review labels');
+    assert.equal(await page.locator('.badge').getByText('Sửa nghiệp vụ · cần duyệt', { exact: true }).count(), 56, 'native repair review labels');
 
     const detail = await browser.newPage();
-    for (const screen of manifest.screens.filter(item => item.origin === 'ai-supplement' || item.aliases?.length)) {
+    for (const screen of manifest.screens.filter(item => item.origin === 'ai-supplement' || item.origin === 'native-repair' || item.aliases?.length)) {
       const screenId = screen.aliases?.[0] || screen.id;
       await detail.goto(`${base}/${prefix}viewer.html?collection=drive&screen=${encodeURIComponent(screenId)}`);
       await detail.locator('#frame').waitFor({ state: 'visible' });
       assert.equal(await detail.locator('#title').textContent(), screen.title, `${prefix} old/new viewer link resolves`);
       assert.equal(await detail.locator('#download').getAttribute('download'), screen.fileName);
-      if (screen.origin === 'ai-supplement') {
+      if (screen.origin === 'ai-supplement' || screen.origin === 'native-repair') {
         assert((await detail.locator('#metadata').textContent()).includes('cần chủ thiết kế duyệt'));
         const pendingDownload = detail.waitForEvent('download');
         await detail.locator('#download').click();

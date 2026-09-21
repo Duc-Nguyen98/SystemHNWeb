@@ -18,7 +18,8 @@ function recount(manifest) {
 test('complete coverage, excluding the ten unfinished groups', () => {
   assert.equal(inventory.total, 376);
   assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 11, checkedScreens: 356, exemptGroups: 10 });
-  assert.equal(inventory.screens.filter(screen => screen.origin === 'ai-supplement').length, 7);
+  assert.equal(inventory.screens.filter(screen => screen.origin === 'ai-supplement').length, 3);
+  assert.equal(inventory.screens.filter(screen => screen.origin === 'native-repair').length, 56);
 });
 
 test('original misplaced filenames always map to the correct module', () => {

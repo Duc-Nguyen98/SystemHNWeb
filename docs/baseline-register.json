@@ -1,0 +1,1613 @@
+{
+  "version": 1,
+  "date": "2026-09-22",
+  "scope": "Priority business contradictions; does not certify the entire product",
+  "authority": "Only the owner/PM can approve a new baseline. A matching document hash is not runtime certification.",
+  "baselines": [
+    {
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p01-default-desktop-1672x940-review-d5a86e0d6b",
+      "sha256": "d5a86e0d6b4d416ab4c7c7f48ad4ed62d177281454197269a020e0e2300ed7cb",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p01-default-desktop-1672x940-review-d5a86e0d6b.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p01-default-tablet-992x1586-review-b9d5d5be6f",
+      "sha256": "b9d5d5be6f457ea470732675768c9227cff1fa7023b6fcfb3e087fd34848d5b8",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p01-default-tablet-992x1586-review-b9d5d5be6f.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_lich_su_nhap_xuat_kho",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p01-default-desktop-1920x1080-locked-v2-0-df4cdc9e86",
+      "sha256": "df4cdc9e866b34a80c42aaa0f663c64d6c4824d129a66af0b4346ac79ab12f70",
+      "src": "previews/drive-screens/originals/bao-cao-lich-su-nhap-xuat-kho/desktop/hn-baocao-lichsunhapxuatkho-p01-default-desktop-1920x1080-locked-v2-0-df4cdc9e86.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_lich_su_nhap_xuat_kho",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p01-default-tablet-1600x2560-locked-v2-0-162e648ea9",
+      "sha256": "162e648ea9fdf4bf3e6b5d1cebb8cf291f753bc788e953645a21a27e25328c88",
+      "src": "previews/drive-screens/originals/bao-cao-lich-su-nhap-xuat-kho/tablet/hn-baocao-lichsunhapxuatkho-p01-default-tablet-1600x2560-locked-v2-0-162e648ea9.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_nhan_dong_goi_in_lai",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p01-locked-desktop-1920x1080-v1-2-490d745a30",
+      "sha256": "490d745a309ffa80c5f5f4664b34a802015cba14978cde7c3f65bb3cfe739c2c",
+      "src": "previews/drive-screens/originals/bao-cao-nhan-dong-goi-in-lai/desktop/hn-pkg-label-p01-locked-desktop-1920x1080-v1-2-490d745a30.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "document-asset-conflict",
+      "expectedDocumentHash": "04f3cf7fd2455d9e0c17dc1eb4091b7a9d5bf1094ed5469a0379d23974fdd49e",
+      "sourceDocument": "HN_REPORT_PACKAGING_LABEL_PRINT_REPRINT_BASELINE_STATE_PROMPTS_v1.0.md"
+    },
+    {
+      "group": "bao_cao_nhan_dong_goi_in_lai",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p01-locked-tablet-1600x2560-v1-2-ce278db038",
+      "sha256": "ce278db038de774021d84da19dae2d63451b7445c1c717b18b772a0c86911242",
+      "src": "previews/drive-screens/originals/bao-cao-nhan-dong-goi-in-lai/tablet/hn-pkg-label-p01-locked-tablet-1600x2560-v1-2-ce278db038.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "document-asset-conflict",
+      "expectedDocumentHash": "875e171f5fcc82425fe652235027cd8659bf4d6bb2de8e707c4add4b0cc37a92",
+      "sourceDocument": "HN_REPORT_PACKAGING_LABEL_PRINT_REPRINT_BASELINE_STATE_PROMPTS_v1.0.md"
+    },
+    {
+      "group": "bao_cao_nhap_kho",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-default-desktop-1920x1080-61c2f8e944",
+      "sha256": "61c2f8e9448c320c85b56e3c3821c05ae3ecefefe8e04428ea65cc23980744cf",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-kho/desktop/wms-hoa-nam-rpt-01-default-desktop-1920x1080-61c2f8e944.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_nhap_kho",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-default-tablet-1280x2048-cb18dd1d88",
+      "sha256": "cb18dd1d88645d2b011f0dd7e181d3e1375e95803f5670a3ae17d5f241baf406",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-kho/tablet/wms-hoa-nam-rpt-01-default-tablet-1280x2048-cb18dd1d88.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_nhap_liet_doi_chieu_loi",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3",
+      "sha256": "49b618f2f38d98e481dfd2240a119b4196236b1542efce4008fa470079892c61",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/desktop/hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_nhap_liet_doi_chieu_loi",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502",
+      "sha256": "8f9379e5021e114970e330dbbebd35f36b6bd970e2f127096b7d84263dd33b1e",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/tablet/hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_truy_vet_hang_hoa",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p01-default-desktop-1920x1080-a143700095",
+      "sha256": "a14370009507a8f8bec7edc221b317c91b29b23b0761e6461a33f04859795464",
+      "src": "previews/drive-screens/originals/bao-cao-truy-vet-hang-hoa/desktop/hn-trace-report-p01-default-desktop-1920x1080-a143700095.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_truy_vet_hang_hoa",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p01-default-tablet-1600x2560-8ecc3217b2",
+      "sha256": "8ecc3217b286fed630cb5f7b950123a793c71b3e314639c1e4351b7dd0cb060b",
+      "src": "previews/drive-screens/originals/bao-cao-truy-vet-hang-hoa/tablet/hn-trace-report-p01-default-tablet-1600x2560-8ecc3217b2.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_xuat_kho",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-desktop-1920x1080-delivery-95231d3865",
+      "sha256": "c39270a78dcdfe0284fc89aaa93f69f0ed66cb0b76f43c308bdb8966fd463bec",
+      "src": "previews/drive-screens/originals/business-v1/hn-bao-cao-xuat-kho-p01-default-desktop-1920x1080-business-v1-review-c39270a78d.png",
+      "reviewStatus": "needs-owner-review",
+      "baselineStatus": "candidate-not-approved",
+      "canonicalDesignKey": "outbound.p1.desktop"
+    },
+    {
+      "group": "bao_cao_xuat_kho",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-tablet-1280x2048-delivery-e81a1f999d",
+      "sha256": "dabcbd5500304b1fc116221c30b43f4ff4b75108bafba3e0ac4be5105521fca2",
+      "src": "previews/drive-screens/originals/business-v1/hn-bao-cao-xuat-kho-p01-default-tablet-1600x2560-business-v1-review-dabcbd5500.png",
+      "reviewStatus": "needs-owner-review",
+      "baselineStatus": "candidate-not-approved",
+      "canonicalDesignKey": "outbound.p1.tablet"
+    },
+    {
+      "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
+      "device": "desktop",
+      "screenId": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p01-default-desktop-1920x1080-2038bc85a3",
+      "sha256": "2038bc85a3df0dc6a2813bf6ee87c0feeb180e6e697ef819114765e18f32e062",
+      "src": "previews/drive-screens/originals/bao-cao-xuat-theo-nguoi-nhan-dai-ly/desktop/hn-dealer-recipient-report-p01-default-desktop-1920x1080-2038bc85a3.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
+      "device": "tablet",
+      "screenId": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p01-default-tablet-1600x2560-f40d58bce7",
+      "sha256": "f40d58bce7307e8bc9ff7198c0a40d73260311714e1b863f99a5d010dfb26750",
+      "src": "previews/drive-screens/originals/bao-cao-xuat-theo-nguoi-nhan-dai-ly/tablet/hn-dealer-recipient-report-p01-default-tablet-1600x2560-f40d58bce7.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_hanh_sua_chua/ho_so_bao_hanh",
+      "device": "desktop",
+      "screenId": "drive-bao-hanh-sua-chua-ho-so-bao-hanh-hn-hosobaohanh-default-desktop-1920x1080-candidate-v3-3dfbd36b2d",
+      "sha256": "3dfbd36b2ddde3682b484e35f579538010c32f8216acc99cae4972dc429c2864",
+      "src": "previews/drive-screens/originals/bao-hanh-sua-chua-ho-so-bao-hanh/desktop/hn-hosobaohanh-default-desktop-1920x1080-candidate-v3-3dfbd36b2d.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_hanh_sua_chua/ho_so_bao_hanh",
+      "device": "tablet",
+      "screenId": "drive-bao-hanh-sua-chua-ho-so-bao-hanh-hn-hosobaohanh-default-tablet-1600x2560-candidate-v3-4dc86615e4",
+      "sha256": "4dc86615e4a259afea081324d6c985e87a902a13907c9fedf04a115cc845e899",
+      "src": "previews/drive-screens/originals/bao-hanh-sua-chua-ho-so-bao-hanh/tablet/hn-hosobaohanh-default-tablet-1600x2560-candidate-v3-4dc86615e4.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh",
+      "device": "desktop",
+      "screenId": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0",
+      "sha256": "0505b1c0acf3dcf9f70a27fbd69a008afd06618df3aee16af7d8d3d3c29f7fc7",
+      "src": "previews/drive-screens/originals/business-v1/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1920x1080-business-v1-review-0505b1c0ac.png",
+      "reviewStatus": "needs-owner-review",
+      "baselineStatus": "candidate-not-approved",
+      "expectedDocumentHash": "4763e9898a4c537d6102bd8c30cf883f5fa86ac4cc08721ad2f6bcf4da7405d2",
+      "sourceDocument": "HN_WARRANTY_PARTS_ISSUE_BASELINE_v3_STATE_PROMPTS_P00-P20_v1.0.md",
+      "canonicalDesignKey": "warranty.default.desktop"
+    },
+    {
+      "group": "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh",
+      "device": "tablet",
+      "screenId": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f",
+      "sha256": "80fee064eaf42bf9cbe068d3338cb87388396a5bac89dbc7dea59e004502a5be",
+      "src": "previews/drive-screens/originals/business-v1/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-business-v1-review-80fee064ea.png",
+      "reviewStatus": "needs-owner-review",
+      "baselineStatus": "candidate-not-approved",
+      "expectedDocumentHash": "9edb176412ab04441c396a20be52771ca7097cb0915da6c78b1f9589c3777858",
+      "sourceDocument": "HN_WARRANTY_PARTS_ISSUE_BASELINE_v3_STATE_PROMPTS_P00-P20_v1.0.md",
+      "canonicalDesignKey": "warranty.default.tablet"
+    },
+    {
+      "group": "danh_muc_dai_ly_noi_nhan",
+      "device": "desktop",
+      "screenId": "drive-danh-muc-dai-ly-noi-nhan-hn-danhmuc-dailynoinhan-p01-default-desktop-1920x1080-locked-v1-0-6d305d517e",
+      "sha256": "6d305d517e4f26ea5e0258d1b9c793cf442717d6c2188ad9f678a20b193d0308",
+      "src": "previews/drive-screens/originals/danh-muc-dai-ly-noi-nhan/desktop/hn-danhmuc-dailynoinhan-p01-default-desktop-1920x1080-locked-v1-0-6d305d517e.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "danh_muc_dai_ly_noi_nhan",
+      "device": "tablet",
+      "screenId": "drive-danh-muc-dai-ly-noi-nhan-hn-danhmuc-dailynoinhan-p01-default-tablet-1600x2560-locked-v1-0-1f043aea08",
+      "sha256": "1f043aea08eedd8d978705bf690d33795d4192801504b857828a478e59631b5e",
+      "src": "previews/drive-screens/originals/danh-muc-dai-ly-noi-nhan/tablet/hn-danhmuc-dailynoinhan-p01-default-tablet-1600x2560-locked-v1-0-1f043aea08.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "danh_muc_san_pham",
+      "device": "desktop",
+      "screenId": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p01-default-desktop-1920x1080-locked-v3-0-6e00545c6f",
+      "sha256": "6e00545c6fff4bd1be27a20bc6c75050e99f0e3e7a5979202adadbda692fce89",
+      "src": "previews/drive-screens/originals/danh-muc-san-pham/desktop/hn-danhmuc-danhmucsanpham-p01-default-desktop-1920x1080-locked-v3-0-6e00545c6f.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "matches-documented-file",
+      "expectedDocumentHash": "6e00545c6fff4bd1be27a20bc6c75050e99f0e3e7a5979202adadbda692fce89",
+      "sourceDocument": "HN_DANH_MUC_DANH_MUC_SAN_PHAM_BASELINE_V3_P00-P20_v1.0.md"
+    },
+    {
+      "group": "danh_muc_san_pham",
+      "device": "tablet",
+      "screenId": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p01-default-tablet-1600x2560-locked-v3-0-09d55457bb",
+      "sha256": "09d55457bb86777747a9ae894b75d692f89f55c97761f51c9978e59527c3e66b",
+      "src": "previews/drive-screens/originals/danh-muc-san-pham/tablet/hn-danhmuc-danhmucsanpham-p01-default-tablet-1600x2560-locked-v3-0-09d55457bb.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "document-asset-conflict",
+      "expectedDocumentHash": "2c78c4bb39d513fac03033e4b76b3b2e995842bd189bbb6e26da2710e16cd70f",
+      "sourceDocument": "HN_DANH_MUC_DANH_MUC_SAN_PHAM_BASELINE_V3_P00-P20_v1.0.md"
+    },
+    {
+      "group": "danh_sach_SKU",
+      "device": "desktop",
+      "screenId": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p01-default-desktop-1920x1080-locked-v1-0-daff5fc842",
+      "sha256": "daff5fc8421d98b0b461fceed738d1257575fdb11dbc8ad84b0c7e6ff5daa341",
+      "src": "previews/drive-screens/originals/danh-sach-sku/desktop/hn-danhmuc-danhsachsku-p01-default-desktop-1920x1080-locked-v1-0-daff5fc842.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "danh_sach_SKU",
+      "device": "tablet",
+      "screenId": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p01-default-tablet-1600x2560-locked-v1-0-de88593df3",
+      "sha256": "de88593df311c4f38fa4ad49f35e8dd7a056505c148f412e425c96cbf201ae67",
+      "src": "previews/drive-screens/originals/danh-sach-sku/tablet/hn-danhmuc-danhsachsku-p01-default-tablet-1600x2560-locked-v1-0-de88593df3.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+      "device": "desktop",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-desktop-1672x941-review-103573ab67",
+      "sha256": "44a241b4ac802b3ee5bd5e5b2b9c8d8844d49041b8406b27186f431d32a653c2",
+      "src": "previews/drive-screens/originals/business-v1/auth-02-default-desktop-1920x1080-business-v1-review-44a241b4ac.png",
+      "reviewStatus": "needs-owner-review",
+      "baselineStatus": "candidate-not-approved",
+      "canonicalDesignKey": "auth.default.desktop"
+    },
+    {
+      "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
+      "device": "tablet",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-tablet-992x1586-review-58876e76d3",
+      "sha256": "b9b12a8fe63e80c31c43e3df048fcbdc6d8878c4b4d8d399ec08598a5018beb4",
+      "src": "previews/drive-screens/originals/business-v1/auth-02-default-tablet-1600x2560-business-v1-review-b9b12a8fe6.png",
+      "reviewStatus": "needs-owner-review",
+      "baselineStatus": "candidate-not-approved",
+      "canonicalDesignKey": "auth.default.tablet"
+    },
+    {
+      "group": "nhap_kho/linh_kien_cho_xep_khay/danh_sach_khay",
+      "device": "desktop",
+      "screenId": "drive-nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay-hn-nhap-kho-danh-sach-khay-p01-default-desktop-1672x941-review-b37a621d2c",
+      "sha256": "b37a621d2cdb19c4c9260ddb67b96981d19eef91979bfea7674c61b4581f0199",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/desktop/hn-nhap-kho-danh-sach-khay-p01-default-desktop-1672x941-review-b37a621d2c.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/linh_kien_cho_xep_khay/danh_sach_khay",
+      "device": "tablet",
+      "screenId": "drive-nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay-hn-nhap-kho-danh-sach-khay-p01-default-tablet-992x1586-review-bfd8f89f65",
+      "sha256": "bfd8f89f6568f351bc856803b897eaa534e8bf503238a3d94f9cf52e78fad616",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/tablet/hn-nhap-kho-danh-sach-khay-p01-default-tablet-992x1586-review-bfd8f89f65.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/danh_sach_phieu_nhap_kho",
+      "device": "desktop",
+      "screenId": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-desktop-1920x1080-candidate-v2-a2b7207a5e",
+      "sha256": "a2b7207a5ea242bd4fcd3c47f0c4ed26acb6c66472f8c745d8a3b6b61e3161b1",
+      "src": "previews/drive-screens/originals/nhap-kho-danh-sach-phieu-nhap-kho/desktop/hn-phieunhapkho-danhsach-default-desktop-1920x1080-candidate-v2-a2b7207a5e.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/danh_sach_phieu_nhap_kho",
+      "device": "tablet",
+      "screenId": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-tablet-1600x2560-candidate-v2-3633194fee",
+      "sha256": "3633194fee12a3e096537d25e2936943f788ac47bbe39c0eb72946abd16733cc",
+      "src": "previews/drive-screens/originals/nhap-kho-danh-sach-phieu-nhap-kho/tablet/hn-phieunhapkho-danhsach-default-tablet-1600x2560-candidate-v2-3633194fee.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/linh_kien_cho_xep_khay/hang_cho",
+      "device": "desktop",
+      "screenId": "drive-nhap-kho-linh-kien-cho-xep-khay-hang-cho-hn-nhap-kho-hang-cho-xep-khay-p01-default-desktop-1672x941-review-8289f69e83",
+      "sha256": "8289f69e8327530fcf4f1875d6fa83f69c9cc2e74ba51ef021d19a047052bebb",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-hang-cho/desktop/hn-nhap-kho-hang-cho-xep-khay-p01-default-desktop-1672x941-review-8289f69e83.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/linh_kien_cho_xep_khay/hang_cho",
+      "device": "tablet",
+      "screenId": "drive-nhap-kho-linh-kien-cho-xep-khay-hang-cho-hn-nhap-kho-hang-cho-xep-khay-p01-default-tablet-992x1586-review-883eb560cb",
+      "sha256": "883eb560cbf05570bb442454d720eb78222a5c940ee60e748498ee13f401f232",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-hang-cho/tablet/hn-nhap-kho-hang-cho-xep-khay-p01-default-tablet-992x1586-review-883eb560cb.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/linh_kien_cho_xep_khay/lenh_xep_khay",
+      "device": "desktop",
+      "screenId": "drive-nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay-hn-nhap-kho-lenh-xep-khay-p01-default-desktop-1672x941-review-c875d91529",
+      "sha256": "c875d915299e995974407d16d73d4f1b6264b5cd9a37a09f0459e8605c26e120",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/desktop/hn-nhap-kho-lenh-xep-khay-p01-default-desktop-1672x941-review-c875d91529.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/linh_kien_cho_xep_khay/lenh_xep_khay",
+      "device": "tablet",
+      "screenId": "drive-nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay-hn-nhap-kho-lenh-xep-khay-p01-default-tablet-992x1586-review-37349f3dfd",
+      "sha256": "37349f3dfdba6d8c92e74a12e381489b575ccc9b25013fc2fd1a80ddadc6aa17",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/tablet/hn-nhap-kho-lenh-xep-khay-p01-default-tablet-992x1586-review-37349f3dfd.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "san_pham_app_pv",
+      "device": "desktop",
+      "screenId": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321",
+      "sha256": "91d8c683214cdc2bf76932bca1fbbf86bb60a62d68a7c02e541dc13549544b0d",
+      "src": "previews/drive-screens/originals/san-pham-app-pv/desktop/hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "san_pham_app_pv",
+      "device": "tablet",
+      "screenId": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33",
+      "sha256": "1a2e6a6f3347cb288d0cc62c9d1470fad7d1506e6d7a82a5736e22ddcc84b686",
+      "src": "previews/drive-screens/originals/san-pham-app-pv/tablet/hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "ton_kho&doi_soat",
+      "device": "desktop",
+      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p01-default-desktop-1920x1080-5677509abe",
+      "sha256": "5677509abe48816fc5fe24f976d2e8cde7165b3201568a50237bae5ce8a42625",
+      "src": "previews/drive-screens/originals/ton-kho-doi-soat/desktop/hn-tkds-p01-default-desktop-1920x1080-5677509abe.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "ton_kho&doi_soat",
+      "device": "tablet",
+      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p01-default-tablet-1600x2560-ad286f92cd",
+      "sha256": "ad286f92cdab7de5f477d25def3338b97f134de9f2504d57f7a16333449e2874",
+      "src": "previews/drive-screens/originals/ton-kho-doi-soat/tablet/hn-tkds-p01-default-tablet-1600x2560-ad286f92cd.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "xuat_kho",
+      "device": "desktop",
+      "screenId": "drive-xuat-kho-hn-xuatkho-phieuxuatkho-p01-default-desktop-1920x1080-locked-v1-0-98f30bd216",
+      "sha256": "98f30bd216bfbfa91a31b23e38477997de9392d30a16d7f9e3bb0f8ddb79e902",
+      "src": "previews/drive-screens/originals/xuat-kho/desktop/hn-xuatkho-phieuxuatkho-p01-default-desktop-1920x1080-locked-v1-0-98f30bd216.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "xuat_kho",
+      "device": "tablet",
+      "screenId": "drive-xuat-kho-hn-xuatkho-phieuxuatkho-p01-default-tablet-1600x2560-locked-v1-0-e79d5f7d2c",
+      "sha256": "e79d5f7d2c2b395c1bf58781fb6947518203bbdb08aa7f32ea26d60fe31b1bd4",
+      "src": "previews/drive-screens/originals/xuat-kho/tablet/hn-xuatkho-phieuxuatkho-p01-default-tablet-1600x2560-locked-v1-0-e79d5f7d2c.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    }
+  ],
+  "canonicalSession": {
+    "source": "design-source/business-v1",
+    "reviewStatus": "needs-owner-review",
+    "semantics": "Confirm session/context, never open a work shift",
+    "expired": "No user identity, role, warehouse state or report controls; only login recovery"
+  },
+  "chartFixture": {
+    "source": "design-source/business-v1/fixtures.mjs",
+    "version": "business-v1",
+    "approval": "needs-owner-review",
+    "outbound": "Existing 1186 / 38+2+2+0 fixture retained; zero-value segment omitted",
+    "overview": "One proposed display fixture for all ranges/devices; 07/09 closing 685, 10/09 closing 647. Not production data."
+  },
+  "retired": [
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-desktop-1672x941-review-9471ea2919",
+      "sha256": "9471ea2919f73d2dc9c0083695ef301d32fb96164bb48dc16886bb414581e94b",
+      "archive": "design-archive/business-v1/drive/9471ea2919f73d2dc9c0083695ef301d32fb96164bb48dc16886bb414581e94b.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p16-401-sessionexpired-tablet-992x1586-review-a87fc2d3ce",
+      "sha256": "a87fc2d3cee126e5e6cabedff8043660e033d96c24a51b4f289b2a62b6f68354",
+      "archive": "design-archive/business-v1/drive/a87fc2d3cee126e5e6cabedff8043660e033d96c24a51b4f289b2a62b6f68354.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-desktop-1920x1080-v1-2-f63ca2f8d5",
+      "sha256": "f63ca2f8d518df2c4592aeff1300424662ddba19e0a75c2f032ecd6e807f9a5b",
+      "archive": "design-archive/business-v1/drive/f63ca2f8d518df2c4592aeff1300424662ddba19e0a75c2f032ecd6e807f9a5b.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-tablet-1600x2560-v1-2-80f8005056",
+      "sha256": "80f8005056820fa74a26b4c1330e26a18e6f525b60f123d3a4f96e5376e3966a",
+      "archive": "design-archive/business-v1/drive/80f8005056820fa74a26b4c1330e26a18e6f525b60f123d3a4f96e5376e3966a.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-desktop-1920x1080-934eadf095",
+      "sha256": "934eadf09511f346d9d910cf040c3566573e0cc2e01a2ef9e342a20181250679",
+      "archive": "design-archive/business-v1/drive/934eadf09511f346d9d910cf040c3566573e0cc2e01a2ef9e342a20181250679.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-tablet-1600x2560-224f93c4b1",
+      "sha256": "224f93c4b1c575fbd060fe8cb19ffc646bb6d2d11f177021f1d42d7444d663d5",
+      "archive": "design-archive/business-v1/drive/224f93c4b1c575fbd060fe8cb19ffc646bb6d2d11f177021f1d42d7444d663d5.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-desktop-1920x1080-delivery-95231d3865",
+      "sha256": "95231d3865bc9d7a9b43259ca33833a82ae52874836806ac5859f7f65d14baef",
+      "archive": "design-archive/business-v1/drive/95231d3865bc9d7a9b43259ca33833a82ae52874836806ac5859f7f65d14baef.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p02-loading-desktop-1672x941-delivery-051799ce08",
+      "sha256": "051799ce0838b2625415a973367dde4552f8d39c7791d2e9c39ae21db4422f56",
+      "archive": "design-archive/business-v1/drive/051799ce0838b2625415a973367dde4552f8d39c7791d2e9c39ae21db4422f56.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p03-empty-desktop-1672x941-delivery-0d132dc742",
+      "sha256": "0d132dc7423fb1b53ecb014bfd997e0144d16bfc47e1e3d5e5f44db4dc87ab22",
+      "archive": "design-archive/business-v1/drive/0d132dc7423fb1b53ecb014bfd997e0144d16bfc47e1e3d5e5f44db4dc87ab22.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p04-error-desktop-1920x1080-delivery-4c2b6350ff",
+      "sha256": "4c2b6350fff417dcfc90c591d0fde87bd233f740e659d033720a95bf9784f4d2",
+      "archive": "design-archive/business-v1/drive/4c2b6350fff417dcfc90c591d0fde87bd233f740e659d033720a95bf9784f4d2.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p05-invalid-date-range-desktop-1920x1080-delivery-e96eb56c21",
+      "sha256": "e96eb56c21ccbeec99dc0353a547916d94bd8d2a26305f8fb5fc81b210d96412",
+      "archive": "design-archive/business-v1/drive/e96eb56c21ccbeec99dc0353a547916d94bd8d2a26305f8fb5fc81b210d96412.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p06-no-search-result-desktop-1920x1080-delivery-c26a765a50",
+      "sha256": "c26a765a50990249455587b2925a52da33a49f7292148b3c8fb7b88a8ab2e24b",
+      "archive": "design-archive/business-v1/drive/c26a765a50990249455587b2925a52da33a49f7292148b3c8fb7b88a8ab2e24b.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p07-readonly-desktop-1920x1080-delivery-58290fb836",
+      "sha256": "58290fb83698fceaef7fbfb0a9c8255db39b70335010deb5f6603362be26e611",
+      "archive": "design-archive/business-v1/drive/58290fb83698fceaef7fbfb0a9c8255db39b70335010deb5f6603362be26e611.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p08-row-highlight-desktop-1920x1080-delivery-0c6a57b72d",
+      "sha256": "0c6a57b72de985512f9508cb916c03760425e9974e6312bec8cf889110aead32",
+      "archive": "design-archive/business-v1/drive/0c6a57b72de985512f9508cb916c03760425e9974e6312bec8cf889110aead32.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p09-success-update-desktop-1920x1080-delivery-8cb7ef4137",
+      "sha256": "8cb7ef41378319abefaff5b67b7f1e9ea87a0aa08c3e061bee1ca8c85ac1a4c7",
+      "archive": "design-archive/business-v1/drive/8cb7ef41378319abefaff5b67b7f1e9ea87a0aa08c3e061bee1ca8c85ac1a4c7.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p01-default-tablet-1280x2048-delivery-e81a1f999d",
+      "sha256": "e81a1f999d701d9cf1a4f428cddbefcb1d9ff901dfc1d2623f8785d347a1ff5d",
+      "archive": "design-archive/business-v1/drive/e81a1f999d701d9cf1a4f428cddbefcb1d9ff901dfc1d2623f8785d347a1ff5d.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p02-loading-tablet-992x1586-delivery-686dbe8c3e",
+      "sha256": "686dbe8c3e6cc077d6ac34980a8ab8c47ace16b27b38eb2df1f420b650fb9f81",
+      "archive": "design-archive/business-v1/drive/686dbe8c3e6cc077d6ac34980a8ab8c47ace16b27b38eb2df1f420b650fb9f81.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p03-empty-tablet-992x1586-delivery-c0e9467bbb",
+      "sha256": "c0e9467bbb0b5c3ee823a75741330f8232740873477ba035c0f747e812d0179c",
+      "archive": "design-archive/business-v1/drive/c0e9467bbb0b5c3ee823a75741330f8232740873477ba035c0f747e812d0179c.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p04-error-tablet-1280x2048-delivery-82bb64e2d9",
+      "sha256": "82bb64e2d9c960666f5bd46709f4218480430bf1072b2083f4061b5ceeccf5fc",
+      "archive": "design-archive/business-v1/drive/82bb64e2d9c960666f5bd46709f4218480430bf1072b2083f4061b5ceeccf5fc.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p05-invalid-date-range-tablet-1280x2048-delivery-ff64e4500a",
+      "sha256": "ff64e4500a6ee1b7ae9494f9133ef48de79fe52d12a52f721ecf3c981e4ec89d",
+      "archive": "design-archive/business-v1/drive/ff64e4500a6ee1b7ae9494f9133ef48de79fe52d12a52f721ecf3c981e4ec89d.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p06-no-search-result-tablet-1280x2048-delivery-102b488109",
+      "sha256": "102b4881090aefaa049d7a9f44952b8b9eb81b6b1362a12fc15a9d05fb18b511",
+      "archive": "design-archive/business-v1/drive/102b4881090aefaa049d7a9f44952b8b9eb81b6b1362a12fc15a9d05fb18b511.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p07-readonly-tablet-1280x2048-delivery-9dce91e74b",
+      "sha256": "9dce91e74be7a5e3938c70807386e765b7dff3104628c45195bf86f02e4ae8ff",
+      "archive": "design-archive/business-v1/drive/9dce91e74be7a5e3938c70807386e765b7dff3104628c45195bf86f02e4ae8ff.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p08-row-highlight-tablet-992x1586-review-39cd095d00",
+      "sha256": "39cd095d00124c76ff9787e5a2476a5782b4d9fc98169c8b42c4cd821927b5f9",
+      "archive": "design-archive/business-v1/drive/39cd095d00124c76ff9787e5a2476a5782b4d9fc98169c8b42c4cd821927b5f9.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-kho-hn-bao-cao-xuat-kho-p09-success-update-tablet-1280x2048-delivery-8cea35d2d1",
+      "sha256": "8cea35d2d142e5d165497305eaa3857f133ca3569b9f6f501a4b74a0920461df",
+      "archive": "design-archive/business-v1/drive/8cea35d2d142e5d165497305eaa3857f133ca3569b9f6f501a4b74a0920461df.png",
+      "status": "superseded-reference",
+      "reason": "Readonly and data-driven status chart"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-desktop-1920x1080-1b7fb81351",
+      "sha256": "1b7fb8135114a07ee1957674bee31009aa0258369fa634c1b25ba286310dd4cb",
+      "archive": "design-archive/business-v1/drive/1b7fb8135114a07ee1957674bee31009aa0258369fa634c1b25ba286310dd4cb.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-tablet-1600x2560-d6141b8f79",
+      "sha256": "d6141b8f799984e28b0342896dafdc49a3354ba58594888f7c5a185ea75b0287",
+      "archive": "design-archive/business-v1/drive/d6141b8f799984e28b0342896dafdc49a3354ba58594888f7c5a185ea75b0287.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0",
+      "sha256": "b15f1839b014158cbe2400a642081e20c58b735917d24354205def9ad1b6f509",
+      "archive": "design-archive/business-v1/drive/b15f1839b014158cbe2400a642081e20c58b735917d24354205def9ad1b6f509.png",
+      "status": "superseded-reference",
+      "reason": "Wrong module artwork; restore warranty fixture contract"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f",
+      "sha256": "9cf17a7f2fb1b378894e3652eca2e09bd3c7a5ae73998410ab50933756c2e4f3",
+      "archive": "design-archive/business-v1/drive/9cf17a7f2fb1b378894e3652eca2e09bd3c7a5ae73998410ab50933756c2e4f3.png",
+      "status": "superseded-reference",
+      "reason": "Wrong module artwork; restore warranty fixture contract"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-desktop-1920x1080-7bb5e725f2",
+      "sha256": "7bb5e725f2af91fc8cbc5c4a677303c6c3fb41286d773c2e38f6e2b31336c06e",
+      "archive": "design-archive/business-v1/drive/7bb5e725f2af91fc8cbc5c4a677303c6c3fb41286d773c2e38f6e2b31336c06e.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-tablet-1600x2560-d7b4d24d8f",
+      "sha256": "d7b4d24d8f6245b44f6fdab047e8be7b59b38fa9ae3802c6b9b581ef74be5de1",
+      "archive": "design-archive/business-v1/drive/d7b4d24d8f6245b44f6fdab047e8be7b59b38fa9ae3802c6b9b581ef74be5de1.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-desktop-1920x1080-2a1b75be70",
+      "sha256": "2a1b75be70a8c1691439253ecf0cff41cc92b9b7a906bd0233cf4c4beb35b9cf",
+      "archive": "design-archive/business-v1/drive/2a1b75be70a8c1691439253ecf0cff41cc92b9b7a906bd0233cf4c4beb35b9cf.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-tablet-1600x2560-e19dd26d76",
+      "sha256": "e19dd26d76f23b75155c24c7f225b25a3d5bc0920f7cf311e3be408100321f44",
+      "archive": "design-archive/business-v1/drive/e19dd26d76f23b75155c24c7f225b25a3d5bc0920f7cf311e3be408100321f44.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-desktop-1672x941-review-12fef87b17",
+      "sha256": "12fef87b17e8d77b1649c6876836c639defff1a8ce2df3a9ed4d0e5dc708739e",
+      "archive": "design-archive/business-v1/drive/12fef87b17e8d77b1649c6876836c639defff1a8ce2df3a9ed4d0e5dc708739e.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-desktop-1672x941-review-0843dbedb4",
+      "sha256": "0843dbedb4a65dad4b7b28825703e415c07eb3ea7525c88184192d7c7c33b11c",
+      "archive": "design-archive/business-v1/drive/0843dbedb4a65dad4b7b28825703e415c07eb3ea7525c88184192d7c7c33b11c.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-desktop-1672x941-review-1797ee3cb7",
+      "sha256": "1797ee3cb78a0549756d9ca778e112e46fcd207202e70acf231964c4ca907ed1",
+      "archive": "design-archive/business-v1/drive/1797ee3cb78a0549756d9ca778e112e46fcd207202e70acf231964c4ca907ed1.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-desktop-1672x941-review-5defdeaabc",
+      "sha256": "5defdeaabcd40b919e8bcf4290706f99a2a542e9b3c814d0f6893818778a22f5",
+      "archive": "design-archive/business-v1/drive/5defdeaabcd40b919e8bcf4290706f99a2a542e9b3c814d0f6893818778a22f5.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-desktop-1672x941-review-89d43d813e",
+      "sha256": "89d43d813eb2eaf8abc3336f05e66bd1433b03f4fa6261a9dd9ad99d0428b4cd",
+      "archive": "design-archive/business-v1/drive/89d43d813eb2eaf8abc3336f05e66bd1433b03f4fa6261a9dd9ad99d0428b4cd.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-desktop-1672x941-review-103573ab67",
+      "sha256": "103573ab6762228c4b4318fc05a613cf00c5a91e60f74b5b777687407eef858c",
+      "archive": "design-archive/business-v1/drive/103573ab6762228c4b4318fc05a613cf00c5a91e60f74b5b777687407eef858c.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-desktop-1672x941-review-3b5a164874",
+      "sha256": "3b5a164874003582399211e80dd9b61c6fe53e926da27f77f75af81785e29566",
+      "archive": "design-archive/business-v1/drive/3b5a164874003582399211e80dd9b61c6fe53e926da27f77f75af81785e29566.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-desktop-1672x941-review-f05af59aac",
+      "sha256": "f05af59aacd22bdc8bdaa47904f86e936f29a922e2d0f91143e6e75d3c8246b0",
+      "archive": "design-archive/business-v1/drive/f05af59aacd22bdc8bdaa47904f86e936f29a922e2d0f91143e6e75d3c8246b0.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-desktop-1672x941-review-32ae0effd0",
+      "sha256": "32ae0effd00e1fc0f10575ebbe21e8f34dc8698945f6d7d0a4f6a5a406c3ce10",
+      "archive": "design-archive/business-v1/drive/32ae0effd00e1fc0f10575ebbe21e8f34dc8698945f6d7d0a4f6a5a406c3ce10.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-desktop-1672x941-review-be3ff092e7",
+      "sha256": "be3ff092e787104d885dc01aa550be0a75f5d49470840dbd722495348a355659",
+      "archive": "design-archive/business-v1/drive/be3ff092e787104d885dc01aa550be0a75f5d49470840dbd722495348a355659.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-desktop-1672x941-review-d67fcd2efd",
+      "sha256": "d67fcd2efd5df92a47270e9124f9b93dce428f290201b88518400e55eae35ddf",
+      "archive": "design-archive/business-v1/drive/d67fcd2efd5df92a47270e9124f9b93dce428f290201b88518400e55eae35ddf.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-tablet-993x1584-review-0bc3a0221f",
+      "sha256": "0bc3a0221ffc34bcc8b4db05e527c189b6a856711ec370ee3365020c4ed63012",
+      "archive": "design-archive/business-v1/drive/0bc3a0221ffc34bcc8b4db05e527c189b6a856711ec370ee3365020c4ed63012.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-tablet-992x1586-review-386726a4aa",
+      "sha256": "386726a4aa1960e2e111b0a78e33a412e76a5c6b3ba599dc6c4bae23cb513537",
+      "archive": "design-archive/business-v1/drive/386726a4aa1960e2e111b0a78e33a412e76a5c6b3ba599dc6c4bae23cb513537.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-tablet-992x1586-review-4a0a35efb3",
+      "sha256": "4a0a35efb3f06e126c9bf8ff5afe2fda4f3fe7fe717ca8b6ac8e0be3445d37ed",
+      "archive": "design-archive/business-v1/drive/4a0a35efb3f06e126c9bf8ff5afe2fda4f3fe7fe717ca8b6ac8e0be3445d37ed.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-tablet-992x1586-review-01d3238eaa",
+      "sha256": "01d3238eaaef97ba26c21b97c5b4be4d7a41863c4781c6aa6e5899bd9d8b38ba",
+      "archive": "design-archive/business-v1/drive/01d3238eaaef97ba26c21b97c5b4be4d7a41863c4781c6aa6e5899bd9d8b38ba.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-tablet-992x1585-review-80d2de83e6",
+      "sha256": "80d2de83e6f5bf6078a2709ee746a6cfdc0aa44b8a5163eb0356af2bbd8cf367",
+      "archive": "design-archive/business-v1/drive/80d2de83e6f5bf6078a2709ee746a6cfdc0aa44b8a5163eb0356af2bbd8cf367.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-tablet-992x1586-review-58876e76d3",
+      "sha256": "58876e76d375f1c8d488aeead78dc3525adf5a04599799b38acef33f52a725cb",
+      "archive": "design-archive/business-v1/drive/58876e76d375f1c8d488aeead78dc3525adf5a04599799b38acef33f52a725cb.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-tablet-992x1586-review-11161c93e5",
+      "sha256": "11161c93e5c61a829cc82ad266522290759dc6094cfe66290bd95081f4e28bef",
+      "archive": "design-archive/business-v1/drive/11161c93e5c61a829cc82ad266522290759dc6094cfe66290bd95081f4e28bef.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-tablet-992x1585-review-29647fce89",
+      "sha256": "29647fce89245a297c3f70b15ec0800151ecc634430bf8adcb49c3223d5740eb",
+      "archive": "design-archive/business-v1/drive/29647fce89245a297c3f70b15ec0800151ecc634430bf8adcb49c3223d5740eb.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-tablet-993x1584-review-b46c449a40",
+      "sha256": "b46c449a40f02f2719ce5dab2d9b9745adaf37db5df0264d295f094d57fbe764",
+      "archive": "design-archive/business-v1/drive/b46c449a40f02f2719ce5dab2d9b9745adaf37db5df0264d295f094d57fbe764.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-tablet-992x1586-review-be91eb684a",
+      "sha256": "be91eb684a8aad6ae9367c56aec11f743e93ba1366d2911269a8bec220801636",
+      "archive": "design-archive/business-v1/drive/be91eb684a8aad6ae9367c56aec11f743e93ba1366d2911269a8bec220801636.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-tablet-992x1586-review-d213f0ad40",
+      "sha256": "d213f0ad40a75a97dec09671d70a3cd2d5405e08d0615ea4c3b0934b75102f73",
+      "archive": "design-archive/business-v1/drive/d213f0ad40a75a97dec09671d70a3cd2d5405e08d0615ea4c3b0934b75102f73.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p12-session-expired-desktop-1920x1080-b3011f6902",
+      "sha256": "b3011f6902509780336fbfbde3e2913b47ed9c37abb10aaa0c32ee1a1cf56a02",
+      "archive": "design-archive/business-v1/drive/b3011f6902509780336fbfbde3e2913b47ed9c37abb10aaa0c32ee1a1cf56a02.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "drive",
+      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p12-session-expired-tablet-992x1586-review-c6e6cc339c",
+      "sha256": "c6e6cc339c08255bde32d982a3ee00dd3b861c2bc0385b248e8af97a638f9619",
+      "archive": "design-archive/business-v1/drive/c6e6cc339c08255bde32d982a3ee00dd3b861c2bc0385b248e8af97a638f9619.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "screenId": "AUTH-02-xac-nhan-phien-desktop-1920x1080",
+      "sha256": "610efca5de40de9c4157da3954fd01da406bdaacbc93a5d45703fb7c867cf546",
+      "archive": "design-archive/business-v1/main/610efca5de40de9c4157da3954fd01da406bdaacbc93a5d45703fb7c867cf546.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "screenId": "AUTH-02-xac-nhan-phien-starting-desktop-1920x1080",
+      "sha256": "8ddd4fda95194bbc23badbf94f2eefbdebfb07e1213572afe63247dccacd9e84",
+      "archive": "design-archive/business-v1/main/8ddd4fda95194bbc23badbf94f2eefbdebfb07e1213572afe63247dccacd9e84.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "screenId": "AUTH-02-xac-nhan-phien-expired-desktop-1920x1080",
+      "sha256": "9f9822e6a6713aba0511b14df2410bf7561a75082e099439d205d79dcb272308",
+      "archive": "design-archive/business-v1/main/9f9822e6a6713aba0511b14df2410bf7561a75082e099439d205d79dcb272308.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "screenId": "AUTH-02-xac-nhan-phien-tablet-1440x2048",
+      "sha256": "773649b1f3b5970b8a38ad628176ffa36ea05f1a8e7428502af2069fa05e140d",
+      "archive": "design-archive/business-v1/main/773649b1f3b5970b8a38ad628176ffa36ea05f1a8e7428502af2069fa05e140d.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "screenId": "AUTH-02-xac-nhan-phien-starting-tablet-1440x2048",
+      "sha256": "3bfdbd99256f13fa5961897386f86b2bc9be4dc9bb3da4630549607a7b5320ae",
+      "archive": "design-archive/business-v1/main/3bfdbd99256f13fa5961897386f86b2bc9be4dc9bb3da4630549607a7b5320ae.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "screenId": "AUTH-02-xac-nhan-phien-expired-tablet-1440x2048",
+      "sha256": "557183a2a6cd08981087937d07baab23befc023864c0b70f14b6ecdd6af3ecb5",
+      "archive": "design-archive/business-v1/main/557183a2a6cd08981087937d07baab23befc023864c0b70f14b6ecdd6af3ecb5.png",
+      "status": "superseded-reference",
+      "reason": "Canonical session confirmation / privacy-safe expired"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-01-default-desktop-1920x1080",
+      "sha256": "7ef460ea75c671e19096c35b498b51d13887297388eead99349e22686e3eb25f",
+      "archive": "design-archive/business-v1/main/7ef460ea75c671e19096c35b498b51d13887297388eead99349e22686e3eb25f.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-01-loading-desktop-1920x1080",
+      "sha256": "bb13ad9b058b98fc5e0fefe618e2ebe965dd79dd752bb3d9e604e89f7e7d3534",
+      "archive": "design-archive/business-v1/main/bb13ad9b058b98fc5e0fefe618e2ebe965dd79dd752bb3d9e604e89f7e7d3534.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-02-empty-desktop-1920x1080",
+      "sha256": "ebcf625b63b5bc018a971855a9f3f385ad0deb9b44b3f72ac25e353f29acf7f0",
+      "archive": "design-archive/business-v1/main/ebcf625b63b5bc018a971855a9f3f385ad0deb9b44b3f72ac25e353f29acf7f0.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-03-error-desktop-1920x1080",
+      "sha256": "57a6da29d550e985fe3deb0eca66b21fad581e7ff762bff97fc8fcc527bddbf6",
+      "archive": "design-archive/business-v1/main/57a6da29d550e985fe3deb0eca66b21fad581e7ff762bff97fc8fcc527bddbf6.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-04-permission-denied-desktop-1920x1080",
+      "sha256": "17f85509a3c7f63226949a170872cfd9237253ccc983ecccb8d7f2e0a490cbed",
+      "archive": "design-archive/business-v1/main/17f85509a3c7f63226949a170872cfd9237253ccc983ecccb8d7f2e0a490cbed.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-05-pending-approval-desktop-1920x1080",
+      "sha256": "c37b428d178e50dd02e69840d7c2311f4b107ffd4fb801e648bf71498d8ce403",
+      "archive": "design-archive/business-v1/main/c37b428d178e50dd02e69840d7c2311f4b107ffd4fb801e648bf71498d8ce403.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-06-processing-desktop-1920x1080",
+      "sha256": "5c2aa774137b8fee93cfc27b1088b9919ed4c4f94550fc2815ebe2e856f1218a",
+      "archive": "design-archive/business-v1/main/5c2aa774137b8fee93cfc27b1088b9919ed4c4f94550fc2815ebe2e856f1218a.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-07-completed-desktop-1920x1080",
+      "sha256": "32b6d8370216d2fced8fb6a833d54011f7bfa9fa4f761aafc55b23cc78f4fd31",
+      "archive": "design-archive/business-v1/main/32b6d8370216d2fced8fb6a833d54011f7bfa9fa4f761aafc55b23cc78f4fd31.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-08-overdue-desktop-1920x1080",
+      "sha256": "0f03b6d067316207a29c5a0961d5d15f860d03d73a9ee7ad567e550361950bec",
+      "archive": "design-archive/business-v1/main/0f03b6d067316207a29c5a0961d5d15f860d03d73a9ee7ad567e550361950bec.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-09-urgent-desktop-1920x1080",
+      "sha256": "bf850345d2d0c2eb31d3ccd51b05219f5f9099e572d7201c48777451c4e26eb7",
+      "archive": "design-archive/business-v1/main/bf850345d2d0c2eb31d3ccd51b05219f5f9099e572d7201c48777451c4e26eb7.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-01",
+      "sha256": "33b18b2f2df8b76ac6b65046173f9665ffd8543022cabbc2e92ab0590724a33f",
+      "archive": "design-archive/business-v1/main/33b18b2f2df8b76ac6b65046173f9665ffd8543022cabbc2e92ab0590724a33f.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-02",
+      "sha256": "ddfe21a1a77ff44d1989cb4cf064568848c99ee583020c2190b84e756f44ce2d",
+      "archive": "design-archive/business-v1/main/ddfe21a1a77ff44d1989cb4cf064568848c99ee583020c2190b84e756f44ce2d.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-03",
+      "sha256": "ab4da92b74d5a25a531b02017d6c79e61e495392cf84f58b84177e50a81ca3f0",
+      "archive": "design-archive/business-v1/main/ab4da92b74d5a25a531b02017d6c79e61e495392cf84f58b84177e50a81ca3f0.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-04",
+      "sha256": "af85e98873202b40166b2f1ecfb62e622ba3984c3c174d9b907627e9a4928661",
+      "archive": "design-archive/business-v1/main/af85e98873202b40166b2f1ecfb62e622ba3984c3c174d9b907627e9a4928661.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-05",
+      "sha256": "4a6a2d606e86e6f99e5fc2bedf9447cfdac375be87dfbe1d26877ceb2a9bb5c6",
+      "archive": "design-archive/business-v1/main/4a6a2d606e86e6f99e5fc2bedf9447cfdac375be87dfbe1d26877ceb2a9bb5c6.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-06",
+      "sha256": "dd14ba0fa67d1d30780879bda4efcf1b6bb6dd9019c4b133b3c359239160ce2b",
+      "archive": "design-archive/business-v1/main/dd14ba0fa67d1d30780879bda4efcf1b6bb6dd9019c4b133b3c359239160ce2b.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-07",
+      "sha256": "1c046fada318ca6820a62650f8f0da98dbf03690a8a6e22305b662e8746b89cc",
+      "archive": "design-archive/business-v1/main/1c046fada318ca6820a62650f8f0da98dbf03690a8a6e22305b662e8746b89cc.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-08",
+      "sha256": "9eaa572b114785a5cceecbd2f4bc5b66f3701a8afdc705ecb0c8c1da8494fce8",
+      "archive": "design-archive/business-v1/main/9eaa572b114785a5cceecbd2f4bc5b66f3701a8afdc705ecb0c8c1da8494fce8.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-09",
+      "sha256": "716df357ec5815c3ac5298f571a6471fba72fdd801fd3ed5217b0e3e0107bba8",
+      "archive": "design-archive/business-v1/main/716df357ec5815c3ac5298f571a6471fba72fdd801fd3ed5217b0e3e0107bba8.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-10",
+      "sha256": "5ef297510c194eac4d318a600db5e4bea82f29b99d26e0213601d7c559ee17b9",
+      "archive": "design-archive/business-v1/main/5ef297510c194eac4d318a600db5e4bea82f29b99d26e0213601d7c559ee17b9.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-11",
+      "sha256": "6450b1b95f89909f335ca45440b06301c2bd75235bde9fad558b54942974b386",
+      "archive": "design-archive/business-v1/main/6450b1b95f89909f335ca45440b06301c2bd75235bde9fad558b54942974b386.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-12",
+      "sha256": "0fe4f80b227d2323eda865c7815df7f20f6c1a538a0b81f844f0158f0a5b833f",
+      "archive": "design-archive/business-v1/main/0fe4f80b227d2323eda865c7815df7f20f6c1a538a0b81f844f0158f0a5b833f.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-desktop-13",
+      "sha256": "bfaaf8236e9188985e7b961c8823a53c138f8dd86fc4c178a5206084c0574495",
+      "archive": "design-archive/business-v1/main/bfaaf8236e9188985e7b961c8823a53c138f8dd86fc4c178a5206084c0574495.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-01-default-tablet-1600x2560",
+      "sha256": "e116deed89c71e77a1640a65442497862a30ff1f6adbb9146cc1c8658219dc89",
+      "archive": "design-archive/business-v1/main/e116deed89c71e77a1640a65442497862a30ff1f6adbb9146cc1c8658219dc89.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-01-loading-tablet-1600x2560",
+      "sha256": "4dca6c507da24de45e3214796d0f352056651c0dd5e9b9bbebef9d62bdb56492",
+      "archive": "design-archive/business-v1/main/4dca6c507da24de45e3214796d0f352056651c0dd5e9b9bbebef9d62bdb56492.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-02-empty-tablet-1600x2560",
+      "sha256": "e1f131aad372463c16571a13a1aea183020a57a42075e4fc62567c47ab847e8f",
+      "archive": "design-archive/business-v1/main/e1f131aad372463c16571a13a1aea183020a57a42075e4fc62567c47ab847e8f.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-03-error-tablet-1600x2560",
+      "sha256": "9a838e0458f403846e5eb9ac8e141e39ecfedeada9d95b95bff98b1328ae7cc4",
+      "archive": "design-archive/business-v1/main/9a838e0458f403846e5eb9ac8e141e39ecfedeada9d95b95bff98b1328ae7cc4.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-04-permission-denied-tablet-1600x2560",
+      "sha256": "6281a6c0e5aa91f0fc2b293e53d8f645ab1cbfdbef826f851d42be0d2fb38c8d",
+      "archive": "design-archive/business-v1/main/6281a6c0e5aa91f0fc2b293e53d8f645ab1cbfdbef826f851d42be0d2fb38c8d.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-05-pending-approval-tablet-1600x2560",
+      "sha256": "53627c2c861764d7fa67ff0be81b0f3cedfbbef6de2765ad923d3f249f575138",
+      "archive": "design-archive/business-v1/main/53627c2c861764d7fa67ff0be81b0f3cedfbbef6de2765ad923d3f249f575138.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-06-processing-tablet-1600x2560",
+      "sha256": "6adb41e067cd9c2a402809def75dcf51135f14923ca03f6780ae3010777237b2",
+      "archive": "design-archive/business-v1/main/6adb41e067cd9c2a402809def75dcf51135f14923ca03f6780ae3010777237b2.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-07-completed-tablet-1600x2560",
+      "sha256": "0fe4580fb5e2ff130cb99ea02a59f83e9560fa50c2ba8c124be4ec8fc7dea608",
+      "archive": "design-archive/business-v1/main/0fe4580fb5e2ff130cb99ea02a59f83e9560fa50c2ba8c124be4ec8fc7dea608.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-08-overdue-tablet-1600x2560",
+      "sha256": "3840c3b7226e8f48ec713103ae708695762c1dec719354e64f0363990e16d0f5",
+      "archive": "design-archive/business-v1/main/3840c3b7226e8f48ec713103ae708695762c1dec719354e64f0363990e16d0f5.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "overview-state-09-urgent-tablet-1600x2560",
+      "sha256": "7481b92b48707effeb7c651dfc298681cc6a3f9bf4fe70eaca26a7ea1fe2443b",
+      "archive": "design-archive/business-v1/main/7481b92b48707effeb7c651dfc298681cc6a3f9bf4fe70eaca26a7ea1fe2443b.jpg",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-01",
+      "sha256": "e0da968decb09673e8f7c75de1d0f0e282b506b2fe44c99d9093768b306c67b4",
+      "archive": "design-archive/business-v1/main/e0da968decb09673e8f7c75de1d0f0e282b506b2fe44c99d9093768b306c67b4.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-02",
+      "sha256": "cf8393b556f0206ead012910f7a304599a3f43977cb1a5c3d09bfd5e4dc3ee4f",
+      "archive": "design-archive/business-v1/main/cf8393b556f0206ead012910f7a304599a3f43977cb1a5c3d09bfd5e4dc3ee4f.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-03",
+      "sha256": "84871e3c07b76a434db0ddaa59b47a85d9c3f2f3bf1bd61a842289830e16dcaf",
+      "archive": "design-archive/business-v1/main/84871e3c07b76a434db0ddaa59b47a85d9c3f2f3bf1bd61a842289830e16dcaf.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-04",
+      "sha256": "4761bfbce9751c59d0ce440330563c19322ac387f7eb671ee4d3a96e0f5bdfcc",
+      "archive": "design-archive/business-v1/main/4761bfbce9751c59d0ce440330563c19322ac387f7eb671ee4d3a96e0f5bdfcc.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-05",
+      "sha256": "f6905194c4dc02f35e4be7c61dc1c7771140cc39cb8b215232082e33f06a9b2b",
+      "archive": "design-archive/business-v1/main/f6905194c4dc02f35e4be7c61dc1c7771140cc39cb8b215232082e33f06a9b2b.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-06",
+      "sha256": "b0b72e7a856037a799692ec11f33ae4ce8a3c619bc2f0949e1f023b2a42a9f70",
+      "archive": "design-archive/business-v1/main/b0b72e7a856037a799692ec11f33ae4ce8a3c619bc2f0949e1f023b2a42a9f70.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-07",
+      "sha256": "495e6c23cadc373e7b578c31c97b71eb1158fc6f2594b61b1cc7e4618f7d165e",
+      "archive": "design-archive/business-v1/main/495e6c23cadc373e7b578c31c97b71eb1158fc6f2594b61b1cc7e4618f7d165e.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-08",
+      "sha256": "85673231ee87221b2870b7e18a4be9e35f08a20ba74291e3ac9ac9a158d1e7bd",
+      "archive": "design-archive/business-v1/main/85673231ee87221b2870b7e18a4be9e35f08a20ba74291e3ac9ac9a158d1e7bd.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-09",
+      "sha256": "38c61bdd6341cb471db565700058c235a281ffd5baf1f6f09e6f4a9891cb7067",
+      "archive": "design-archive/business-v1/main/38c61bdd6341cb471db565700058c235a281ffd5baf1f6f09e6f4a9891cb7067.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-10",
+      "sha256": "2dee1a2b6e2e6a09f46dd610f6fb84e6d3b68b7e8b424775bbf806e195f03117",
+      "archive": "design-archive/business-v1/main/2dee1a2b6e2e6a09f46dd610f6fb84e6d3b68b7e8b424775bbf806e195f03117.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-11",
+      "sha256": "3a31eb5ee07e16721a09ab7f640f87cb4ab4d7fabf460e88aadfc315b0ccde45",
+      "archive": "design-archive/business-v1/main/3a31eb5ee07e16721a09ab7f640f87cb4ab4d7fabf460e88aadfc315b0ccde45.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-12",
+      "sha256": "dc00b22579a334c880fc01b89740e526f3d607842454c800d2bd0dfe0a33aabd",
+      "archive": "design-archive/business-v1/main/dc00b22579a334c880fc01b89740e526f3d607842454c800d2bd0dfe0a33aabd.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    },
+    {
+      "collection": "main",
+      "screenId": "filter-tablet-13",
+      "sha256": "6739c9d2663fbb05f1f211999733fb6c442afe5e7af936f37c13858d13450a4d",
+      "archive": "design-archive/business-v1/main/6739c9d2663fbb05f1f211999733fb6c442afe5e7af936f37c13858d13450a4d.png",
+      "status": "superseded-reference",
+      "reason": "Consistent time-series/date fixture across overview/filter states"
+    }
+  ],
+  "pendingDecisions": [
+    "Owner approval of native business-v1 candidates, including proposed overview display fixture.",
+    "Product catalog Tablet: supplied LOCKED file does not match the v3 document hash; do not silently replace the expected hash.",
+    "Warranty: both original v3 master hashes are unavailable among supplied files; replacement is a candidate, not the recovered approved master.",
+    "PKG artwork v1.2 versus specification v1.0 needs owner confirmation/changelog.",
+    "Web product name/brand and real privacy, RBAC, API/idempotency contracts remain owner/backend decisions."
+  ],
+  "errata": [
+    {
+      "id": "TRACE-RATIO",
+      "supersedesText": "96,8%",
+      "correctText": "94,5%",
+      "formula": "121 / 128 × 100 = 94.53125%",
+      "status": "arithmetic-correction; original document retained"
+    }
+  ],
+  "primaryRepairs": [
+    {
+      "id": "AUTH-02-xac-nhan-phien-desktop-1920x1080",
+      "canonicalDesignKey": "auth.default.desktop",
+      "sha256": "44a241b4ac802b3ee5bd5e5b2b9c8d8844d49041b8406b27186f431d32a653c2",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "AUTH-02-xac-nhan-phien-starting-desktop-1920x1080",
+      "canonicalDesignKey": "auth.entering-system.desktop",
+      "sha256": "f1eddf65b6f57c678277a43eb9f4d772d6dda3fe64e6ba61083fb24992f51fd4",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "AUTH-02-xac-nhan-phien-expired-desktop-1920x1080",
+      "canonicalDesignKey": "auth.session-expired.desktop",
+      "sha256": "5a15ff16574b02ff1861fa76362220576a798cd89fc5e91f558410a99776edb3",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "AUTH-02-xac-nhan-phien-tablet-1440x2048",
+      "canonicalDesignKey": "auth.default.tablet",
+      "sha256": "b9b12a8fe63e80c31c43e3df048fcbdc6d8878c4b4d8d399ec08598a5018beb4",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "AUTH-02-xac-nhan-phien-starting-tablet-1440x2048",
+      "canonicalDesignKey": "auth.entering-system.tablet",
+      "sha256": "6593cdae7488105fc7f5068bfc0d5d81090655db6a3c529cfdef5b128b0bf673",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "AUTH-02-xac-nhan-phien-expired-tablet-1440x2048",
+      "canonicalDesignKey": "auth.session-expired.tablet",
+      "sha256": "4b3ec582e483e79a9a8b29154c93ba5e6bfdcc6eda9788ae69721ad2f965a2ac",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-01-default-desktop-1920x1080",
+      "canonicalDesignKey": "overview.default.desktop",
+      "sha256": "b18fd226873e3b3f2a91cb4872e44d274ebc470b5492206814b8e1283117537a",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-01-loading-desktop-1920x1080",
+      "canonicalDesignKey": "overview.loading.desktop",
+      "sha256": "304bff83108c6b41ccbe3bc9f43d671089443e84f67a91b2a54446295b867311",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-02-empty-desktop-1920x1080",
+      "canonicalDesignKey": "overview.empty.desktop",
+      "sha256": "36b37bb674ccc807954114f4709b38c355f6007ece77a4a128081c7e2ab7f6b2",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-03-error-desktop-1920x1080",
+      "canonicalDesignKey": "overview.error.desktop",
+      "sha256": "2b9d386d1a001533cec349260f0e2bcadfa259c913a0266863caae502d974484",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-04-permission-denied-desktop-1920x1080",
+      "canonicalDesignKey": "overview.permission-denied.desktop",
+      "sha256": "5984754e468497a298b36d4883e3365c842c6f891b27394c3a217085f5294dca",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-05-pending-approval-desktop-1920x1080",
+      "canonicalDesignKey": "overview.pending.desktop",
+      "sha256": "ed05cf80d6d51c79befe06e01b6e5e11535599bd25a251362645c76d73cf3515",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-06-processing-desktop-1920x1080",
+      "canonicalDesignKey": "overview.processing.desktop",
+      "sha256": "b1dfc4a84c052d2c05600400cd5f0ad8a0b934ee253f07e5970db822ee8c356e",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-07-completed-desktop-1920x1080",
+      "canonicalDesignKey": "overview.completed.desktop",
+      "sha256": "bd6e97eae94db4e575c53ae9bb027eebd03b3598f894f388d90110f5e21d2dd8",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-08-overdue-desktop-1920x1080",
+      "canonicalDesignKey": "overview.overdue.desktop",
+      "sha256": "69a3985af74eda4bb4ab7d36fe14641f9d8641ce8bbdb79d645906690a3f6ac1",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-09-urgent-desktop-1920x1080",
+      "canonicalDesignKey": "overview.urgent.desktop",
+      "sha256": "62ca1c9794f28b1176d545d1aa85be3d25d7af4190be4750529e2af6b7df52ab",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-01",
+      "canonicalDesignKey": "filter.1.desktop",
+      "sha256": "b18fd226873e3b3f2a91cb4872e44d274ebc470b5492206814b8e1283117537a",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-02",
+      "canonicalDesignKey": "filter.2.desktop",
+      "sha256": "089dbdae5213f47f7e03234d1613f382c84538cee8243480a92fb5ee87af9900",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-03",
+      "canonicalDesignKey": "filter.3.desktop",
+      "sha256": "6d375c2a27cbc6e3ba0bd38fe2b598f8c6351adb240924ce860d5e05b5fa2e06",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-04",
+      "canonicalDesignKey": "filter.4.desktop",
+      "sha256": "ede11c8b695aafc0ccaa850c904150289e6e141d8808d11643c7b596ef25d1d1",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-05",
+      "canonicalDesignKey": "filter.5.desktop",
+      "sha256": "623c81ae89567a451fc1c1167f19fbfd1a0464720f8f3237ad472458dfb915b2",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-06",
+      "canonicalDesignKey": "filter.6.desktop",
+      "sha256": "63fcb77e588e79e6c9ff6f8531b3af5799b97cfd4ae68f168144ab88bceda097",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-07",
+      "canonicalDesignKey": "filter.7.desktop",
+      "sha256": "6dcaa23636bdeb40ac62816cb9a71708d094e485663bf0076a3dbd6f83cfa8f6",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-08",
+      "canonicalDesignKey": "filter.8.desktop",
+      "sha256": "425befb3ddfa208b64a77e7efba0110000d20a91e575aa4f7450f6fb0264acf6",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-09",
+      "canonicalDesignKey": "filter.9.desktop",
+      "sha256": "d595374b2c1ad03dddaa1cd6645a7242d5da6807f87aa0ccd13e6063409ca810",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-10",
+      "canonicalDesignKey": "filter.10.desktop",
+      "sha256": "6cbff4145bb009d5402d1310c7cb20ec5fcdd2bc2f073294637410dd4a0c7e57",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-11",
+      "canonicalDesignKey": "filter.11.desktop",
+      "sha256": "294f7310b05846f8c8bdd0a71d172952ac4d2374a5fef99d400c01cb1896f209",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-12",
+      "canonicalDesignKey": "filter.12.desktop",
+      "sha256": "dce72357dc909703725c0209cc1ced06f95c5c7f6d6d244eb283c5dc59a5fff4",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-desktop-13",
+      "canonicalDesignKey": "filter.13.desktop",
+      "sha256": "bd25aeeae40d991445ac02a7c92b8d58556f3a5915998daf73e05889b9c336c1",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-01-default-tablet-1600x2560",
+      "canonicalDesignKey": "overview.default.tablet",
+      "sha256": "df59d3929fe1caaeca5aa5d2385fc4c7ed74934e68cc868e1c65ae1f28cf0f8c",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-01-loading-tablet-1600x2560",
+      "canonicalDesignKey": "overview.loading.tablet",
+      "sha256": "5d69c4b00384ad573e5c6bd33d65bbfc3366aed137a22cc612e635e46c5487f1",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-02-empty-tablet-1600x2560",
+      "canonicalDesignKey": "overview.empty.tablet",
+      "sha256": "e54c08a12d19208e584c0b0070ef914fdbdd4641bbabbc610131876a00e7553a",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-03-error-tablet-1600x2560",
+      "canonicalDesignKey": "overview.error.tablet",
+      "sha256": "9f087029b66de0417a4dede0dc7ee697dfe1bd78c16cda730422f529c31e8f9c",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-04-permission-denied-tablet-1600x2560",
+      "canonicalDesignKey": "overview.permission-denied.tablet",
+      "sha256": "80f4d568294254ba071eb28b1ff1f0dabdcde606507013dc01d262b76d74bed6",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-05-pending-approval-tablet-1600x2560",
+      "canonicalDesignKey": "overview.pending.tablet",
+      "sha256": "9ecc591b077e66bcb9239b863cf72ba9f2f30a6cdfd9202914aa3975328e45c5",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-06-processing-tablet-1600x2560",
+      "canonicalDesignKey": "overview.processing.tablet",
+      "sha256": "beb1bfc3195db4300669a90cb7e279dc02841dcf19b8820ec1f5306ecbb151ee",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-07-completed-tablet-1600x2560",
+      "canonicalDesignKey": "overview.completed.tablet",
+      "sha256": "76bf8f17b7439490bc992ab37de9ae0d1a5cb940e4e77f144c3f16be890e23bd",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-08-overdue-tablet-1600x2560",
+      "canonicalDesignKey": "overview.overdue.tablet",
+      "sha256": "f28e3c1d528b13fa8c0fe8d0336136da1a04ee93f06bc048d7bd6834a982f005",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "overview-state-09-urgent-tablet-1600x2560",
+      "canonicalDesignKey": "overview.urgent.tablet",
+      "sha256": "6b9de8a10d8952deb3bed3439c099572a9c1576420e7dbe810eeaf6c70e498ee",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-01",
+      "canonicalDesignKey": "filter.1.tablet",
+      "sha256": "df59d3929fe1caaeca5aa5d2385fc4c7ed74934e68cc868e1c65ae1f28cf0f8c",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-02",
+      "canonicalDesignKey": "filter.2.tablet",
+      "sha256": "5496fde1296fb7daa71e10b32ae02bcee378f54aa2a20d55f39bf6c5e20e87bf",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-03",
+      "canonicalDesignKey": "filter.3.tablet",
+      "sha256": "8611880f40c5c51157afa2f9360e45eec276b6d4ebc307fcb02578256f870fcf",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-04",
+      "canonicalDesignKey": "filter.4.tablet",
+      "sha256": "4791a4678d35bf4a599cfb9e943abf883b2d396cb0ef85b858559be97d908e8a",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-05",
+      "canonicalDesignKey": "filter.5.tablet",
+      "sha256": "40b42510322871957e7f6f13bfda4a8acae6b6a0a85206dca3a9188bf3b87a25",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-06",
+      "canonicalDesignKey": "filter.6.tablet",
+      "sha256": "f4302d5bd5627d1fe50c30c039b8d3d2d66c524ab4d8edcf117e379eaf6093f0",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-07",
+      "canonicalDesignKey": "filter.7.tablet",
+      "sha256": "5917e9c036282bed594164b326785ff56338e6cc85e9aef9bd4824ee273ff10d",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-08",
+      "canonicalDesignKey": "filter.8.tablet",
+      "sha256": "98264c344f3923e7b739bd2fac66bf4fa99831ba7caa21fa6b02afc47ea24231",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-09",
+      "canonicalDesignKey": "filter.9.tablet",
+      "sha256": "2e9c3e69fc1c77826cd48a27efbf1f15fd22939b2eec3e698284e86144422a7d",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-10",
+      "canonicalDesignKey": "filter.10.tablet",
+      "sha256": "545f11d33a50be8d536f696bd3d799b3c21da049ea20eb230a74a5bcdd8d7345",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-11",
+      "canonicalDesignKey": "filter.11.tablet",
+      "sha256": "f080003d099ecb8e13772aafda5341d02a6424249196c69841cb8a24f5820d51",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-12",
+      "canonicalDesignKey": "filter.12.tablet",
+      "sha256": "7e781a57b6d6324b325081a1c00520f8ac3891648250811e50cd229cb358ef58",
+      "reviewStatus": "needs-owner-review"
+    },
+    {
+      "id": "filter-tablet-13",
+      "canonicalDesignKey": "filter.13.tablet",
+      "sha256": "10347c5046243165374ecfe3225fb34aec6be1ddfb6fb4cd6f5cd33da52c3840",
+      "reviewStatus": "needs-owner-review"
+    }
+  ]
+}

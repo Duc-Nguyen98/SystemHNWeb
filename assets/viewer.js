@@ -89,7 +89,7 @@ try {
   await img.decode().catch(() => { throw new Error('Không tải được ảnh gốc. Vui lòng tải lại trang hoặc quay lại thư viện.'); });
   if (img.naturalWidth !== screen.width || img.naturalHeight !== screen.height) throw new Error('Kích thước ảnh không khớp hồ sơ bàn giao. Vui lòng tải lại trang hoặc liên hệ người phụ trách thư viện.');
   const css = screen.cssWidth ? ` · ${screen.cssWidth} × ${screen.cssHeight} CSS px` : '';
-  const review = screen.origin === 'ai-supplement' ? ' · AI bổ sung — cần chủ thiết kế duyệt' : '';
+  const review = screen.origin === 'native-repair' ? ' · Bản sửa nghiệp vụ — cần chủ thiết kế duyệt' : screen.origin === 'ai-supplement' ? ' · AI bổ sung — cần chủ thiết kế duyệt' : '';
   $('metadata').textContent = `${screen.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc'} · ${img.naturalWidth} × ${img.naturalHeight} px ảnh gốc${css}${review}`;
   $('download').href = img.src;
   $('download').download = screen.fileName || screen.src.split('/').at(-1);

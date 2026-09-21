@@ -1,5 +1,7 @@
 # Hoa Nam WMS — AUTH UI Screen Manifest v2
 
+> Cập nhật nghiệp vụ 22/09/2026: AUTH-02 trong hai gallery đã chuyển sang cùng nguồn `business-v1`, bản sửa cần chủ thiết kế duyệt. Default = “Bắt đầu làm việc”; pending = “Đang vào hệ thống…”; Expired ẩn thông tin người dùng/kho và chỉ cho Đăng nhập lại. Không mở/tạo ca. Xem [biên bản mới](handoff-BUSINESS-REPAIR-v1.md).
+
 ## Kích thước bàn giao
 
 - Desktop tiêu chuẩn: **1920 × 1080 px** (Full HD).
@@ -22,7 +24,7 @@ Mỗi màn hình có một ảnh Desktop và một ảnh Tablet, không gộp co
 | AUTH-01 | Account unavailable |
 | AUTH-01 | Auth service unavailable |
 | AUTH-02 | Xác nhận phiên làm việc |
-| AUTH-02 | Đang bắt đầu ca |
+| AUTH-02 | Đang vào hệ thống |
 | AUTH-02 | Phiên hết hạn |
 | AUTH-03 | OTP / Verify |
 | AUTH-04 | Quên mật khẩu |

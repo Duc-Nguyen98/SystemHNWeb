@@ -2,7 +2,9 @@
 
 Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 hiện có 9 state được duyệt cho mỗi viewport; AUTH-02 và các màn hỗ trợ tiếp tục được giữ trong cùng nhóm. Bộ filter/date picker MAP-01 v2 có gallery QA riêng với 13 state cho mỗi viewport.
 
-Bộ xuất từ Drive ngày 22/09/2026 có gallery riêng tại [`drive-gallery.html`](drive-gallery.html), gồm **376 màn hình thuộc 21 nhóm nghiệp vụ**: 369 ảnh nguồn và 7 ảnh AI bổ sung có nhãn cần duyệt. Bộ nhập giữ nguyên ảnh nguồn, có thumbnail nhẹ để duyệt nhanh, manifest SHA-256 và bộ lọc theo nghiệp vụ/thiết bị. Các ảnh AUTH-01 và Tổng quan đã có trong gallery chính không bị nhân đôi.
+Bộ xuất từ Drive ngày 22/09/2026 có gallery riêng tại [`drive-gallery.html`](drive-gallery.html), gồm **376 màn hình thuộc 21 nhóm nghiệp vụ**. Sau đợt sửa nghiệp vụ, 56 liên kết Drive và 52 liên kết gallery chính dùng bản sửa HTML/SVG có nhãn **cần chủ thiết kế duyệt**; 3 ảnh AI bổ sung vẫn còn trong gallery. Tổng số màn không tăng. Ảnh trước sửa được lưu nguyên vẹn trong `design-archive/business-v1`.
+
+**Đợt sửa ưu tiên:** [preview bản sửa](business-repair.html) · [biên bản và giới hạn](handoff-BUSINESS-REPAIR-v1.md) · [sổ baseline](baseline-register.json). Expired, Readonly, sai module và biểu đồ được kiểm tra bằng dữ liệu/semantic DOM; các baseline xung đột checksum chưa tự nhận đã duyệt. `npm run render:business` dựng lại 88 ảnh nguồn trực tiếp ở đúng viewport; cần `npm run sync` sau khi áp dụng.
 
 [Báo cáo sửa trạng thái](handoff-DRIVE-STATE-REPAIR-20260922.md): đủ cặp thiết bị trong 11 nhóm đã triển khai; miễn kiểm tra độ phủ cho 10 nhóm có không quá 3 ảnh. Ảnh AI lưu đúng kích thước native, không coi là master đã duyệt. Import có chế độ `--reviewed-only` để không cuốn theo ảnh mới của công việc khác trong thư mục nguồn.
 
