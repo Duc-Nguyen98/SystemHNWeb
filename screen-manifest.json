@@ -263,6 +263,16 @@
       "provenance": "Existing gallery original; unchanged bytes"
     },
     {
+      "id": "overview-state-01-default-desktop-1920x1080",
+      "title": "MAP-01 · Mặc định",
+      "src": "previews/overview-jpg/desktop/overview-state-01-default-desktop-1920x1080.jpg",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7ef460ea75c671e19096c35b498b51d13887297388eead99349e22686e3eb25f",
+      "provenance": "User-approved MAP-01 replacement set · 2026-09-21"
+    },
+    {
       "id": "overview-state-01-loading-desktop-1920x1080",
       "title": "MAP-01 · Đang tải",
       "src": "previews/overview-jpg/desktop/overview-state-01-loading-desktop-1920x1080.jpg",
@@ -509,6 +519,18 @@
       "title": "MAP-01-13 · Permission denied"
     },
     {
+      "id": "overview-state-01-default-tablet-1600x2560",
+      "title": "MAP-01 · Mặc định",
+      "src": "previews/overview-jpg/tablet/overview-state-01-default-tablet-1600x2560.jpg",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sha256": "e116deed89c71e77a1640a65442497862a30ff1f6adbb9146cc1c8658219dc89",
+      "provenance": "User-approved MAP-01 replacement set · normalized from 1280 × 2048 to locked 1600 × 2560 canvas · 2026-09-21",
+      "cssWidth": 800,
+      "cssHeight": 1280
+    },
+    {
       "id": "overview-state-01-loading-tablet-1600x2560",
       "title": "MAP-01 · Đang tải",
       "src": "previews/overview-jpg/tablet/overview-state-01-loading-tablet-1600x2560.jpg",
@@ -516,7 +538,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "4dca6c507da24de45e3214796d0f352056651c0dd5e9b9bbebef9d62bdb56492",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -528,7 +550,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "e1f131aad372463c16571a13a1aea183020a57a42075e4fc62567c47ab847e8f",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -540,7 +562,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "9a838e0458f403846e5eb9ac8e141e39ecfedeada9d95b95bff98b1328ae7cc4",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -552,7 +574,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "6281a6c0e5aa91f0fc2b293e53d8f645ab1cbfdbef826f851d42be0d2fb38c8d",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -564,7 +586,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "53627c2c861764d7fa67ff0be81b0f3cedfbbef6de2765ad923d3f249f575138",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -576,7 +598,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "6adb41e067cd9c2a402809def75dcf51135f14923ca03f6780ae3010777237b2",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -588,7 +610,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "0fe4580fb5e2ff130cb99ea02a59f83e9560fa50c2ba8c124be4ec8fc7dea608",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -600,7 +622,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "3840c3b7226e8f48ec713103ae708695762c1dec719354e64f0363990e16d0f5",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
@@ -612,7 +634,7 @@
       "width": 1600,
       "height": 2560,
       "sha256": "7481b92b48707effeb7c651dfc298681cc6a3f9bf4fe70eaca26a7ea1fe2443b",
-      "provenance": "Existing gallery original; unchanged bytes",
+      "provenance": "Existing 1600 × 2560 gallery asset matches the approved replacement artwork",
       "cssWidth": 800,
       "cssHeight": 1280
     },
