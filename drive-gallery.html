@@ -40,7 +40,7 @@
   }
   function render() {
     const query = state.search.trim().toLocaleLowerCase('vi');
-    const screens = manifest.screens.filter(screen => (!state.group || screen.group === state.group) && (!state.device || screen.device === state.device) && (!query || `${screen.title} ${screen.groupTitle} ${screen.sourcePaths.join(' ')}`.toLocaleLowerCase('vi').includes(query)));
+    const screens = manifest.screens.filter(screen => (!state.group || screen.group === state.group) && (!state.device || screen.device === state.device) && (!query || `${screen.title} ${screen.fileName} ${screen.groupTitle} ${screen.sourcePaths.join(' ')}`.toLocaleLowerCase('vi').includes(query)));
     const fragment = document.createDocumentFragment();
     for (const screen of screens) {
       const article = document.createElement('article'); article.className = 'card';
@@ -50,9 +50,9 @@
       const meta = document.createElement('div'); meta.className = 'meta';
       const badges = document.createElement('div'); badges.className = 'badges';
       for (const [text, className] of [[screen.device === 'desktop' ? 'Desktop' : 'Tablet', ''], [`${screen.width} × ${screen.height}`, ''], [screen.stage === 'review' ? 'Bản review' : 'Bàn giao', screen.stage]]) { const badge = document.createElement('span'); badge.className = `badge ${className}`; badge.textContent = text; badges.append(badge); }
-      const download = document.createElement('a'); download.className = 'download'; download.href = screen.src; download.download = ''; download.textContent = 'Tải ảnh ↓';
+      const download = document.createElement('a'); download.className = 'download'; download.href = screen.src; download.download = screen.fileName; download.textContent = 'Tải ảnh ↓';
       meta.append(badges, download); article.append(meta);
-      const source = document.createElement('div'); source.className = 'source'; source.title = screen.sourcePaths.join('\n'); source.textContent = `${screen.groupTitle} · ${screen.sourcePaths[0]}`; article.append(source);
+      const source = document.createElement('div'); source.className = 'source'; source.title = `Nguồn Drive:\n${screen.sourcePaths.join('\n')}`; source.textContent = `${screen.groupTitle} · ${screen.fileName}`; article.append(source);
       fragment.append(article);
     }
     $('grid').replaceChildren(fragment); $('empty').hidden = screens.length > 0; $('result').textContent = `Hiển thị ${screens.length}/${manifest.total} màn hình`;

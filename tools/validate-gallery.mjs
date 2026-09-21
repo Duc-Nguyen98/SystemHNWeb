@@ -26,6 +26,9 @@ assert.equal(ids.size, 84, 'Update the reviewed inventory when adding/removing s
 const driveIds = new Set();
 for (const screen of driveManifest.screens) {
   assert(!driveIds.has(screen.id), `Duplicate Drive screen ${screen.id}`); driveIds.add(screen.id);
+  assert(typeof screen.fileName === 'string' && /\.(png|jpg)$/i.test(screen.fileName), `${screen.id} missing handoff filename`);
+  assert(!/^[0-9a-f]{8}(?:\s|[-_][0-9a-f]{4})/i.test(screen.title), `${screen.id} still exposes an opaque UUID title`);
+  assert(!/^ChatGPT Image/i.test(screen.title), `${screen.id} still exposes a timestamp-only title`);
   assert(/^previews\/drive-screens\/originals\/[\w./-]+\.(png|jpg)$/.test(screen.src) && !screen.src.includes('..'), `Drive original path required: ${screen.id}`);
   assert(/^previews\/drive-screens\/thumbs\/[\w./-]+\.webp$/.test(screen.thumb) && !screen.thumb.includes('..'), `Drive thumbnail path required: ${screen.id}`);
   const bytes = await read(screen.src), meta = await sharp(bytes).metadata();

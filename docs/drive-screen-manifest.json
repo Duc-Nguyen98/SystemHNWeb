@@ -159,140 +159,15 @@
   ],
   "screens": [
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-1a3923f5-c94d-4b78-a555-bc24787e6d54-79af3e5fa9",
-      "title": "1a3923f5 c94d 4b78 a555 bc24787e6d54",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p01-default-desktop-1672x940-review-d5a86e0d6b",
+      "title": "HN WARRANTY REPORT P01 DEFAULT",
+      "fileName": "HN_WARRANTY_REPORT_P01_DEFAULT_DESKTOP_1672x940_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/1a3923f5-c94d-4b78-a555-bc24787e6d54-79af3e5fa9.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/1a3923f5-c94d-4b78-a555-bc24787e6d54-79af3e5fa9.webp",
-      "width": 1672,
-      "height": 941,
-      "thumbWidth": 900,
-      "thumbHeight": 507,
-      "sha256": "79af3e5fa90593eea2a7388020f0d12e7426134a5cbe6a5670e29430c6822e05",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/1a3923f5-c94d-4b78-a555-bc24787e6d54.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-3e39d484-a9db-4e43-b270-2cbe2783fa13-d96fde7df2",
-      "title": "3e39d484 a9db 4e43 b270 2cbe2783fa13",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "desktop",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/3e39d484-a9db-4e43-b270-2cbe2783fa13-d96fde7df2.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/3e39d484-a9db-4e43-b270-2cbe2783fa13-d96fde7df2.webp",
-      "width": 1672,
-      "height": 941,
-      "thumbWidth": 900,
-      "thumbHeight": 507,
-      "sha256": "d96fde7df2e80687752ebfe980c93aa52fa9f9cf809057c4f4e288b1ddd7eb0e",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/3e39d484-a9db-4e43-b270-2cbe2783fa13.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-08def2e1-4306-4a4e-ba82-66efe2bb59ba-4b827a9d4a",
-      "title": "08def2e1 4306 4a4e ba82 66efe2bb59ba",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "desktop",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/08def2e1-4306-4a4e-ba82-66efe2bb59ba-4b827a9d4a.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/08def2e1-4306-4a4e-ba82-66efe2bb59ba-4b827a9d4a.webp",
-      "width": 1672,
-      "height": 941,
-      "thumbWidth": 900,
-      "thumbHeight": 507,
-      "sha256": "4b827a9d4a7589f56f82dcd9f1d4a57881794e753e6a28045ebc97c1f41c1654",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/08def2e1-4306-4a4e-ba82-66efe2bb59ba.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-26da1537-ad39-44a9-b1b0-acb72ae0bb28-6f46b500c8",
-      "title": "26da1537 ad39 44a9 b1b0 acb72ae0bb28",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "desktop",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/26da1537-ad39-44a9-b1b0-acb72ae0bb28-6f46b500c8.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/26da1537-ad39-44a9-b1b0-acb72ae0bb28-6f46b500c8.webp",
-      "width": 1672,
-      "height": 941,
-      "thumbWidth": 900,
-      "thumbHeight": 507,
-      "sha256": "6f46b500c8191965b68ae45ed7010e8b7adfb9c2764224ddc59a7076b7401d5a",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/26da1537-ad39-44a9-b1b0-acb72ae0bb28.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-748d901c-8965-4a8d-872a-c098b6b8ee1c-eb3ee2e992",
-      "title": "748d901c 8965 4a8d 872a c098b6b8ee1c",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "desktop",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/748d901c-8965-4a8d-872a-c098b6b8ee1c-eb3ee2e992.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/748d901c-8965-4a8d-872a-c098b6b8ee1c-eb3ee2e992.webp",
-      "width": 1672,
-      "height": 941,
-      "thumbWidth": 900,
-      "thumbHeight": 507,
-      "sha256": "eb3ee2e99229e52ffcc4c194d96e40250cd97d04ba0faf2616e0eff8b873e4ab",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/748d901c-8965-4a8d-872a-c098b6b8ee1c.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-941fc679-8907-4d4c-8150-79da682070e9-d3160f28bb",
-      "title": "941fc679 8907 4d4c 8150 79da682070e9",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "desktop",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/941fc679-8907-4d4c-8150-79da682070e9-d3160f28bb.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/941fc679-8907-4d4c-8150-79da682070e9-d3160f28bb.webp",
-      "width": 1672,
-      "height": 941,
-      "thumbWidth": 900,
-      "thumbHeight": 507,
-      "sha256": "d3160f28bb217c4b68d8779b47ad6e59b4343d56b8697ab49895dd159030d032",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/941fc679-8907-4d4c-8150-79da682070e9.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-a38e446c-dd3f-47c3-b9ae-90887db344d6-da320a3295",
-      "title": "a38e446c dd3f 47c3 b9ae 90887db344d6",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "desktop",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/a38e446c-dd3f-47c3-b9ae-90887db344d6-da320a3295.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/a38e446c-dd3f-47c3-b9ae-90887db344d6-da320a3295.webp",
-      "width": 1672,
-      "height": 941,
-      "thumbWidth": 900,
-      "thumbHeight": 507,
-      "sha256": "da320a32956509caff55f358412f22a02149e03838a1a0dee4e63acd7a370601",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/a38e446c-dd3f-47c3-b9ae-90887db344d6.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-b361a481-7f5c-497d-8be5-7a5db155a154-d5a86e0d6b",
-      "title": "b361a481 7f5c 497d 8be5 7a5db155a154",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "desktop",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/b361a481-7f5c-497d-8be5-7a5db155a154-d5a86e0d6b.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/b361a481-7f5c-497d-8be5-7a5db155a154-d5a86e0d6b.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p01-default-desktop-1672x940-review-d5a86e0d6b.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p01-default-desktop-1672x940-review-d5a86e0d6b.webp",
       "width": 1672,
       "height": 940,
       "thumbWidth": 900,
@@ -303,14 +178,15 @@
       ]
     },
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-chatgpt-image-00-31-10-20-thg-9-2026-9b58a45f4a",
-      "title": "ChatGPT Image 00 31 10 20 thg 9, 2026",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p02-initial-loading-desktop-1672x941-review-9b58a45f4a",
+      "title": "HN WARRANTY REPORT P02 INITIAL LOADING",
+      "fileName": "HN_WARRANTY_REPORT_P02_INITIAL_LOADING_DESKTOP_1672x941_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/chatgpt-image-00-31-10-20-thg-9-2026-9b58a45f4a.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/chatgpt-image-00-31-10-20-thg-9-2026-9b58a45f4a.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p02-initial-loading-desktop-1672x941-review-9b58a45f4a.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p02-initial-loading-desktop-1672x941-review-9b58a45f4a.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -321,14 +197,15 @@
       ]
     },
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-de59bf31-b4df-49b2-99e7-7ca2a60d6a55-6024f80ca1",
-      "title": "de59bf31 b4df 49b2 99e7 7ca2a60d6a55",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p03-refreshing-desktop-1672x941-review-6024f80ca1",
+      "title": "HN WARRANTY REPORT P03 REFRESHING",
+      "fileName": "HN_WARRANTY_REPORT_P03_REFRESHING_DESKTOP_1672x941_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/de59bf31-b4df-49b2-99e7-7ca2a60d6a55-6024f80ca1.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/de59bf31-b4df-49b2-99e7-7ca2a60d6a55-6024f80ca1.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p03-refreshing-desktop-1672x941-review-6024f80ca1.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p03-refreshing-desktop-1672x941-review-6024f80ca1.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -339,32 +216,72 @@
       ]
     },
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-e9b63f6d-49dd-4400-983b-433fd5677f09-157ddc29d4",
-      "title": "e9b63f6d 49dd 4400 983b 433fd5677f09",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p04-empty-dataset-desktop-1672x941-review-d96fde7df2",
+      "title": "HN WARRANTY REPORT P04 EMPTY DATASET",
+      "fileName": "HN_WARRANTY_REPORT_P04_EMPTY_DATASET_DESKTOP_1672x941_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/e9b63f6d-49dd-4400-983b-433fd5677f09-157ddc29d4.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/e9b63f6d-49dd-4400-983b-433fd5677f09-157ddc29d4.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p04-empty-dataset-desktop-1672x941-review-d96fde7df2.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p04-empty-dataset-desktop-1672x941-review-d96fde7df2.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
       "thumbHeight": 507,
-      "sha256": "157ddc29d4d8e0998234e4a731befa21cba077fbedacacbfd68a47f955842337",
+      "sha256": "d96fde7df2e80687752ebfe980c93aa52fa9f9cf809057c4f4e288b1ddd7eb0e",
       "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/e9b63f6d-49dd-4400-983b-433fd5677f09.png"
+        "bao_cao_bao_hanh_linh_kien/update/3e39d484-a9db-4e43-b270-2cbe2783fa13.png"
       ]
     },
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-f0d314e4-3137-4586-bf64-de9511e2b9d6-030521284c",
-      "title": "f0d314e4 3137 4586 bf64 de9511e2b9d6",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p05-no-result-desktop-1672x941-review-79af3e5fa9",
+      "title": "HN WARRANTY REPORT P05 NO RESULT",
+      "fileName": "HN_WARRANTY_REPORT_P05_NO_RESULT_DESKTOP_1672x941_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/f0d314e4-3137-4586-bf64-de9511e2b9d6-030521284c.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/f0d314e4-3137-4586-bf64-de9511e2b9d6-030521284c.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p05-no-result-desktop-1672x941-review-79af3e5fa9.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p05-no-result-desktop-1672x941-review-79af3e5fa9.webp",
+      "width": 1672,
+      "height": 941,
+      "thumbWidth": 900,
+      "thumbHeight": 507,
+      "sha256": "79af3e5fa90593eea2a7388020f0d12e7426134a5cbe6a5670e29430c6822e05",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/1a3923f5-c94d-4b78-a555-bc24787e6d54.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p06-data-load-error-desktop-1672x941-review-6f46b500c8",
+      "title": "HN WARRANTY REPORT P06 DATA LOAD ERROR",
+      "fileName": "HN_WARRANTY_REPORT_P06_DATA_LOAD_ERROR_DESKTOP_1672x941_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "desktop",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p06-data-load-error-desktop-1672x941-review-6f46b500c8.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p06-data-load-error-desktop-1672x941-review-6f46b500c8.webp",
+      "width": 1672,
+      "height": 941,
+      "thumbWidth": 900,
+      "thumbHeight": 507,
+      "sha256": "6f46b500c8191965b68ae45ed7010e8b7adfb9c2764224ddc59a7076b7401d5a",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/26da1537-ad39-44a9-b1b0-acb72ae0bb28.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p07-offline-desktop-1672x941-review-030521284c",
+      "title": "HN WARRANTY REPORT P07 OFFLINE",
+      "fileName": "HN_WARRANTY_REPORT_P07_OFFLINE_DESKTOP_1672x941_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "desktop",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p07-offline-desktop-1672x941-review-030521284c.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p07-offline-desktop-1672x941-review-030521284c.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -375,8 +292,104 @@
       ]
     },
     {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p08-partial-data-warning-desktop-1672x941-review-4b827a9d4a",
+      "title": "HN WARRANTY REPORT P08 PARTIAL DATA WARNING",
+      "fileName": "HN_WARRANTY_REPORT_P08_PARTIAL_DATA_WARNING_DESKTOP_1672x941_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "desktop",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p08-partial-data-warning-desktop-1672x941-review-4b827a9d4a.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p08-partial-data-warning-desktop-1672x941-review-4b827a9d4a.webp",
+      "width": 1672,
+      "height": 941,
+      "thumbWidth": 900,
+      "thumbHeight": 507,
+      "sha256": "4b827a9d4a7589f56f82dcd9f1d4a57881794e753e6a28045ebc97c1f41c1654",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/08def2e1-4306-4a4e-ba82-66efe2bb59ba.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p09-invalid-date-range-desktop-1672x941-review-d3160f28bb",
+      "title": "HN WARRANTY REPORT P09 INVALID DATE RANGE",
+      "fileName": "HN_WARRANTY_REPORT_P09_INVALID_DATE_RANGE_DESKTOP_1672x941_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "desktop",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p09-invalid-date-range-desktop-1672x941-review-d3160f28bb.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p09-invalid-date-range-desktop-1672x941-review-d3160f28bb.webp",
+      "width": 1672,
+      "height": 941,
+      "thumbWidth": 900,
+      "thumbHeight": 507,
+      "sha256": "d3160f28bb217c4b68d8779b47ad6e59b4343d56b8697ab49895dd159030d032",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/941fc679-8907-4d4c-8150-79da682070e9.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p10-export-failed-desktop-1672x941-review-da320a3295",
+      "title": "HN WARRANTY REPORT P10 EXPORT FAILED",
+      "fileName": "HN_WARRANTY_REPORT_P10_EXPORT_FAILED_DESKTOP_1672x941_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "desktop",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p10-export-failed-desktop-1672x941-review-da320a3295.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p10-export-failed-desktop-1672x941-review-da320a3295.webp",
+      "width": 1672,
+      "height": 941,
+      "thumbWidth": 900,
+      "thumbHeight": 507,
+      "sha256": "da320a32956509caff55f358412f22a02149e03838a1a0dee4e63acd7a370601",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/a38e446c-dd3f-47c3-b9ae-90887db344d6.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p11-exporting-desktop-1672x941-review-157ddc29d4",
+      "title": "HN WARRANTY REPORT P11 EXPORTING",
+      "fileName": "HN_WARRANTY_REPORT_P11_EXPORTING_DESKTOP_1672x941_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "desktop",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p11-exporting-desktop-1672x941-review-157ddc29d4.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p11-exporting-desktop-1672x941-review-157ddc29d4.webp",
+      "width": 1672,
+      "height": 941,
+      "thumbWidth": 900,
+      "thumbHeight": 507,
+      "sha256": "157ddc29d4d8e0998234e4a731befa21cba077fbedacacbfd68a47f955842337",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/e9b63f6d-49dd-4400-983b-433fd5677f09.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p12-export-success-desktop-1672x941-review-eb3ee2e992",
+      "title": "HN WARRANTY REPORT P12 EXPORT SUCCESS",
+      "fileName": "HN_WARRANTY_REPORT_P12_EXPORT_SUCCESS_DESKTOP_1672x941_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "desktop",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p12-export-success-desktop-1672x941-review-eb3ee2e992.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/desktop/hn-warranty-report-p12-export-success-desktop-1672x941-review-eb3ee2e992.webp",
+      "width": 1672,
+      "height": 941,
+      "thumbWidth": 900,
+      "thumbHeight": 507,
+      "sha256": "eb3ee2e99229e52ffcc4c194d96e40250cd97d04ba0faf2616e0eff8b873e4ab",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/748d901c-8965-4a8d-872a-c098b6b8ee1c.png"
+      ]
+    },
+    {
       "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p13-export-outcome-unknown-desktop-1920x1080-v1-1-e27a7f25fe",
       "title": "HN WARRANTY REPORT P13 EXPORT OUTCOME UNKNOWN",
+      "fileName": "HN_WARRANTY_REPORT_P13_EXPORT_OUTCOME_UNKNOWN_DESKTOP_1920x1080_v1.1.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
@@ -395,6 +408,7 @@
     {
       "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p14-open-detail-processing-desktop-1920x1080-v1-0-c8b06db2c2",
       "title": "HN WARRANTY REPORT P14 OPEN DETAIL PROCESSING",
+      "fileName": "HN_WARRANTY_REPORT_P14_OPEN_DETAIL_PROCESSING_DESKTOP_1920x1080_v1.0.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
@@ -413,6 +427,7 @@
     {
       "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p15-detail-load-error-desktop-1920x1080-v1-0-260edb9d06",
       "title": "HN WARRANTY REPORT P15 DETAIL LOAD ERROR",
+      "fileName": "HN_WARRANTY_REPORT_P15_DETAIL_LOAD_ERROR_DESKTOP_1920x1080_v1.0.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "desktop",
@@ -429,176 +444,15 @@
       ]
     },
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-0b58db35-2a38-44a6-bd4f-08617d56d806-412d333e9f",
-      "title": "0b58db35 2a38 44a6 bd4f 08617d56d806",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p01-default-tablet-992x1586-review-b9d5d5be6f",
+      "title": "HN WARRANTY REPORT P01 DEFAULT",
+      "fileName": "HN_WARRANTY_REPORT_P01_DEFAULT_TABLET_992x1586_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/0b58db35-2a38-44a6-bd4f-08617d56d806-412d333e9f.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/0b58db35-2a38-44a6-bd4f-08617d56d806-412d333e9f.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "412d333e9fb905ab22ae2da76e936f698844f3c0642155df734bf0e116381677",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/0b58db35-2a38-44a6-bd4f-08617d56d806.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-7b090fbe-c7bc-4e10-bd4d-666bebb53ae9-f57f41c9d1",
-      "title": "7b090fbe c7bc 4e10 bd4d 666bebb53ae9",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/7b090fbe-c7bc-4e10-bd4d-666bebb53ae9-f57f41c9d1.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/7b090fbe-c7bc-4e10-bd4d-666bebb53ae9-f57f41c9d1.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "f57f41c9d1c04c756f741d447ea9b75b937d155466a4dc338079afde2bd1a944",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/7b090fbe-c7bc-4e10-bd4d-666bebb53ae9.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-07dfa0c7-4002-4866-b8d8-a113e8513dcf-41a249e00e",
-      "title": "07dfa0c7 4002 4866 b8d8 a113e8513dcf",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/07dfa0c7-4002-4866-b8d8-a113e8513dcf-41a249e00e.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/07dfa0c7-4002-4866-b8d8-a113e8513dcf-41a249e00e.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "41a249e00e63a4d47c45bccd83637f9cc9e5c7d25232a6d040d3619c4ac5398e",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/07dfa0c7-4002-4866-b8d8-a113e8513dcf.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-26cc1a88-10d7-4853-b8e5-df6dd827462b-a9818fea81",
-      "title": "26cc1a88 10d7 4853 b8e5 df6dd827462b",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/26cc1a88-10d7-4853-b8e5-df6dd827462b-a9818fea81.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/26cc1a88-10d7-4853-b8e5-df6dd827462b-a9818fea81.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "a9818fea8127a9f9f658e74088f2adcd7c1ef96be4402380d571832acda11bdd",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/26cc1a88-10d7-4853-b8e5-df6dd827462b.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-47e68033-7c8f-449e-8d5c-26b5b9747691-5497c67329",
-      "title": "47e68033 7c8f 449e 8d5c 26b5b9747691",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/47e68033-7c8f-449e-8d5c-26b5b9747691-5497c67329.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/47e68033-7c8f-449e-8d5c-26b5b9747691-5497c67329.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "5497c6732904b864142656d531e07bcb33d9518d6b42704c7e7c25c87adb4a81",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/47e68033-7c8f-449e-8d5c-26b5b9747691.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-393ba82f-63a2-44a5-9ee9-bac7adf7a262-eccc9c002a",
-      "title": "393ba82f 63a2 44a5 9ee9 bac7adf7a262",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/393ba82f-63a2-44a5-9ee9-bac7adf7a262-eccc9c002a.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/393ba82f-63a2-44a5-9ee9-bac7adf7a262-eccc9c002a.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "eccc9c002ac9b3254cd7674d3ac395aba8ebc49042192be825e47703a6cf3364",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/393ba82f-63a2-44a5-9ee9-bac7adf7a262.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-14137a16-d7a3-47e5-913b-a5831a20e945-5c40ab6e20",
-      "title": "14137a16 d7a3 47e5 913b a5831a20e945",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/14137a16-d7a3-47e5-913b-a5831a20e945-5c40ab6e20.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/14137a16-d7a3-47e5-913b-a5831a20e945-5c40ab6e20.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "5c40ab6e20e757df87114ec80b7d51b98bc598786447f182f0be09026e24f949",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/14137a16-d7a3-47e5-913b-a5831a20e945.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-86339f0f-98b7-4667-bf16-89fdda45b67e-08621a9ffe",
-      "title": "86339f0f 98b7 4667 bf16 89fdda45b67e",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/86339f0f-98b7-4667-bf16-89fdda45b67e-08621a9ffe.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/86339f0f-98b7-4667-bf16-89fdda45b67e-08621a9ffe.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "08621a9ffe6295f91bd7e7dbccd6d3d8b489ba36035f4dccb34ceba553d19f06",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/86339f0f-98b7-4667-bf16-89fdda45b67e.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-7025288a-09f2-4896-967d-cd4785d82496-0e8d6d60fd",
-      "title": "7025288a 09f2 4896 967d cd4785d82496",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/7025288a-09f2-4896-967d-cd4785d82496-0e8d6d60fd.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/7025288a-09f2-4896-967d-cd4785d82496-0e8d6d60fd.webp",
-      "width": 992,
-      "height": 1586,
-      "thumbWidth": 563,
-      "thumbHeight": 900,
-      "sha256": "0e8d6d60fd3afcf620791622d9c64ed6a2cc523f8b1043769df78e7cd4356e86",
-      "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/7025288a-09f2-4896-967d-cd4785d82496.png"
-      ]
-    },
-    {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-87171505-b091-4be1-a239-8dec0e510a64-b9d5d5be6f",
-      "title": "87171505 b091 4be1 a239 8dec0e510a64",
-      "group": "bao_cao_bao_hanh_linh_kien",
-      "groupTitle": "Báo cáo bảo hành linh kiện",
-      "device": "tablet",
-      "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/87171505-b091-4be1-a239-8dec0e510a64-b9d5d5be6f.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/87171505-b091-4be1-a239-8dec0e510a64-b9d5d5be6f.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p01-default-tablet-992x1586-review-b9d5d5be6f.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p01-default-tablet-992x1586-review-b9d5d5be6f.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
@@ -609,32 +463,110 @@
       ]
     },
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-cdc1a29a-30c5-4304-a927-35966efa6920-88267e9d66",
-      "title": "cdc1a29a 30c5 4304 a927 35966efa6920",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p02-initial-loading-tablet-992x1586-review-412d333e9f",
+      "title": "HN WARRANTY REPORT P02 INITIAL LOADING",
+      "fileName": "HN_WARRANTY_REPORT_P02_INITIAL_LOADING_TABLET_992x1586_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/cdc1a29a-30c5-4304-a927-35966efa6920-88267e9d66.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/cdc1a29a-30c5-4304-a927-35966efa6920-88267e9d66.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p02-initial-loading-tablet-992x1586-review-412d333e9f.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p02-initial-loading-tablet-992x1586-review-412d333e9f.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
       "thumbHeight": 900,
-      "sha256": "88267e9d66546be5faa0692bd222ade9a1190fc1f15e98703996d1bc322c06b9",
+      "sha256": "412d333e9fb905ab22ae2da76e936f698844f3c0642155df734bf0e116381677",
       "sourcePaths": [
-        "bao_cao_bao_hanh_linh_kien/update/cdc1a29a-30c5-4304-a927-35966efa6920.png"
+        "bao_cao_bao_hanh_linh_kien/update/0b58db35-2a38-44a6-bd4f-08617d56d806.png"
       ]
     },
     {
-      "id": "drive-bao-cao-bao-hanh-linh-kien-e4073f27-5c34-4ed4-a91f-0b7ba6792523-b5dcd230e6",
-      "title": "e4073f27 5c34 4ed4 a91f 0b7ba6792523",
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p03-refreshing-tablet-992x1586-review-41a249e00e",
+      "title": "HN WARRANTY REPORT P03 REFRESHING",
+      "fileName": "HN_WARRANTY_REPORT_P03_REFRESHING_TABLET_992x1586_REVIEW.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/e4073f27-5c34-4ed4-a91f-0b7ba6792523-b5dcd230e6.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/e4073f27-5c34-4ed4-a91f-0b7ba6792523-b5dcd230e6.webp",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p03-refreshing-tablet-992x1586-review-41a249e00e.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p03-refreshing-tablet-992x1586-review-41a249e00e.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "41a249e00e63a4d47c45bccd83637f9cc9e5c7d25232a6d040d3619c4ac5398e",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/07dfa0c7-4002-4866-b8d8-a113e8513dcf.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p04-empty-dataset-tablet-992x1586-review-eccc9c002a",
+      "title": "HN WARRANTY REPORT P04 EMPTY DATASET",
+      "fileName": "HN_WARRANTY_REPORT_P04_EMPTY_DATASET_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p04-empty-dataset-tablet-992x1586-review-eccc9c002a.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p04-empty-dataset-tablet-992x1586-review-eccc9c002a.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "eccc9c002ac9b3254cd7674d3ac395aba8ebc49042192be825e47703a6cf3364",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/393ba82f-63a2-44a5-9ee9-bac7adf7a262.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p05-no-result-tablet-992x1586-review-0e8d6d60fd",
+      "title": "HN WARRANTY REPORT P05 NO RESULT",
+      "fileName": "HN_WARRANTY_REPORT_P05_NO_RESULT_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p05-no-result-tablet-992x1586-review-0e8d6d60fd.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p05-no-result-tablet-992x1586-review-0e8d6d60fd.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "0e8d6d60fd3afcf620791622d9c64ed6a2cc523f8b1043769df78e7cd4356e86",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/7025288a-09f2-4896-967d-cd4785d82496.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p06-data-load-error-tablet-992x1586-review-08621a9ffe",
+      "title": "HN WARRANTY REPORT P06 DATA LOAD ERROR",
+      "fileName": "HN_WARRANTY_REPORT_P06_DATA_LOAD_ERROR_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p06-data-load-error-tablet-992x1586-review-08621a9ffe.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p06-data-load-error-tablet-992x1586-review-08621a9ffe.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "08621a9ffe6295f91bd7e7dbccd6d3d8b489ba36035f4dccb34ceba553d19f06",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/86339f0f-98b7-4667-bf16-89fdda45b67e.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p07-offline-tablet-992x1586-review-b5dcd230e6",
+      "title": "HN WARRANTY REPORT P07 OFFLINE",
+      "fileName": "HN_WARRANTY_REPORT_P07_OFFLINE_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p07-offline-tablet-992x1586-review-b5dcd230e6.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p07-offline-tablet-992x1586-review-b5dcd230e6.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
@@ -645,8 +577,104 @@
       ]
     },
     {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p08-partial-data-warning-tablet-992x1586-review-f57f41c9d1",
+      "title": "HN WARRANTY REPORT P08 PARTIAL DATA WARNING",
+      "fileName": "HN_WARRANTY_REPORT_P08_PARTIAL_DATA_WARNING_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p08-partial-data-warning-tablet-992x1586-review-f57f41c9d1.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p08-partial-data-warning-tablet-992x1586-review-f57f41c9d1.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "f57f41c9d1c04c756f741d447ea9b75b937d155466a4dc338079afde2bd1a944",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/7b090fbe-c7bc-4e10-bd4d-666bebb53ae9.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p09-invalid-date-range-tablet-992x1586-review-5497c67329",
+      "title": "HN WARRANTY REPORT P09 INVALID DATE RANGE",
+      "fileName": "HN_WARRANTY_REPORT_P09_INVALID_DATE_RANGE_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p09-invalid-date-range-tablet-992x1586-review-5497c67329.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p09-invalid-date-range-tablet-992x1586-review-5497c67329.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "5497c6732904b864142656d531e07bcb33d9518d6b42704c7e7c25c87adb4a81",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/47e68033-7c8f-449e-8d5c-26b5b9747691.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p10-export-failed-tablet-992x1586-review-5c40ab6e20",
+      "title": "HN WARRANTY REPORT P10 EXPORT FAILED",
+      "fileName": "HN_WARRANTY_REPORT_P10_EXPORT_FAILED_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p10-export-failed-tablet-992x1586-review-5c40ab6e20.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p10-export-failed-tablet-992x1586-review-5c40ab6e20.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "5c40ab6e20e757df87114ec80b7d51b98bc598786447f182f0be09026e24f949",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/14137a16-d7a3-47e5-913b-a5831a20e945.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p11-exporting-tablet-992x1586-review-a9818fea81",
+      "title": "HN WARRANTY REPORT P11 EXPORTING",
+      "fileName": "HN_WARRANTY_REPORT_P11_EXPORTING_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p11-exporting-tablet-992x1586-review-a9818fea81.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p11-exporting-tablet-992x1586-review-a9818fea81.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "a9818fea8127a9f9f658e74088f2adcd7c1ef96be4402380d571832acda11bdd",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/26cc1a88-10d7-4853-b8e5-df6dd827462b.png"
+      ]
+    },
+    {
+      "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p12-export-success-tablet-992x1586-review-88267e9d66",
+      "title": "HN WARRANTY REPORT P12 EXPORT SUCCESS",
+      "fileName": "HN_WARRANTY_REPORT_P12_EXPORT_SUCCESS_TABLET_992x1586_REVIEW.png",
+      "group": "bao_cao_bao_hanh_linh_kien",
+      "groupTitle": "Báo cáo bảo hành linh kiện",
+      "device": "tablet",
+      "stage": "review",
+      "src": "previews/drive-screens/originals/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p12-export-success-tablet-992x1586-review-88267e9d66.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-bao-hanh-linh-kien/tablet/hn-warranty-report-p12-export-success-tablet-992x1586-review-88267e9d66.webp",
+      "width": 992,
+      "height": 1586,
+      "thumbWidth": 563,
+      "thumbHeight": 900,
+      "sha256": "88267e9d66546be5faa0692bd222ade9a1190fc1f15e98703996d1bc322c06b9",
+      "sourcePaths": [
+        "bao_cao_bao_hanh_linh_kien/update/cdc1a29a-30c5-4304-a927-35966efa6920.png"
+      ]
+    },
+    {
       "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p13-export-outcome-unknown-tablet-1600x2560-v1-1-0c5bbb423c",
       "title": "HN WARRANTY REPORT P13 EXPORT OUTCOME UNKNOWN",
+      "fileName": "HN_WARRANTY_REPORT_P13_EXPORT_OUTCOME_UNKNOWN_TABLET_1600x2560_v1.1.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "tablet",
@@ -665,6 +693,7 @@
     {
       "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p14-open-detail-processing-tablet-1600x2560-v1-0-17086b26f2",
       "title": "HN WARRANTY REPORT P14 OPEN DETAIL PROCESSING",
+      "fileName": "HN_WARRANTY_REPORT_P14_OPEN_DETAIL_PROCESSING_TABLET_1600x2560_v1.0.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "tablet",
@@ -683,6 +712,7 @@
     {
       "id": "drive-bao-cao-bao-hanh-linh-kien-hn-warranty-report-p15-detail-load-error-tablet-1600x2560-v1-0-e440be4400",
       "title": "HN WARRANTY REPORT P15 DETAIL LOAD ERROR",
+      "fileName": "HN_WARRANTY_REPORT_P15_DETAIL_LOAD_ERROR_TABLET_1600x2560_v1.0.png",
       "group": "bao_cao_bao_hanh_linh_kien",
       "groupTitle": "Báo cáo bảo hành linh kiện",
       "device": "tablet",
@@ -701,6 +731,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p01-default-desktop-1920x1080-locked-v2-0-df4cdc9e86",
       "title": "HN BaoCao LichSuNhapXuatKho P01 Default",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P01_Default_Desktop_1920x1080_LOCKED_v2.0.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -719,6 +750,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p02-initialloading-desktop-1920x1080-7c35191fd2",
       "title": "HN BaoCao LichSuNhapXuatKho P02 InitialLoading",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P02_InitialLoading_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -737,6 +769,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p03-refreshing-desktop-1920x1080-cb59b71b91",
       "title": "HN BaoCao LichSuNhapXuatKho P03 Refreshing",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P03_Refreshing_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -755,6 +788,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p04-empty-desktop-1920x1080-9374703503",
       "title": "HN BaoCao LichSuNhapXuatKho P04 Empty",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P04_Empty_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -773,6 +807,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p05-noresult-desktop-1920x1080-e791c1beec",
       "title": "HN BaoCao LichSuNhapXuatKho P05 NoResult",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P05_NoResult_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -791,6 +826,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p06-loaderror-desktop-1920x1080-003fb881eb",
       "title": "HN BaoCao LichSuNhapXuatKho P06 LoadError",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P06_LoadError_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -809,6 +845,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p07-offline-desktop-1920x1080-eebb781cbf",
       "title": "HN BaoCao LichSuNhapXuatKho P07 Offline",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P07_Offline_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -827,6 +864,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p08-partialstale-desktop-1920x1080-da539fa474",
       "title": "HN BaoCao LichSuNhapXuatKho P08 PartialStale",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P08_PartialStale_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -845,6 +883,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p09-invaliddaterange-desktop-1920x1080-848d0e9821",
       "title": "HN BaoCao LichSuNhapXuatKho P09 InvalidDateRange",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P09_InvalidDateRange_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -863,6 +902,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p10-readonly-desktop-1920x1080-10a694b9c6",
       "title": "HN BaoCao LichSuNhapXuatKho P10 Readonly",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P10_Readonly_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -881,6 +921,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p11-exporting-desktop-1920x1080-494d85cf25",
       "title": "HN BaoCao LichSuNhapXuatKho P11 Exporting",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P11_Exporting_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -899,6 +940,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p12-exportsuccess-desktop-1920x1080-0bc184facd",
       "title": "HN BaoCao LichSuNhapXuatKho P12 ExportSuccess",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P12_ExportSuccess_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -917,6 +959,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p13-exportwarning-desktop-1920x1080-1695f266de",
       "title": "HN BaoCao LichSuNhapXuatKho P13 ExportWarning",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P13_ExportWarning_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -935,6 +978,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p14-exportfailed-desktop-1920x1080-367b592281",
       "title": "HN BaoCao LichSuNhapXuatKho P14 ExportFailed",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P14_ExportFailed_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -953,6 +997,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p15-exporttimeoutunknown-desktop-1920x1080-1441da218b",
       "title": "HN BaoCao LichSuNhapXuatKho P15 ExportTimeoutUnknown",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P15_ExportTimeoutUnknown_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -971,6 +1016,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p17-403-forbidden-desktop-1920x1080-9838742a0c",
       "title": "HN BaoCao LichSuNhapXuatKho P17 403 Forbidden",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P17_403_Forbidden_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -989,6 +1035,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p18-404-notfound-desktop-1920x1080-24a71699b2",
       "title": "HN BaoCao LichSuNhapXuatKho P18 404 NotFound",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P18_404_NotFound_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -1007,6 +1054,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p19-500-systemerror-desktop-1920x1080-80622b9c50",
       "title": "HN BaoCao LichSuNhapXuatKho P19 500 SystemError",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P19_500_SystemError_Desktop_1920x1080.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -1025,6 +1073,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-pkg-label-p17-forbidden-desktop-1920x1080-v1-2-680cb913f6",
       "title": "HN PKG LABEL P17 Forbidden",
+      "fileName": "HN_PKG_LABEL_P17_Forbidden_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "desktop",
@@ -1043,6 +1092,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p01-default-tablet-1600x2560-locked-v2-0-162e648ea9",
       "title": "HN BaoCao LichSuNhapXuatKho P01 Default",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P01_Default_Tablet_1600x2560_LOCKED_v2.0.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1061,6 +1111,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p02-initialloading-tablet-1600x2560-eb8af77bcc",
       "title": "HN BaoCao LichSuNhapXuatKho P02 InitialLoading",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P02_InitialLoading_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1079,6 +1130,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p03-refreshing-tablet-1600x2560-6942db0370",
       "title": "HN BaoCao LichSuNhapXuatKho P03 Refreshing",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P03_Refreshing_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1097,6 +1149,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p04-empty-tablet-1600x2560-d65fcaff92",
       "title": "HN BaoCao LichSuNhapXuatKho P04 Empty",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P04_Empty_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1115,6 +1168,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p05-noresult-tablet-1600x2560-a6fa5ff812",
       "title": "HN BaoCao LichSuNhapXuatKho P05 NoResult",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P05_NoResult_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1133,6 +1187,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p06-loaderror-tablet-1600x2560-a94a4c3b4c",
       "title": "HN BaoCao LichSuNhapXuatKho P06 LoadError",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P06_LoadError_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1151,6 +1206,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p07-offline-tablet-1600x2560-5ac010b509",
       "title": "HN BaoCao LichSuNhapXuatKho P07 Offline",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P07_Offline_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1169,6 +1225,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p08-partialstale-tablet-1600x2560-2eb633eb12",
       "title": "HN BaoCao LichSuNhapXuatKho P08 PartialStale",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P08_PartialStale_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1187,6 +1244,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p09-invaliddaterange-tablet-1600x2560-26fdf73934",
       "title": "HN BaoCao LichSuNhapXuatKho P09 InvalidDateRange",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P09_InvalidDateRange_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1205,6 +1263,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p10-readonly-tablet-1600x2560-31a16f3042",
       "title": "HN BaoCao LichSuNhapXuatKho P10 Readonly",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P10_Readonly_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1223,6 +1282,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p11-exporting-tablet-1600x2560-0152f5843a",
       "title": "HN BaoCao LichSuNhapXuatKho P11 Exporting",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P11_Exporting_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1241,6 +1301,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p12-exportsuccess-tablet-1600x2560-5b77d90b78",
       "title": "HN BaoCao LichSuNhapXuatKho P12 ExportSuccess",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P12_ExportSuccess_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1259,6 +1320,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p13-exportwarning-tablet-1600x2560-afe650327c",
       "title": "HN BaoCao LichSuNhapXuatKho P13 ExportWarning",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P13_ExportWarning_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1277,6 +1339,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p14-exportfailed-tablet-1600x2560-1f81b5dc1e",
       "title": "HN BaoCao LichSuNhapXuatKho P14 ExportFailed",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P14_ExportFailed_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1295,6 +1358,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p15-exporttimeoutunknown-tablet-1600x2560-a884570666",
       "title": "HN BaoCao LichSuNhapXuatKho P15 ExportTimeoutUnknown",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P15_ExportTimeoutUnknown_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1313,6 +1377,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p17-403-forbidden-tablet-1600x2560-f5459533b8",
       "title": "HN BaoCao LichSuNhapXuatKho P17 403 Forbidden",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P17_403_Forbidden_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1331,6 +1396,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p18-404-notfound-tablet-1600x2560-b1783e769e",
       "title": "HN BaoCao LichSuNhapXuatKho P18 404 NotFound",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P18_404_NotFound_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1349,6 +1415,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p19-500-systemerror-tablet-1600x2560-057674c726",
       "title": "HN BaoCao LichSuNhapXuatKho P19 500 SystemError",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P19_500_SystemError_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1367,6 +1434,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-baocao-lichsunhapxuatkho-p20-maintenance-tablet-1600x2560-048fd36268",
       "title": "HN BaoCao LichSuNhapXuatKho P20 Maintenance",
+      "fileName": "HN_BaoCao_LichSuNhapXuatKho_P20_Maintenance_Tablet_1600x2560.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1385,6 +1453,7 @@
     {
       "id": "drive-bao-cao-lich-su-nhap-xuat-kho-hn-pkg-label-p17-forbidden-tablet-1600x2560-v1-2-0380550d3d",
       "title": "HN PKG LABEL P17 Forbidden",
+      "fileName": "HN_PKG_LABEL_P17_Forbidden_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_lich_su_nhap_xuat_kho",
       "groupTitle": "Báo cáo lịch sử nhập xuất kho",
       "device": "tablet",
@@ -1403,6 +1472,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p01-locked-desktop-1920x1080-v1-2-490d745a30",
       "title": "HN PKG LABEL P01 LOCKED",
+      "fileName": "HN_PKG_LABEL_P01_LOCKED_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1422,6 +1492,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p02-initialloading-desktop-1920x1080-v1-2-2788de10c6",
       "title": "HN PKG LABEL P02 InitialLoading",
+      "fileName": "HN_PKG_LABEL_P02_InitialLoading_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1440,6 +1511,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p03-refreshing-desktop-1920x1080-v1-2-ed476f50c6",
       "title": "HN PKG LABEL P03 Refreshing",
+      "fileName": "HN_PKG_LABEL_P03_Refreshing_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1458,6 +1530,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p04-emptydataset-desktop-1920x1080-v1-2-e42237a583",
       "title": "HN PKG LABEL P04 EmptyDataset",
+      "fileName": "HN_PKG_LABEL_P04_EmptyDataset_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1476,6 +1549,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p05-noresult-desktop-1920x1080-v1-2-03fbfe6397",
       "title": "HN PKG LABEL P05 NoResult",
+      "fileName": "HN_PKG_LABEL_P05_NoResult_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1494,6 +1568,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p06-dataloaderror-desktop-1920x1080-v1-2-30a7decf1d",
       "title": "HN PKG LABEL P06 DataLoadError",
+      "fileName": "HN_PKG_LABEL_P06_DataLoadError_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1512,6 +1587,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p07-offline-desktop-1920x1080-v1-2-9e7217f65c",
       "title": "HN PKG LABEL P07 Offline",
+      "fileName": "HN_PKG_LABEL_P07_Offline_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1530,6 +1606,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p08a-partial-desktop-1920x1080-v1-2-118562098a",
       "title": "HN PKG LABEL P08A Partial",
+      "fileName": "HN_PKG_LABEL_P08A_Partial_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1548,6 +1625,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p09-filtervalidationerror-desktop-1920x1080-v1-2-e95ca1b3fd",
       "title": "HN PKG LABEL P09 FilterValidationError",
+      "fileName": "HN_PKG_LABEL_P09_FilterValidationError_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1566,6 +1644,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p10-printlabelsubmitting-desktop-1920x1080-v1-2-c501c4bf8e",
       "title": "HN PKG LABEL P10 PrintLabelSubmitting",
+      "fileName": "HN_PKG_LABEL_P10_PrintLabelSubmitting_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1584,6 +1663,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p11-printlabelsuccess-desktop-1920x1080-v1-2-8daf6cacb0",
       "title": "HN PKG LABEL P11 PrintLabelSuccess",
+      "fileName": "HN_PKG_LABEL_P11_PrintLabelSuccess_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1602,6 +1682,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p12-reprintsubmitting-desktop-1920x1080-v1-2-29193d3b96",
       "title": "HN PKG LABEL P12 ReprintSubmitting",
+      "fileName": "HN_PKG_LABEL_P12_ReprintSubmitting_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1620,6 +1701,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p13-reprintsuccess-desktop-1920x1080-v1-2-798942da3b",
       "title": "HN PKG LABEL P13 ReprintSuccess",
+      "fileName": "HN_PKG_LABEL_P13_ReprintSuccess_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1638,6 +1720,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p14-retrysubmitting-desktop-1920x1080-v1-2-11af23f174",
       "title": "HN PKG LABEL P14 RetrySubmitting",
+      "fileName": "HN_PKG_LABEL_P14_RetrySubmitting_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1656,6 +1739,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p15-outcomeuncertain-desktop-1920x1080-v1-2-ff40bf8c3c",
       "title": "HN PKG LABEL P15 OutcomeUncertain",
+      "fileName": "HN_PKG_LABEL_P15_OutcomeUncertain_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1674,6 +1758,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-desktop-1920x1080-v1-2-f63ca2f8d5",
       "title": "HN PKG LABEL P16 SessionExpired",
+      "fileName": "HN_PKG_LABEL_P16_SessionExpired_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1692,6 +1777,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p18-notfound-desktop-1920x1080-v1-2-b1e095ce90",
       "title": "HN PKG LABEL P18 NotFound",
+      "fileName": "HN_PKG_LABEL_P18_NotFound_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1710,6 +1796,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p19-systemerror-desktop-1920x1080-v1-2-bd3ecaade2",
       "title": "HN PKG LABEL P19 SystemError",
+      "fileName": "HN_PKG_LABEL_P19_SystemError_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1728,6 +1815,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p20-maintenance-desktop-1920x1080-v1-2-1a801313c7",
       "title": "HN PKG LABEL P20 Maintenance",
+      "fileName": "HN_PKG_LABEL_P20_Maintenance_Desktop_1920x1080_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "desktop",
@@ -1746,6 +1834,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p01-locked-tablet-1600x2560-v1-2-ce278db038",
       "title": "HN PKG LABEL P01 LOCKED",
+      "fileName": "HN_PKG_LABEL_P01_LOCKED_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1765,6 +1854,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p02-initialloading-tablet-1600x2560-v1-2-aceb55430f",
       "title": "HN PKG LABEL P02 InitialLoading",
+      "fileName": "HN_PKG_LABEL_P02_InitialLoading_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1783,6 +1873,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p03-refreshing-tablet-1600x2560-v1-2-59273b34e7",
       "title": "HN PKG LABEL P03 Refreshing",
+      "fileName": "HN_PKG_LABEL_P03_Refreshing_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1801,6 +1892,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p04-emptydataset-tablet-1600x2560-v1-2-9c8cbff3f3",
       "title": "HN PKG LABEL P04 EmptyDataset",
+      "fileName": "HN_PKG_LABEL_P04_EmptyDataset_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1819,6 +1911,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p05-noresult-tablet-1600x2560-v1-2-ef722821fd",
       "title": "HN PKG LABEL P05 NoResult",
+      "fileName": "HN_PKG_LABEL_P05_NoResult_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1837,6 +1930,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p06-dataloaderror-tablet-1600x2560-v1-2-ffd28a8dee",
       "title": "HN PKG LABEL P06 DataLoadError",
+      "fileName": "HN_PKG_LABEL_P06_DataLoadError_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1855,6 +1949,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p07-offline-tablet-1600x2560-v1-2-5b7cbe951b",
       "title": "HN PKG LABEL P07 Offline",
+      "fileName": "HN_PKG_LABEL_P07_Offline_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1873,6 +1968,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p08a-partial-tablet-1600x2560-v1-2-1426739867",
       "title": "HN PKG LABEL P08A Partial",
+      "fileName": "HN_PKG_LABEL_P08A_Partial_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1891,6 +1987,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p09-filtervalidationerror-tablet-1600x2560-v1-2-d37d5c75ae",
       "title": "HN PKG LABEL P09 FilterValidationError",
+      "fileName": "HN_PKG_LABEL_P09_FilterValidationError_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1909,6 +2006,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p10-printlabelsubmitting-tablet-1600x2560-v1-2-cab00779fa",
       "title": "HN PKG LABEL P10 PrintLabelSubmitting",
+      "fileName": "HN_PKG_LABEL_P10_PrintLabelSubmitting_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1927,6 +2025,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p11-printlabelsuccess-tablet-1600x2560-v1-2-56b9498131",
       "title": "HN PKG LABEL P11 PrintLabelSuccess",
+      "fileName": "HN_PKG_LABEL_P11_PrintLabelSuccess_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1945,6 +2044,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p12-reprintsubmitting-tablet-1600x2560-v1-2-5692923853",
       "title": "HN PKG LABEL P12 ReprintSubmitting",
+      "fileName": "HN_PKG_LABEL_P12_ReprintSubmitting_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1963,6 +2063,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p13-reprintsuccess-tablet-1600x2560-v1-2-044cfe95e8",
       "title": "HN PKG LABEL P13 ReprintSuccess",
+      "fileName": "HN_PKG_LABEL_P13_ReprintSuccess_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1981,6 +2082,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p14-retrysubmitting-tablet-1600x2560-v1-2-bba981697a",
       "title": "HN PKG LABEL P14 RetrySubmitting",
+      "fileName": "HN_PKG_LABEL_P14_RetrySubmitting_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -1999,6 +2101,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p15-outcomeuncertain-tablet-1600x2560-v1-2-ea095dcfc2",
       "title": "HN PKG LABEL P15 OutcomeUncertain",
+      "fileName": "HN_PKG_LABEL_P15_OutcomeUncertain_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -2017,6 +2120,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p16-sessionexpired-tablet-1600x2560-v1-2-80f8005056",
       "title": "HN PKG LABEL P16 SessionExpired",
+      "fileName": "HN_PKG_LABEL_P16_SessionExpired_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -2035,6 +2139,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p18-notfound-tablet-1600x2560-v1-2-9e921895f7",
       "title": "HN PKG LABEL P18 NotFound",
+      "fileName": "HN_PKG_LABEL_P18_NotFound_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -2053,6 +2158,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p19-systemerror-tablet-1600x2560-v1-2-9db9e9c760",
       "title": "HN PKG LABEL P19 SystemError",
+      "fileName": "HN_PKG_LABEL_P19_SystemError_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -2071,6 +2177,7 @@
     {
       "id": "drive-bao-cao-nhan-dong-goi-in-lai-hn-pkg-label-p20-maintenance-tablet-1600x2560-v1-2-ddbaa7a817",
       "title": "HN PKG LABEL P20 Maintenance",
+      "fileName": "HN_PKG_LABEL_P20_Maintenance_Tablet_1600x2560_v1.2.png",
       "group": "bao_cao_nhan_dong_goi_in_lai",
       "groupTitle": "Báo cáo nhãn đóng gói & in lại",
       "device": "tablet",
@@ -2089,6 +2196,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-default-desktop-1920x1080-61c2f8e944",
       "title": "WMS HOA NAM RPT 01 DEFAULT",
+      "fileName": "WMS-HOA-NAM-RPT-01-DEFAULT-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2107,6 +2215,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-empty-desktop-1920x1080-8be5d678a6",
       "title": "WMS HOA NAM RPT 01 EMPTY",
+      "fileName": "WMS-HOA-NAM-RPT-01-EMPTY-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2125,6 +2234,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-error-desktop-1920x1080-682d25352c",
       "title": "WMS HOA NAM RPT 01 ERROR",
+      "fileName": "WMS-HOA-NAM-RPT-01-ERROR-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2143,6 +2253,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-invalid-date-desktop-1920x1080-d6f09ac5ec",
       "title": "WMS HOA NAM RPT 01 INVALID DATE",
+      "fileName": "WMS-HOA-NAM-RPT-01-INVALID-DATE-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2161,6 +2272,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-loading-desktop-1920x1080-b6c848fac0",
       "title": "WMS HOA NAM RPT 01 LOADING",
+      "fileName": "WMS-HOA-NAM-RPT-01-LOADING-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2179,6 +2291,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-no-search-desktop-1920x1080-3544bfdcf0",
       "title": "WMS HOA NAM RPT 01 NO SEARCH",
+      "fileName": "WMS-HOA-NAM-RPT-01-NO-SEARCH-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2197,6 +2310,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-readonly-desktop-1920x1080-5ab8741fcd",
       "title": "WMS HOA NAM RPT 01 READONLY",
+      "fileName": "WMS-HOA-NAM-RPT-01-READONLY-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2215,6 +2329,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-row-highlight-desktop-1920x1080-126337529a",
       "title": "WMS HOA NAM RPT 01 ROW HIGHLIGHT",
+      "fileName": "WMS-HOA-NAM-RPT-01-ROW-HIGHLIGHT-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2233,6 +2348,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-success-update-desktop-1920x1080-896f9aa2e6",
       "title": "WMS HOA NAM RPT 01 SUCCESS UPDATE",
+      "fileName": "WMS-HOA-NAM-RPT-01-SUCCESS-UPDATE-desktop-1920x1080.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "desktop",
@@ -2251,6 +2367,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-default-tablet-1280x2048-cb18dd1d88",
       "title": "WMS HOA NAM RPT 01 DEFAULT",
+      "fileName": "WMS-HOA-NAM-RPT-01-DEFAULT-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2269,6 +2386,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-empty-tablet-1280x2048-f48c2c66f3",
       "title": "WMS HOA NAM RPT 01 EMPTY",
+      "fileName": "WMS-HOA-NAM-RPT-01-EMPTY-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2287,6 +2405,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-error-tablet-1280x2048-ba8c3e68ab",
       "title": "WMS HOA NAM RPT 01 ERROR",
+      "fileName": "WMS-HOA-NAM-RPT-01-ERROR-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2305,6 +2424,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-invalid-date-tablet-1280x2048-68a181fba9",
       "title": "WMS HOA NAM RPT 01 INVALID DATE",
+      "fileName": "WMS-HOA-NAM-RPT-01-INVALID-DATE-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2323,6 +2443,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-loading-tablet-1280x2048-596f1e8b18",
       "title": "WMS HOA NAM RPT 01 LOADING",
+      "fileName": "WMS-HOA-NAM-RPT-01-LOADING-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2341,6 +2462,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-no-search-tablet-1280x2048-a21bc3c394",
       "title": "WMS HOA NAM RPT 01 NO SEARCH",
+      "fileName": "WMS-HOA-NAM-RPT-01-NO-SEARCH-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2359,6 +2481,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-readonly-tablet-1280x2048-74e6a096da",
       "title": "WMS HOA NAM RPT 01 READONLY",
+      "fileName": "WMS-HOA-NAM-RPT-01-READONLY-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2377,6 +2500,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-row-highlight-tablet-1280x2048-b4d5cc51a0",
       "title": "WMS HOA NAM RPT 01 ROW HIGHLIGHT",
+      "fileName": "WMS-HOA-NAM-RPT-01-ROW-HIGHLIGHT-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2395,6 +2519,7 @@
     {
       "id": "drive-bao-cao-nhap-kho-wms-hoa-nam-rpt-01-success-update-tablet-1280x2048-3a5fbe4f5d",
       "title": "WMS HOA NAM RPT 01 SUCCESS UPDATE",
+      "fileName": "WMS-HOA-NAM-RPT-01-SUCCESS-UPDATE-tablet-1280x2048.png",
       "group": "bao_cao_nhap_kho",
       "groupTitle": "Báo cáo nhập kho",
       "device": "tablet",
@@ -2411,14 +2536,15 @@
       ]
     },
     {
-      "id": "drive-bao-cao-nhap-liet-doi-chieu-loi-chatgpt-image-04-57-31-19-thg-9-2026-49b618f2f3",
-      "title": "ChatGPT Image 04 57 31 19 thg 9, 2026",
+      "id": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3",
+      "title": "HN NHAP LIEU DOI CHIEU LOI P01 DEFAULT",
+      "fileName": "HN_NHAP_LIEU_DOI_CHIEU_LOI_P01_DEFAULT_DESKTOP_1672x941_REVIEW.png",
       "group": "bao_cao_nhap_liet_doi_chieu_loi",
       "groupTitle": "Báo cáo nhập liệu & đối chiếu lỗi",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/desktop/chatgpt-image-04-57-31-19-thg-9-2026-49b618f2f3.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-nhap-liet-doi-chieu-loi/desktop/chatgpt-image-04-57-31-19-thg-9-2026-49b618f2f3.webp",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/desktop/hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-nhap-liet-doi-chieu-loi/desktop/hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -2429,14 +2555,15 @@
       ]
     },
     {
-      "id": "drive-bao-cao-nhap-liet-doi-chieu-loi-chatgpt-image-04-58-20-19-thg-9-2026-8f9379e502",
-      "title": "ChatGPT Image 04 58 20 19 thg 9, 2026",
+      "id": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502",
+      "title": "HN NHAP LIEU DOI CHIEU LOI P01 DEFAULT",
+      "fileName": "HN_NHAP_LIEU_DOI_CHIEU_LOI_P01_DEFAULT_TABLET_992x1586_REVIEW.png",
       "group": "bao_cao_nhap_liet_doi_chieu_loi",
       "groupTitle": "Báo cáo nhập liệu & đối chiếu lỗi",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/tablet/chatgpt-image-04-58-20-19-thg-9-2026-8f9379e502.png",
-      "thumb": "previews/drive-screens/thumbs/bao-cao-nhap-liet-doi-chieu-loi/tablet/chatgpt-image-04-58-20-19-thg-9-2026-8f9379e502.webp",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/tablet/hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502.png",
+      "thumb": "previews/drive-screens/thumbs/bao-cao-nhap-liet-doi-chieu-loi/tablet/hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
@@ -2449,6 +2576,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p01-default-desktop-1920x1080-a143700095",
       "title": "HN TRACE REPORT P01 default",
+      "fileName": "HN-TRACE-REPORT-P01-default-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2467,6 +2595,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p02-initial-loading-desktop-1920x1080-897dd9bf4a",
       "title": "HN TRACE REPORT P02 initial loading",
+      "fileName": "HN-TRACE-REPORT-P02-initial-loading-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2485,6 +2614,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p03-refreshing-desktop-1920x1080-440087670b",
       "title": "HN TRACE REPORT P03 refreshing",
+      "fileName": "HN-TRACE-REPORT-P03-refreshing-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2503,6 +2633,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p04-empty-period-desktop-1920x1080-e94eae9c99",
       "title": "HN TRACE REPORT P04 empty period",
+      "fileName": "HN-TRACE-REPORT-P04-empty-period-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2521,6 +2652,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p05-invalid-filter-desktop-1920x1080-807ea85301",
       "title": "HN TRACE REPORT P05 invalid filter",
+      "fileName": "HN-TRACE-REPORT-P05-invalid-filter-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2539,6 +2671,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p06-no-search-result-desktop-1920x1080-35b69ae1e8",
       "title": "HN TRACE REPORT P06 no search result",
+      "fileName": "HN-TRACE-REPORT-P06-no-search-result-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2557,6 +2690,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p07-load-error-desktop-1920x1080-31e317fc55",
       "title": "HN TRACE REPORT P07 load error",
+      "fileName": "HN-TRACE-REPORT-P07-load-error-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2575,6 +2709,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p08-offline-before-request-desktop-1920x1080-578ad3576b",
       "title": "HN TRACE REPORT P08 offline before request",
+      "fileName": "HN-TRACE-REPORT-P08-offline-before-request-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2593,6 +2728,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p09-partial-stale-desktop-1920x1080-f006e2d30d",
       "title": "HN TRACE REPORT P09 partial stale",
+      "fileName": "HN-TRACE-REPORT-P09-partial-stale-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2611,6 +2747,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p11-no-export-permission-desktop-1920x1080-9da4a8ce39",
       "title": "HN TRACE REPORT P11 no export permission",
+      "fileName": "HN-TRACE-REPORT-P11-no-export-permission-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2629,6 +2766,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-desktop-1920x1080-934eadf095",
       "title": "HN TRACE REPORT P12 session expired",
+      "fileName": "HN-TRACE-REPORT-P12-session-expired-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2647,6 +2785,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p13-forbidden-desktop-1920x1080-e90fe1155f",
       "title": "HN TRACE REPORT P13 forbidden",
+      "fileName": "HN-TRACE-REPORT-P13-forbidden-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2665,6 +2804,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p14-not-found-desktop-1920x1080-862f7d8c1c",
       "title": "HN TRACE REPORT P14 not found",
+      "fileName": "HN-TRACE-REPORT-P14-not-found-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2683,6 +2823,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p15-maintenance-desktop-1920x1080-cfc1b42291",
       "title": "HN TRACE REPORT P15 maintenance",
+      "fileName": "HN-TRACE-REPORT-P15-maintenance-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2701,6 +2842,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p16-server-error-desktop-1920x1080-0c25007bf3",
       "title": "HN TRACE REPORT P16 server error",
+      "fileName": "HN-TRACE-REPORT-P16-server-error-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2719,6 +2861,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p17-exporting-desktop-1920x1080-6fc06ec68f",
       "title": "HN TRACE REPORT P17 exporting",
+      "fileName": "HN-TRACE-REPORT-P17-exporting-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2737,6 +2880,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p18-export-success-desktop-1920x1080-3ad64ce3c4",
       "title": "HN TRACE REPORT P18 export success",
+      "fileName": "HN-TRACE-REPORT-P18-export-success-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2755,6 +2899,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p19-export-failed-desktop-1920x1080-0175d08460",
       "title": "HN TRACE REPORT P19 export failed",
+      "fileName": "HN-TRACE-REPORT-P19-export-failed-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2773,6 +2918,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p20-export-timeout-unknown-desktop-1920x1080-b3b559d65b",
       "title": "HN TRACE REPORT P20 export timeout unknown",
+      "fileName": "HN-TRACE-REPORT-P20-export-timeout-unknown-desktop-1920x1080.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "desktop",
@@ -2791,6 +2937,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p01-default-tablet-1600x2560-8ecc3217b2",
       "title": "HN TRACE REPORT P01 default",
+      "fileName": "HN-TRACE-REPORT-P01-default-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2809,6 +2956,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p02-initial-loading-tablet-1600x2560-a6a093326d",
       "title": "HN TRACE REPORT P02 initial loading",
+      "fileName": "HN-TRACE-REPORT-P02-initial-loading-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2827,6 +2975,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p03-refreshing-tablet-1600x2560-8f09c06488",
       "title": "HN TRACE REPORT P03 refreshing",
+      "fileName": "HN-TRACE-REPORT-P03-refreshing-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2845,6 +2994,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p04-empty-period-tablet-1600x2560-96288aa85a",
       "title": "HN TRACE REPORT P04 empty period",
+      "fileName": "HN-TRACE-REPORT-P04-empty-period-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2863,6 +3013,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p05-invalid-filter-tablet-1600x2560-c1ff3f2cf7",
       "title": "HN TRACE REPORT P05 invalid filter",
+      "fileName": "HN-TRACE-REPORT-P05-invalid-filter-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2881,6 +3032,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p06-no-search-result-tablet-1600x2560-2094366f9b",
       "title": "HN TRACE REPORT P06 no search result",
+      "fileName": "HN-TRACE-REPORT-P06-no-search-result-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2899,6 +3051,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p07-load-error-tablet-1600x2560-2261a4f999",
       "title": "HN TRACE REPORT P07 load error",
+      "fileName": "HN-TRACE-REPORT-P07-load-error-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2917,6 +3070,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p08-offline-before-request-tablet-1600x2560-dfc9667643",
       "title": "HN TRACE REPORT P08 offline before request",
+      "fileName": "HN-TRACE-REPORT-P08-offline-before-request-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2935,6 +3089,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p09-partial-stale-tablet-1600x2560-1489952e0a",
       "title": "HN TRACE REPORT P09 partial stale",
+      "fileName": "HN-TRACE-REPORT-P09-partial-stale-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2953,6 +3108,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p11-no-export-permission-tablet-1600x2560-8ca343a021",
       "title": "HN TRACE REPORT P11 no export permission",
+      "fileName": "HN-TRACE-REPORT-P11-no-export-permission-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2971,6 +3127,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p12-session-expired-tablet-1600x2560-224f93c4b1",
       "title": "HN TRACE REPORT P12 session expired",
+      "fileName": "HN-TRACE-REPORT-P12-session-expired-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -2989,6 +3146,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p13-forbidden-tablet-1600x2560-a7dba0bdf9",
       "title": "HN TRACE REPORT P13 forbidden",
+      "fileName": "HN-TRACE-REPORT-P13-forbidden-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3007,6 +3165,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p14-not-found-tablet-1600x2560-1bcc130272",
       "title": "HN TRACE REPORT P14 not found",
+      "fileName": "HN-TRACE-REPORT-P14-not-found-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3025,6 +3184,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p15-maintenance-tablet-1600x2560-0561b67cc6",
       "title": "HN TRACE REPORT P15 maintenance",
+      "fileName": "HN-TRACE-REPORT-P15-maintenance-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3043,6 +3203,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p16-server-error-tablet-1600x2560-413eaf84c8",
       "title": "HN TRACE REPORT P16 server error",
+      "fileName": "HN-TRACE-REPORT-P16-server-error-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3061,6 +3222,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p17-exporting-tablet-1600x2560-3a2d8ea088",
       "title": "HN TRACE REPORT P17 exporting",
+      "fileName": "HN-TRACE-REPORT-P17-exporting-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3079,6 +3241,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p18-export-success-tablet-1600x2560-41cb769e2a",
       "title": "HN TRACE REPORT P18 export success",
+      "fileName": "HN-TRACE-REPORT-P18-export-success-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3097,6 +3260,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p19-export-failed-tablet-1600x2560-44ce8cc8ff",
       "title": "HN TRACE REPORT P19 export failed",
+      "fileName": "HN-TRACE-REPORT-P19-export-failed-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3115,6 +3279,7 @@
     {
       "id": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p20-export-timeout-unknown-tablet-1600x2560-5bc6bc9202",
       "title": "HN TRACE REPORT P20 export timeout unknown",
+      "fileName": "HN-TRACE-REPORT-P20-export-timeout-unknown-tablet-1600x2560.png",
       "group": "bao_cao_truy_vet_hang_hoa",
       "groupTitle": "Báo cáo truy vết hàng hóa",
       "device": "tablet",
@@ -3133,6 +3298,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-bao-cao-xuat-kho-default-desktop-1920x1080-95231d3865",
       "title": "bao cao xuat kho default",
+      "fileName": "bao-cao-xuat-kho-default-desktop-1920x1080.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3151,6 +3317,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-emty-desktop-1920x1080-v2-0d132dc742",
       "title": "hoa nam bao cao xuat kho emty",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-emty-desktop-1920x1080-v2.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3169,6 +3336,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-error-desktop-1920x1080-v2-4c2b6350ff",
       "title": "hoa nam bao cao xuat kho error",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-error-desktop-1920x1080-v2.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3187,6 +3355,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-invalid-date-range-desktop-1920x1080-e96eb56c21",
       "title": "hoa nam bao cao xuat kho invalid date range",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-invalid-date-range-desktop-1920x1080.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3205,6 +3374,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-loading-desktop-1920x1080-v2-051799ce08",
       "title": "hoa nam bao cao xuat kho loading",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-loading-desktop-1920x1080-v2.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3223,6 +3393,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-no-search-result-desktop-1920x1080-c26a765a50",
       "title": "hoa nam bao cao xuat kho no search result",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-no-search-result-desktop-1920x1080.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3241,6 +3412,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-readonly-desktop-1920x1080-58290fb836",
       "title": "hoa nam bao cao xuat kho readonly",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-readonly-desktop-1920x1080.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3259,6 +3431,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-row-highlight-desktop-1920x1080-0c6a57b72d",
       "title": "hoa nam bao cao xuat kho row highlight",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-row-highlight-desktop-1920x1080.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3277,6 +3450,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-golden-export-desktop-warning-repaired-8cb7ef4137",
       "title": "hoa nam golden export",
+      "fileName": "hoa-nam-golden-export-desktop-warning-repaired.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "desktop",
@@ -3295,6 +3469,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-default-tablet-1280x2048-e81a1f999d",
       "title": "hoa nam bao cao xuat kho default",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-default-tablet-1280x2048.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3313,6 +3488,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-emty-tablet-1280x2048-c0e9467bbb",
       "title": "hoa nam bao cao xuat kho emty",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-emty-tablet-1280x2048.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3331,6 +3507,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-error-tablet-1280x2048-v2-82bb64e2d9",
       "title": "hoa nam bao cao xuat kho error",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-error-tablet-1280x2048-v2.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3349,6 +3526,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-invalid-date-range-tablet-1280x2048-ff64e4500a",
       "title": "hoa nam bao cao xuat kho invalid date range",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-invalid-date-range-tablet-1280x2048.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3367,6 +3545,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-loading-tablet-1280x2048-686dbe8c3e",
       "title": "hoa nam bao cao xuat kho loading",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-loading-tablet-1280x2048.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3385,6 +3564,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-no-search-result-tablet-1280x2048-102b488109",
       "title": "hoa nam bao cao xuat kho no search result",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-no-search-result-tablet-1280x2048.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3403,6 +3583,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-readonly-tablet-1280x2048-9dce91e74b",
       "title": "hoa nam bao cao xuat kho readonly",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-readonly-tablet-1280x2048.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3421,6 +3602,7 @@
     {
       "id": "drive-bao-cao-xuat-kho-hoa-nam-bao-cao-xuat-kho-success-update-tablet-1280x2048-8cea35d2d1",
       "title": "hoa nam bao cao xuat kho success update",
+      "fileName": "hoa-nam-bao-cao-xuat-kho-success-update-tablet-1280x2048.png",
       "group": "bao_cao_xuat_kho",
       "groupTitle": "Báo cáo xuất kho",
       "device": "tablet",
@@ -3439,6 +3621,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p01-default-desktop-1920x1080-2038bc85a3",
       "title": "HN DEALER RECIPIENT REPORT P01 default",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P01-default-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3457,6 +3640,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p02-initial-loading-desktop-1920x1080-9f0e2b1503",
       "title": "HN DEALER RECIPIENT REPORT P02 initial loading",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P02-initial-loading-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3475,6 +3659,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p03-refreshing-desktop-1920x1080-7a907c1c0a",
       "title": "HN DEALER RECIPIENT REPORT P03 refreshing",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P03-refreshing-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3493,6 +3678,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p04-empty-desktop-1920x1080-6adf687d9e",
       "title": "HN DEALER RECIPIENT REPORT P04 empty",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P04-empty-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3511,6 +3697,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p05-invalid-filter-desktop-1920x1080-b518cdd305",
       "title": "HN DEALER RECIPIENT REPORT P05 invalid filter",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P05-invalid-filter-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3529,6 +3716,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p06-no-search-result-desktop-1920x1080-7d3e0ab612",
       "title": "HN DEALER RECIPIENT REPORT P06 no search result",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P06-no-search-result-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3547,6 +3735,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p07-load-error-desktop-1920x1080-066c05acc1",
       "title": "HN DEALER RECIPIENT REPORT P07 load error",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P07-load-error-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3565,6 +3754,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p08-offline-before-request-desktop-1920x1080-438856c370",
       "title": "HN DEALER RECIPIENT REPORT P08 offline before request",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P08-offline-before-request-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3583,6 +3773,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p09-partial-stale-desktop-1920x1080-2758f493e6",
       "title": "HN DEALER RECIPIENT REPORT P09 partial stale",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P09-partial-stale-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3601,6 +3792,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p10-incomplete-warning-desktop-1920x1080-7c7a14bb37",
       "title": "HN DEALER RECIPIENT REPORT P10 incomplete warning",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P10-incomplete-warning-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3619,6 +3811,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p11-readonly-no-export-desktop-1920x1080-51b08649d9",
       "title": "HN DEALER RECIPIENT REPORT P11 readonly no export",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P11-readonly-no-export-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3637,6 +3830,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-desktop-1920x1080-1b7fb81351",
       "title": "HN DEALER RECIPIENT REPORT P12 session expired",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P12-session-expired-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3655,6 +3849,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p13-forbidden-desktop-1920x1080-38c51199e5",
       "title": "HN DEALER RECIPIENT REPORT P13 forbidden",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P13-forbidden-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3673,6 +3868,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p15-maintenance-desktop-1920x1080-ffafaf7e44",
       "title": "HN DEALER RECIPIENT REPORT P15 maintenance",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P15-maintenance-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3691,6 +3887,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p16-server-error-desktop-1920x1080-82c85a122d",
       "title": "HN DEALER RECIPIENT REPORT P16 server error",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P16-server-error-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3709,6 +3906,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p17-exporting-desktop-1920x1080-efba7c23e8",
       "title": "HN DEALER RECIPIENT REPORT P17 exporting",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P17-exporting-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3727,6 +3925,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p18-export-success-desktop-1920x1080-8f7d5d551a",
       "title": "HN DEALER RECIPIENT REPORT P18 export success",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P18-export-success-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3745,6 +3944,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p19-export-failed-desktop-1920x1080-b54ea3b69b",
       "title": "HN DEALER RECIPIENT REPORT P19 export failed",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P19-export-failed-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3763,6 +3963,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p20-export-timeout-desktop-1920x1080-6828af62c5",
       "title": "HN DEALER RECIPIENT REPORT P20 export timeout",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P20-export-timeout-desktop-1920x1080.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "desktop",
@@ -3781,6 +3982,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p01-default-tablet-1600x2560-f40d58bce7",
       "title": "HN DEALER RECIPIENT REPORT P01 default",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P01-default-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3799,6 +4001,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p02-initial-loading-tablet-1600x2560-45ac0f15dc",
       "title": "HN DEALER RECIPIENT REPORT P02 initial loading",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P02-initial-loading-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3817,6 +4020,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p03-refreshing-tablet-1600x2560-02ed3315cd",
       "title": "HN DEALER RECIPIENT REPORT P03 refreshing",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P03-refreshing-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3835,6 +4039,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p04-empty-tablet-1600x2560-4fe0b0689f",
       "title": "HN DEALER RECIPIENT REPORT P04 empty",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P04-empty-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3853,6 +4058,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p05-invalid-filter-tablet-1600x2560-b752de2b8c",
       "title": "HN DEALER RECIPIENT REPORT P05 invalid filter",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P05-invalid-filter-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3871,6 +4077,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p06-no-search-result-tablet-1600x2560-8b240fa34a",
       "title": "HN DEALER RECIPIENT REPORT P06 no search result",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P06-no-search-result-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3889,6 +4096,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p07-load-error-tablet-1600x2560-80ce0bc9b1",
       "title": "HN DEALER RECIPIENT REPORT P07 load error",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P07-load-error-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3907,6 +4115,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p08-offline-before-request-tablet-1600x2560-df41a0dd0d",
       "title": "HN DEALER RECIPIENT REPORT P08 offline before request",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P08-offline-before-request-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3925,6 +4134,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p09-partial-stale-tablet-1600x2560-09f4356702",
       "title": "HN DEALER RECIPIENT REPORT P09 partial stale",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P09-partial-stale-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3943,6 +4153,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p10-incomplete-warning-tablet-1600x2560-cb16a36c88",
       "title": "HN DEALER RECIPIENT REPORT P10 incomplete warning",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P10-incomplete-warning-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3961,6 +4172,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p11-readonly-no-export-tablet-1600x2560-14de9f456f",
       "title": "HN DEALER RECIPIENT REPORT P11 readonly no export",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P11-readonly-no-export-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3979,6 +4191,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p12-session-expired-tablet-1600x2560-d6141b8f79",
       "title": "HN DEALER RECIPIENT REPORT P12 session expired",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P12-session-expired-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -3997,6 +4210,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p13-forbidden-tablet-1600x2560-09fdd3adbc",
       "title": "HN DEALER RECIPIENT REPORT P13 forbidden",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P13-forbidden-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -4015,6 +4229,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p15-maintenance-tablet-1600x2560-774f6105bd",
       "title": "HN DEALER RECIPIENT REPORT P15 maintenance",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P15-maintenance-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -4033,6 +4248,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p16-server-error-tablet-1600x2560-13d635072c",
       "title": "HN DEALER RECIPIENT REPORT P16 server error",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P16-server-error-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -4051,6 +4267,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p17-exporting-tablet-1600x2560-bbb3662ca8",
       "title": "HN DEALER RECIPIENT REPORT P17 exporting",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P17-exporting-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -4069,6 +4286,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p18-export-success-tablet-1600x2560-49c9c0bf87",
       "title": "HN DEALER RECIPIENT REPORT P18 export success",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P18-export-success-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -4087,6 +4305,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p19-export-failed-tablet-1600x2560-6e11781fd3",
       "title": "HN DEALER RECIPIENT REPORT P19 export failed",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P19-export-failed-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -4105,6 +4324,7 @@
     {
       "id": "drive-bao-cao-xuat-theo-nguoi-nhan-dai-ly-hn-dealer-recipient-report-p20-export-timeout-tablet-1600x2560-6cf36974de",
       "title": "HN DEALER RECIPIENT REPORT P20 export timeout",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P20-export-timeout-tablet-1600x2560.png",
       "group": "bao_cao_xuat_theo_nguoi_nhan_dai_ly",
       "groupTitle": "Báo cáo xuất theo người nhận/đại lý",
       "device": "tablet",
@@ -4123,6 +4343,7 @@
     {
       "id": "drive-bao-hanh-sua-chua-ho-so-bao-hanh-hn-hosobaohanh-default-desktop-1920x1080-candidate-v3-3dfbd36b2d",
       "title": "HN HoSoBaoHanh Default",
+      "fileName": "HN_HoSoBaoHanh_Default_Desktop_1920x1080_Candidate_v3.png",
       "group": "bao_hanh_sua_chua/ho_so_bao_hanh",
       "groupTitle": "Bảo hành sửa chữa · Hồ sơ bảo hành",
       "device": "desktop",
@@ -4141,6 +4362,7 @@
     {
       "id": "drive-bao-hanh-sua-chua-ho-so-bao-hanh-hn-hosobaohanh-default-tablet-1600x2560-candidate-v3-4dc86615e4",
       "title": "HN HoSoBaoHanh Default",
+      "fileName": "HN_HoSoBaoHanh_Default_Tablet_1600x2560_Candidate_v3.png",
       "group": "bao_hanh_sua_chua/ho_so_bao_hanh",
       "groupTitle": "Bảo hành sửa chữa · Hồ sơ bảo hành",
       "device": "tablet",
@@ -4157,14 +4379,15 @@
       ]
     },
     {
-      "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-c0e60604-46de-4c86-8062-07102254c5b8-b15f1839b0",
-      "title": "c0e60604 46de 4c86 8062 07102254c5b8",
+      "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0",
+      "title": "HN BAO HANH PHIEU XUAT LINH KIEN P01 DEFAULT",
+      "fileName": "HN_BAO_HANH_PHIEU_XUAT_LINH_KIEN_P01_DEFAULT_DESKTOP_1672x941_REVIEW.png",
       "group": "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh",
       "groupTitle": "Bảo hành sửa chữa · Phiếu xuất linh kiện",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/desktop/c0e60604-46de-4c86-8062-07102254c5b8-b15f1839b0.png",
-      "thumb": "previews/drive-screens/thumbs/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/desktop/c0e60604-46de-4c86-8062-07102254c5b8-b15f1839b0.webp",
+      "src": "previews/drive-screens/originals/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/desktop/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0.png",
+      "thumb": "previews/drive-screens/thumbs/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/desktop/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-desktop-1672x941-review-b15f1839b0.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -4175,14 +4398,15 @@
       ]
     },
     {
-      "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-380a919c-f250-41a9-a0a4-124b37266cd4-9cf17a7f2f",
-      "title": "380a919c f250 41a9 a0a4 124b37266cd4",
+      "id": "drive-bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh-hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f",
+      "title": "HN BAO HANH PHIEU XUAT LINH KIEN P01 DEFAULT",
+      "fileName": "HN_BAO_HANH_PHIEU_XUAT_LINH_KIEN_P01_DEFAULT_TABLET_1600x2560_REVIEW.png",
       "group": "bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh",
       "groupTitle": "Bảo hành sửa chữa · Phiếu xuất linh kiện",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/tablet/380a919c-f250-41a9-a0a4-124b37266cd4-9cf17a7f2f.png",
-      "thumb": "previews/drive-screens/thumbs/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/tablet/380a919c-f250-41a9-a0a4-124b37266cd4-9cf17a7f2f.webp",
+      "src": "previews/drive-screens/originals/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/tablet/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f.png",
+      "thumb": "previews/drive-screens/thumbs/bao-hanh-sua-chua-phieu-xuat-linh-kien-bao-hanh/tablet/hn-bao-hanh-phieu-xuat-linh-kien-p01-default-tablet-1600x2560-review-9cf17a7f2f.webp",
       "width": 1600,
       "height": 2560,
       "thumbWidth": 563,
@@ -4195,6 +4419,7 @@
     {
       "id": "drive-danh-muc-dai-ly-noi-nhan-hn-danhmuc-dailynoinhan-p01-default-desktop-1920x1080-locked-v1-0-6d305d517e",
       "title": "HN DanhMuc DaiLyNoiNhan P01 Default",
+      "fileName": "HN_DanhMuc_DaiLyNoiNhan_P01_Default_Desktop_1920x1080_LOCKED_v1.0.png",
       "group": "danh_muc_dai_ly_noi_nhan",
       "groupTitle": "Danh mục đại lý/nơi nhận",
       "device": "desktop",
@@ -4213,6 +4438,7 @@
     {
       "id": "drive-danh-muc-dai-ly-noi-nhan-hn-danhmuc-dailynoinhan-p01-default-tablet-1600x2560-locked-v1-0-1f043aea08",
       "title": "HN DanhMuc DaiLyNoiNhan P01 Default",
+      "fileName": "HN_DanhMuc_DaiLyNoiNhan_P01_Default_Tablet_1600x2560_LOCKED_v1.0.png",
       "group": "danh_muc_dai_ly_noi_nhan",
       "groupTitle": "Danh mục đại lý/nơi nhận",
       "device": "tablet",
@@ -4231,6 +4457,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p01-default-desktop-1920x1080-locked-v3-0-6e00545c6f",
       "title": "HN DanhMuc DanhMucSanPham P01 Default",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P01_Default_Desktop_1920x1080_LOCKED_v3.0.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4249,6 +4476,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p02-initialloading-desktop-1920x1080-13a94f381d",
       "title": "HN DanhMuc DanhMucSanPham P02 InitialLoading",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P02_InitialLoading_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4267,6 +4495,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p03-refreshing-desktop-1920x1080-ddb5664b2b",
       "title": "HN DanhMuc DanhMucSanPham P03 Refreshing",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P03_Refreshing_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4285,6 +4514,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p04-emptycatalog-desktop-1920x1080-4a7213f5d6",
       "title": "HN DanhMuc DanhMucSanPham P04 EmptyCatalog",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P04_EmptyCatalog_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4303,6 +4533,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p05-noresult-desktop-1920x1080-dd259f9200",
       "title": "HN DanhMuc DanhMucSanPham P05 NoResult",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P05_NoResult_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4321,6 +4552,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p06-loaderror-desktop-1920x1080-a42c3417d8",
       "title": "HN DanhMuc DanhMucSanPham P06 LoadError",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P06_LoadError_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4339,6 +4571,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p07-offline-desktop-1920x1080-a43f62f982",
       "title": "HN DanhMuc DanhMucSanPham P07 Offline",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P07_Offline_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4357,6 +4590,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p08-partialstale-desktop-1920x1080-e69a82ae88",
       "title": "HN DanhMuc DanhMucSanPham P08 PartialStale",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P08_PartialStale_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4375,6 +4609,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p09-filteredresult-desktop-1920x1080-2c5b6e6d82",
       "title": "HN DanhMuc DanhMucSanPham P09 FilteredResult",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P09_FilteredResult_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4393,6 +4628,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p10-readonly-desktop-1920x1080-df45cbc9bb",
       "title": "HN DanhMuc DanhMucSanPham P10 Readonly",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P10_Readonly_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4411,6 +4647,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p11-openingaddproduct-desktop-1920x1080-2919e621a5",
       "title": "HN DanhMuc DanhMucSanPham P11 OpeningAddProduct",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P11_OpeningAddProduct_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4429,6 +4666,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p12-addsuccess-desktop-1920x1080-74ed2748e7",
       "title": "HN DanhMuc DanhMucSanPham P12 AddSuccess",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P12_AddSuccess_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4447,6 +4685,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p13-duplicateconflict-desktop-1920x1080-dd6ef1f310",
       "title": "HN DanhMuc DanhMucSanPham P13 DuplicateConflict",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P13_DuplicateConflict_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4465,6 +4704,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p14-addfailed-desktop-1920x1080-55a86b5161",
       "title": "HN DanhMuc DanhMucSanPham P14 AddFailed",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P14_AddFailed_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4483,6 +4723,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p15-addtimeoutunknown-desktop-1920x1080-0df45021c1",
       "title": "HN DanhMuc DanhMucSanPham P15 AddTimeoutUnknown",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P15_AddTimeoutUnknown_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4501,6 +4742,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-desktop-1920x1080-7bb5e725f2",
       "title": "HN DanhMuc DanhMucSanPham P16 401 SessionExpired",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P16_401_SessionExpired_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4519,6 +4761,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p17-403-forbidden-desktop-1920x1080-b87f20021e",
       "title": "HN DanhMuc DanhMucSanPham P17 403 Forbidden",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P17_403_Forbidden_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4537,6 +4780,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p18-404-notfound-desktop-1920x1080-c6407acb51",
       "title": "HN DanhMuc DanhMucSanPham P18 404 NotFound",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P18_404_NotFound_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4555,6 +4799,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p19-500-systemerror-desktop-1920x1080-887fcea057",
       "title": "HN DanhMuc DanhMucSanPham P19 500 SystemError",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P19_500_SystemError_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4573,6 +4818,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p20-maintenance-desktop-1920x1080-7974b76b8b",
       "title": "HN DanhMuc DanhMucSanPham P20 Maintenance",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P20_Maintenance_Desktop_1920x1080.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "desktop",
@@ -4591,6 +4837,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p01-default-tablet-1600x2560-locked-v3-0-09d55457bb",
       "title": "HN DanhMuc DanhMucSanPham P01 Default",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P01_Default_Tablet_1600x2560_LOCKED_v3.0.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4609,6 +4856,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p02-initialloading-tablet-1600x2560-6a4034edba",
       "title": "HN DanhMuc DanhMucSanPham P02 InitialLoading",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P02_InitialLoading_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4627,6 +4875,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p03-refreshing-tablet-1600x2560-ebae103c73",
       "title": "HN DanhMuc DanhMucSanPham P03 Refreshing",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P03_Refreshing_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4645,6 +4894,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p04-emptycatalog-tablet-1600x2560-0ca5937aab",
       "title": "HN DanhMuc DanhMucSanPham P04 EmptyCatalog",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P04_EmptyCatalog_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4663,6 +4913,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p05-noresult-tablet-1600x2560-c1e1ff40ff",
       "title": "HN DanhMuc DanhMucSanPham P05 NoResult",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P05_NoResult_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4681,6 +4932,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p06-loaderror-tablet-1600x2560-b9e4d5e86a",
       "title": "HN DanhMuc DanhMucSanPham P06 LoadError",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P06_LoadError_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4699,6 +4951,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p07-offline-tablet-1600x2560-af3f0d1856",
       "title": "HN DanhMuc DanhMucSanPham P07 Offline",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P07_Offline_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4717,6 +4970,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p08-partialstale-tablet-1600x2560-0b4869a829",
       "title": "HN DanhMuc DanhMucSanPham P08 PartialStale",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P08_PartialStale_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4735,6 +4989,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p09-filteredresult-tablet-1600x2560-36b1a15702",
       "title": "HN DanhMuc DanhMucSanPham P09 FilteredResult",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P09_FilteredResult_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4753,6 +5008,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p10-readonly-tablet-1600x2560-8d2523b4a8",
       "title": "HN DanhMuc DanhMucSanPham P10 Readonly",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P10_Readonly_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4771,6 +5027,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p11-openingaddproduct-tablet-1600x2560-fb6971f634",
       "title": "HN DanhMuc DanhMucSanPham P11 OpeningAddProduct",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P11_OpeningAddProduct_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4789,6 +5046,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p12-addsuccess-tablet-1600x2560-c7dea58315",
       "title": "HN DanhMuc DanhMucSanPham P12 AddSuccess",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P12_AddSuccess_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4807,6 +5065,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p13-duplicateconflict-tablet-1600x2560-d60ddf4b21",
       "title": "HN DanhMuc DanhMucSanPham P13 DuplicateConflict",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P13_DuplicateConflict_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4825,6 +5084,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p14-addfailed-tablet-1600x2560-0414cb36b1",
       "title": "HN DanhMuc DanhMucSanPham P14 AddFailed",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P14_AddFailed_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4843,6 +5103,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p15-addtimeoutunknown-tablet-1600x2560-042cde42f8",
       "title": "HN DanhMuc DanhMucSanPham P15 AddTimeoutUnknown",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P15_AddTimeoutUnknown_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4861,6 +5122,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p16-401-sessionexpired-tablet-1600x2560-d7b4d24d8f",
       "title": "HN DanhMuc DanhMucSanPham P16 401 SessionExpired",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P16_401_SessionExpired_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4879,6 +5141,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p17-403-forbidden-tablet-1600x2560-1915bbb0e6",
       "title": "HN DanhMuc DanhMucSanPham P17 403 Forbidden",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P17_403_Forbidden_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4897,6 +5160,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p18-404-notfound-tablet-1600x2560-984f22be50",
       "title": "HN DanhMuc DanhMucSanPham P18 404 NotFound",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P18_404_NotFound_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4915,6 +5179,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p19-500-systemerror-tablet-1600x2560-45d708753f",
       "title": "HN DanhMuc DanhMucSanPham P19 500 SystemError",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P19_500_SystemError_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4933,6 +5198,7 @@
     {
       "id": "drive-danh-muc-san-pham-hn-danhmuc-danhmucsanpham-p20-maintenance-tablet-1600x2560-540ca9fc01",
       "title": "HN DanhMuc DanhMucSanPham P20 Maintenance",
+      "fileName": "HN_DanhMuc_DanhMucSanPham_P20_Maintenance_Tablet_1600x2560.png",
       "group": "danh_muc_san_pham",
       "groupTitle": "Danh mục sản phẩm",
       "device": "tablet",
@@ -4951,6 +5217,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p01-default-desktop-1920x1080-locked-v1-0-daff5fc842",
       "title": "HN DanhMuc DanhSachSKU P01 Default",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P01_Default_Desktop_1920x1080_LOCKED_v1.0.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -4969,6 +5236,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p02-initialloading-desktop-1920x1080-2b0d23789a",
       "title": "HN DanhMuc DanhSachSKU P02 InitialLoading",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P02_InitialLoading_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -4987,6 +5255,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p03-refreshing-desktop-1920x1080-01016c3b88",
       "title": "HN DanhMuc DanhSachSKU P03 Refreshing",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P03_Refreshing_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5005,6 +5274,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p04-emptycatalog-desktop-1920x1080-dd20fff361",
       "title": "HN DanhMuc DanhSachSKU P04 EmptyCatalog",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P04_EmptyCatalog_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5023,6 +5293,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p05-noresult-desktop-1920x1080-2c9b712108",
       "title": "HN DanhMuc DanhSachSKU P05 NoResult",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P05_NoResult_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5041,6 +5312,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p06-loaderror-desktop-1920x1080-d595505754",
       "title": "HN DanhMuc DanhSachSKU P06 LoadError",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P06_LoadError_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5059,6 +5331,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p07-offline-desktop-1920x1080-97a7908395",
       "title": "HN DanhMuc DanhSachSKU P07 Offline",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P07_Offline_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5077,6 +5350,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p08-partialstale-desktop-1920x1080-9cc31c6de0",
       "title": "HN DanhMuc DanhSachSKU P08 PartialStale",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P08_PartialStale_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5095,6 +5369,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p09-filteredresult-desktop-1920x1080-0f5792ba3a",
       "title": "HN DanhMuc DanhSachSKU P09 FilteredResult",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P09_FilteredResult_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5113,6 +5388,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p10-readonly-desktop-1920x1080-dd22375a55",
       "title": "HN DanhMuc DanhSachSKU P10 Readonly",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P10_Readonly_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5131,6 +5407,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p11-openingaddsku-desktop-1920x1080-6f5c276ca0",
       "title": "HN DanhMuc DanhSachSKU P11 OpeningAddSKU",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P11_OpeningAddSKU_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5149,6 +5426,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p12-addsuccess-desktop-1920x1080-2d6befc3b3",
       "title": "HN DanhMuc DanhSachSKU P12 AddSuccess",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P12_AddSuccess_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5167,6 +5445,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p13-duplicateconflict-desktop-1920x1080-95b44e8305",
       "title": "HN DanhMuc DanhSachSKU P13 DuplicateConflict",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P13_DuplicateConflict_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5185,6 +5464,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p14-addfailed-desktop-1920x1080-bacc8a9f45",
       "title": "HN DanhMuc DanhSachSKU P14 AddFailed",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P14_AddFailed_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5203,6 +5483,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p15-addtimeoutunknown-desktop-1920x1080-9d88fc289e",
       "title": "HN DanhMuc DanhSachSKU P15 AddTimeoutUnknown",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P15_AddTimeoutUnknown_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5221,6 +5502,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-desktop-1920x1080-2a1b75be70",
       "title": "HN DanhMuc DanhSachSKU P16 401 SessionExpired",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P16_401_SessionExpired_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5239,6 +5521,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p17-403-forbidden-desktop-1920x1080-4708b0ae96",
       "title": "HN DanhMuc DanhSachSKU P17 403 Forbidden",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P17_403_Forbidden_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5257,6 +5540,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p18-404-notfound-desktop-1920x1080-799dda6b3a",
       "title": "HN DanhMuc DanhSachSKU P18 404 NotFound",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P18_404_NotFound_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5275,6 +5559,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p19-500-systemerror-desktop-1920x1080-ed5be3748e",
       "title": "HN DanhMuc DanhSachSKU P19 500 SystemError",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P19_500_SystemError_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5293,6 +5578,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p20-maintenance-desktop-1920x1080-1466045abd",
       "title": "HN DanhMuc DanhSachSKU P20 Maintenance",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P20_Maintenance_Desktop_1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5311,6 +5597,7 @@
     {
       "id": "drive-danh-sach-sku-hn-dealer-recipient-report-p14-not-found-desktop-1920x1080-a38717b72a",
       "title": "HN DEALER RECIPIENT REPORT P14 not found",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P14-not-found-desktop-1920x1080.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "desktop",
@@ -5329,6 +5616,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p01-default-tablet-1600x2560-locked-v1-0-de88593df3",
       "title": "HN DanhMuc DanhSachSKU P01 Default",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P01_Default_Tablet_1600x2560_LOCKED_v1.0.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5347,6 +5635,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p02-initialloading-tablet-1600x2560-c0c981c159",
       "title": "HN DanhMuc DanhSachSKU P02 InitialLoading",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P02_InitialLoading_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5365,6 +5654,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p03-refreshing-tablet-1600x2560-82f6408698",
       "title": "HN DanhMuc DanhSachSKU P03 Refreshing",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P03_Refreshing_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5383,6 +5673,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p04-emptycatalog-tablet-1600x2560-bda8a4399b",
       "title": "HN DanhMuc DanhSachSKU P04 EmptyCatalog",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P04_EmptyCatalog_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5401,6 +5692,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p05-noresult-tablet-1600x2560-4b10135fa8",
       "title": "HN DanhMuc DanhSachSKU P05 NoResult",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P05_NoResult_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5419,6 +5711,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p06-loaderror-tablet-1600x2560-9b61df61bd",
       "title": "HN DanhMuc DanhSachSKU P06 LoadError",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P06_LoadError_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5437,6 +5730,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p07-offline-tablet-1600x2560-3958bf9ff5",
       "title": "HN DanhMuc DanhSachSKU P07 Offline",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P07_Offline_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5455,6 +5749,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p08-partialstale-tablet-1600x2560-4314997592",
       "title": "HN DanhMuc DanhSachSKU P08 PartialStale",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P08_PartialStale_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5473,6 +5768,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p09-filteredresult-tablet-1600x2560-1d46785313",
       "title": "HN DanhMuc DanhSachSKU P09 FilteredResult",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P09_FilteredResult_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5491,6 +5787,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p10-readonly-tablet-1600x2560-c2f83593c3",
       "title": "HN DanhMuc DanhSachSKU P10 Readonly",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P10_Readonly_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5509,6 +5806,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p11-openingaddsku-tablet-1600x2560-1f84c983e9",
       "title": "HN DanhMuc DanhSachSKU P11 OpeningAddSKU",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P11_OpeningAddSKU_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5527,6 +5825,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p12-addsuccess-tablet-1600x2560-61cb5c89b4",
       "title": "HN DanhMuc DanhSachSKU P12 AddSuccess",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P12_AddSuccess_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5545,6 +5844,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p13-duplicateconflict-tablet-1600x2560-1e6e045707",
       "title": "HN DanhMuc DanhSachSKU P13 DuplicateConflict",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P13_DuplicateConflict_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5563,6 +5863,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p14-addfailed-tablet-1600x2560-2b856fe686",
       "title": "HN DanhMuc DanhSachSKU P14 AddFailed",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P14_AddFailed_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5581,6 +5882,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p15-addtimeoutunknown-tablet-1600x2560-7a96521820",
       "title": "HN DanhMuc DanhSachSKU P15 AddTimeoutUnknown",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P15_AddTimeoutUnknown_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5599,6 +5901,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p16-401-sessionexpired-tablet-1600x2560-e19dd26d76",
       "title": "HN DanhMuc DanhSachSKU P16 401 SessionExpired",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P16_401_SessionExpired_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5617,6 +5920,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p17-403-forbidden-tablet-1600x2560-29435a6562",
       "title": "HN DanhMuc DanhSachSKU P17 403 Forbidden",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P17_403_Forbidden_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5635,6 +5939,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p18-404-notfound-tablet-1600x2560-ad16e39f95",
       "title": "HN DanhMuc DanhSachSKU P18 404 NotFound",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P18_404_NotFound_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5653,6 +5958,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p19-500-systemerror-tablet-1600x2560-8467d2cacb",
       "title": "HN DanhMuc DanhSachSKU P19 500 SystemError",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P19_500_SystemError_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5671,6 +5977,7 @@
     {
       "id": "drive-danh-sach-sku-hn-danhmuc-danhsachsku-p20-maintenance-tablet-1600x2560-bbe075e46b",
       "title": "HN DanhMuc DanhSachSKU P20 Maintenance",
+      "fileName": "HN_DanhMuc_DanhSachSKU_P20_Maintenance_Tablet_1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5689,6 +5996,7 @@
     {
       "id": "drive-danh-sach-sku-hn-dealer-recipient-report-p14-not-found-tablet-1600x2560-b3bb946f2d",
       "title": "HN DEALER RECIPIENT REPORT P14 not found",
+      "fileName": "HN-DEALER-RECIPIENT-REPORT-P14-not-found-tablet-1600x2560.png",
       "group": "danh_sach_SKU",
       "groupTitle": "Danh sách SKU",
       "device": "tablet",
@@ -5707,6 +6015,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-desktop-1672x941-review-12fef87b17",
       "title": "AUTH 02 access denied",
+      "fileName": "AUTH-02-access-denied-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5725,6 +6034,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-desktop-1672x941-review-0843dbedb4",
       "title": "AUTH 02 account unavailable",
+      "fileName": "AUTH-02-account-unavailable-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5743,6 +6053,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-desktop-1672x941-review-1797ee3cb7",
       "title": "AUTH 02 checking session",
+      "fileName": "AUTH-02-checking-session-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5761,6 +6072,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-desktop-1672x941-review-5defdeaabc",
       "title": "AUTH 02 confirmation failed",
+      "fileName": "AUTH-02-confirmation-failed-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5779,6 +6091,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-desktop-1672x941-review-89d43d813e",
       "title": "AUTH 02 context load error",
+      "fileName": "AUTH-02-context-load-error-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5797,6 +6110,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-desktop-1672x941-review-103573ab67",
       "title": "AUTH 02 default",
+      "fileName": "AUTH-02-default-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5815,6 +6129,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-desktop-1672x941-review-3b5a164874",
       "title": "AUTH 02 entering system",
+      "fileName": "AUTH-02-entering-system-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5833,6 +6148,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-desktop-1672x941-review-f05af59aac",
       "title": "AUTH 02 offline before submit",
+      "fileName": "AUTH-02-offline-before-submit-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5851,6 +6167,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-desktop-1672x941-review-32ae0effd0",
       "title": "AUTH 02 outcome unknown",
+      "fileName": "AUTH-02-outcome-unknown-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5869,6 +6186,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-desktop-1672x941-review-be3ff092e7",
       "title": "AUTH 02 session expired",
+      "fileName": "AUTH-02-session-expired-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5887,6 +6205,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-desktop-1672x941-review-d67fcd2efd",
       "title": "AUTH 02 warehouse suspended",
+      "fileName": "AUTH-02-warehouse-suspended-desktop-1672x941-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "desktop",
@@ -5905,6 +6224,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-access-denied-tablet-993x1584-review-0bc3a0221f",
       "title": "AUTH 02 access denied",
+      "fileName": "AUTH-02-access-denied-tablet-993x1584-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -5923,6 +6243,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-account-unavailable-tablet-992x1586-review-386726a4aa",
       "title": "AUTH 02 account unavailable",
+      "fileName": "AUTH-02-account-unavailable-tablet-992x1586-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -5941,6 +6262,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-checking-session-tablet-992x1586-review-4a0a35efb3",
       "title": "AUTH 02 checking session",
+      "fileName": "AUTH-02-checking-session-tablet-992x1586-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -5959,6 +6281,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-confirmation-failed-tablet-992x1586-review-01d3238eaa",
       "title": "AUTH 02 confirmation failed",
+      "fileName": "AUTH-02-confirmation-failed-tablet-992x1586-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -5977,6 +6300,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-context-load-error-tablet-992x1585-review-80d2de83e6",
       "title": "AUTH 02 context load error",
+      "fileName": "AUTH-02-context-load-error-tablet-992x1585-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -5995,6 +6319,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-default-tablet-992x1586-review-58876e76d3",
       "title": "AUTH 02 default",
+      "fileName": "AUTH-02-default-tablet-992x1586-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -6013,6 +6338,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-entering-system-tablet-992x1586-review-11161c93e5",
       "title": "AUTH 02 entering system",
+      "fileName": "AUTH-02-entering-system-tablet-992x1586-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -6031,6 +6357,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-offline-before-submit-tablet-992x1585-review-29647fce89",
       "title": "AUTH 02 offline before submit",
+      "fileName": "AUTH-02-offline-before-submit-tablet-992x1585-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -6049,6 +6376,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-outcome-unknown-tablet-993x1584-review-b46c449a40",
       "title": "AUTH 02 outcome unknown",
+      "fileName": "AUTH-02-outcome-unknown-tablet-993x1584-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -6067,6 +6395,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-session-expired-tablet-992x1586-review-be91eb684a",
       "title": "AUTH 02 session expired",
+      "fileName": "AUTH-02-session-expired-tablet-992x1586-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -6085,6 +6414,7 @@
     {
       "id": "drive-dang-nhap-phien-lam-viec-phien-lam-viec-auth-02-warehouse-suspended-tablet-992x1586-review-d213f0ad40",
       "title": "AUTH 02 warehouse suspended",
+      "fileName": "AUTH-02-warehouse-suspended-tablet-992x1586-review.png",
       "group": "dang_nhap& phien_lam_viec/phien_lam_viec",
       "groupTitle": "Đăng nhập & phiên làm việc · Xác nhận phiên",
       "device": "tablet",
@@ -6101,14 +6431,15 @@
       ]
     },
     {
-      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay-7c90d8df-35b2-4487-8916-a2dfc3b0aad0-b37a621d2c",
-      "title": "7c90d8df 35b2 4487 8916 a2dfc3b0aad0",
+      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay-hn-nhap-kho-danh-sach-khay-p01-default-desktop-1672x941-review-b37a621d2c",
+      "title": "HN NHAP KHO DANH SACH KHAY P01 DEFAULT",
+      "fileName": "HN_NHAP_KHO_DANH_SACH_KHAY_P01_DEFAULT_DESKTOP_1672x941_REVIEW.png",
       "group": "nhap_kho/linh_kien_cho_xep_khay/danh_sach_khay",
       "groupTitle": "Nhập kho · Danh sách khay",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/desktop/7c90d8df-35b2-4487-8916-a2dfc3b0aad0-b37a621d2c.png",
-      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/desktop/7c90d8df-35b2-4487-8916-a2dfc3b0aad0-b37a621d2c.webp",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/desktop/hn-nhap-kho-danh-sach-khay-p01-default-desktop-1672x941-review-b37a621d2c.png",
+      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/desktop/hn-nhap-kho-danh-sach-khay-p01-default-desktop-1672x941-review-b37a621d2c.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -6119,14 +6450,15 @@
       ]
     },
     {
-      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay-c4f79217-2f12-4267-a547-cb12bdffc564-bfd8f89f65",
-      "title": "c4f79217 2f12 4267 a547 cb12bdffc564",
+      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay-hn-nhap-kho-danh-sach-khay-p01-default-tablet-992x1586-review-bfd8f89f65",
+      "title": "HN NHAP KHO DANH SACH KHAY P01 DEFAULT",
+      "fileName": "HN_NHAP_KHO_DANH_SACH_KHAY_P01_DEFAULT_TABLET_992x1586_REVIEW.png",
       "group": "nhap_kho/linh_kien_cho_xep_khay/danh_sach_khay",
       "groupTitle": "Nhập kho · Danh sách khay",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/tablet/c4f79217-2f12-4267-a547-cb12bdffc564-bfd8f89f65.png",
-      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/tablet/c4f79217-2f12-4267-a547-cb12bdffc564-bfd8f89f65.webp",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/tablet/hn-nhap-kho-danh-sach-khay-p01-default-tablet-992x1586-review-bfd8f89f65.png",
+      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-danh-sach-khay/tablet/hn-nhap-kho-danh-sach-khay-p01-default-tablet-992x1586-review-bfd8f89f65.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
@@ -6139,6 +6471,7 @@
     {
       "id": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-desktop-1920x1080-candidate-v2-a2b7207a5e",
       "title": "HN PhieuNhapKho DanhSach Default",
+      "fileName": "HN_PhieuNhapKho_DanhSach_Default_Desktop_1920x1080_Candidate_v2.png",
       "group": "nhap_kho/danh_sach_phieu_nhap_kho",
       "groupTitle": "Nhập kho · Danh sách phiếu nhập",
       "device": "desktop",
@@ -6157,6 +6490,7 @@
     {
       "id": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-tablet-1600x2560-candidate-v2-3633194fee",
       "title": "HN PhieuNhapKho DanhSach Default",
+      "fileName": "HN_PhieuNhapKho_DanhSach_Default_Tablet_1600x2560_Candidate_v2.png",
       "group": "nhap_kho/danh_sach_phieu_nhap_kho",
       "groupTitle": "Nhập kho · Danh sách phiếu nhập",
       "device": "tablet",
@@ -6173,14 +6507,15 @@
       ]
     },
     {
-      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-hang-cho-5e0a9134-a480-4767-9c79-7ea0780dd6b3-8289f69e83",
-      "title": "5e0a9134 a480 4767 9c79 7ea0780dd6b3",
+      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-hang-cho-hn-nhap-kho-hang-cho-xep-khay-p01-default-desktop-1672x941-review-8289f69e83",
+      "title": "HN NHAP KHO HANG CHO XEP KHAY P01 DEFAULT",
+      "fileName": "HN_NHAP_KHO_HANG_CHO_XEP_KHAY_P01_DEFAULT_DESKTOP_1672x941_REVIEW.png",
       "group": "nhap_kho/linh_kien_cho_xep_khay/hang_cho",
       "groupTitle": "Nhập kho · Hàng chờ xếp khay",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-hang-cho/desktop/5e0a9134-a480-4767-9c79-7ea0780dd6b3-8289f69e83.png",
-      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-hang-cho/desktop/5e0a9134-a480-4767-9c79-7ea0780dd6b3-8289f69e83.webp",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-hang-cho/desktop/hn-nhap-kho-hang-cho-xep-khay-p01-default-desktop-1672x941-review-8289f69e83.png",
+      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-hang-cho/desktop/hn-nhap-kho-hang-cho-xep-khay-p01-default-desktop-1672x941-review-8289f69e83.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -6191,14 +6526,15 @@
       ]
     },
     {
-      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-hang-cho-d5476247-3e95-4ff4-a21e-42485797c8d5-883eb560cb",
-      "title": "d5476247 3e95 4ff4 a21e 42485797c8d5",
+      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-hang-cho-hn-nhap-kho-hang-cho-xep-khay-p01-default-tablet-992x1586-review-883eb560cb",
+      "title": "HN NHAP KHO HANG CHO XEP KHAY P01 DEFAULT",
+      "fileName": "HN_NHAP_KHO_HANG_CHO_XEP_KHAY_P01_DEFAULT_TABLET_992x1586_REVIEW.png",
       "group": "nhap_kho/linh_kien_cho_xep_khay/hang_cho",
       "groupTitle": "Nhập kho · Hàng chờ xếp khay",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-hang-cho/tablet/d5476247-3e95-4ff4-a21e-42485797c8d5-883eb560cb.png",
-      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-hang-cho/tablet/d5476247-3e95-4ff4-a21e-42485797c8d5-883eb560cb.webp",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-hang-cho/tablet/hn-nhap-kho-hang-cho-xep-khay-p01-default-tablet-992x1586-review-883eb560cb.png",
+      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-hang-cho/tablet/hn-nhap-kho-hang-cho-xep-khay-p01-default-tablet-992x1586-review-883eb560cb.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
@@ -6209,14 +6545,15 @@
       ]
     },
     {
-      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay-f148d5f6-70bd-4983-8c8a-86c24f4442dd-c875d91529",
-      "title": "f148d5f6 70bd 4983 8c8a 86c24f4442dd",
+      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay-hn-nhap-kho-lenh-xep-khay-p01-default-desktop-1672x941-review-c875d91529",
+      "title": "HN NHAP KHO LENH XEP KHAY P01 DEFAULT",
+      "fileName": "HN_NHAP_KHO_LENH_XEP_KHAY_P01_DEFAULT_DESKTOP_1672x941_REVIEW.png",
       "group": "nhap_kho/linh_kien_cho_xep_khay/lenh_xep_khay",
       "groupTitle": "Nhập kho · Lệnh xếp khay",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/desktop/f148d5f6-70bd-4983-8c8a-86c24f4442dd-c875d91529.png",
-      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/desktop/f148d5f6-70bd-4983-8c8a-86c24f4442dd-c875d91529.webp",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/desktop/hn-nhap-kho-lenh-xep-khay-p01-default-desktop-1672x941-review-c875d91529.png",
+      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/desktop/hn-nhap-kho-lenh-xep-khay-p01-default-desktop-1672x941-review-c875d91529.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -6227,14 +6564,15 @@
       ]
     },
     {
-      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay-2f837b9a-264e-4949-a7cd-0c34d1851b36-37349f3dfd",
-      "title": "2f837b9a 264e 4949 a7cd 0c34d1851b36",
+      "id": "drive-nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay-hn-nhap-kho-lenh-xep-khay-p01-default-tablet-992x1586-review-37349f3dfd",
+      "title": "HN NHAP KHO LENH XEP KHAY P01 DEFAULT",
+      "fileName": "HN_NHAP_KHO_LENH_XEP_KHAY_P01_DEFAULT_TABLET_992x1586_REVIEW.png",
       "group": "nhap_kho/linh_kien_cho_xep_khay/lenh_xep_khay",
       "groupTitle": "Nhập kho · Lệnh xếp khay",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/tablet/2f837b9a-264e-4949-a7cd-0c34d1851b36-37349f3dfd.png",
-      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/tablet/2f837b9a-264e-4949-a7cd-0c34d1851b36-37349f3dfd.webp",
+      "src": "previews/drive-screens/originals/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/tablet/hn-nhap-kho-lenh-xep-khay-p01-default-tablet-992x1586-review-37349f3dfd.png",
+      "thumb": "previews/drive-screens/thumbs/nhap-kho-linh-kien-cho-xep-khay-lenh-xep-khay/tablet/hn-nhap-kho-lenh-xep-khay-p01-default-tablet-992x1586-review-37349f3dfd.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
@@ -6245,14 +6583,15 @@
       ]
     },
     {
-      "id": "drive-san-pham-app-pv-b1518a5a-523a-4a76-b8cd-27ab0978a6c7-91d8c68321",
-      "title": "b1518a5a 523a 4a76 b8cd 27ab0978a6c7",
+      "id": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321",
+      "title": "HN SAN PHAM APP PV P01 DEFAULT",
+      "fileName": "HN_SAN_PHAM_APP_PV_P01_DEFAULT_DESKTOP_1672x941_REVIEW.png",
       "group": "san_pham_app_pv",
       "groupTitle": "Sản phẩm App PV",
       "device": "desktop",
       "stage": "review",
-      "src": "previews/drive-screens/originals/san-pham-app-pv/desktop/b1518a5a-523a-4a76-b8cd-27ab0978a6c7-91d8c68321.png",
-      "thumb": "previews/drive-screens/thumbs/san-pham-app-pv/desktop/b1518a5a-523a-4a76-b8cd-27ab0978a6c7-91d8c68321.webp",
+      "src": "previews/drive-screens/originals/san-pham-app-pv/desktop/hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321.png",
+      "thumb": "previews/drive-screens/thumbs/san-pham-app-pv/desktop/hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321.webp",
       "width": 1672,
       "height": 941,
       "thumbWidth": 900,
@@ -6263,14 +6602,15 @@
       ]
     },
     {
-      "id": "drive-san-pham-app-pv-43d2840e-b658-4320-99a8-dc5e4c1131c5-1a2e6a6f33",
-      "title": "43d2840e b658 4320 99a8 dc5e4c1131c5",
+      "id": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33",
+      "title": "HN SAN PHAM APP PV P01 DEFAULT",
+      "fileName": "HN_SAN_PHAM_APP_PV_P01_DEFAULT_TABLET_992x1586_REVIEW.png",
       "group": "san_pham_app_pv",
       "groupTitle": "Sản phẩm App PV",
       "device": "tablet",
       "stage": "review",
-      "src": "previews/drive-screens/originals/san-pham-app-pv/tablet/43d2840e-b658-4320-99a8-dc5e4c1131c5-1a2e6a6f33.png",
-      "thumb": "previews/drive-screens/thumbs/san-pham-app-pv/tablet/43d2840e-b658-4320-99a8-dc5e4c1131c5-1a2e6a6f33.webp",
+      "src": "previews/drive-screens/originals/san-pham-app-pv/tablet/hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33.png",
+      "thumb": "previews/drive-screens/thumbs/san-pham-app-pv/tablet/hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33.webp",
       "width": 992,
       "height": 1586,
       "thumbWidth": 563,
@@ -6283,6 +6623,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p01-default-desktop-1920x1080-5677509abe",
       "title": "HN TKDS P01 default",
+      "fileName": "HN-TKDS-P01-default-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6301,6 +6642,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p02-loading-desktop-1920x1080-1ff1360f4a",
       "title": "HN TKDS P02 loading",
+      "fileName": "HN-TKDS-P02-loading-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6319,6 +6661,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p03-empty-desktop-1920x1080-6bdf387cbe",
       "title": "HN TKDS P03 empty",
+      "fileName": "HN-TKDS-P03-empty-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6337,6 +6680,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p04-error-desktop-1920x1080-0148e40776",
       "title": "HN TKDS P04 error",
+      "fileName": "HN-TKDS-P04-error-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6355,6 +6699,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p05-invalid-filter-desktop-1920x1080-6eb038d891",
       "title": "HN TKDS P05 invalid filter",
+      "fileName": "HN-TKDS-P05-invalid-filter-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6373,6 +6718,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p06-no-result-desktop-1920x1080-fc58118d13",
       "title": "HN TKDS P06 no result",
+      "fileName": "HN-TKDS-P06-no-result-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6391,6 +6737,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p07-readonly-desktop-1920x1080-4e3be50282",
       "title": "HN TKDS P07 readonly",
+      "fileName": "HN-TKDS-P07-readonly-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6409,6 +6756,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p08-forbidden-desktop-1920x1080-128b55979a",
       "title": "HN TKDS P08 forbidden",
+      "fileName": "HN-TKDS-P08-forbidden-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6427,6 +6775,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p09-not-found-desktop-1920x1080-fdc3171155",
       "title": "HN TKDS P09 not found",
+      "fileName": "HN-TKDS-P09-not-found-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6445,6 +6794,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p10-maintenance-desktop-1920x1080-ce007d5e6b",
       "title": "HN TKDS P10 maintenance",
+      "fileName": "HN-TKDS-P10-maintenance-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6463,6 +6813,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p11-server-error-desktop-1920x1080-45049431b9",
       "title": "HN TKDS P11 server error",
+      "fileName": "HN-TKDS-P11-server-error-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6481,6 +6832,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p12-session-expired-desktop-1920x1080-b3011f6902",
       "title": "HN TKDS P12 session expired",
+      "fileName": "HN-TKDS-P12-session-expired-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6499,6 +6851,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p13-success-desktop-1920x1080-a5f4ce2de1",
       "title": "HN TKDS P13 success",
+      "fileName": "HN-TKDS-P13-success-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6517,6 +6870,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p14-warning-desktop-1920x1080-730bbe6624",
       "title": "HN TKDS P14 warning",
+      "fileName": "HN-TKDS-P14-warning-desktop-1920x1080.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "desktop",
@@ -6535,6 +6889,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p01-default-tablet-1600x2560-ad286f92cd",
       "title": "HN TKDS P01 default",
+      "fileName": "HN-TKDS-P01-default-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6553,6 +6908,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p02-loading-tablet-1600x2560-b21550c14e",
       "title": "HN TKDS P02 loading",
+      "fileName": "HN-TKDS-P02-loading-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6571,6 +6927,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p03-empty-tablet-1600x2560-cd68bb7f92",
       "title": "HN TKDS P03 empty",
+      "fileName": "HN-TKDS-P03-empty-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6589,6 +6946,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p04-error-tablet-1600x2560-ebc28c1dd0",
       "title": "HN TKDS P04 error",
+      "fileName": "HN-TKDS-P04-error-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6607,6 +6965,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p05-invalid-filter-tablet-1600x2560-7c09042f9f",
       "title": "HN TKDS P05 invalid filter",
+      "fileName": "HN-TKDS-P05-invalid-filter-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6625,6 +6984,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p06-no-result-tablet-1600x2560-c310c5a51e",
       "title": "HN TKDS P06 no result",
+      "fileName": "HN-TKDS-P06-no-result-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6643,6 +7003,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p07-readonly-tablet-1600x2560-f10931689c",
       "title": "HN TKDS P07 readonly",
+      "fileName": "HN-TKDS-P07-readonly-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6661,6 +7022,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p08-forbidden-tablet-1600x2560-6611f9f8e3",
       "title": "HN TKDS P08 forbidden",
+      "fileName": "HN-TKDS-P08-forbidden-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6679,6 +7041,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p09-not-found-tablet-1600x2560-8215e922c1",
       "title": "HN TKDS P09 not found",
+      "fileName": "HN-TKDS-P09-not-found-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6697,6 +7060,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p10-maintenance-tablet-1600x2560-347103d5d7",
       "title": "HN TKDS P10 maintenance",
+      "fileName": "HN-TKDS-P10-maintenance-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6715,6 +7079,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p11-server-error-tablet-1600x2560-9bc49258c0",
       "title": "HN TKDS P11 server error",
+      "fileName": "HN-TKDS-P11-server-error-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6733,6 +7098,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p13-success-tablet-1600x2560-a9d8bd8442",
       "title": "HN TKDS P13 success",
+      "fileName": "HN-TKDS-P13-success-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6751,6 +7117,7 @@
     {
       "id": "drive-ton-kho-doi-soat-hn-tkds-p14-warning-tablet-1600x2560-4f0489465b",
       "title": "HN TKDS P14 warning",
+      "fileName": "HN-TKDS-P14-warning-tablet-1600x2560.png",
       "group": "ton_kho&doi_soat",
       "groupTitle": "Tồn kho & đối soát",
       "device": "tablet",
@@ -6769,6 +7136,7 @@
     {
       "id": "drive-xuat-kho-hn-xuatkho-phieuxuatkho-p01-default-desktop-1920x1080-locked-v1-0-98f30bd216",
       "title": "HN XuatKho PhieuXuatKho P01 Default",
+      "fileName": "HN_XuatKho_PhieuXuatKho_P01_Default_Desktop_1920x1080_LOCKED_v1.0.png",
       "group": "xuat_kho",
       "groupTitle": "Xuất kho · Phiếu xuất kho",
       "device": "desktop",
@@ -6787,6 +7155,7 @@
     {
       "id": "drive-xuat-kho-hn-xuatkho-phieuxuatkho-p01-default-tablet-1600x2560-locked-v1-0-e79d5f7d2c",
       "title": "HN XuatKho PhieuXuatKho P01 Default",
+      "fileName": "HN_XuatKho_PhieuXuatKho_P01_Default_Tablet_1600x2560_LOCKED_v1.0.png",
       "group": "xuat_kho",
       "groupTitle": "Xuất kho · Phiếu xuất kho",
       "device": "tablet",

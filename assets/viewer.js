@@ -89,7 +89,9 @@ try {
   if (img.naturalWidth !== screen.width || img.naturalHeight !== screen.height) throw new Error('Kích thước ảnh không khớp hồ sơ bàn giao. Vui lòng tải lại trang hoặc liên hệ người phụ trách thư viện.');
   const css = screen.cssWidth ? ` · ${screen.cssWidth} × ${screen.cssHeight} CSS px` : '';
   $('metadata').textContent = `${screen.device === 'desktop' ? 'Desktop ngang' : 'Tablet dọc'} · ${img.naturalWidth} × ${img.naturalHeight} px ảnh gốc${css}`;
-  $('download').href = img.src; $('download').hidden = false;
+  $('download').href = img.src;
+  $('download').download = screen.fileName || screen.src.split('/').at(-1);
+  $('download').hidden = false;
   for (const id of ['fit', 'width', 'one', 'minus', 'plus', 'fullscreen']) $(id).disabled = false;
   $('fullscreen').hidden = !document.fullscreenEnabled;
   $('status').hidden = true; img.hidden = false; ready = true; paint();

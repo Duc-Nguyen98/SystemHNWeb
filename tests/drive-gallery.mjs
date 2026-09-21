@@ -34,7 +34,9 @@ try {
     const download = await downloadPromise;
     const actualHash = createHash('sha256').update(await readFile(await download.path())).digest('hex');
     const id = new URL(popup.url()).searchParams.get('screen');
-    assert.equal(actualHash, manifest.screens.find(screen => screen.id === id).sha256, `${prefix} original download hash`);
+    const downloadedScreen = manifest.screens.find(screen => screen.id === id);
+    assert.equal(actualHash, downloadedScreen.sha256, `${prefix} original download hash`);
+    assert.equal(download.suggestedFilename(), downloadedScreen.fileName, `${prefix} developer-facing download filename`);
     await popup.close();
   }
 } finally {
