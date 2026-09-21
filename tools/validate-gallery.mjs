@@ -21,12 +21,12 @@ for (const screen of manifest.screens) {
   assert(screen.device === 'desktop' ? screen.width >= 1920 && screen.height >= 1080 && screen.width > screen.height : screen.width >= 1440 && screen.height >= 2048 && screen.height > screen.width, `Insufficient/wrong source canvas: ${screen.id}`);
   if (screen.cssWidth) assert(Math.abs(screen.width / screen.height - screen.cssWidth / screen.cssHeight) < .0001, `CSS aspect-ratio mismatch: ${screen.id}`);
 }
-assert.equal(ids.size, 84, 'Update the reviewed inventory when adding/removing screens');
+assert.equal(ids.size, 124, 'Update the reviewed inventory when adding/removing screens');
 for (const page of ['index.html', 'previews/overview-filter-v2/index.html']) {
   const html = (await read(page)).toString();
   assert(!/document\.write|openImageViewer|openPreview/.test(html), `${page}: duplicated legacy viewer`);
   const cards = [...html.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)].map(m => m[0]).filter(card => card.includes('class="preview"'));
-  assert.equal(cards.length, page === 'index.html' ? 84 : 26);
+  assert.equal(cards.length, page === 'index.html' ? 124 : 26);
   for (const card of cards) {
     const a = card.match(/<a\b[^>]*class="preview"[^>]*>/)[0];
     const id = a.match(/viewer\.html\?screen=([^"&]+)/)?.[1];
@@ -50,4 +50,4 @@ async function compare(path) {
 }
 await compare('assets');
 for (const file of ['viewer.html', 'screen-manifest.json']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Root/docs drift: ${file}`);
-console.log('PASS: 84 originals + 110 gallery links, dimensions, hashes, download targets and root/docs parity.');
+console.log('PASS: 124 originals + 150 gallery links, dimensions, hashes, download targets and root/docs parity.');
