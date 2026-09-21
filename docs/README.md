@@ -2,6 +2,8 @@
 
 Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 hiện có 9 state được duyệt cho mỗi viewport; AUTH-02 và các màn hỗ trợ tiếp tục được giữ trong cùng nhóm. Bộ filter/date picker MAP-01 v2 có gallery QA riêng với 13 state cho mỗi viewport.
 
+Bộ xuất từ Drive ngày 22/09/2026 có gallery riêng tại [`drive-gallery.html`](drive-gallery.html), gồm **369 màn hình thuộc 21 nhóm nghiệp vụ**. Bộ nhập giữ nguyên ảnh nguồn, có thumbnail nhẹ để duyệt nhanh, manifest SHA-256 và bộ lọc theo nghiệp vụ/thiết bị. Các ảnh AUTH-01 và Tổng quan đã có trong gallery chính không bị nhân đôi.
+
 **GitHub Pages:** https://duc-nguyen98.github.io/SystemHNWeb/
 
 | Nhóm | Desktop | Tablet dọc | Tổng |
@@ -37,6 +39,8 @@ AUTH-01 dùng Desktop Full HD 1920 × 1080 px và Tablet dọc 800 × 1280 CSS p
 
 ## Truy cập trực tiếp
 
+- [Gallery màn hình từ Drive](drive-gallery.html)
+- [Manifest màn hình từ Drive](drive-screen-manifest.json)
 - [AUTH screen export manifest](handoff-AUTH-SCREEN-EXPORT-MANIFEST-v2.md)
 - [MAP-01 filter/date picker QA v2](previews/overview-filter-v2/index.html)
 - [Handoff Design + QA filter v2](handoff-OVERVIEW-FILTER-QA-v2.md)

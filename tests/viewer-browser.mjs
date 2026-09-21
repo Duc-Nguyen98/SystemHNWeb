@@ -6,6 +6,8 @@ import { serve } from '../tools/serve.mjs';
 const server = await serve(resolve('.'), 0);
 const base = `http://127.0.0.1:${server.address().port}`;
 const manifest = JSON.parse(await readFile('screen-manifest.json', 'utf8'));
+const driveManifest = JSON.parse(await readFile('drive-screen-manifest.json', 'utf8'));
+const driveSample = driveManifest.screens.find(screen => screen.device === 'tablet') || driveManifest.screens[0];
 const results = { checks: [], errors: [] };
 const out = resolve('artifacts/qa'); await mkdir(out, { recursive: true });
 const resultFile = process.env.QA_BROWSERS ? `results-${process.env.QA_BROWSERS.replaceAll(',', '-')}.json` : 'results.json';
@@ -28,8 +30,9 @@ function fitAssertions(m, screen) {
   const expected = Math.min((m.stage.width-32)/screen.width,(m.stage.height-32)/screen.height,1/m.dpr);
   assert(Math.abs(m.width-screen.width*expected)<2,`${screen.id}: unnecessarily small fit`);
 }
-async function open(page, screen, prefix = '') {
-  await page.goto(`${base}/${prefix}viewer.html?screen=${screen.id}`);
+async function open(page, screen, prefix = '', collection = '') {
+  const collectionQuery = collection ? `collection=${collection}&` : '';
+  await page.goto(`${base}/${prefix}viewer.html?${collectionQuery}screen=${screen.id}`);
   await page.locator('#frame').waitFor({ state:'visible' }); await settled(page);
 }
 try {
@@ -71,6 +74,11 @@ try {
       const page=await browser.newPage({viewport:{width:1366,height:768}}); page.on('pageerror',e=>results.errors.push(e.message));
       for(const prefix of ['', 'docs/']) {
         for(const screen of manifest.screens) {await open(page,screen,prefix);fitAssertions(await measure(page),screen);results.checks.push({engineName,prefix,id:screen.id,mode:'base-path'});}
+        await open(page,driveSample,prefix,'drive');fitAssertions(await measure(page),driveSample);results.checks.push({engineName,prefix,id:driveSample.id,mode:'drive-base-path'});
+        await page.goto(`${base}/${prefix}drive-gallery.html`);await page.waitForFunction(expected=>document.querySelectorAll('.card').length===expected,driveManifest.total);
+        const drivePopupPromise=page.waitForEvent('popup');await page.locator('a.preview').first().click();const drivePopup=await drivePopupPromise;
+        await drivePopup.locator('#frame').waitFor({state:'visible'});assert(drivePopup.url().includes('collection=drive'));
+        await drivePopup.close();results.checks.push({engineName,route:prefix+'drive-gallery.html',mode:'drive-navigation'});
         for(const [route,hash,count] of [['index.html','auth-desktop',19],['index.html','auth-tablet',19],['index.html','overview-desktop',23],['index.html','overview-tablet',23],['previews/overview-filter-v2/index.html','desktop',13],['previews/overview-filter-v2/index.html','tablet',13]]) {
           await page.goto(`${base}/${prefix}${route}#${hash}`);
           // Same-document navigation resolves before hashchange in WebKit.

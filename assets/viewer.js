@@ -3,6 +3,9 @@ import { fitScale, nativeScale, clampScale } from './viewer-math.mjs';
 const $ = id => document.getElementById(id);
 const img = $('frame'), stage = $('stage'), canvas = $('canvas');
 let screen, scale = 1, mode = 'fit', ready = false, scheduled = false;
+const params = new URLSearchParams(location.search);
+const collection = params.get('collection') === 'drive' ? 'drive' : 'main';
+const returnPage = collection === 'drive' ? 'drive-gallery.html' : 'index.html';
 const dpr = () => window.devicePixelRatio || 1;
 function paint(preserveCenter = false) {
   if (!ready) return;
@@ -45,7 +48,7 @@ function onResize() {
 function closeViewer() {
   // Direct links also work: navigate home if this tab was not script-opened.
   window.close();
-  setTimeout(() => { if (!window.closed) location.href = new URL('index.html', location.href).href; }, 100);
+  setTimeout(() => { if (!window.closed) location.href = new URL(returnPage, location.href).href; }, 100);
 }
 $('fit').onclick = () => selectMode('fit');
 $('width').onclick = () => selectMode('width');
@@ -67,10 +70,11 @@ addEventListener('keydown', event => {
   if (actions[event.key]) { event.preventDefault(); actions[event.key](); }
 });
 try {
-  const response = await fetch(new URL('../screen-manifest.json', import.meta.url));
+  const manifestFile = collection === 'drive' ? 'drive-screen-manifest.json' : 'screen-manifest.json';
+  const response = await fetch(new URL(`../${manifestFile}`, import.meta.url));
   if (!response.ok) throw new Error('Không tải được danh sách ảnh.');
   const manifest = await response.json();
-  const requestedId = new URLSearchParams(location.search).get('screen');
+  const requestedId = params.get('screen');
   const aliases = {
     'AUTH-01-dang-nhap-tablet-1440x2048': 'AUTH-01-dang-nhap-tablet-1600x2560',
     'AUTH-01-dang-nhap-loading-tablet-1440x2048': 'AUTH-01-dang-nhap-loading-tablet-1600x2560',

@@ -8,6 +8,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const read = path => readFile(resolve(root, path));
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const manifest = JSON.parse(await read('screen-manifest.json'));
+const driveManifest = JSON.parse(await read('drive-screen-manifest.json'));
 const ids = new Set();
 for (const screen of manifest.screens) {
   assert(!ids.has(screen.id), `Duplicate ${screen.id}`); ids.add(screen.id);
@@ -22,6 +23,29 @@ for (const screen of manifest.screens) {
   if (screen.cssWidth) assert(Math.abs(screen.width / screen.height - screen.cssWidth / screen.cssHeight) < .0001, `CSS aspect-ratio mismatch: ${screen.id}`);
 }
 assert.equal(ids.size, 84, 'Update the reviewed inventory when adding/removing screens');
+const driveIds = new Set();
+for (const screen of driveManifest.screens) {
+  assert(!driveIds.has(screen.id), `Duplicate Drive screen ${screen.id}`); driveIds.add(screen.id);
+  assert(/^previews\/drive-screens\/originals\/[\w./-]+\.(png|jpg)$/.test(screen.src) && !screen.src.includes('..'), `Drive original path required: ${screen.id}`);
+  assert(/^previews\/drive-screens\/thumbs\/[\w./-]+\.webp$/.test(screen.thumb) && !screen.thumb.includes('..'), `Drive thumbnail path required: ${screen.id}`);
+  const bytes = await read(screen.src), meta = await sharp(bytes).metadata();
+  assert.equal(meta.width, screen.width, `${screen.id} width`);
+  assert.equal(meta.height, screen.height, `${screen.id} height`);
+  assert.equal(hash(bytes), screen.sha256, `${screen.id} source changed; review required`);
+  assert.equal(hash(await read(`docs/${screen.src}`)), screen.sha256, `${screen.id} deployed copy mismatch`);
+  const thumb = await read(screen.thumb), thumbMeta = await sharp(thumb).metadata();
+  assert.equal(thumbMeta.width, screen.thumbWidth, `${screen.id} thumbnail width`);
+  assert.equal(thumbMeta.height, screen.thumbHeight, `${screen.id} thumbnail height`);
+  assert.equal(hash(thumb), hash(await read(`docs/${screen.thumb}`)), `${screen.id} deployed thumbnail mismatch`);
+  assert(['desktop', 'tablet'].includes(screen.device), `${screen.id} invalid device`);
+  assert(Array.isArray(screen.sourcePaths) && screen.sourcePaths.length > 0, `${screen.id} missing Drive provenance`);
+}
+assert.equal(driveIds.size, driveManifest.total, 'Drive manifest total mismatch');
+assert.equal(driveManifest.groups.reduce((sum, group) => sum + group.count, 0), driveManifest.total, 'Drive group totals mismatch');
+const driveHtml = (await read('drive-gallery.html')).toString();
+assert(driveHtml.includes("fetch('drive-screen-manifest.json')"), 'Drive gallery must load its reviewed manifest');
+assert(driveHtml.includes('viewer.html?collection=drive&screen='), 'Drive gallery must use the shared full-resolution viewer');
+assert.equal(driveHtml, (await read('docs/drive-gallery.html')).toString(), 'Root/docs drift: drive-gallery.html');
 for (const page of ['index.html', 'previews/overview-filter-v2/index.html']) {
   const html = (await read(page)).toString();
   assert(!/document\.write|openImageViewer|openPreview/.test(html), `${page}: duplicated legacy viewer`);
@@ -49,5 +73,5 @@ async function compare(path) {
   }
 }
 await compare('assets');
-for (const file of ['viewer.html', 'screen-manifest.json']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Root/docs drift: ${file}`);
-console.log('PASS: 84 originals + 110 gallery links, dimensions, hashes, download targets and root/docs parity.');
+for (const file of ['viewer.html', 'screen-manifest.json', 'drive-screen-manifest.json']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Root/docs drift: ${file}`);
+console.log(`PASS: 84 primary boards + ${driveManifest.total} Drive screens, dimensions, hashes, downloads and root/docs parity.`);

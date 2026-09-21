@@ -5,7 +5,7 @@
   "scripts": {
     "sync": "node tools/sync-gallery.mjs",
     "validate": "node tools/validate-gallery.mjs",
-    "test": "node --test tests/viewer-math.test.mjs && node tools/validate-gallery.mjs && node tests/viewer-browser.mjs && node tests/viewer-controls.mjs",
+    "test": "node --test tests/viewer-math.test.mjs && node tools/validate-gallery.mjs && node tests/drive-gallery.mjs && node tests/viewer-browser.mjs && node tests/viewer-controls.mjs",
     "serve": "node tools/serve.mjs"
   },
   "devDependencies": { "playwright": "1.62.1", "sharp": "0.35.4" }
