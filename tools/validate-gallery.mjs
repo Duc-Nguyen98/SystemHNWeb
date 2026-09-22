@@ -11,6 +11,7 @@ const read = path => readFile(resolve(root, path));
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const manifest = JSON.parse(await read('screen-manifest.json'));
 const driveManifest = JSON.parse(await read('drive-screen-manifest.json'));
+assert.equal(driveManifest.groups.find(group => group.id === 'ton_kho&doi_soat')?.title, 'Báo cáo tồn kho & đối soát', 'Inventory report must use its full business name');
 const importProfiles = await loadImportProfiles();
 const ids = new Set();
 async function validateNative(screen) {
@@ -41,6 +42,7 @@ const driveIds = new Set();
 const allDriveIds = new Set(driveManifest.screens.map(screen => screen.id));
 const oldDriveIds = new Set();
 for (const screen of driveManifest.screens) {
+  assert.equal(screen.groupTitle, driveManifest.groups.find(group => group.id === screen.group)?.title, `${screen.id}: group label differs from filter label`);
   await validateNative(screen);
   assert(!driveIds.has(screen.id), `Duplicate Drive screen ${screen.id}`); driveIds.add(screen.id);
   assert(typeof screen.fileName === 'string' && /\.(png|jpg)$/i.test(screen.fileName), `${screen.id} missing handoff filename`);

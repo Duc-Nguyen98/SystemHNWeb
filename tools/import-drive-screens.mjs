@@ -93,7 +93,7 @@ const groupNames = new Map(Object.entries({
   'nhap_kho/linh_kien_cho_xep_khay/hang_cho': 'Nhập kho · Hàng chờ xếp khay',
   'nhap_kho/linh_kien_cho_xep_khay/lenh_xep_khay': 'Nhập kho · Lệnh xếp khay',
   'san_pham_app_pv': 'Sản phẩm trên App PV',
-  'ton_kho&doi_soat': 'Tồn kho & đối soát',
+  'ton_kho&doi_soat': 'Báo cáo tồn kho & đối soát',
   'xuat_kho': 'Xuất kho · Phiếu xuất kho'
 }));
 

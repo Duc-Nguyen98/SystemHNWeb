@@ -75,6 +75,23 @@ try {
     await detail.close();
 
     // Deep links must open the requested updated module, not the entire gallery.
+    const inventoryGroup = 'ton_kho&doi_soat';
+    const inventoryTitle = 'Báo cáo tồn kho & đối soát';
+    await page.goto(`${base}/${prefix}drive-gallery.html?group=${encodeURIComponent(inventoryGroup)}`);
+    await page.waitForFunction(() => document.querySelectorAll('.card').length === 28);
+    assert.equal(await page.locator('#group').inputValue(), inventoryGroup, 'Keep the existing group deep link');
+    assert.equal(await page.locator('#group option:checked').textContent(), `${inventoryTitle} · 28`);
+    for (const label of await page.locator('.card .source').allTextContents()) assert(label.startsWith(`${inventoryTitle} · `));
+    for (const alt of await page.locator('.preview img').evaluateAll(images => images.map(image => image.alt))) assert(alt.endsWith(` · ${inventoryTitle}`));
+    for (const device of ['Desktop', 'Tablet']) {
+      await page.getByRole('button', { name: device, exact: true }).click();
+      assert.equal(await page.locator('.card').count(), 14);
+    }
+    await page.getByRole('button', { name: 'Tất cả', exact: true }).click();
+    await page.locator('#group').selectOption('');
+    await page.locator('#search').fill(inventoryTitle);
+    assert.equal(await page.locator('.card').count(), 28, 'Search by the corrected report name');
+
     await page.goto(`${base}/${prefix}drive-gallery.html?group=bao_cao_nhap_liet_doi_chieu_loi`);
     await page.waitForFunction(() => document.querySelectorAll('.card').length === 40);
     assert.equal(await page.locator('#group').inputValue(), 'bao_cao_nhap_liet_doi_chieu_loi');
