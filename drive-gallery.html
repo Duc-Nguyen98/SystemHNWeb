@@ -26,6 +26,7 @@
   </section>
   <p class="result" id="result" role="status">Đang tải danh sách…</p>
   <p class="result" id="source-note" hidden></p>
+  <p class="result" id="coverage-note" style="padding:12px;border:1px solid #e5c27b;border-radius:8px;background:#fff5df;color:#805008" hidden></p>
   <section class="grid" id="grid" aria-label="Danh sách màn hình"></section>
   <p class="empty" id="empty" hidden>Không có màn hình phù hợp với bộ lọc.</p>
   <footer class="footer">Ảnh gốc được giữ nguyên byte và kiểm tra SHA-256. <a href="drive-screen-manifest.json">Xem manifest kỹ thuật</a>.</footer>
@@ -65,6 +66,9 @@
     const profile = manifest.importProfiles?.find(item => item.group === state.group);
     $('source-note').hidden = !profile;
     $('source-note').textContent = profile ? `Bộ update ${profile.updatedAt.split('-').reverse().join('/')} · Đã kiểm tra bản xuất trên máy. Chưa đối chiếu được danh sách Drive trực tiếp do quyền truy cập.` : '';
+    const missing = profile?.missingStates || [];
+    $('coverage-note').hidden = missing.length === 0;
+    $('coverage-note').textContent = missing.length ? `Chưa có ảnh nguồn: ${missing.map(item => `${item.code} — ${item.label} (Desktop và Tablet)`).join('; ')}. Các ảnh hiện có được nhập nguyên trạng; chưa thể coi bộ thiết kế là đầy đủ.` : '';
   }
   $('group').addEventListener('change', event => { state.group = event.target.value; render(); });
   $('search').addEventListener('input', event => { state.search = event.target.value; render(); });

@@ -350,18 +350,18 @@
     {
       "group": "san_pham_app_pv",
       "device": "desktop",
-      "screenId": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321",
-      "sha256": "91d8c683214cdc2bf76932bca1fbbf86bb60a62d68a7c02e541dc13549544b0d",
-      "src": "previews/drive-screens/originals/san-pham-app-pv/desktop/hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321.png",
+      "screenId": "drive-san-pham-app-pv-hn-app-pv-catalog-p01-default-desktop-1920x1080-review-a32f29781a",
+      "sha256": "a32f29781a156dd9e6dfe168c964a6239abf7f9cd1dca7fdc2dcb221d2c176fd",
+      "src": "previews/drive-screens/originals/san-pham-app-pv/desktop/hn-app-pv-catalog-p01-default-desktop-1920x1080-review-a32f29781a.png",
       "reviewStatus": "approval-not-recorded",
       "baselineStatus": "reference-unverified"
     },
     {
       "group": "san_pham_app_pv",
       "device": "tablet",
-      "screenId": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33",
-      "sha256": "1a2e6a6f3347cb288d0cc62c9d1470fad7d1506e6d7a82a5736e22ddcc84b686",
-      "src": "previews/drive-screens/originals/san-pham-app-pv/tablet/hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33.png",
+      "screenId": "drive-san-pham-app-pv-hn-app-pv-catalog-p01-default-tablet-1600x2560-review-1df4a701bf",
+      "sha256": "1df4a701bf9ce8341d9294af9eb5ca9d6ae2377b157d8d13f4b3275150e330aa",
+      "src": "previews/drive-screens/originals/san-pham-app-pv/tablet/hn-app-pv-catalog-p01-default-tablet-1600x2560-review-1df4a701bf.png",
       "reviewStatus": "approval-not-recorded",
       "baselineStatus": "reference-unverified"
     },

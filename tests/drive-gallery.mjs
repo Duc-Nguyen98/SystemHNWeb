@@ -88,7 +88,7 @@ try {
     await page.locator('#search').fill('P18 EXPORT SUCCESS');
     assert.equal(await page.locator('.card').count(), 2);
     const reconDetail = await browser.newPage();
-    for (const screen of manifest.screens.filter(item => item.origin === 'workspace-update')) {
+    for (const screen of manifest.screens.filter(item => item.importProfile === 'data-recon-20260923')) {
       await reconDetail.goto(`${base}/${prefix}viewer.html?collection=drive&screen=${encodeURIComponent(screen.id)}`);
       await reconDetail.locator('#frame').waitFor({ state: 'visible' });
       const pending = reconDetail.waitForEvent('download');
@@ -98,6 +98,33 @@ try {
       assert.equal(createHash('sha256').update(await readFile(await file.path())).digest('hex'), screen.sha256);
     }
     await reconDetail.close();
+
+    await page.goto(`${base}/${prefix}drive-gallery.html?group=san_pham_app_pv`);
+    await page.waitForFunction(() => document.querySelectorAll('.card').length === 48);
+    assert.equal(await page.locator('#group').inputValue(), 'san_pham_app_pv');
+    assert(await page.locator('#coverage-note').isVisible());
+    assert((await page.locator('#coverage-note').textContent()).includes('P20F'));
+    for (const device of ['Desktop','Tablet']) {
+      await page.getByRole('button', { name: device, exact: true }).click();
+      assert.equal(await page.locator('.card').count(), 24);
+    }
+    await page.getByRole('button', { name: 'Tất cả', exact: true }).click();
+    await page.locator('#search').fill('P20E');
+    assert.equal(await page.locator('.card').count(), 2);
+    await page.locator('#search').fill('P20F');
+    assert.equal(await page.locator('.card').count(), 0, 'missing state must not be fabricated');
+    assert(await page.locator('#coverage-note').isVisible());
+    const appPvDetail = await browser.newPage();
+    for (const screen of manifest.screens.filter(item => item.importProfile === 'app-pv-20260923')) {
+      await appPvDetail.goto(`${base}/${prefix}viewer.html?collection=drive&screen=${encodeURIComponent(screen.id)}`);
+      await appPvDetail.locator('#frame').waitFor({ state: 'visible' });
+      const pending = appPvDetail.waitForEvent('download');
+      await appPvDetail.locator('#download').click();
+      const file = await pending;
+      assert.equal(file.suggestedFilename(), screen.fileName);
+      assert.equal(createHash('sha256').update(await readFile(await file.path())).digest('hex'), screen.sha256);
+    }
+    await appPvDetail.close();
   }
 } finally {
   await browser.close();

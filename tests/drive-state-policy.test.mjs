@@ -15,9 +15,9 @@ function recount(manifest) {
   }
 }
 
-test('complete coverage, excluding the nine unfinished groups', () => {
-  assert.equal(inventory.total, 414);
-  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 12, checkedScreens: 396, exemptGroups: 9 });
+test('paired available inventory, eight unfinished groups, and one explicit source gap', () => {
+  assert.equal(inventory.total, 460);
+  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 13, checkedScreens: 444, exemptGroups: 8, knownMissingStates: 1 });
   assert.equal(inventory.screens.filter(screen => screen.origin === 'ai-supplement').length, 3);
   assert.equal(inventory.screens.filter(screen => screen.origin === 'native-repair').length, 56);
 });
@@ -61,6 +61,39 @@ test('golden export is refresh success, not a separate export-warning state', ()
   assert.equal(outbound.length, 18);
   assert(outbound.every(screen => /\bP0[1-9]\b/.test(screen.title)));
   assert(outbound.every(screen => /_P0[1-9]_/.test(screen.fileName)));
+});
+
+test('App PV imports the matching state family and recovers P18/P19 without duplicate P16', () => {
+  const profile = JSON.parse(readFileSync(new URL('../tools/import-profiles/app-pv-20260923.json', import.meta.url)));
+  const screens = inventory.screens.filter(screen => screen.group === profile.group);
+  assert.equal(screens.length, 48);
+  assert.equal(new Set(screens.map(s => s.sha256)).size, 48);
+  assert.equal(screens.filter(s => s.device === 'desktop').length, 24);
+  assert.equal(profile.excluded.length, 6);
+  assert.deepEqual(profile.missingStates.map(s => s.code), ['P20F']);
+  assert(screens.every(s => s.fileName.startsWith('HN_APP_PV_CATALOG_')));
+  assert(screens.filter(s => ['P18','P19'].includes(s.stateCode)).every(s => s.sourcePaths[0].startsWith('bao_cao_nhap_liet_doi_chieu_loi/')));
+  assert(screens.filter(s => s.stateCode === 'P01').every(s => s.sourcePaths[0].includes('_P01_Default_')));
+  assert.equal(screens.filter(s => s.stateCode === 'P16').length, 2);
+  assert(!screens.some(s => s.stateCode === 'P20' || s.stateCode === 'P20F'));
+  for (const old of profile.superseded) assert(screens.find(s => s.stateCode === 'P01' && s.device === old.device).aliases.includes(old.id));
+  const register = JSON.parse(readFileSync(new URL('../baseline-register.json', import.meta.url)));
+  const baselines = register.baselines.filter(b => b.group === profile.group);
+  assert.equal(baselines.length, 2, 'Create Form Default is not an additional P01 baseline');
+  assert(baselines.every(b => screens.find(s => s.id === b.screenId).stateCode === 'P01'));
+});
+
+test('the unavailable App PV state must remain explicitly declared, not hidden', () => {
+  const manifest = clone();
+  manifest.importProfiles.find(p => p.group === 'san_pham_app_pv').missingStates = [];
+  assert.throws(() => assertDriveStateCoverage(manifest), /missing-state declaration/);
+});
+
+test('an additional missing App PV pair cannot be masked by the P20F exception', () => {
+  const manifest = clone();
+  manifest.screens = manifest.screens.filter(s => !(s.group === 'san_pham_app_pv' && s.stateCode === 'P20E'));
+  recount(manifest);
+  assert.throws(() => assertDriveStateCoverage(manifest), /state-code inventory/);
 });
 
 test('missing counterpart fails even when counts are updated', () => {

@@ -13,6 +13,7 @@ export const expectedCodes = {
   bao_cao_xuat_theo_nguoi_nhan_dai_ly: range(20),
   danh_muc_san_pham: range(20),
   danh_sach_SKU: range(20),
+  san_pham_app_pv: [...range(19), ...'ABCDEF'.split('').map(suffix => `P20${suffix}`)],
   'ton_kho&doi_soat': range(14)
 };
 
@@ -22,6 +23,7 @@ const legacyStates = {
 };
 
 const moduleFamilies = [
+  [/^HN[ _-]+APP[ _-]?PV[ _-]/i, 'san_pham_app_pv'],
   [/^HN[ _-]+DATA[ _-]+RECON[ _-]+REPORT[ _-]/i, 'bao_cao_nhap_liet_doi_chieu_loi'],
   [/^HN[ _-]+PKG[ _-]+LABEL[ _-]/i, 'bao_cao_nhan_dong_goi_in_lai'],
   [/^HN[ _-]+DEALER[ _-]+RECIPIENT[ _-]+REPORT[ _-]/i, 'bao_cao_xuat_theo_nguoi_nhan_dai_ly'],
@@ -63,7 +65,9 @@ export function stateIdentity(title) {
 }
 
 export function assertDriveStateCoverage(manifest) {
-  let checkedGroups = 0, checkedScreens = 0, exemptGroups = 0;
+  let checkedGroups = 0, checkedScreens = 0, exemptGroups = 0, knownMissingStates = 0;
+  // Documented source gap only; do not turn arbitrary missing states into passes.
+  const allowedSourceGaps = { san_pham_app_pv: ['P20F'] };
   for (const id of [...Object.keys(expectedCodes), ...Object.keys(legacyStates)]) assert(manifest.groups.some(group => group.id === id), `${id}: reviewed module missing`);
   for (const group of manifest.groups) {
     const screens = manifest.screens.filter(screen => screen.group === group.id);
@@ -84,8 +88,20 @@ export function assertDriveStateCoverage(manifest) {
       entry.devices.add(screen.device); states.set(key, entry);
     }
     for (const [key, state] of states) assert.deepEqual([...state.devices].sort(), ['desktop', 'tablet'], `${group.id}/${key}: missing device counterpart`);
-    if (expectedCodes[group.id]) assert.deepEqual([...states.keys()].sort(), [...expectedCodes[group.id]].sort(), `${group.id}: state-code inventory differs from reviewed contract`);
+    if (expectedCodes[group.id]) {
+      const missing = manifest.importProfiles?.find(profile => profile.group === group.id)?.missingStates || [];
+      const missingCodes = missing.map(item => item.code).sort();
+      assert.deepEqual(missingCodes, allowedSourceGaps[group.id] || [], `${group.id}: undocumented or stale missing-state declaration`);
+      for (const item of missing) {
+        assert.equal(item.status, 'source-not-found');
+        assert.deepEqual([...item.devices].sort(), ['desktop','tablet']);
+        assert(item.reason && item.label, `${group.id}/${item.code}: source-gap explanation required`);
+        assert(!states.has(item.code), `${group.id}/${item.code}: remove the source-gap declaration after supplying both images`);
+      }
+      knownMissingStates += missing.length;
+      assert.deepEqual([...states.keys()].sort(), expectedCodes[group.id].filter(code => !missingCodes.includes(code)).sort(), `${group.id}: state-code inventory differs from reviewed contract`);
+    }
     if (legacyStates[group.id]) assert.deepEqual([...states.keys()].sort(), [...legacyStates[group.id]].sort(), `${group.id}: named-state inventory differs from reviewed contract`);
   }
-  return { checkedGroups, checkedScreens, exemptGroups };
+  return { checkedGroups, checkedScreens, exemptGroups, knownMissingStates };
 }

@@ -10,7 +10,7 @@ const claims=[
  {group:'bao_cao_nhan_dong_goi_in_lai',device:'desktop',expected:'04f3cf7fd2455d9e0c17dc1eb4091b7a9d5bf1094ed5469a0379d23974fdd49e',document:'HN_REPORT_PACKAGING_LABEL_PRINT_REPRINT_BASELINE_STATE_PROMPTS_v1.0.md'},
  {group:'bao_cao_nhan_dong_goi_in_lai',device:'tablet',expected:'875e171f5fcc82425fe652235027cd8659bf4d6bb2de8e707c4add4b0cc37a92',document:'HN_REPORT_PACKAGING_LABEL_PRINT_REPRINT_BASELINE_STATE_PROMPTS_v1.0.md'}
 ];
-const baselines=drive.screens.filter(s=>/\bP01\b|\bdefault$/i.test(s.title)).map(s=>{
+const baselines=drive.screens.filter(s=>s.stateCode ? s.stateCode==='P01' : /\bdefault$/i.test(s.title)).map(s=>{
  const c=claims.find(c=>c.group===s.group&&c.device===s.device);
  return {group:s.group,device:s.device,screenId:s.id,sha256:s.sha256,src:s.src,reviewStatus:s.reviewStatus||'approval-not-recorded',
  baselineStatus:s.origin==='native-repair'?'candidate-not-approved':c?(c.expected===s.sha256?'matches-documented-file':'document-asset-conflict'):'reference-unverified',

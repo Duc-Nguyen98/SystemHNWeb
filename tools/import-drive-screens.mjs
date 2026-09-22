@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 import { correctedGroup, outboundTitle, stateIdentity, assertDriveStateCoverage } from './drive-state-policy.mjs';
 import { applyBusinessRepair } from './apply-business-repair.mjs';
+import { loadImportProfiles } from './import-profiles.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -16,7 +17,7 @@ const imageExtensions = new Set(['.png', '.jpg', '.jpeg']);
 const previousManifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const supplements = JSON.parse(await readFile(resolve(root, 'design-supplements/manifest.json'), 'utf8'));
 const repairPlan = JSON.parse(await readFile(resolve(root, 'design-source/business-v1/targets.json'), 'utf8'));
-const profiles = [JSON.parse(await readFile(resolve(root, 'tools/import-profiles/data-recon-20260923.json'), 'utf8'))];
+const profiles = await loadImportProfiles();
 const profileGroups = new Set(profiles.map(profile => profile.group));
 const curatedSources = new Map(profiles.flatMap(profile => profile.files.map(file => [file.path, { ...file, profile }])));
 const importHistory = previousManifest.screens.map(screen => repairPlan.targets.find(t => t.collection === 'drive' && t.id === screen.id)?.original || screen);
@@ -91,7 +92,7 @@ const groupNames = new Map(Object.entries({
   'nhap_kho/linh_kien_cho_xep_khay/danh_sach_khay': 'Nhập kho · Danh sách khay',
   'nhap_kho/linh_kien_cho_xep_khay/hang_cho': 'Nhập kho · Hàng chờ xếp khay',
   'nhap_kho/linh_kien_cho_xep_khay/lenh_xep_khay': 'Nhập kho · Lệnh xếp khay',
-  'san_pham_app_pv': 'Sản phẩm App PV',
+  'san_pham_app_pv': 'Sản phẩm trên App PV',
   'ton_kho&doi_soat': 'Tồn kho & đối soát',
   'xuat_kho': 'Xuất kho · Phiếu xuất kho'
 }));
@@ -271,7 +272,7 @@ const manifest = {
   groups,
   screens
 };
-manifest.importProfiles = profiles.map(({ id, group, updatedAt, sourceVerification }) => ({ id, group, updatedAt, sourceVerification }));
+manifest.importProfiles = profiles.map(({ id, group, updatedAt, sourceVerification, missingStates }) => ({ id, group, updatedAt, sourceVerification, ...(missingStates ? { missingStates } : {}) }));
 assertDriveStateCoverage(manifest);
 const backup = `${staging}-previous`;
 const stagedManifest = `${staging}-manifest.json`;

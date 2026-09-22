@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 await cp(resolve(root, 'handoff-DATA-RECON-UPDATE-20260923.md'), resolve(root, 'docs/handoff-DATA-RECON-UPDATE-20260923.md'));
+await cp(resolve(root, 'handoff-APP-PV-UPDATE-20260923.md'), resolve(root, 'docs/handoff-APP-PV-UPDATE-20260923.md'));
 // Explicit allowlist; never copy source tooling, local evidence or .git into Pages.
 for (const item of ['index.html', 'drive-gallery.html', 'viewer.html', 'screen-manifest.json', 'drive-screen-manifest.json', 'baseline-register.json', 'business-repair.html', 'handoff-BUSINESS-REPAIR-v1.md', 'README.md', 'handoff-DRIVE-STATE-REPAIR-20260922.md', 'handoff-AUTH-SCREEN-EXPORT-MANIFEST-v2.md', 'handoff-OVERVIEW-STATES-v2.md', 'assets', 'design-source/business-v1', 'previews/business-v1', 'previews/auth-jpg', 'previews/auth-png', 'previews/auth-thumbs', 'previews/overview-jpg', 'previews/overview-thumbs', 'previews/overview-filter-v2', 'previews/drive-screens']) {
   const target = resolve(root, 'docs', item);

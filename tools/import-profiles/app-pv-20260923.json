@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "id": "app-pv-20260923",
+  "group": "san_pham_app_pv",
+  "groupTitle": "Sản phẩm trên App PV",
+  "updatedAt": "2026-09-23",
+  "sourceDirectory": "san_pham_app_pv",
+  "requestedDriveFolder": "https://drive.google.com/drive/folders/1X6PxgiSmrZnwBi2vxcE4wnNpMmbE29MN",
+  "sourceVerification": "Local workspace export verified; requested Google Drive folder denied access in current browser session. No cloud listing/download comparison was possible.",
+  "artPolicy": "Import supplied images unchanged. Use Default v1.0 with its matching state family; retain alternate candidates outside the active state inventory. No AI synthesis or approval claim.",
+  "missingStates": [
+    {
+      "code": "P20F",
+      "label": "SAVE TIMEOUT UNKNOWN",
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
+      "status": "source-not-found",
+      "reason": "Required by APP-PV-CATALOG-01 source document; no matching artwork found in the supplied workspace export. Cloud listing inaccessible."
+    }
+  ],
+  "files": [
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P01_Default_desktop_1920x1080_v1.0.png",
+      "sha256": "a32f29781a156dd9e6dfe168c964a6239abf7f9cd1dca7fdc2dcb221d2c176fd",
+      "title": "HN APP PV CATALOG P01 DEFAULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P01_Default_tablet_1600x2560_v1.0.png",
+      "sha256": "1df4a701bf9ce8341d9294af9eb5ca9d6ae2377b157d8d13f4b3275150e330aa",
+      "title": "HN APP PV CATALOG P01 DEFAULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P02_Initial_Loading_desktop_1920x1080_v1.0.png",
+      "sha256": "8cd91a388ff0d23e786688b531c6d54dfe4b16ffed18123d3b01315df835b01d",
+      "title": "HN APP PV CATALOG P02 INITIAL LOADING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P02_Initial_Loading_tablet_1600x2560_v1.0.png",
+      "sha256": "3a062d8a790e61de25e132e68c5c85f351d847ef63a99fb588debd5b0932bd61",
+      "title": "HN APP PV CATALOG P02 INITIAL LOADING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P03_Refreshing_desktop_1920x1080_v1.0.png",
+      "sha256": "bc3580e564fcbae77219fb795befd3829cd96098cb33b5818ffe18cdeea48879",
+      "title": "HN APP PV CATALOG P03 REFRESHING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P03_Refreshing_tablet_1600x2560_v1.0.png",
+      "sha256": "ce133905133b15bd1db70ac88d54fb2de6e41b4189fe01a3574bed8a1c1c55cd",
+      "title": "HN APP PV CATALOG P03 REFRESHING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P04_Empty_System_desktop_1920x1080_v1.0.png",
+      "sha256": "e51205f486629d15bfc9dee2dba866e46a0c4e9e85d9f203349041f2d10994b9",
+      "title": "HN APP PV CATALOG P04 EMPTY SYSTEM",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P04_Empty_System_tablet_1600x2560_v1.0.png",
+      "sha256": "74f04a254ef22a1d5162ee5f3827fe7f478db4d47a8777cd64a9a5ab272a190b",
+      "title": "HN APP PV CATALOG P04 EMPTY SYSTEM",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P05_No_Result_desktop_1920x1080_v1.0.png",
+      "sha256": "57c163a913bf0e18129e01b98183f01163da87157cd5a49f204df83f7d865000",
+      "title": "HN APP PV CATALOG P05 NO RESULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P05_No_Result_tablet_1600x2560_v1.0.png",
+      "sha256": "c035751c4e2048795b132d70330655eba7d33c325c1af9bbcd2ea62f2c305e9b",
+      "title": "HN APP PV CATALOG P05 NO RESULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P06_Load_Error_desktop_1920x1080_v1.0.png",
+      "sha256": "49fdbbb8c54a6ce0bc82d22ea25ad762526c8eb6c179115dfba19b1366e70dca",
+      "title": "HN APP PV CATALOG P06 LOAD ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P06_Load_Error_tablet_1600x2560_v1.0.png",
+      "sha256": "76c24043651ec5f3b35a767c3189b9d7ca13732688cff1528a3c7d46fcc1cbbb",
+      "title": "HN APP PV CATALOG P06 LOAD ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P07_Offline_desktop_1920x1080_v1.0.png",
+      "sha256": "60a66f11084a9d17c13cc30cc6497b1f1b63fa78af7251a06fc54cfc8b24c107",
+      "title": "HN APP PV CATALOG P07 OFFLINE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P07_Offline_tablet_1600x2560_v1.0.png",
+      "sha256": "ecd8ce5e2c7ab2d248fb34c2e526f56508f0a29c3f982f6d3762052db42f8466",
+      "title": "HN APP PV CATALOG P07 OFFLINE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P08_Stale_Data_desktop_1920x1080_v1.0.png",
+      "sha256": "c9d19e32ec84d596549d24097a705242a53a4f9d53c5dadbe69b637fb70818e1",
+      "title": "HN APP PV CATALOG P08 STALE DATA",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P08_Stale_Data_tablet_1600x2560_v1.0.png",
+      "sha256": "06427885d5bb24276dec584df95f209054becd029e4f3481d6ace6b1efa4934c",
+      "title": "HN APP PV CATALOG P08 STALE DATA",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P09_Readonly_desktop_1920x1080_v1.0.png",
+      "sha256": "d9819bb60c8534b8cfad19421e4776dae5e877fd02bf6be96115ef5fe299693c",
+      "title": "HN APP PV CATALOG P09 READONLY",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P09_Readonly_tablet_1600x2560_v1.0.png",
+      "sha256": "39c4758c4d86376f554c8332517ce28af8e7cc073d61c50fed1f1dec754c5ddf",
+      "title": "HN APP PV CATALOG P09 READONLY",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P10_Warehouse_Paused_desktop_1920x1080_v1.0.png",
+      "sha256": "4fa9dc3b1ae139f34a989502ebb5c0a9c3d539ee9f7d1fb5bb668ba276d24632",
+      "title": "HN APP PV CATALOG P10 WAREHOUSE PAUSED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P10_Warehouse_Paused_tablet_1600x2560_v1.0.png",
+      "sha256": "5b8f720a36a7abbc33950f2493f17ad9658741ffca61965612bfec4d83bb465c",
+      "title": "HN APP PV CATALOG P10 WAREHOUSE PAUSED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P11_Session_Expired_401_desktop_1920x1080_v1.0.png",
+      "sha256": "652b44c6304b477c445a21d2c4533a4ab78647fd0a75568203656e6225794cd5",
+      "title": "HN APP PV CATALOG P11 SESSION EXPIRED 401",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P11_Session_Expired_401_tablet_1600x2560_v1.0.png",
+      "sha256": "d6025bfe5ae7fce0c80257d48b5e78a5562e2f9e263153dbabb8e21ce67f2af0",
+      "title": "HN APP PV CATALOG P11 SESSION EXPIRED 401",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P12_Forbidden_403_desktop_1920x1080_v1.0.png",
+      "sha256": "7bc2ff0b69fd3bbca40e0a3de9b24c3ff5bf4f946148f7d0def1cc694b86b01b",
+      "title": "HN APP PV CATALOG P12 FORBIDDEN 403",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P12_Forbidden_403_tablet_1600x2560_v1.0.png",
+      "sha256": "ee851e9b46e395d3b858a4740bd7484ec452766cb58879797e9f83ad94ade116",
+      "title": "HN APP PV CATALOG P12 FORBIDDEN 403",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P13_Not_Found_404_desktop_1920x1080_v1.0.png",
+      "sha256": "bccf2fdc4ca6704966a32c7ec0f792b749bab6dbbb613d00eeb12ffa4c292f4b",
+      "title": "HN APP PV CATALOG P13 NOT FOUND 404",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P13_Not_Found_404_tablet_1600x2560_v1.0.png",
+      "sha256": "0c780f72a1043c98cc08ff0047013c2506e92ecc4ed15084b552348fc614d870",
+      "title": "HN APP PV CATALOG P13 NOT FOUND 404",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P14_Server_Error_500_desktop_1920x1080_v1.0.png",
+      "sha256": "843a73d7d75b1d172d6b1d337a9a58ad4239c1fd2d907f672ffd801229bd7e21",
+      "title": "HN APP PV CATALOG P14 SERVER ERROR 500",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P14_Server_Error_500_tablet_1600x2560_v1.0.png",
+      "sha256": "dbb9c80e558e6bcbc69778665f02263bb5b5a9a4eb1ca6fc99a6ea0f893c3bce",
+      "title": "HN APP PV CATALOG P14 SERVER ERROR 500",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P15_Maintenance_desktop_1920x1080_v1.0.png",
+      "sha256": "dc99172b1b1c9c448a5543bb15baa35f0c0d4c3cbeafa9a80d810a7457ce62db",
+      "title": "HN APP PV CATALOG P15 MAINTENANCE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P15_Maintenance_tablet_1600x2560_v1.0.png",
+      "sha256": "fd1acb3fdfa21b7b210a2792a8acbae35a6fa3b088b0b7ed7ed0358e39c11dbd",
+      "title": "HN APP PV CATALOG P15 MAINTENANCE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P16_Row_Selected_Focus_desktop_1920x1080_v1.0.png",
+      "sha256": "b97450107bb92c970318bf6659fe510076434461574afafd980e13656d150740",
+      "title": "HN APP PV CATALOG P16 ROW SELECTED FOCUS",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P16_Row_Selected_Focus_tablet_1600x2560_v1.0.png",
+      "sha256": "da0400c16a01b8f0c54d468c8457d179a8681589741bfcd92b0705576424d064",
+      "title": "HN APP PV CATALOG P16 ROW SELECTED FOCUS",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P17_Create_Form_Default_desktop_1920x1080_v1.0.png",
+      "sha256": "2f25782c259d0c534bd0b2ff4995abcb80d33558ea8fb2fece767d19a70222e8",
+      "title": "HN APP PV CATALOG P17 CREATE FORM DEFAULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P17_Create_Form_Default_tablet_1600x2560_v1.0.png",
+      "sha256": "9ebcc3282d235d68f77ea338eb19ca4590b4f1978a338bffcb7ead19aaff5016",
+      "title": "HN APP PV CATALOG P17 CREATE FORM DEFAULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P18_Edit_Form_Populated_desktop_1920x1080_v1.0.png",
+      "sha256": "83fc6aba482402374b321d16017dacfc9f25644d0dcffffe096799ca10197bfd",
+      "title": "HN APP PV CATALOG P18 EDIT FORM POPULATED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P18_Edit_Form_Populated_tablet_1600x2560_v1.0.png",
+      "sha256": "b7f362ef60e145677c67eb159d474c2deaffa2660f13de73708f9b95b99e24d0",
+      "title": "HN APP PV CATALOG P18 EDIT FORM POPULATED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P19_Preview_Readonly_desktop_1920x1080_v1.0.png",
+      "sha256": "3ceff7fa4e3801e173b0b096bbeb671edf28392b41eaa9ce5871ee96e7583a40",
+      "title": "HN APP PV CATALOG P19 PREVIEW READONLY",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P19_Preview_Readonly_tablet_1600x2560_v1.0.png",
+      "sha256": "9f74474a2df499e6580e98c6dd795bc53a9bd0a2a38719e7fed33c0cbb5d3d67",
+      "title": "HN APP PV CATALOG P19 PREVIEW READONLY",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20A_Save_Processing_desktop_1920x1080_v1.0.png",
+      "sha256": "96b24d86e144175f1b94ceb5addc3df7ed7107a97473a2a0e4165fd1d5121623",
+      "title": "HN APP PV CATALOG P20A SAVE PROCESSING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20A_Save_Processing_tablet_1600x2560_v1.0.png",
+      "sha256": "ef3e0e4ecab3b11097aa088db5c35be1987dbf46daed4d67ff92aa0659befb77",
+      "title": "HN APP PV CATALOG P20A SAVE PROCESSING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20B_Validation_Error_desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "dbd9a67ab1d55177f4f1a805029b117ef2be5723c9c7ab7c4133d5568eaf7bbd",
+      "title": "HN APP PV CATALOG P20B VALIDATION ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20B_Validation_Error_tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "5f7a508cd5ceaacbc22613da53a296b65a900ccac178a5cbbf2e85ea4ba8b4d8",
+      "title": "HN APP PV CATALOG P20B VALIDATION ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20C_Save_Success_desktop_1920x1080_v1.0.png",
+      "sha256": "7bb194cbd110f72a6edf5e9cb6196f3f75889d744beb4a461aa637e6c5c4fa25",
+      "title": "HN APP PV CATALOG P20C SAVE SUCCESS",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20C_Save_Success_tablet_1600x2560_v1.0.png",
+      "sha256": "68170531a798e636e37a592626c6097fe618c1b588a589c60969d9850707dde3",
+      "title": "HN APP PV CATALOG P20C SAVE SUCCESS",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20D_Save_Failed_desktop_1920x1080_v1.0.png",
+      "sha256": "4befb536bd29cf41df51d3caae9db1af4593d168d20af44d8facbd96728a6f7c",
+      "title": "HN APP PV CATALOG P20D SAVE FAILED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20D_Save_Failed_tablet_1600x2560_v1.0.png",
+      "sha256": "4c65cc501853177841f12023f68c632ad611ba0690502e6783d14d724a00993e",
+      "title": "HN APP PV CATALOG P20D SAVE FAILED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20E_Save_Conflict_desktop_1920x1080_v1.0.png",
+      "sha256": "1b36828c6b26735aee124aa09f9fad73e44d740622ae0e2c47fb0cec39178c73",
+      "title": "HN APP PV CATALOG P20E SAVE CONFLICT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_SanPham_P20E_Save_Conflict_tablet_1600x2560_v1.0.png",
+      "sha256": "f99a19e20f46a9fe2155722d09f046ca557c567519131087080d0d14ae2fdc29",
+      "title": "HN APP PV CATALOG P20E SAVE CONFLICT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    }
+  ],
+  "excluded": [
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_P01_desktop_1920x1080_Candidate_v2.1.png",
+      "sha256": "f55d3c1160fc5b25f37df4c079a7c8b050785c3a308b927d60852297b3148f32",
+      "reason": "Alternative P01 Candidate v2.1; retain source but use Default v1.0 with the matching v1.0 state set. No baseline approval inferred."
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_AppPV_P01_tablet_1600x2560_Candidate_v2.1.png",
+      "sha256": "b7838c2fac38a31a79400f8939b49a147df60741af0cf7ec0dee32e18031fc00",
+      "reason": "Alternative P01 Candidate v2.1; retain source but use Default v1.0 with the matching v1.0 state set. No baseline approval inferred."
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_DanhMuc_DanhMucSanPham_P20_Maintenance_Desktop_1920x1080.png",
+      "sha256": "7974b76b8bf9bf6193c87a4adeeb415333f748cd9c948a603837bb2e38a637a6",
+      "reason": "Different module: product-catalog maintenance; not App PV save timeout"
+    },
+    {
+      "path": "san_pham_app_pv/update/HN_DanhMuc_DanhMucSanPham_P20_Maintenance_Tablet_1600x2560.png",
+      "sha256": "540ca9fc01c0f8ef7e259435757e616b9ebaee9ab4a88350634a53b792597033",
+      "reason": "Different module: product-catalog maintenance; not App PV save timeout"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P16_Row_Selected_Focus_desktop_1920x1080_v1.0.png",
+      "sha256": "b97450107bb92c970318bf6659fe510076434461574afafd980e13656d150740",
+      "reason": "Byte-identical P16 duplicate already included from the App PV update folder"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P16_Row_Selected_Focus_tablet_1600x2560_v1.0.png",
+      "sha256": "da0400c16a01b8f0c54d468c8457d179a8681589741bfcd92b0705576424d064",
+      "reason": "Byte-identical P16 duplicate already included from the App PV update folder"
+    }
+  ],
+  "superseded": [
+    {
+      "id": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-desktop-1672x941-review-91d8c68321",
+      "device": "desktop",
+      "sha256": "91d8c683214cdc2bf76932bca1fbbf86bb60a62d68a7c02e541dc13549544b0d",
+      "archive": "design-archive/app-pv-20260923/desktop-91d8c683214cdc2bf76932bca1fbbf86bb60a62d68a7c02e541dc13549544b0d.png"
+    },
+    {
+      "id": "drive-san-pham-app-pv-hn-san-pham-app-pv-p01-default-tablet-992x1586-review-1a2e6a6f33",
+      "device": "tablet",
+      "sha256": "1a2e6a6f3347cb288d0cc62c9d1470fad7d1506e6d7a82a5736e22ddcc84b686",
+      "archive": "design-archive/app-pv-20260923/tablet-1a2e6a6f3347cb288d0cc62c9d1470fad7d1506e6d7a82a5736e22ddcc84b686.png"
+    }
+  ]
+}
