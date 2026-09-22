@@ -17,6 +17,7 @@ const baselines=drive.screens.filter(s=>/\bP01\b|\bdefault$/i.test(s.title)).map
  ...(c?{expectedDocumentHash:c.expected,sourceDocument:c.document}:{}),...(s.canonicalDesignKey?{canonicalDesignKey:s.canonicalDesignKey}:{})};
 });
 const registry={version:1,date:'2026-09-22',scope:'Priority business contradictions; does not certify the entire product',
+ lastInventoryUpdate:drive.updatedAt||drive.importedAt,
  authority:'Only the owner/PM can approve a new baseline. A matching document hash is not runtime certification.',
  baselines,
  canonicalSession:{source:'design-source/business-v1',reviewStatus:'needs-owner-review',semantics:'Confirm session/context, never open a work shift',expired:'No user identity, role, warehouse state or report controls; only login recovery'},

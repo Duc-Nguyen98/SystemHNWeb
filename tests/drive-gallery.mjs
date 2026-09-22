@@ -73,6 +73,31 @@ try {
       }
     }
     await detail.close();
+
+    // Deep links must open the requested updated module, not the entire gallery.
+    await page.goto(`${base}/${prefix}drive-gallery.html?group=bao_cao_nhap_liet_doi_chieu_loi`);
+    await page.waitForFunction(() => document.querySelectorAll('.card').length === 40);
+    assert.equal(await page.locator('#group').inputValue(), 'bao_cao_nhap_liet_doi_chieu_loi');
+    assert(await page.locator('#source-note').isVisible());
+    assert((await page.locator('#updated').textContent()).includes('23/09/2026'));
+    for (const device of ['Desktop','Tablet']) {
+      await page.getByRole('button', { name: device, exact: true }).click();
+      assert.equal(await page.locator('.card').count(), 20);
+    }
+    await page.getByRole('button', { name: 'Tất cả', exact: true }).click();
+    await page.locator('#search').fill('P18 EXPORT SUCCESS');
+    assert.equal(await page.locator('.card').count(), 2);
+    const reconDetail = await browser.newPage();
+    for (const screen of manifest.screens.filter(item => item.origin === 'workspace-update')) {
+      await reconDetail.goto(`${base}/${prefix}viewer.html?collection=drive&screen=${encodeURIComponent(screen.id)}`);
+      await reconDetail.locator('#frame').waitFor({ state: 'visible' });
+      const pending = reconDetail.waitForEvent('download');
+      await reconDetail.locator('#download').click();
+      const file = await pending;
+      assert.equal(file.suggestedFilename(), screen.fileName);
+      assert.equal(createHash('sha256').update(await readFile(await file.path())).digest('hex'), screen.sha256);
+    }
+    await reconDetail.close();
   }
 } finally {
   await browser.close();

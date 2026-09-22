@@ -2,11 +2,13 @@
 
 Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 hiện có 9 state được duyệt cho mỗi viewport; AUTH-02 và các màn hỗ trợ tiếp tục được giữ trong cùng nhóm. Bộ filter/date picker MAP-01 v2 có gallery QA riêng với 13 state cho mỗi viewport.
 
-Bộ xuất từ Drive ngày 22/09/2026 có gallery riêng tại [`drive-gallery.html`](drive-gallery.html), gồm **376 màn hình thuộc 21 nhóm nghiệp vụ**. Sau đợt sửa nghiệp vụ, 56 liên kết Drive và 52 liên kết gallery chính dùng bản sửa HTML/SVG có nhãn **cần chủ thiết kế duyệt**; 3 ảnh AI bổ sung vẫn còn trong gallery. Tổng số màn không tăng. Ảnh trước sửa được lưu nguyên vẹn trong `design-archive/business-v1`.
+Bộ xuất từ Drive có gallery riêng tại [`drive-gallery.html`](drive-gallery.html), hiện gồm **414 màn hình thuộc 21 nhóm nghiệp vụ**. Sau đợt sửa nghiệp vụ, 56 liên kết Drive và 52 liên kết gallery chính dùng bản sửa HTML/SVG có nhãn **cần chủ thiết kế duyệt**; 3 ảnh AI bổ sung vẫn còn trong gallery. Ảnh trước sửa được lưu nguyên vẹn trong `design-archive/business-v1`.
+
+Cập nhật 23/09/2026: [Báo cáo nhập liệu, đối chiếu & lỗi dữ liệu — 40 ảnh P01–P20](drive-gallery.html?group=bao_cao_nhap_liet_doi_chieu_loi). Dùng bản xuất trên máy đã đối soát hash/nội dung vì Drive đang từ chối truy cập; chưa xác minh trực tiếp danh sách cloud. [Biên bản nhập và ngoại lệ](handoff-DATA-RECON-UPDATE-20260923.md).
 
 **Đợt sửa ưu tiên:** [preview bản sửa](business-repair.html) · [biên bản và giới hạn](handoff-BUSINESS-REPAIR-v1.md) · [sổ baseline](baseline-register.json). Expired, Readonly, sai module và biểu đồ được kiểm tra bằng dữ liệu/semantic DOM; các baseline xung đột checksum chưa tự nhận đã duyệt. `npm run render:business` dựng lại 88 ảnh nguồn trực tiếp ở đúng viewport; cần `npm run sync` sau khi áp dụng.
 
-[Báo cáo sửa trạng thái](handoff-DRIVE-STATE-REPAIR-20260922.md): đủ cặp thiết bị trong 11 nhóm đã triển khai; miễn kiểm tra độ phủ cho 10 nhóm có không quá 3 ảnh. Ảnh AI lưu đúng kích thước native, không coi là master đã duyệt. Import có chế độ `--reviewed-only` để không cuốn theo ảnh mới của công việc khác trong thư mục nguồn.
+[Báo cáo sửa trạng thái](handoff-DRIVE-STATE-REPAIR-20260922.md): hồ sơ lịch sử đợt 22/09. Hiện đủ cặp thiết bị trong 12 nhóm đã triển khai; miễn kiểm tra độ phủ cho 9 nhóm có không quá 3 ảnh. Ảnh AI lưu đúng kích thước native, không coi là master đã duyệt. Import có chế độ `--reviewed-only` để không cuốn theo ảnh mới của công việc khác trong thư mục nguồn.
 
 **GitHub Pages:** https://duc-nguyen98.github.io/SystemHNWeb/
 

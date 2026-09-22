@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "id": "data-recon-20260923",
+  "group": "bao_cao_nhap_liet_doi_chieu_loi",
+  "groupTitle": "Báo cáo nhập liệu, đối chiếu & lỗi dữ liệu",
+  "updatedAt": "2026-09-23",
+  "sourceDirectory": "bao_cao_nhap_liet_doi_chieu_loi",
+  "requestedDriveFolder": "https://drive.google.com/drive/folders/1XC02PvoNQeT__KIBMiwW3YxN20KFs83N",
+  "sourceVerification": "Local workspace export verified; requested Google Drive folder denied access in current browser session. No cloud listing/download comparison was possible.",
+  "artPolicy": "Import supplied artwork unchanged; no redesign, AI synthesis or approval claim.",
+  "files": [
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P01-corrected-desktop-1920x1080.png",
+      "sha256": "0e46c9cf95fff58de00af623b4326399ab18020ac23f83e2c19547608f021f86",
+      "title": "HN DATA RECON REPORT P01 DEFAULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P01-corrected-tablet-1600x2560.png",
+      "sha256": "d62753886ca425bc881959494e1febfdab5c4a8c29787e6df234b6b7ac13ef72",
+      "title": "HN DATA RECON REPORT P01 DEFAULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P02-initial-loading-desktop-1920x1080.png",
+      "sha256": "2b92d5075f1bd71a645c09fb29d658d38147db9a2764d7af5838cea742e5d470",
+      "title": "HN DATA RECON REPORT P02 INITIAL LOADING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P02-initial-loading-tablet-1600x2560.png",
+      "sha256": "c313210d686abb8b2d44c1e09af430074bf4927538f2604847dc29d0708561cc",
+      "title": "HN DATA RECON REPORT P02 INITIAL LOADING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P03-refreshing-in-place-desktop-1920x1080.png",
+      "sha256": "0eae3c2c5efaf1b45d3afef8e39fef3272872698ea9b1c8061cd3ff02877991d",
+      "title": "HN DATA RECON REPORT P03 REFRESHING IN PLACE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P03-refreshing-in-place-tablet-1600x2560.png",
+      "sha256": "e736e4f707b5aeece088a9e029f5ac67a99bd624e992dde584d1ea25446e6a4b",
+      "title": "HN DATA RECON REPORT P03 REFRESHING IN PLACE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P04-empty-period-desktop-1920x1080.png",
+      "sha256": "a1960101d483ad95515f70f2ea609a93eae0c17834c8f493b46783531241d5ca",
+      "title": "HN DATA RECON REPORT P04 EMPTY PERIOD",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P04-empty-period-tablet-1600x2560.png",
+      "sha256": "560764fdc3dd4fb59290cc7f204d1798e27450453b13bc058fc423f3f15bc1d8",
+      "title": "HN DATA RECON REPORT P04 EMPTY PERIOD",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P05-invalid-filter-desktop-1920x1080.png",
+      "sha256": "66983bf9842be48b767fe9e2fdcec19f0d9f590bb2c24335c505465ce3910bd3",
+      "title": "HN DATA RECON REPORT P05 INVALID FILTER",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P05-invalid-filter-tablet-1600x2560.png",
+      "sha256": "36d29bca4ce0569aae1bae8326eec264581221f400da8a330d3d51786f606beb",
+      "title": "HN DATA RECON REPORT P05 INVALID FILTER",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P06-no-search-result-desktop-1920x1080.png",
+      "sha256": "4c335f8a6bc527284a75d4b4ee9619d9809082eb94b5ff3db3ba3714b575bfdd",
+      "title": "HN DATA RECON REPORT P06 NO SEARCH RESULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P06-no-search-result-tablet-1600x2560.png",
+      "sha256": "3da3a5c83772af99c56f86e34bd1fec0ff976a6541cee573bcca88c94e5f2108",
+      "title": "HN DATA RECON REPORT P06 NO SEARCH RESULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P07-load-error-desktop-1920x1080.png",
+      "sha256": "008621cb9f2cf67f5848d4a857faeac56e9c55e989f28f8d8425c7ed82bf9f1d",
+      "title": "HN DATA RECON REPORT P07 LOAD ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P07-load-error-tablet-1600x2560.png",
+      "sha256": "88e4bc5a5e874b8ce10e58e8197b8336931957509681eb694f6c7025852ac1b8",
+      "title": "HN DATA RECON REPORT P07 LOAD ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P08-offline-before-request-desktop-1920x1080.png",
+      "sha256": "970cc2de7855a3889f96c590d752e7acf54d003626eade9286a7564e9927fc9b",
+      "title": "HN DATA RECON REPORT P08 OFFLINE BEFORE REQUEST",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P08-offline-before-request-tablet-1600x2560.png",
+      "sha256": "901a3249ee825d599472ae59288b2eb5e42347dca776af4350770f5a2f30c03e",
+      "title": "HN DATA RECON REPORT P08 OFFLINE BEFORE REQUEST",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P09-partial-stale-data-desktop-1920x1080.png",
+      "sha256": "e72a2f65c109aba91e6458618b64ee0cb6f91d5a69fdb5c5c7dc0b4d591b0c74",
+      "title": "HN DATA RECON REPORT P09 PARTIAL STALE DATA",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P09-partial-stale-data-tablet-1600x2560.png",
+      "sha256": "3074f45329211de575b5c78389d3d2790c0ecc46317f3b97283b398ada10f084",
+      "title": "HN DATA RECON REPORT P09 PARTIAL STALE DATA",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/ChatGPT Image 04_57_31 19 thg 9, 2026.png",
+      "sha256": "cfc815e37f579633f9ee675e3a0cd2b8324976e1a756b1c1b1903d1c63ebc3dd",
+      "title": "HN DATA RECON REPORT P10 RECONCILIATION WARNING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P10-reconciliation-warning-tablet-1600x2560.png",
+      "sha256": "160a6509ec15942fb254b38ffe905ca06382190b797e0209a4940f1d49563c84",
+      "title": "HN DATA RECON REPORT P10 RECONCILIATION WARNING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P11-readonly-no-export-desktop-1920x1080.png",
+      "sha256": "aef4975b5957d704e58087941dbabedc217147c9670a6d0f21fdbdab0b437881",
+      "title": "HN DATA RECON REPORT P11 READONLY NO EXPORT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P11-readonly-no-export-tablet-1600x2560.png",
+      "sha256": "66c1c9517c807894a15d1af4aac4fbfcec0ce5c7cd4d0ce06de6d40a1a4b5420",
+      "title": "HN DATA RECON REPORT P11 READONLY NO EXPORT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P12-session-expired-401-desktop-1920x1080.png",
+      "sha256": "b2cb51376367a8ebb460b4c467d57878cfe84208e9d1626ea5ee696716c1c39a",
+      "title": "HN DATA RECON REPORT P12 SESSION EXPIRED 401",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P12-session-expired-401-tablet-1600x2560.png",
+      "sha256": "fc5acef16c738b658327a5c4af4dedc782ef6fd1cd017281e852e253a4d782e0",
+      "title": "HN DATA RECON REPORT P12 SESSION EXPIRED 401",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P13-forbidden-403-desktop-1920x1080.png",
+      "sha256": "f8eaa9aaddad7f844985e4a8bb60c557f3fb3ab5b5a398c441cce9e18833ea6a",
+      "title": "HN DATA RECON REPORT P13 FORBIDDEN 403",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P13-forbidden-403-tablet-1600x2560.png",
+      "sha256": "f54943a0c9ff7e2ce242c6e8a0c37c7f7251ad03cf0db60567eb398f3c3b57ad",
+      "title": "HN DATA RECON REPORT P13 FORBIDDEN 403",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P14-not-found-404-desktop-1920x1080.png",
+      "sha256": "9a0d866e4fcb261a8f8ba4f6a114427b205869ffbbe10c178477158984ab747a",
+      "title": "HN DATA RECON REPORT P14 NOT FOUND 404",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P14-not-found-404-tablet-1600x2560.png",
+      "sha256": "54686131e10da13409bf6d5d12d7eac4a28beaab4e476e812f15ade8f92e9a35",
+      "title": "HN DATA RECON REPORT P14 NOT FOUND 404",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P15-maintenance-desktop-1920x1080.png",
+      "sha256": "e89bc3175c4070cac9511a693c9b265e1aed091cb846702ce23b88b3b6e0dbea",
+      "title": "HN DATA RECON REPORT P15 MAINTENANCE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P15-maintenance-tablet-1600x2560.png",
+      "sha256": "ed37cdba5e0c74d942dfa49d7e96b12411661188497f0390b5867b4e2cd63aed",
+      "title": "HN DATA RECON REPORT P15 MAINTENANCE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P16-server-error-500-desktop-1920x1080.png",
+      "sha256": "b52395d88580af3bd964f2d54acaedb678b47ae18ad88f2879d486fa8d52c02f",
+      "title": "HN DATA RECON REPORT P16 SERVER ERROR 500",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P16-server-error-500-tablet-1600x2560.png",
+      "sha256": "66b3e6bbe4e8502846f64d508016c63745a2ad3f53282c50cc67461e6ce438af",
+      "title": "HN DATA RECON REPORT P16 SERVER ERROR 500",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P17-exporting-desktop-1920x1080.png",
+      "sha256": "f110333d9a9b3fdb9e9aa9d65af4f1755af9c05ade70ee95ffd52a123f550440",
+      "title": "HN DATA RECON REPORT P17 EXPORTING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P17-exporting-tablet-1600x2560.png",
+      "sha256": "5bc404c8ec8bcba3b948869f21839bc6377812d09bd3eb490427c6bafd548832",
+      "title": "HN DATA RECON REPORT P17 EXPORTING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhan_dong_goi_in_lai/update/HN-DATA-RECON-REPORT-P18-export-success-desktop-1920x1080.png",
+      "sha256": "ce3b222aef0aa40324c2b8cde8883789ba75b6906e56b830699628f29c535831",
+      "title": "HN DATA RECON REPORT P18 EXPORT SUCCESS",
+      "device": "desktop",
+      "note": "Located in packaging-label folder; artwork and filename verified as data-reconciliation report",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhan_dong_goi_in_lai/update/HN-DATA-RECON-REPORT-P18-export-success-tablet-1600x2560.png",
+      "sha256": "7f9f122ae4449c859bee0226f108af8a1f912fc33a642fb71fa9a7879bd12329",
+      "title": "HN DATA RECON REPORT P18 EXPORT SUCCESS",
+      "device": "tablet",
+      "note": "Located in packaging-label folder; artwork and filename verified as data-reconciliation report",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P19-export-failed-desktop-1920x1080.png",
+      "sha256": "68c254748f330393734c85874be4fb810ec664923c93b166f562e4ad771204c1",
+      "title": "HN DATA RECON REPORT P19 EXPORT FAILED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P19-export-failed-tablet-1600x2560.png",
+      "sha256": "d349aa564567d551dcf2cf63f22fb778616a0cd436d358cbb9948c9ab421b7e1",
+      "title": "HN DATA RECON REPORT P19 EXPORT FAILED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P20-export-timeout-unknown-desktop-1920x1080.png",
+      "sha256": "3ba7bdba8e5aa98d5d7d5002c6c3dfd46a24205e6e7067228bc23a73ad1fec88",
+      "title": "HN DATA RECON REPORT P20 EXPORT TIMEOUT UNKNOWN",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P20-export-timeout-unknown-tablet-1600x2560.png",
+      "sha256": "68930e317b1c1b817e73ab581955e0b17e5f70f86d8b25079a21cdc4ae67c35b",
+      "title": "HN DATA RECON REPORT P20 EXPORT TIMEOUT UNKNOWN",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    }
+  ],
+  "excluded": [
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P01-default-desktop-1920x1080.png",
+      "sha256": "0e46c9cf95fff58de00af623b4326399ab18020ac23f83e2c19547608f021f86",
+      "reason": "Byte-identical duplicate of corrected P01 Desktop"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN-DATA-RECON-REPORT-P01-default-tablet-1600x2560.png",
+      "sha256": "01340ece97f162388833971e70748e6d081d6b84b685c02bdb7d42e76c3d668b",
+      "reason": "PNG decode error; use the readable corrected P01 Tablet instead"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P16_Row_Selected_Focus_desktop_1920x1080_v1.0.png",
+      "sha256": "b97450107bb92c970318bf6659fe510076434461574afafd980e13656d150740",
+      "reason": "Different module: App PV, visually verified; not in this import scope"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P16_Row_Selected_Focus_tablet_1600x2560_v1.0.png",
+      "sha256": "da0400c16a01b8f0c54d468c8457d179a8681589741bfcd92b0705576424d064",
+      "reason": "Different module: App PV, visually verified; not in this import scope"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P18_Edit_Form_Populated_desktop_1920x1080_v1.0.png",
+      "sha256": "83fc6aba482402374b321d16017dacfc9f25644d0dcffffe096799ca10197bfd",
+      "reason": "Different module: App PV, visually verified; not in this import scope"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P18_Edit_Form_Populated_tablet_1600x2560_v1.0.png",
+      "sha256": "b7f362ef60e145677c67eb159d474c2deaffa2660f13de73708f9b95b99e24d0",
+      "reason": "Different module: App PV, visually verified; not in this import scope"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P19_Preview_Readonly_desktop_1920x1080_v1.0.png",
+      "sha256": "3ceff7fa4e3801e173b0b096bbeb671edf28392b41eaa9ce5871ee96e7583a40",
+      "reason": "Different module: App PV, visually verified; not in this import scope"
+    },
+    {
+      "path": "bao_cao_nhap_liet_doi_chieu_loi/update/HN_AppPV_SanPham_P19_Preview_Readonly_tablet_1600x2560_v1.0.png",
+      "sha256": "9f74474a2df499e6580e98c6dd795bc53a9bd0a2a38719e7fed33c0cbb5d3d67",
+      "reason": "Different module: App PV, visually verified; not in this import scope"
+    }
+  ],
+  "superseded": [
+    {
+      "id": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3",
+      "device": "desktop",
+      "sha256": "49b618f2f38d98e481dfd2240a119b4196236b1542efce4008fa470079892c61",
+      "archive": "design-archive/data-recon-20260923/desktop-49b618f2f38d98e481dfd2240a119b4196236b1542efce4008fa470079892c61.png"
+    },
+    {
+      "id": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502",
+      "device": "tablet",
+      "sha256": "8f9379e5021e114970e330dbbebd35f36b6bd970e2f127096b7d84263dd33b1e",
+      "archive": "design-archive/data-recon-20260923/tablet-8f9379e5021e114970e330dbbebd35f36b6bd970e2f127096b7d84263dd33b1e.png"
+    }
+  ]
+}

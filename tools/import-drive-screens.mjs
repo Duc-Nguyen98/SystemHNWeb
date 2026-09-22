@@ -16,8 +16,11 @@ const imageExtensions = new Set(['.png', '.jpg', '.jpeg']);
 const previousManifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const supplements = JSON.parse(await readFile(resolve(root, 'design-supplements/manifest.json'), 'utf8'));
 const repairPlan = JSON.parse(await readFile(resolve(root, 'design-source/business-v1/targets.json'), 'utf8'));
+const profiles = [JSON.parse(await readFile(resolve(root, 'tools/import-profiles/data-recon-20260923.json'), 'utf8'))];
+const profileGroups = new Set(profiles.map(profile => profile.group));
+const curatedSources = new Map(profiles.flatMap(profile => profile.files.map(file => [file.path, { ...file, profile }])));
 const importHistory = previousManifest.screens.map(screen => repairPlan.targets.find(t => t.collection === 'drive' && t.id === screen.id)?.original || screen);
-const reviewedSources = new Map(importHistory.filter(screen => screen.origin !== 'ai-supplement').flatMap(screen => screen.sourcePaths.map(path => [path, screen.sha256])));
+const reviewedSources = new Map(importHistory.filter(screen => screen.origin !== 'ai-supplement' && !profileGroups.has(screen.group)).flatMap(screen => screen.sourcePaths.map(path => [path, screen.sha256])));
 
 // Drive review exports sometimes arrive with UUID or timestamp-only filenames.
 // Keep those names in sourcePaths for provenance, but publish a stable,
@@ -74,7 +77,7 @@ const groupNames = new Map(Object.entries({
   'bao_cao_lich_su_nhap_xuat_kho': 'Báo cáo lịch sử nhập xuất kho',
   'bao_cao_nhan_dong_goi_in_lai': 'Báo cáo nhãn đóng gói & in lại',
   'bao_cao_nhap_kho': 'Báo cáo nhập kho',
-  'bao_cao_nhap_liet_doi_chieu_loi': 'Báo cáo nhập liệu & đối chiếu lỗi',
+  'bao_cao_nhap_liet_doi_chieu_loi': 'Báo cáo nhập liệu, đối chiếu & lỗi dữ liệu',
   'bao_cao_truy_vet_hang_hoa': 'Báo cáo truy vết hàng hóa',
   'bao_cao_xuat_kho': 'Báo cáo xuất kho',
   'bao_cao_xuat_theo_nguoi_nhan_dai_ly': 'Báo cáo xuất theo người nhận/đại lý',
@@ -125,6 +128,10 @@ const updateTopLevels = new Set(relativeCandidates.filter(({ relativePath }) => 
 }).map(({ relativePath }) => relativePath.split('/')[0]));
 
 const selected = relativeCandidates.filter(({ relativePath }) => {
+  // Exact, hash-pinned profile wins over folder location and temporary filenames.
+  // Other files in a curated module are not silently included on re-import.
+  if (curatedSources.has(relativePath)) return true;
+  if (profiles.some(profile => relativePath.startsWith(`${profile.sourceDirectory}/`))) return false;
   // Scoped repairs must not ingest other design work arriving in the shared
   // Drive export while this import is running.
   if (reviewedOnly) return reviewedSources.has(relativePath);
@@ -135,6 +142,11 @@ const selected = relativeCandidates.filter(({ relativePath }) => {
   if (parts.length === 2 && updateTopLevels.has(parts[0])) return false;
   return true;
 }).sort((a, b) => a.relativePath.localeCompare(b.relativePath, 'vi', { numeric: true }));
+for (const [path, curated] of curatedSources) {
+  const item = selected.find(item => item.relativePath === path);
+  if (!item) throw new Error(`Curated source missing: ${path}`);
+  item.curated = curated;
+}
 if (reviewedOnly) {
   const available = new Set(selected.map(item => item.relativePath));
   for (const path of reviewedSources.keys()) if (!available.has(path)) throw new Error(`Reviewed source missing: ${path}`);
@@ -156,7 +168,8 @@ const staging = await mkdtemp(resolve(root, 'artifacts/drive-import-'));
 const byHash = new Map();
 for (const item of selected) {
   const sha256 = createHash('sha256').update(await readFile(item.path)).digest('hex');
-  if (reviewedOnly && !item.supplement && reviewedSources.get(item.relativePath) !== sha256) throw new Error(`Reviewed source changed: ${item.relativePath}`);
+  if (item.curated && item.curated.sha256 !== sha256) throw new Error(`Curated source changed; inspect before updating the profile: ${item.relativePath}`);
+  if (reviewedOnly && !item.supplement && !item.curated && reviewedSources.get(item.relativePath) !== sha256) throw new Error(`Reviewed source changed: ${item.relativePath}`);
   if (byHash.has(sha256)) {
     byHash.get(sha256).sourcePaths.push(item.relativePath);
     continue;
@@ -186,13 +199,13 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
   const groupParts = parts.slice(0, -1).filter(part => !/^update\d*$/i.test(part));
   const filename = parts.at(-1);
   const sourceStem = filename.replace(extname(filename), '');
-  const group = item.supplement?.group || correctedGroup(sourceStem, groupParts.join('/'));
+  const group = item.curated?.profile.group || item.supplement?.group || correctedGroup(sourceStem, groupParts.join('/'));
   const groupTitle = groupNames.get(group) || group.replace(/[_&]+/g, ' ').replace(/\s+/g, ' ').trim();
-  const semanticTitle = item.supplement?.title || semanticTitles.get(sourceStem) || outboundTitle(sourceStem, group);
-  const device = item.supplement?.device || (/tablet/i.test(filename) || (!/desktop/i.test(filename) && metadata.height > metadata.width) ? 'tablet' : 'desktop');
+  const semanticTitle = item.curated?.title || item.supplement?.title || semanticTitles.get(sourceStem) || outboundTitle(sourceStem, group);
+  const device = item.curated?.device || item.supplement?.device || (/tablet/i.test(filename) || (!/desktop/i.test(filename) && metadata.height > metadata.width) ? 'tablet' : 'desktop');
   const extension = extname(filename).toLowerCase() === '.jpeg' ? '.jpg' : extname(filename).toLowerCase();
   const shortHash = item.sha256.slice(0, 10);
-  const stage = item.supplement || /candidate|review|chatgpt image|^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(sourceStem) ? 'review' : 'delivery';
+  const stage = item.curated || item.supplement || /candidate|review|chatgpt image|^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(sourceStem) ? 'review' : 'delivery';
   const handoffStem = semanticTitle
     ? `${semanticTitle.replace(/\s+/g, '_')}_${device.toUpperCase()}_${metadata.width}x${metadata.height}_${stage.toUpperCase()}`
     : sourceStem;
@@ -218,6 +231,15 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
   };
   const state = stateIdentity(screen.title);
   if (state) { screen.stateCode = state.code; screen.stateName = state.name; }
+  if (item.curated) {
+    if (metadata.width !== item.curated.width || metadata.height !== item.curated.height) throw new Error(`Curated dimensions changed: ${item.relativePath}`);
+    screen.origin = 'workspace-update';
+    screen.reviewStatus = 'approval-not-recorded';
+    screen.importProfile = item.curated.profile.id;
+    screen.sourceVerification = 'local-export-verified-cloud-access-denied';
+    screen.requestedDriveFolder = item.curated.profile.requestedDriveFolder;
+    screen.updatedAt = item.curated.profile.updatedAt;
+  }
   if (item.supplement) {
     screen.origin = 'ai-supplement';
     screen.reviewStatus = 'needs-owner-review';
@@ -226,7 +248,8 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
   }
   // Preserve shared viewer links across renames/regrouping, by immutable bytes.
   const previous = importHistory.find(candidate => candidate.sha256 === item.sha256);
-  const aliases = [...new Set([...(previous?.aliases || []), ...(previous && previous.id !== screen.id ? [previous.id] : [])])].filter(id => id !== screen.id);
+  const superseded = item.curated && screen.stateCode === 'P01' ? item.curated.profile.superseded.filter(s => s.device === screen.device).map(s => s.id) : [];
+  const aliases = [...new Set([...(previous?.aliases || []), ...(previous && previous.id !== screen.id ? [previous.id] : []), ...superseded])].filter(id => id !== screen.id);
   if (aliases.length) screen.aliases = aliases;
   return screen;
 });
@@ -241,12 +264,14 @@ const groups = [...new Map(screens.map(screen => [screen.group, screen.groupTitl
 const manifest = {
   version: 1,
   importedAt: '2026-09-22',
+  updatedAt: profiles.map(profile => profile.updatedAt).sort().at(-1),
   provenance: 'Drive workspace export supplied by the repository owner; AI supplements are explicitly marked for owner review',
   exclusions: ['AUTH-01 and Tổng quan assets already present in the primary gallery', 'top-level duplicate baselines when an update set exists', 'non-image files and root asset.png'],
   total: screens.length,
   groups,
   screens
 };
+manifest.importProfiles = profiles.map(({ id, group, updatedAt, sourceVerification }) => ({ id, group, updatedAt, sourceVerification }));
 assertDriveStateCoverage(manifest);
 const backup = `${staging}-previous`;
 const stagedManifest = `${staging}-manifest.json`;

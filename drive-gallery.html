@@ -17,7 +17,7 @@
     <a class="back" href="index.html">← Thư viện chính</a>
     <h1>Màn hình thiết kế từ Drive</h1>
     <p>Bộ ảnh theo từng nghiệp vụ, có tìm kiếm, lọc Desktop/Tablet và tải ảnh riêng. Bản sửa nghiệp vụ và ảnh AI bổ sung đều có nhãn cần duyệt. <a href="business-repair.html" style="color:white">Xem đợt sửa ưu tiên và baseline →</a></p>
-    <div class="summary"><span class="pill" id="total">Đang tải…</span><span class="pill" id="groups">— nhóm nghiệp vụ</span><span class="pill" id="supplements"></span><span class="pill">Nhập ngày 22/09/2026</span></div>
+    <div class="summary"><span class="pill" id="total">Đang tải…</span><span class="pill" id="groups">— nhóm nghiệp vụ</span><span class="pill" id="supplements"></span><span class="pill" id="updated">Nhập ngày 22/09/2026</span></div>
   </header>
   <section class="filters" aria-label="Bộ lọc">
     <div class="field"><label for="group">Nhóm nghiệp vụ</label><select id="group"><option value="">Tất cả nhóm</option></select></div>
@@ -25,6 +25,7 @@
     <div class="device-tabs" role="group" aria-label="Thiết bị"><button type="button" data-device="" aria-pressed="true">Tất cả</button><button type="button" data-device="desktop" aria-pressed="false">Desktop</button><button type="button" data-device="tablet" aria-pressed="false">Tablet</button></div>
   </section>
   <p class="result" id="result" role="status">Đang tải danh sách…</p>
+  <p class="result" id="source-note" hidden></p>
   <section class="grid" id="grid" aria-label="Danh sách màn hình"></section>
   <p class="empty" id="empty" hidden>Không có màn hình phù hợp với bộ lọc.</p>
   <footer class="footer">Ảnh gốc được giữ nguyên byte và kiểm tra SHA-256. <a href="drive-screen-manifest.json">Xem manifest kỹ thuật</a>.</footer>
@@ -32,13 +33,16 @@
 <script type="module">
   const manifest = await fetch('drive-screen-manifest.json', { cache: 'no-store' }).then(response => { if (!response.ok) throw new Error('Không tải được manifest'); return response.json(); });
   const state = { group: '', device: '', search: '' };
+  const params = new URLSearchParams(location.search);
   const $ = id => document.getElementById(id);
   $('total').textContent = `${manifest.total} màn hình`;
   $('groups').textContent = `${manifest.groups.length} nhóm nghiệp vụ`;
+  if (manifest.updatedAt) $('updated').textContent = `Cập nhật ${manifest.updatedAt.split('-').reverse().join('/')}`;
   $('supplements').textContent = `${manifest.screens.filter(screen => screen.origin === 'native-repair').length} bản sửa nghiệp vụ · ${manifest.screens.filter(screen => screen.origin === 'ai-supplement').length} ảnh AI · cần duyệt`;
   for (const item of manifest.groups) {
     const option = document.createElement('option'); option.value = item.id; option.textContent = `${item.title} · ${item.count}`; $('group').append(option);
   }
+  if (manifest.groups.some(item => item.id === params.get('group'))) { state.group = params.get('group'); $('group').value = state.group; }
   function render() {
     const query = state.search.trim().toLocaleLowerCase('vi');
     const screens = manifest.screens.filter(screen => (!state.group || screen.group === state.group) && (!state.device || screen.device === state.device) && (!query || `${screen.title} ${screen.fileName} ${screen.groupTitle} ${screen.sourcePaths.join(' ')}`.toLocaleLowerCase('vi').includes(query)));
@@ -54,10 +58,13 @@
       for (const [text, className] of [[screen.device === 'desktop' ? 'Desktop' : 'Tablet', ''], [`${screen.width} × ${screen.height}`, ''], [stageLabel, screen.stage]]) { const badge = document.createElement('span'); badge.className = `badge ${className}`; badge.textContent = text; badges.append(badge); }
       const download = document.createElement('a'); download.className = 'download'; download.href = screen.src; download.download = screen.fileName; download.textContent = 'Tải ảnh ↓';
       meta.append(badges, download); article.append(meta);
-      const source = document.createElement('div'); source.className = 'source'; source.title = `${screen.origin === 'native-repair' ? 'Nguồn dựng lại HTML/SVG (chưa duyệt)' : screen.origin === 'ai-supplement' ? 'Nguồn bổ sung bằng AI (chưa duyệt)' : 'Nguồn Drive'}:\n${screen.sourcePaths.join('\n')}`; source.textContent = `${screen.groupTitle} · ${screen.fileName}`; article.append(source);
+      const source = document.createElement('div'); source.className = 'source'; source.title = `${screen.origin === 'workspace-update' ? 'Bản xuất trên máy (chưa đối chiếu được Drive trực tiếp)' : screen.origin === 'native-repair' ? 'Nguồn dựng lại HTML/SVG (chưa duyệt)' : screen.origin === 'ai-supplement' ? 'Nguồn bổ sung bằng AI (chưa duyệt)' : 'Nguồn Drive'}:\n${screen.sourcePaths.join('\n')}`; source.textContent = `${screen.groupTitle} · ${screen.fileName}`; article.append(source);
       fragment.append(article);
     }
     $('grid').replaceChildren(fragment); $('empty').hidden = screens.length > 0; $('result').textContent = `Hiển thị ${screens.length}/${manifest.total} màn hình`;
+    const profile = manifest.importProfiles?.find(item => item.group === state.group);
+    $('source-note').hidden = !profile;
+    $('source-note').textContent = profile ? `Bộ update ${profile.updatedAt.split('-').reverse().join('/')} · Đã kiểm tra bản xuất trên máy. Chưa đối chiếu được danh sách Drive trực tiếp do quyền truy cập.` : '';
   }
   $('group').addEventListener('change', event => { state.group = event.target.value; render(); });
   $('search').addEventListener('input', event => { state.search = event.target.value; render(); });

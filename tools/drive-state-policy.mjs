@@ -7,6 +7,7 @@ export const expectedCodes = {
   bao_cao_bao_hanh_linh_kien: range(15),
   bao_cao_lich_su_nhap_xuat_kho: range(20),
   bao_cao_nhan_dong_goi_in_lai: range(20).map(code => code === 'P08' ? 'P08A' : code),
+  bao_cao_nhap_liet_doi_chieu_loi: range(20),
   bao_cao_truy_vet_hang_hoa: range(20),
   bao_cao_xuat_kho: range(9),
   bao_cao_xuat_theo_nguoi_nhan_dai_ly: range(20),
@@ -21,6 +22,7 @@ const legacyStates = {
 };
 
 const moduleFamilies = [
+  [/^HN[ _-]+DATA[ _-]+RECON[ _-]+REPORT[ _-]/i, 'bao_cao_nhap_liet_doi_chieu_loi'],
   [/^HN[ _-]+PKG[ _-]+LABEL[ _-]/i, 'bao_cao_nhan_dong_goi_in_lai'],
   [/^HN[ _-]+DEALER[ _-]+RECIPIENT[ _-]+REPORT[ _-]/i, 'bao_cao_xuat_theo_nguoi_nhan_dai_ly'],
   [/^HN[ _-]+BaoCao[ _-]+LichSuNhapXuatKho[ _-]/i, 'bao_cao_lich_su_nhap_xuat_kho'],

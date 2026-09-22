@@ -10,6 +10,7 @@ const read = path => readFile(resolve(root, path));
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const manifest = JSON.parse(await read('screen-manifest.json'));
 const driveManifest = JSON.parse(await read('drive-screen-manifest.json'));
+const reconProfile = JSON.parse(await read('tools/import-profiles/data-recon-20260923.json'));
 const ids = new Set();
 async function validateNative(screen) {
   if (screen.origin !== 'native-repair') return;
@@ -70,6 +71,17 @@ for (const screen of driveManifest.screens) {
     assert.equal(hash(await read(screen.sourcePaths[0])), screen.sha256, `${screen.id}: supplement source mismatch`);
     assert(screen.fileName.includes(`${screen.width}x${screen.height}`), 'Supplement filename must use native dimensions');
   }
+  if (screen.origin === 'workspace-update') {
+    const source = reconProfile.files.find(file => screen.sourcePaths.includes(file.path));
+    assert(source, `${screen.id}: source absent from pinned import profile`);
+    assert.equal(screen.sha256, source.sha256);
+    assert.equal(screen.title, source.title);
+    assert.equal(screen.width, source.width); assert.equal(screen.height, source.height);
+    assert.equal(screen.group, reconProfile.group);
+    assert.equal(screen.sourceVerification, 'local-export-verified-cloud-access-denied');
+    assert.equal(screen.reviewStatus, 'approval-not-recorded');
+    assert(screen.fileName.includes(`${source.width}x${source.height}`));
+  }
 }
 const coverage = assertDriveStateCoverage(driveManifest);
 assert.equal(driveIds.size, driveManifest.total, 'Drive manifest total mismatch');
@@ -106,7 +118,7 @@ async function compare(path) {
 }
 await compare('assets');
 await compare('design-source/business-v1');
-for (const file of ['business-repair.html','baseline-register.json','handoff-BUSINESS-REPAIR-v1.md']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Business handoff drift: ${file}`);
+for (const file of ['business-repair.html','baseline-register.json','handoff-BUSINESS-REPAIR-v1.md','handoff-DATA-RECON-UPDATE-20260923.md']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Handoff drift: ${file}`);
 for (const file of ['viewer.html', 'screen-manifest.json', 'drive-screen-manifest.json']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Root/docs drift: ${file}`);
 console.log(`PASS: 84 primary boards + ${driveManifest.total} Drive screens, dimensions, hashes, downloads and root/docs parity.`);
 console.log(`PASS: state coverage for ${coverage.checkedScreens} screens / ${coverage.checkedGroups} groups; ${coverage.exemptGroups} unfinished groups (<=3 images) exempt.`);

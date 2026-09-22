@@ -15,9 +15,9 @@ function recount(manifest) {
   }
 }
 
-test('complete coverage, excluding the ten unfinished groups', () => {
-  assert.equal(inventory.total, 376);
-  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 11, checkedScreens: 356, exemptGroups: 10 });
+test('complete coverage, excluding the nine unfinished groups', () => {
+  assert.equal(inventory.total, 414);
+  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 12, checkedScreens: 396, exemptGroups: 9 });
   assert.equal(inventory.screens.filter(screen => screen.origin === 'ai-supplement').length, 3);
   assert.equal(inventory.screens.filter(screen => screen.origin === 'native-repair').length, 56);
 });
@@ -25,6 +25,33 @@ test('complete coverage, excluding the ten unfinished groups', () => {
 test('original misplaced filenames always map to the correct module', () => {
   assert.equal(correctedGroup('HN_PKG_LABEL_P17_Forbidden_Desktop_1920x1080_v1.2', 'bao_cao_lich_su_nhap_xuat_kho'), 'bao_cao_nhan_dong_goi_in_lai');
   assert.equal(correctedGroup('HN-DEALER-RECIPIENT-REPORT-P14-not-found-tablet-1600x2560', 'danh_sach_SKU'), 'bao_cao_xuat_theo_nguoi_nhan_dai_ly');
+  assert.equal(correctedGroup('HN-DATA-RECON-REPORT-P18-export-success-desktop-1920x1080', 'bao_cao_nhan_dong_goi_in_lai'), 'bao_cao_nhap_liet_doi_chieu_loi');
+});
+
+test('DATA RECON profile selects valid originals, semantic names and old viewer aliases', () => {
+  const profile = JSON.parse(readFileSync(new URL('../tools/import-profiles/data-recon-20260923.json', import.meta.url)));
+  const screens = inventory.screens.filter(screen => screen.group === profile.group);
+  assert.equal(screens.length, 40);
+  assert.equal(new Set(screens.map(screen => screen.sha256)).size, 40);
+  assert.equal(profile.excluded.length, 8);
+  assert.equal(profile.excluded.filter(file => file.path.includes('HN_AppPV')).length, 6);
+  for (const screen of screens) {
+    assert.equal(screen.origin, 'workspace-update');
+    assert(screen.fileName.startsWith('HN_DATA_RECON_REPORT_P'));
+    assert.equal(screen.sourceVerification, 'local-export-verified-cloud-access-denied');
+    assert.equal(screen.width, screen.device === 'desktop' ? 1920 : 1600);
+    assert.equal(screen.height, screen.device === 'desktop' ? 1080 : 2560);
+    assert(!screen.sourcePaths.some(path => path.includes('HN_AppPV')));
+    assert(!profile.excluded.some(file => file.sha256 === screen.sha256 && file.reason.includes('PNG decode')));
+  }
+  const warning = screens.find(screen => screen.stateCode === 'P10' && screen.device === 'desktop');
+  assert(warning.sourcePaths[0].includes('ChatGPT Image'));
+  assert.equal(warning.stateName, 'RECONCILIATION WARNING');
+  assert(screens.filter(screen => screen.stateCode === 'P18').every(screen => screen.sourcePaths[0].startsWith('bao_cao_nhan_dong_goi_in_lai/')));
+  for (const previous of profile.superseded) {
+    const current = screens.find(screen => screen.stateCode === 'P01' && screen.device === previous.device);
+    assert(current.aliases.includes(previous.id));
+  }
 });
 
 test('golden export is refresh success, not a separate export-warning state', () => {
@@ -44,7 +71,7 @@ test('missing counterpart fails even when counts are updated', () => {
 });
 
 test('missing full state pair fails, not just Desktop/Tablet imbalance', () => {
-  for (const [group, code] of [['bao_cao_lich_su_nhap_xuat_kho', 'P16'], ['bao_cao_truy_vet_hang_hoa', 'P10']]) {
+  for (const [group, code] of [['bao_cao_lich_su_nhap_xuat_kho', 'P16'], ['bao_cao_truy_vet_hang_hoa', 'P10'], ['bao_cao_nhap_liet_doi_chieu_loi', 'P18']]) {
     const manifest = clone();
     manifest.screens = manifest.screens.filter(screen => !(screen.group === group && screen.stateCode === code));
     recount(manifest);

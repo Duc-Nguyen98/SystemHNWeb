@@ -2,6 +2,7 @@
   "version": 1,
   "date": "2026-09-22",
   "scope": "Priority business contradictions; does not certify the entire product",
+  "lastInventoryUpdate": "2026-09-23",
   "authority": "Only the owner/PM can approve a new baseline. A matching document hash is not runtime certification.",
   "baselines": [
     {
@@ -83,18 +84,18 @@
     {
       "group": "bao_cao_nhap_liet_doi_chieu_loi",
       "device": "desktop",
-      "screenId": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3",
-      "sha256": "49b618f2f38d98e481dfd2240a119b4196236b1542efce4008fa470079892c61",
-      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/desktop/hn-nhap-lieu-doi-chieu-loi-p01-default-desktop-1672x941-review-49b618f2f3.png",
+      "screenId": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-data-recon-report-p01-default-desktop-1920x1080-review-0e46c9cf95",
+      "sha256": "0e46c9cf95fff58de00af623b4326399ab18020ac23f83e2c19547608f021f86",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/desktop/hn-data-recon-report-p01-default-desktop-1920x1080-review-0e46c9cf95.png",
       "reviewStatus": "approval-not-recorded",
       "baselineStatus": "reference-unverified"
     },
     {
       "group": "bao_cao_nhap_liet_doi_chieu_loi",
       "device": "tablet",
-      "screenId": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502",
-      "sha256": "8f9379e5021e114970e330dbbebd35f36b6bd970e2f127096b7d84263dd33b1e",
-      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/tablet/hn-nhap-lieu-doi-chieu-loi-p01-default-tablet-992x1586-review-8f9379e502.png",
+      "screenId": "drive-bao-cao-nhap-liet-doi-chieu-loi-hn-data-recon-report-p01-default-tablet-1600x2560-review-d62753886c",
+      "sha256": "d62753886ca425bc881959494e1febfdab5c4a8c29787e6df234b6b7ac13ef72",
+      "src": "previews/drive-screens/originals/bao-cao-nhap-liet-doi-chieu-loi/tablet/hn-data-recon-report-p01-default-tablet-1600x2560-review-d62753886c.png",
       "reviewStatus": "approval-not-recorded",
       "baselineStatus": "reference-unverified"
     },
