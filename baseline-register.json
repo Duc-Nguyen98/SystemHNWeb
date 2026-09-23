@@ -312,24 +312,6 @@
       "baselineStatus": "reference-unverified"
     },
     {
-      "group": "nhap_kho/danh_sach_phieu_nhap_kho",
-      "device": "desktop",
-      "screenId": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-desktop-1920x1080-candidate-v2-a2b7207a5e",
-      "sha256": "a2b7207a5ea242bd4fcd3c47f0c4ed26acb6c66472f8c745d8a3b6b61e3161b1",
-      "src": "previews/drive-screens/originals/nhap-kho-danh-sach-phieu-nhap-kho/desktop/hn-phieunhapkho-danhsach-default-desktop-1920x1080-candidate-v2-a2b7207a5e.png",
-      "reviewStatus": "approval-not-recorded",
-      "baselineStatus": "reference-unverified"
-    },
-    {
-      "group": "nhap_kho/danh_sach_phieu_nhap_kho",
-      "device": "tablet",
-      "screenId": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-tablet-1600x2560-candidate-v2-3633194fee",
-      "sha256": "3633194fee12a3e096537d25e2936943f788ac47bbe39c0eb72946abd16733cc",
-      "src": "previews/drive-screens/originals/nhap-kho-danh-sach-phieu-nhap-kho/tablet/hn-phieunhapkho-danhsach-default-tablet-1600x2560-candidate-v2-3633194fee.png",
-      "reviewStatus": "approval-not-recorded",
-      "baselineStatus": "reference-unverified"
-    },
-    {
       "group": "nhap_kho/linh_kien_cho_xep_khay/hang_cho",
       "device": "desktop",
       "screenId": "drive-nhap-kho-linh-kien-cho-xep-khay-hang-cho-hn-nhap-kho-hang-cho-xep-khay-p01-default-desktop-1672x941-review-8289f69e83",
@@ -416,6 +398,24 @@
       "screenId": "drive-danh-muc-benh-loi-hn-danh-muc-benh-loi-p01-default-tablet-1600x2560-review-115716a5aa",
       "sha256": "115716a5aad1ab9bc15dd9fc73b4255f5b4f040f42a06c058cbea0d73edb3532",
       "src": "previews/drive-screens/originals/danh-muc-benh-loi/tablet/hn-danh-muc-benh-loi-p01-default-tablet-1600x2560-review-115716a5aa.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/danh_sach_phieu_nhap_kho",
+      "device": "desktop",
+      "screenId": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-nhap-kho-phieu-nhap-p01-default-desktop-1920x1080-review-69142cf177",
+      "sha256": "69142cf177220ee594d59b9fecdd3c68b3313b878adde0b08f0253bed09c4b64",
+      "src": "previews/drive-screens/originals/nhap-kho-danh-sach-phieu-nhap-kho/desktop/hn-nhap-kho-phieu-nhap-p01-default-desktop-1920x1080-review-69142cf177.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "nhap_kho/danh_sach_phieu_nhap_kho",
+      "device": "tablet",
+      "screenId": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-nhap-kho-phieu-nhap-p01-default-tablet-1600x2560-review-e9a476d607",
+      "sha256": "e9a476d6071eb785ede2e6ec37cf9d38c0fec4197f44467b1f34101b7886be2a",
+      "src": "previews/drive-screens/originals/nhap-kho-danh-sach-phieu-nhap-kho/tablet/hn-nhap-kho-phieu-nhap-p01-default-tablet-1600x2560-review-e9a476d607.png",
       "reviewStatus": "approval-not-recorded",
       "baselineStatus": "reference-unverified"
     }

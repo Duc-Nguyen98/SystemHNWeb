@@ -1,0 +1,900 @@
+{
+  "version": 1,
+  "id": "inbound-receipts-20260923",
+  "group": "nhap_kho/danh_sach_phieu_nhap_kho",
+  "groupTitle": "Nhập kho · Danh sách phiếu nhập",
+  "updatedAt": "2026-09-23",
+  "sourceDirectory": "nhap_kho/danh_sach_phieu_nhap_kho",
+  "requestedDriveFolder": "https://drive.google.com/drive/folders/1Ii8cm1XID8eFTiD1lF6VGmpTVkxbyNqY",
+  "sourceVerification": "Local Desktop/Tablet export verified against supplied CSV hashes; requested Drive folder denied access. No cloud listing/download comparison was possible.",
+  "artPolicy": "Import unchanged exported pixels. P01 is labeled LOCKED in the source document; no new approval is inferred here. Other states are REVIEW. Source manifest discloses raster resizing before delivery; this import performs no upscaling. Exclude five truncated files and retain old P01 archives and viewer aliases.",
+  "sourceDocuments": [
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/HN_NhapKho_PhieuNhap_Manifest_REVIEW_v1.0.csv",
+      "sha256": "f320f596106a80d498677e5269bfc32aa29916708d21615e1834761bba1fcd7a"
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/HN_NhapKho_PhieuNhap_MaTran_QA_REVIEW_v1.0.md",
+      "sha256": "692c760858e66dc51fec67357a7705517ae64bf73577be9df767d591305278af"
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/HN_NhapKho_PhieuNhap_Prompts_REVIEW_v1.0.md",
+      "sha256": "6b131c99fbc1fe278ce96e26eee69de90d70e39165a3ae582d2a42a65230a22a"
+    }
+  ],
+  "missingStates": [
+    {
+      "code": "P09",
+      "label": "READ ONLY",
+      "devices": [
+        "tablet"
+      ],
+      "status": "source-corrupt",
+      "reason": "File Tablet bị cắt dữ liệu PNG, không khớp dung lượng/hash trong manifest nguồn; cần cung cấp lại file nguyên vẹn."
+    },
+    {
+      "code": "P10",
+      "label": "WAREHOUSE PAUSED",
+      "devices": [
+        "desktop"
+      ],
+      "status": "source-corrupt",
+      "reason": "File Desktop bị cắt dữ liệu PNG, không khớp dung lượng/hash trong manifest nguồn; cần cung cấp lại file nguyên vẹn."
+    },
+    {
+      "code": "P15",
+      "label": "MAINTENANCE",
+      "devices": [
+        "tablet"
+      ],
+      "status": "source-corrupt",
+      "reason": "File Tablet bị cắt dữ liệu PNG, không khớp dung lượng/hash trong manifest nguồn; cần cung cấp lại file nguyên vẹn."
+    },
+    {
+      "code": "P20B",
+      "label": "SAVE SUCCESS STALE LIST",
+      "devices": [
+        "desktop"
+      ],
+      "status": "source-corrupt",
+      "reason": "File Desktop bị cắt dữ liệu PNG, không khớp dung lượng/hash trong manifest nguồn; cần cung cấp lại file nguyên vẹn."
+    },
+    {
+      "code": "P20D",
+      "label": "SAVE OUTCOME UNKNOWN",
+      "devices": [
+        "desktop"
+      ],
+      "status": "source-corrupt",
+      "reason": "File Desktop bị cắt dữ liệu PNG, không khớp dung lượng/hash trong manifest nguồn; cần cung cấp lại file nguyên vẹn."
+    }
+  ],
+  "files": [
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P01_Default_Desktop_1920x1080_LOCKED_v1.0.png",
+      "sha256": "69142cf177220ee594d59b9fecdd3c68b3313b878adde0b08f0253bed09c4b64",
+      "title": "HN NHAP KHO PHIEU NHAP P01 DEFAULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "LOCKED",
+      "sourceExport": {
+        "nativeWidth": 1920,
+        "nativeHeight": 1080,
+        "method": "byte-identical copy"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P01_Default_Tablet_1600x2560_LOCKED_v1.0.png",
+      "sha256": "e9a476d6071eb785ede2e6ec37cf9d38c0fec4197f44467b1f34101b7886be2a",
+      "title": "HN NHAP KHO PHIEU NHAP P01 DEFAULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "LOCKED",
+      "sourceExport": {
+        "nativeWidth": 1600,
+        "nativeHeight": 2560,
+        "method": "byte-identical copy"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P02_InitialLoading_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "758537a5cad11c0be5641b8e389029ca49e0b204c33950a0c9cca86af98981ee",
+      "title": "HN NHAP KHO PHIEU NHAP P02 INITIAL LOADING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P02_InitialLoading_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "d8f2fc0b74ddb91f405398b3e9ae0c3d6c0c43c47125d86bd59a211da4fc560e",
+      "title": "HN NHAP KHO PHIEU NHAP P02 INITIAL LOADING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P03_Refreshing_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "7f3b609b7d7c1a57a2f1d132316f59e4040edc3dd1c337b5a69f714da11885c6",
+      "title": "HN NHAP KHO PHIEU NHAP P03 REFRESHING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P03_Refreshing_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "07c29c5a59e2a6e433b11a40f4e586d7aaeaa046013f799c6ffe98a26118b682",
+      "title": "HN NHAP KHO PHIEU NHAP P03 REFRESHING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P04_Empty_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "013033277ecb3160b15fc8f7115d02b721415d7e29a5b40cc25cfe2101541fc0",
+      "title": "HN NHAP KHO PHIEU NHAP P04 EMPTY",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P04_Empty_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "442f246ff175e3af41ac4d29aacf91bb9c6de4682c69b26454cfe6c50dc04825",
+      "title": "HN NHAP KHO PHIEU NHAP P04 EMPTY",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P05_NoResults_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "e2be641fc192f532550d9fcc0207889d29a0bda0f66679ed6dae2ca0b906f4e8",
+      "title": "HN NHAP KHO PHIEU NHAP P05 NO RESULTS",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P05_NoResults_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "1042468a52f1abfbf090e3ad343e3b91f37dee546e1d19dc3a29b55ce641d3ef",
+      "title": "HN NHAP KHO PHIEU NHAP P05 NO RESULTS",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P05A_FilteredResult_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "52ba3826cd238d5f6db5622e3e45544425b2515ea0bad070f0a49bbbb6e7cb6c",
+      "title": "HN NHAP KHO PHIEU NHAP P05A FILTERED RESULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P05A_FilteredResult_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "44784eeb67700a2d6e7c89422970ef2b87c7e8664ccda201bba6bf3a4e5213dd",
+      "title": "HN NHAP KHO PHIEU NHAP P05A FILTERED RESULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P05B_FilterPending_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "963236533c4a0f5f27b7cf413ebcfdabced87ec99d2f0e755b0b77060f4435c9",
+      "title": "HN NHAP KHO PHIEU NHAP P05B FILTER PENDING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P05B_FilterPending_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "46c8a3576dbc359d5a961b521f7d7bef983aebb385b4ed620670ee1eef51b5ea",
+      "title": "HN NHAP KHO PHIEU NHAP P05B FILTER PENDING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P06_LoadError_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "9b7d88348631070a426b7bce2d66bd302b5e90e37450e1b3742aadbd8314e048",
+      "title": "HN NHAP KHO PHIEU NHAP P06 LOAD ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P06_LoadError_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "827f5ffdbe5dc2d51e269f79f46b319a16599b9623fafcab1ad811ee34b1726b",
+      "title": "HN NHAP KHO PHIEU NHAP P06 LOAD ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P07_OfflineNoSnapshot_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "0fbed6e239cfce7db0cd30af51ab56b11bd77069a21a44bc3f7cfe846b4d3d04",
+      "title": "HN NHAP KHO PHIEU NHAP P07 OFFLINE NO SNAPSHOT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P07_OfflineNoSnapshot_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "bd3192108151945f89ad223ed4fc37fd9cfce80e4efefd6325cc81dacddae6eb",
+      "title": "HN NHAP KHO PHIEU NHAP P07 OFFLINE NO SNAPSHOT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P08_StaleSnapshot_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "2ae6652e67193f7d7e5a51049f7edd31a463de21ef4de6881fc7634ab6056577",
+      "title": "HN NHAP KHO PHIEU NHAP P08 STALE SNAPSHOT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P08_StaleSnapshot_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "1deb352c40c420ae42fb8c27501cf5cd1b127feb24e1352d072af22d40ca4f92",
+      "title": "HN NHAP KHO PHIEU NHAP P08 STALE SNAPSHOT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P09_ReadOnly_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "d9ed2eb97beab84a6a2242eb353b4ee14e16a9290df05509475fafc427e86f85",
+      "title": "HN NHAP KHO PHIEU NHAP P09 READ ONLY",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P10_WarehousePaused_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "5d50e98c0eb3d4e110c724b196eeacfc4544c223b27b8330b7f38f2059897e28",
+      "title": "HN NHAP KHO PHIEU NHAP P10 WAREHOUSE PAUSED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P11_SessionExpired_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "df73f6c84d16c4894134cb6e0137d32d38b3baae5dc5d0f351a4d9ed298e0566",
+      "title": "HN NHAP KHO PHIEU NHAP P11 SESSION EXPIRED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P11_SessionExpired_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "b66a240e976c33abe5fb8a9a2437d87ac5da85386ea5d8e9e19913cf3b695807",
+      "title": "HN NHAP KHO PHIEU NHAP P11 SESSION EXPIRED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P12_Forbidden_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "80c700ad698a61fcab744afb98c2cb95b6ca94b7cced090e83b774b4a78ee31d",
+      "title": "HN NHAP KHO PHIEU NHAP P12 FORBIDDEN",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P12_Forbidden_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "acf7227e81f83f177cb856297c8376f5e27f7e28974c68aacb7dcfb025d96b72",
+      "title": "HN NHAP KHO PHIEU NHAP P12 FORBIDDEN",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P13_RecordNotFound_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "9775c16f9a0c7c1a9fff840e34943757862c81a1e2ae8015fb0b49b3a44e8eee",
+      "title": "HN NHAP KHO PHIEU NHAP P13 RECORD NOT FOUND",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P13_RecordNotFound_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "4fc44379607aa8dd4dcebd2c2838d348777b9f9e2cc8a4a5be94a6fc38f1d883",
+      "title": "HN NHAP KHO PHIEU NHAP P13 RECORD NOT FOUND",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P14_ServerError_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "a051155ff0342e675a59cacdf3fd107bf54a73b98bd54180ca3396674663537f",
+      "title": "HN NHAP KHO PHIEU NHAP P14 SERVER ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P14_ServerError_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "8a10afb9a996f2d0bd0d73582c2dfd7d893379d4398528ede9c052c3511418be",
+      "title": "HN NHAP KHO PHIEU NHAP P14 SERVER ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P15_Maintenance_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "da88c9ffaeaa513e7521d5fb94bf3d381d1698bb17162901b2bd39b6407346d8",
+      "title": "HN NHAP KHO PHIEU NHAP P15 MAINTENANCE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P16_CreateForm_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "e5e470b44e98a5ae5384b66e8501ef9f875873c6918f4a0f7ebf6eb30d187d12",
+      "title": "HN NHAP KHO PHIEU NHAP P16 CREATE FORM",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P16_CreateForm_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "35ca2f35eb22e315691c832a07d4d1e58acd0997463d1c2db202e0fcfc1c87c5",
+      "title": "HN NHAP KHO PHIEU NHAP P16 CREATE FORM",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P16A_OpeningEdit_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "85e3b878541ff0afda620e699f8e6ae27b71b79e29ce814bf587091b89d222ea",
+      "title": "HN NHAP KHO PHIEU NHAP P16A OPENING EDIT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P16A_OpeningEdit_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "6b07108232191e3c18423dc485b0cd1b9dcdc2ff7d4ebfd877548ef3be48d964",
+      "title": "HN NHAP KHO PHIEU NHAP P16A OPENING EDIT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P16B_OpenFormError_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "ba8931d90b1df6779e0b6ccd7301ac50be5fdbb2df218981406f63cb88241e91",
+      "title": "HN NHAP KHO PHIEU NHAP P16B OPEN FORM ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P16B_OpenFormError_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "4a9c10fca06d920bd8b2eed783f5829a2f2845594a902dbc81dc25ecb0cea55d",
+      "title": "HN NHAP KHO PHIEU NHAP P16B OPEN FORM ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P17_ValidationError_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "49c098c6aedb2b160667e455e579c509fe184385750f1eab38d144c57100391c",
+      "title": "HN NHAP KHO PHIEU NHAP P17 VALIDATION ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P17_ValidationError_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "c2bd0d127bcb3588c1d3f2ddf5317842a99b6ceba838f5ff17d95f8269e8ef3c",
+      "title": "HN NHAP KHO PHIEU NHAP P17 VALIDATION ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P18_EditDraft_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "8594f40f72bca1d6af0c14db25e3ffeb9eeffce18ccc481f246d2e2db6c7e3a8",
+      "title": "HN NHAP KHO PHIEU NHAP P18 EDIT DRAFT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P18_EditDraft_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "9d4fdc2d599c5c007f796f8edcc011f9b971856c3c944a422d4318e13df52bb5",
+      "title": "HN NHAP KHO PHIEU NHAP P18 EDIT DRAFT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P18A_UnsavedChanges_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "e5419282c3847070e6cb4784546978be2b2e43a58cf39b2142cd6ed752d62f85",
+      "title": "HN NHAP KHO PHIEU NHAP P18A UNSAVED CHANGES",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P18A_UnsavedChanges_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "0833de13ef4873eba654ddc834aefa57bd0634a62791456ce881febaa023635b",
+      "title": "HN NHAP KHO PHIEU NHAP P18A UNSAVED CHANGES",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P18B_ConcurrentChange_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "fa5ba58a22f8702dc1a942bc93900ebb5877fb0a1e292bebdf77ab7fd93ca51e",
+      "title": "HN NHAP KHO PHIEU NHAP P18B CONCURRENT CHANGE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P18B_ConcurrentChange_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "e7a077eb59cbd3aaaf7b3fa66561f866eb1ba8b7755932a0a49bdacbcf7a497e",
+      "title": "HN NHAP KHO PHIEU NHAP P18B CONCURRENT CHANGE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P19_TrackingDetail_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "757cf8cf330a5d05822e9c9c3c04bb663ea09ea029a3b129e6fb8b065453a6d2",
+      "title": "HN NHAP KHO PHIEU NHAP P19 TRACKING DETAIL",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P19_TrackingDetail_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "615bbd781f30ace9d549a9d3d51c8af133b06e0f2be3c92c9604d384e0f45cae",
+      "title": "HN NHAP KHO PHIEU NHAP P19 TRACKING DETAIL",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P19B_PostedDetail_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "87df9521137281e4998eddf3d762907d01759a71865da70c16cab113ad471734",
+      "title": "HN NHAP KHO PHIEU NHAP P19B POSTED DETAIL",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P19B_PostedDetail_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "8cc86d84a7a94aee8f4172d849755aca7d0b4eacbd13327eb00e35f2689e4db5",
+      "title": "HN NHAP KHO PHIEU NHAP P19B POSTED DETAIL",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P20A_Saving_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "4e36430440e9efd4e21d37f0e9f442dc09cc2ce2bea59332a6e1cc85b26220c3",
+      "title": "HN NHAP KHO PHIEU NHAP P20A SAVING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P20A_Saving_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "82f2793af886016f4e8dcf196a74a351849dcc19c1574e214a82c0d3c67a03e7",
+      "title": "HN NHAP KHO PHIEU NHAP P20A SAVING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P20B_SaveSuccessStaleList_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "5c74648f1265181c83a5c812957412fa70ffb0cf4ba5b607fd18bcb9fb159d4e",
+      "title": "HN NHAP KHO PHIEU NHAP P20B SAVE SUCCESS STALE LIST",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P20C_SaveRejected_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "174795ff19527e054d212dd0f644023978361be0922066bbac9f8333150a8496",
+      "title": "HN NHAP KHO PHIEU NHAP P20C SAVE REJECTED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 1672,
+        "nativeHeight": 941,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P20C_SaveRejected_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "2dd702ec1f66b09cdb39aeef5ee2364a3c1789cc421ee6535ec7b51e15b06ced",
+      "title": "HN NHAP KHO PHIEU NHAP P20C SAVE REJECTED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P20D_SaveOutcomeUnknown_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "981d764c787f8f68fee1817b62ffdc8b549fef05d947fe8e1189fb858874b63e",
+      "title": "HN NHAP KHO PHIEU NHAP P20D SAVE OUTCOME UNKNOWN",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "sourceDesignStatus": "REVIEW",
+      "sourceExport": {
+        "nativeWidth": 992,
+        "nativeHeight": 1586,
+        "method": "ImageMagick Lanczos resize"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P09_ReadOnly_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "f9d4cf9ae7b269c6f370b7894785d46366f24afe4cd5aa5e57647fe417e26a85",
+      "bytes": 2293760,
+      "expectedSha256": "959756452df3f5f3d50728866a1358781fe51ef10babdad450f5d860254c2639",
+      "expectedBytes": 3303510,
+      "reason": "Truncated PNG; full decode fails and bytes/hash do not match the supplied export manifest. Original retained unchanged."
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P10_WarehousePaused_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "3f24996ac81a704a635f6db333a5bea0f8f92cd2c75e68dec1717b4f15a1a88a",
+      "bytes": 1441792,
+      "expectedSha256": "5d0aefa241b93c086694bdea79d8be73bee214ea9f42fef2f20fc5430357c02b",
+      "expectedBytes": 2002909,
+      "reason": "Truncated PNG; full decode fails and bytes/hash do not match the supplied export manifest. Original retained unchanged."
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Tablet/HN_NhapKho_PhieuNhap_P15_Maintenance_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "eb73387f1c9d79a321c1a599f66519829f50867cf5ef505aa801c7711305a756",
+      "bytes": 2654208,
+      "expectedSha256": "39877ee3dcfc27f10f749504f3cfa4384e4d3d611e0d834e75bcaf6fdf151daa",
+      "expectedBytes": 2897174,
+      "reason": "Truncated PNG; full decode fails and bytes/hash do not match the supplied export manifest. Original retained unchanged."
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P20B_SaveSuccessStaleList_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "0ef2d183ca02110be6953678acb7a2f0b68bc545ff997d9553f80b7f4c5cd414",
+      "bytes": 1310720,
+      "expectedSha256": "095a106a0418ffba96dcb9a385e09278823cbc730782fbfcebc894354da0bd04",
+      "expectedBytes": 2155851,
+      "reason": "Truncated PNG; full decode fails and bytes/hash do not match the supplied export manifest. Original retained unchanged."
+    },
+    {
+      "path": "nhap_kho/danh_sach_phieu_nhap_kho/Desktop/HN_NhapKho_PhieuNhap_P20D_SaveOutcomeUnknown_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "607eab281d169235dace5da04a23b8cb4ee041e144cf012aae1362615096035a",
+      "bytes": 1671168,
+      "expectedSha256": "0d89f5395598dad689a3aba00b0fc50c0ea904240ef214e18bd80570478ad91d",
+      "expectedBytes": 2016972,
+      "reason": "Truncated PNG; full decode fails and bytes/hash do not match the supplied export manifest. Original retained unchanged."
+    }
+  ],
+  "superseded": [
+    {
+      "id": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-desktop-1920x1080-candidate-v2-a2b7207a5e",
+      "device": "desktop",
+      "sha256": "a2b7207a5ea242bd4fcd3c47f0c4ed26acb6c66472f8c745d8a3b6b61e3161b1",
+      "archive": "design-archive/inbound-receipts-20260923/desktop-a2b7207a5ea242bd4fcd3c47f0c4ed26acb6c66472f8c745d8a3b6b61e3161b1.png"
+    },
+    {
+      "id": "drive-nhap-kho-danh-sach-phieu-nhap-kho-hn-phieunhapkho-danhsach-default-tablet-1600x2560-candidate-v2-3633194fee",
+      "device": "tablet",
+      "sha256": "3633194fee12a3e096537d25e2936943f788ac47bbe39c0eb72946abd16733cc",
+      "archive": "design-archive/inbound-receipts-20260923/tablet-3633194fee12a3e096537d25e2936943f788ac47bbe39c0eb72946abd16733cc.png"
+    }
+  ]
+}

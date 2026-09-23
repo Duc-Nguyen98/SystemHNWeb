@@ -82,6 +82,8 @@ for (const screen of driveManifest.screens) {
     assert.equal(screen.sha256, source.sha256);
     assert.equal(screen.title, source.title);
     assert.equal(screen.width, source.width); assert.equal(screen.height, source.height);
+    if (source.sourceDesignStatus) assert.equal(screen.sourceDesignStatus, source.sourceDesignStatus);
+    if (source.sourceExport) assert.deepEqual(screen.sourceExport, source.sourceExport);
     assert.equal(screen.group, profile.group);
     assert.equal(screen.sourceVerification, 'local-export-verified-cloud-access-denied');
     assert.equal(screen.reviewStatus, 'approval-not-recorded');
@@ -129,8 +131,8 @@ async function compare(path) {
 }
 await compare('assets');
 await compare('design-source/business-v1');
-for (const file of ['business-repair.html','baseline-register.json','handoff-BUSINESS-REPAIR-v1.md','handoff-DATA-RECON-UPDATE-20260923.md','handoff-APP-PV-UPDATE-20260923.md','handoff-DEFECT-CATALOG-UPDATE-20260923.md']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Handoff drift: ${file}`);
+for (const file of ['business-repair.html','baseline-register.json','handoff-BUSINESS-REPAIR-v1.md','handoff-DATA-RECON-UPDATE-20260923.md','handoff-APP-PV-UPDATE-20260923.md','handoff-DEFECT-CATALOG-UPDATE-20260923.md','handoff-INBOUND-RECEIPTS-UPDATE-20260923.md']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Handoff drift: ${file}`);
 for (const file of ['viewer.html', 'screen-manifest.json', 'drive-screen-manifest.json']) assert.equal(hash(await read(file)), hash(await read(`docs/${file}`)), `Root/docs drift: ${file}`);
 console.log(`PASS: 84 primary boards + ${driveManifest.total} Drive screens, dimensions, hashes, downloads and root/docs parity.`);
 console.log(`PASS: state coverage for ${coverage.checkedScreens} screens / ${coverage.checkedGroups} groups; ${coverage.exemptGroups} unfinished groups (<=3 images) exempt.`);
-if (coverage.knownMissingStates) console.log(`SOURCE GAP: ${coverage.knownMissingStates} documented states have unavailable images (App PV P20F Desktop/Tablet; Bệnh Lỗi P11F Tablet corrupt); available-file checks are not full design coverage.`);
+if (coverage.knownMissingStates) console.log(`SOURCE GAP: ${coverage.knownMissingStates} documented states have unavailable images across App PV, Bệnh Lỗi and Phiếu nhập; available-file checks are not full design coverage.`);

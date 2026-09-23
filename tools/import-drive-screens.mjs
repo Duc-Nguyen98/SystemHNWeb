@@ -248,6 +248,8 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
     screen.sourceVerification = 'local-export-verified-cloud-access-denied';
     screen.requestedDriveFolder = item.curated.profile.requestedDriveFolder;
     screen.updatedAt = item.curated.profile.updatedAt;
+    if (item.curated.sourceDesignStatus) screen.sourceDesignStatus = item.curated.sourceDesignStatus;
+    if (item.curated.sourceExport) screen.sourceExport = item.curated.sourceExport;
   }
   if (item.supplement) {
     screen.origin = 'ai-supplement';

@@ -15,9 +15,9 @@ function recount(manifest) {
   }
 }
 
-test('reviewed available inventory, eight unfinished groups, and two explicit source gaps', () => {
-  assert.equal(inventory.total, 515);
-  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 14, checkedScreens: 499, exemptGroups: 8, knownMissingStates: 2 });
+test('reviewed available inventory, seven unfinished groups, and seven explicit source gaps', () => {
+  assert.equal(inventory.total, 568);
+  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 15, checkedScreens: 554, exemptGroups: 7, knownMissingStates: 7 });
   assert.equal(inventory.screens.filter(screen => screen.origin === 'ai-supplement').length, 3);
   assert.equal(inventory.screens.filter(screen => screen.origin === 'native-repair').length, 56);
 });
@@ -86,6 +86,47 @@ test('App PV imports the matching state family and recovers P18/P19 without dupl
 test('the unavailable App PV state must remain explicitly declared, not hidden', () => {
   const manifest = clone();
   manifest.importProfiles.find(p => p.group === 'san_pham_app_pv').missingStates = [];
+  assert.throws(() => assertDriveStateCoverage(manifest), /missing-state declaration/);
+});
+
+test('inbound receipt folders stay one group with 55 hash-pinned sources and old P01 viewer aliases', () => {
+  const profile = JSON.parse(readFileSync(new URL('../tools/import-profiles/inbound-receipts-20260923.json', import.meta.url)));
+  const screens = inventory.screens.filter(screen => screen.group === profile.group);
+  assert.equal(screens.length, 55);
+  assert.equal(new Set(screens.map(screen => screen.sha256)).size, 55);
+  assert.equal(screens.filter(screen => screen.device === 'desktop').length, 27);
+  assert.equal(screens.filter(screen => screen.device === 'tablet').length, 28);
+  assert.equal(profile.excluded.length, 5);
+  assert.deepEqual(profile.missingStates.map(item => `${item.code}/${item.devices[0]}`), ['P09/tablet', 'P10/desktop', 'P15/tablet', 'P20B/desktop', 'P20D/desktop']);
+  for (const screen of screens) {
+    const source = profile.files.find(file => file.path === screen.sourcePaths[0]);
+    assert(source); assert.equal(screen.sha256, source.sha256);
+    assert.equal(screen.groupTitle, 'Nhập kho · Danh sách phiếu nhập');
+    assert.equal(screen.stage, 'review');
+    assert.equal(screen.reviewStatus, 'approval-not-recorded');
+    assert.equal(screen.sourceDesignStatus, screen.stateCode === 'P01' ? 'LOCKED' : 'REVIEW');
+    assert.deepEqual(screen.sourceExport, source.sourceExport);
+    assert(!profile.excluded.some(file => file.sha256 === screen.sha256));
+    assert.equal(screen.width, screen.device === 'desktop' ? 1920 : 1600);
+    assert.equal(screen.height, screen.device === 'desktop' ? 1080 : 2560);
+  }
+  assert.equal(profile.superseded.length, 2);
+  for (const previous of profile.superseded) assert(screens.find(screen => screen.stateCode === 'P01' && screen.device === previous.device).aliases.includes(previous.id));
+  assert(!screens.some(screen => screen.stateCode === 'P19A' || screen.stateCode === 'P20'));
+  assert.equal(correctedGroup('HN_NhapKho_PhieuNhap_P20A_Saving_Desktop', 'nhap_kho/Desktop'), profile.group);
+  for (const code of ['P09', 'P10', 'P15', 'P20B', 'P20D']) assert.equal(screens.filter(screen => screen.stateCode === code).length, 1);
+});
+
+test('inbound source gaps cannot hide loss of the valid counterpart or another device', () => {
+  for (const code of ['P09', 'P10', 'P15', 'P20B', 'P20D', 'P16B']) {
+    const manifest = clone();
+    const source = manifest.screens.find(screen => screen.group === 'nhap_kho/danh_sach_phieu_nhap_kho' && screen.stateCode === code);
+    manifest.screens = manifest.screens.filter(screen => screen.id !== source.id);
+    recount(manifest);
+    assert.throws(() => assertDriveStateCoverage(manifest), /state-code inventory|missing device counterpart/);
+  }
+  const manifest = clone();
+  manifest.importProfiles.find(profile => profile.group === 'nhap_kho/danh_sach_phieu_nhap_kho').missingStates[0].devices = ['desktop', 'tablet'];
   assert.throws(() => assertDriveStateCoverage(manifest), /missing-state declaration/);
 });
 

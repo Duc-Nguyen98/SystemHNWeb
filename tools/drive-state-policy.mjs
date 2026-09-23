@@ -14,6 +14,7 @@ export const expectedCodes = {
   danh_muc_benh_loi: [...range(20), ...'ABCDEF'.split('').map(suffix => `P11${suffix}`), 'P13A', 'P13B'],
   danh_muc_san_pham: range(20),
   danh_sach_SKU: range(20),
+  'nhap_kho/danh_sach_phieu_nhap_kho': [...range(19), 'P05A', 'P05B', 'P16A', 'P16B', 'P18A', 'P18B', 'P19B', 'P20A', 'P20B', 'P20C', 'P20D'],
   san_pham_app_pv: [...range(19), ...'ABCDEF'.split('').map(suffix => `P20${suffix}`)],
   'ton_kho&doi_soat': range(14)
 };
@@ -24,6 +25,7 @@ const legacyStates = {
 };
 
 const moduleFamilies = [
+  [/^HN[ _-]+(?:NhapKho|NHAP[ _-]+KHO)[ _-]+(?:PhieuNhap|PHIEU[ _-]+NHAP)[ _-]/i, 'nhap_kho/danh_sach_phieu_nhap_kho'],
   [/^HN[ _-]+(?:DanhMuc|DANH[ _-]+MUC)[ _-]+(?:BenhLoi|BENH[ _-]+LOI)[ _-]/i, 'danh_muc_benh_loi'],
   [/^HN[ _-]+APP[ _-]?PV[ _-]/i, 'san_pham_app_pv'],
   [/^HN[ _-]+DATA[ _-]+RECON[ _-]+REPORT[ _-]/i, 'bao_cao_nhap_liet_doi_chieu_loi'],
@@ -71,7 +73,14 @@ export function assertDriveStateCoverage(manifest) {
   // Documented source gap only; do not turn arbitrary missing states into passes.
   const allowedSourceGaps = {
     san_pham_app_pv: [{ code: 'P20F', devices: ['desktop', 'tablet'], status: 'source-not-found' }],
-    danh_muc_benh_loi: [{ code: 'P11F', devices: ['tablet'], status: 'source-corrupt' }]
+    danh_muc_benh_loi: [{ code: 'P11F', devices: ['tablet'], status: 'source-corrupt' }],
+    'nhap_kho/danh_sach_phieu_nhap_kho': [
+      { code: 'P09', devices: ['tablet'], status: 'source-corrupt' },
+      { code: 'P10', devices: ['desktop'], status: 'source-corrupt' },
+      { code: 'P15', devices: ['tablet'], status: 'source-corrupt' },
+      { code: 'P20B', devices: ['desktop'], status: 'source-corrupt' },
+      { code: 'P20D', devices: ['desktop'], status: 'source-corrupt' }
+    ]
   };
   for (const id of [...Object.keys(expectedCodes), ...Object.keys(legacyStates)]) assert(manifest.groups.some(group => group.id === id), `${id}: reviewed module missing`);
   for (const group of manifest.groups) {

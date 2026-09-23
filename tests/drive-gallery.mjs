@@ -175,6 +175,36 @@ try {
       assert.equal(createHash('sha256').update(await readFile(await file.path())).digest('hex'), screen.sha256);
     }
     await defectDetail.close();
+
+    const inboundGroup = 'nhap_kho/danh_sach_phieu_nhap_kho';
+    await page.goto(`${base}/${prefix}drive-gallery.html?group=${encodeURIComponent(inboundGroup)}`);
+    await page.waitForFunction(() => document.querySelectorAll('.card').length === 55);
+    assert.equal(await page.locator('#group option:checked').textContent(), 'Nhập kho · Danh sách phiếu nhập · 55');
+    assert(await page.locator('#source-note').isVisible());
+    const inboundWarning = await page.locator('#coverage-note').textContent();
+    for (const code of ['P09', 'P10', 'P15', 'P20B', 'P20D']) assert(inboundWarning.includes(code));
+    for (const [device, count, missingCode] of [['Desktop', 27, 'P10'], ['Tablet', 28, 'P09']]) {
+      await page.getByRole('button', { name: device, exact: true }).click();
+      await page.locator('#search').fill('');
+      assert.equal(await page.locator('.card').count(), count);
+      await page.locator('#search').fill(missingCode);
+      assert.equal(await page.locator('.card').count(), 0, 'Exclude only the corrupt state/device source');
+    }
+    await page.getByRole('button', { name: 'Tất cả', exact: true }).click();
+    await page.locator('#search').fill('P20A');
+    assert.equal(await page.locator('.card').count(), 2);
+    const inboundDetail = await browser.newPage();
+    for (const screen of manifest.screens.filter(item => item.importProfile === 'inbound-receipts-20260923')) {
+      await inboundDetail.goto(`${base}/${prefix}viewer.html?collection=drive&screen=${encodeURIComponent(screen.id)}`);
+      await inboundDetail.locator('#frame').waitFor({ state: 'visible' });
+      assert.equal(await inboundDetail.locator('#title').textContent(), screen.title);
+      const pending = inboundDetail.waitForEvent('download');
+      await inboundDetail.locator('#download').click();
+      const file = await pending;
+      assert.equal(file.suggestedFilename(), screen.fileName);
+      assert.equal(createHash('sha256').update(await readFile(await file.path())).digest('hex'), screen.sha256);
+    }
+    await inboundDetail.close();
   }
 } finally {
   await browser.close();
