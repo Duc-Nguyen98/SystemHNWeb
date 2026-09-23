@@ -15,9 +15,9 @@ function recount(manifest) {
   }
 }
 
-test('paired available inventory, eight unfinished groups, and one explicit source gap', () => {
-  assert.equal(inventory.total, 460);
-  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 13, checkedScreens: 444, exemptGroups: 8, knownMissingStates: 1 });
+test('reviewed available inventory, eight unfinished groups, and two explicit source gaps', () => {
+  assert.equal(inventory.total, 515);
+  assert.deepEqual(assertDriveStateCoverage(inventory), { checkedGroups: 14, checkedScreens: 499, exemptGroups: 8, knownMissingStates: 2 });
   assert.equal(inventory.screens.filter(screen => screen.origin === 'ai-supplement').length, 3);
   assert.equal(inventory.screens.filter(screen => screen.origin === 'native-repair').length, 56);
 });
@@ -87,6 +87,54 @@ test('the unavailable App PV state must remain explicitly declared, not hidden',
   const manifest = clone();
   manifest.importProfiles.find(p => p.group === 'san_pham_app_pv').missingStates = [];
   assert.throws(() => assertDriveStateCoverage(manifest), /missing-state declaration/);
+});
+
+test('Bệnh Lỗi imports 55 original files, excludes the truncated Tablet, and retains REVIEW provenance', () => {
+  const profile = JSON.parse(readFileSync(new URL('../tools/import-profiles/defect-catalog-20260923.json', import.meta.url)));
+  const screens = inventory.screens.filter(screen => screen.group === profile.group);
+  assert.equal(screens.length, 55);
+  assert.equal(screens.filter(screen => screen.device === 'desktop').length, 28);
+  assert.equal(screens.filter(screen => screen.device === 'tablet').length, 27);
+  assert.equal(new Set(screens.map(screen => screen.sha256)).size, 55);
+  assert.equal(profile.excluded.length, 3);
+  const corrupt = profile.excluded.find(file => file.path.includes('P11F'));
+  assert.equal(corrupt.sha256, '3e575392181077e9b6db85c2ef9ea686a4e455f82f1348a8f704f9815f815d2a');
+  assert(!screens.some(screen => screen.sha256 === corrupt.sha256));
+  for (const screen of screens) {
+    assert.equal(screen.stage, 'review');
+    assert.equal(screen.origin, 'workspace-update');
+    assert.equal(screen.reviewStatus, 'approval-not-recorded');
+    assert.equal(screen.groupTitle, 'Danh mục Bệnh Lỗi');
+    assert.equal(screen.sourceVerification, 'local-export-verified-cloud-access-denied');
+    assert(screen.fileName.startsWith('HN_DANH_MUC_BENH_LOI_P'));
+    assert.equal(screen.sha256, profile.files.find(file => file.path === screen.sourcePaths[0]).sha256);
+  }
+  assert(screens.filter(screen => screen.stateCode === 'P01').every(screen => screen.sourcePaths[0].endsWith('_REVIEW_v5.0.png')));
+  assert.deepEqual(screens.filter(screen => screen.stateCode === 'P11F').map(screen => screen.device), ['desktop']);
+  const register = JSON.parse(readFileSync(new URL('../baseline-register.json', import.meta.url)));
+  assert.equal(register.baselines.filter(item => item.group === profile.group).length, 2);
+  assert(register.baselines.filter(item => item.group === profile.group).every(item => item.baselineStatus === 'reference-unverified'));
+  assert.equal(correctedGroup('HN_DanhMuc_BenhLoi_P13B_ConcurrencyConflict_Tablet', 'danh_sach_SKU'), profile.group);
+});
+
+test('P11F Tablet source gap cannot hide a missing Desktop or another state', () => {
+  for (const code of ['P11F', 'P13B']) {
+    const manifest = clone();
+    manifest.screens = manifest.screens.filter(screen => !(screen.group === 'danh_muc_benh_loi' && screen.stateCode === code && screen.device === 'desktop'));
+    recount(manifest);
+    assert.throws(() => assertDriveStateCoverage(manifest), /state-code inventory|missing device counterpart/);
+  }
+  const manifest = clone();
+  manifest.importProfiles.find(profile => profile.group === 'danh_muc_benh_loi').missingStates[0].devices = ['desktop', 'tablet'];
+  assert.throws(() => assertDriveStateCoverage(manifest), /missing-state declaration/);
+});
+
+test('corrupt Tablet cannot be silently published under an existing source-gap warning', () => {
+  const manifest = clone();
+  const desktop = manifest.screens.find(screen => screen.group === 'danh_muc_benh_loi' && screen.stateCode === 'P11F');
+  manifest.screens.push({ ...desktop, id: 'unexpected-tablet', device: 'tablet' });
+  recount(manifest);
+  assert.throws(() => assertDriveStateCoverage(manifest), /remove the source-gap declaration/);
 });
 
 test('an additional missing App PV pair cannot be masked by the P20F exception', () => {

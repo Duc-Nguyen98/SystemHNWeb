@@ -1,4 +1,5 @@
-import { access, mkdir, mkdtemp, readFile, readdir, rename, writeFile } from 'node:fs/promises';
+import { access, copyFile, mkdir, mkdtemp, readFile, readdir, rename, writeFile } from 'node:fs/promises';
+import { constants } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { dirname, extname, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -10,6 +11,7 @@ import { loadImportProfiles } from './import-profiles.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const reviewedOnly = args.includes('--reviewed-only');
+const scopedGroup = args.find(arg => arg.startsWith('--group='))?.slice('--group='.length);
 const sourceRoot = resolve(args.find(arg => !arg.startsWith('--')) || resolve(root, '..'));
 const outputRoot = resolve(root, 'previews', 'drive-screens');
 const manifestPath = resolve(root, 'drive-screen-manifest.json');
@@ -18,10 +20,13 @@ const previousManifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const supplements = JSON.parse(await readFile(resolve(root, 'design-supplements/manifest.json'), 'utf8'));
 const repairPlan = JSON.parse(await readFile(resolve(root, 'design-source/business-v1/targets.json'), 'utf8'));
 const profiles = await loadImportProfiles();
+if (scopedGroup && !profiles.some(profile => profile.group === scopedGroup)) throw new Error('Scoped import requires a registered hash-pinned profile');
+if (scopedGroup && repairPlan.targets.some(target => target.collection === 'drive' && target.original.group === scopedGroup)) throw new Error('Use the full reviewed import to preserve native repairs in this group');
+const activeProfiles = scopedGroup ? profiles.filter(profile => profile.group === scopedGroup) : profiles;
 const profileGroups = new Set(profiles.map(profile => profile.group));
-const curatedSources = new Map(profiles.flatMap(profile => profile.files.map(file => [file.path, { ...file, profile }])));
+const curatedSources = new Map(activeProfiles.flatMap(profile => profile.files.map(file => [file.path, { ...file, profile }])));
 const importHistory = previousManifest.screens.map(screen => repairPlan.targets.find(t => t.collection === 'drive' && t.id === screen.id)?.original || screen);
-const reviewedSources = new Map(importHistory.filter(screen => screen.origin !== 'ai-supplement' && !profileGroups.has(screen.group)).flatMap(screen => screen.sourcePaths.map(path => [path, screen.sha256])));
+const reviewedSources = new Map(importHistory.filter(screen => (!scopedGroup || screen.group === scopedGroup) && screen.origin !== 'ai-supplement' && !profileGroups.has(screen.group)).flatMap(screen => screen.sourcePaths.map(path => [path, screen.sha256])));
 
 // Drive review exports sometimes arrive with UUID or timestamp-only filenames.
 // Keep those names in sourcePaths for provenance, but publish a stable,
@@ -86,6 +91,7 @@ const groupNames = new Map(Object.entries({
   'bao_hanh_sua_chua/phieu_xuat_linh_kien_bao_hanh': 'Bảo hành sửa chữa · Phiếu xuất linh kiện',
   'dang_nhap& phien_lam_viec/phien_lam_viec': 'Đăng nhập & phiên làm việc · Xác nhận phiên',
   'danh_muc_dai_ly_noi_nhan': 'Danh mục đại lý/nơi nhận',
+  'danh_muc_benh_loi': 'Danh mục Bệnh Lỗi',
   'danh_muc_san_pham': 'Danh mục sản phẩm',
   'danh_sach_SKU': 'Danh sách SKU',
   'nhap_kho/danh_sach_phieu_nhap_kho': 'Nhập kho · Danh sách phiếu nhập',
@@ -120,7 +126,8 @@ function displayTitle(filename) {
     .replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-const allFiles = (await walk(sourceRoot)).filter(path => !path.startsWith(`${root}${sep}`));
+// A scoped update never depends on renamed/missing source folders of other modules.
+const allFiles = scopedGroup ? [...curatedSources.keys()].map(path => resolve(sourceRoot, path)) : (await walk(sourceRoot)).filter(path => !path.startsWith(`${root}${sep}`));
 const candidates = allFiles.filter(path => imageExtensions.has(extname(path).toLowerCase()));
 const relativeCandidates = candidates.map(path => ({ path, relativePath: slash(relative(sourceRoot, path)) }));
 const updateTopLevels = new Set(relativeCandidates.filter(({ relativePath }) => {
@@ -156,6 +163,7 @@ if (reviewedOnly) {
 // Supplemental artwork is versioned inside the repo, separately from Drive.
 // It survives every re-import and is never represented as approved source art.
 for (const item of supplements.screens) {
+  if (scopedGroup && item.group !== scopedGroup) continue;
   const path = resolve(root, 'design-supplements', item.file);
   if (!path.startsWith(`${resolve(root, 'design-supplements')}${sep}`)) throw new Error('Invalid supplement path');
   await access(path);
@@ -256,6 +264,8 @@ const screens = await mapConcurrent([...byHash.values()], 8, async item => {
 });
 
 screens.sort((a, b) => a.groupTitle.localeCompare(b.groupTitle, 'vi') || (a.device === b.device ? 0 : a.device === 'desktop' ? -1 : 1) || a.title.localeCompare(b.title, 'vi', { numeric: true }));
+const importedScreens = [...screens];
+if (scopedGroup) screens.unshift(...previousManifest.screens.filter(screen => screen.group !== scopedGroup));
 const groups = [...new Map(screens.map(screen => [screen.group, screen.groupTitle])).entries()].map(([id, title]) => ({
   id, title,
   count: screens.filter(screen => screen.group === id).length,
@@ -277,6 +287,23 @@ assertDriveStateCoverage(manifest);
 const backup = `${staging}-previous`;
 const stagedManifest = `${staging}-manifest.json`;
 await writeFile(stagedManifest, `${JSON.stringify(manifest, null, 2)}\n`);
+if (scopedGroup) {
+  // Publish new content-addressed assets before the manifest. Existing files are
+  // never overwritten, so a failed copy leaves the live inventory intact.
+  for (const screen of importedScreens) for (const file of [screen.src, screen.thumb]) {
+    const source = resolve(staging, relative(outputRoot, resolve(root, file)));
+    const destination = resolve(root, file);
+    if (!destination.startsWith(`${outputRoot}${sep}`)) throw new Error('Asset must stay within the gallery');
+    await mkdir(dirname(destination), { recursive: true });
+    try { await copyFile(source, destination, constants.COPYFILE_EXCL); }
+    catch (error) {
+      if (error.code !== 'EEXIST') throw error;
+      if (!(await readFile(source)).equals(await readFile(destination))) throw new Error(`Existing asset differs: ${file}`);
+    }
+  }
+  await rename(stagedManifest, manifestPath);
+  console.log(`Imported ${importedScreens.length} scoped images; ${screens.length} total across ${groups.length} groups. Other modules and old image links unchanged.`);
+} else {
 await rename(outputRoot, backup);
 let installed = false;
 try {
@@ -289,3 +316,4 @@ try {
 }
 console.log(`Imported ${screens.length} unique Drive screens across ${groups.length} groups.`);
 await applyBusinessRepair({ driveOnly: true });
+}

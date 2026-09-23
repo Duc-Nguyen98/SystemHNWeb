@@ -2,7 +2,7 @@
 
 Gallery Web System riêng cho Dev xem và tải ảnh thiết kế. AUTH-01 hiện có 9 state được duyệt cho mỗi viewport; AUTH-02 và các màn hỗ trợ tiếp tục được giữ trong cùng nhóm. Bộ filter/date picker MAP-01 v2 có gallery QA riêng với 13 state cho mỗi viewport.
 
-Bộ xuất từ Drive có gallery riêng tại [`drive-gallery.html`](drive-gallery.html), hiện gồm **460 màn hình thuộc 21 nhóm nghiệp vụ**. Sau đợt sửa nghiệp vụ, 56 liên kết Drive và 52 liên kết gallery chính dùng bản sửa HTML/SVG có nhãn **cần chủ thiết kế duyệt**; 3 ảnh AI bổ sung vẫn còn trong gallery. Ảnh trước sửa được lưu nguyên vẹn trong `design-archive/business-v1`.
+Bộ xuất từ Drive có gallery riêng tại [`drive-gallery.html`](drive-gallery.html), hiện gồm **515 màn hình thuộc 22 nhóm nghiệp vụ**. Sau đợt sửa nghiệp vụ, 56 liên kết Drive và 52 liên kết gallery chính dùng bản sửa HTML/SVG có nhãn **cần chủ thiết kế duyệt**; 3 ảnh AI bổ sung vẫn còn trong gallery. Ảnh trước sửa được lưu nguyên vẹn trong `design-archive/business-v1`.
 
 Cập nhật 23/09/2026: [Báo cáo nhập liệu, đối chiếu & lỗi dữ liệu — 40 ảnh P01–P20](drive-gallery.html?group=bao_cao_nhap_liet_doi_chieu_loi). Dùng bản xuất trên máy đã đối soát hash/nội dung vì Drive đang từ chối truy cập; chưa xác minh trực tiếp danh sách cloud. [Biên bản nhập và ngoại lệ](handoff-DATA-RECON-UPDATE-20260923.md).
 
@@ -10,7 +10,9 @@ Cùng ngày: [Sản phẩm trên App PV — 48 ảnh](drive-gallery.html?group=s
 
 **Đợt sửa ưu tiên:** [preview bản sửa](business-repair.html) · [biên bản và giới hạn](handoff-BUSINESS-REPAIR-v1.md) · [sổ baseline](baseline-register.json). Expired, Readonly, sai module và biểu đồ được kiểm tra bằng dữ liệu/semantic DOM; các baseline xung đột checksum chưa tự nhận đã duyệt. `npm run render:business` dựng lại 88 ảnh nguồn trực tiếp ở đúng viewport; cần `npm run sync` sau khi áp dụng.
 
-[Báo cáo sửa trạng thái](handoff-DRIVE-STATE-REPAIR-20260922.md): hồ sơ lịch sử đợt 22/09. Hiện kiểm tra 13 nhóm đã triển khai, trong đó App PV còn thiếu P20F theo hợp đồng; 12 nhóm còn lại đủ mã/cặp thiết bị trong inventory hiện hành. Miễn độ phủ cho 8 nhóm có không quá 3 ảnh. Ảnh AI lưu đúng kích thước native, không coi là master đã duyệt. Import có chế độ `--reviewed-only` để không cuốn theo ảnh mới của công việc khác trong thư mục nguồn.
+Cùng ngày: [Danh mục Bệnh Lỗi — 55 ảnh](drive-gallery.html?group=danh_muc_benh_loi), gồm 28 Desktop và 27 Tablet. P01–P20 cùng các biến thể P11A–P11F, P13A–P13B; **P11F Tablet bị hỏng file nguồn**, không xuất bản ảnh lỗi. Dùng bản update trên máy vì Drive chưa truy cập được. [Biên bản và file cần cung cấp lại](handoff-DEFECT-CATALOG-UPDATE-20260923.md).
+
+[Báo cáo sửa trạng thái](handoff-DRIVE-STATE-REPAIR-20260922.md): hồ sơ lịch sử đợt 22/09. Hiện kiểm tra 14 nhóm đã triển khai; App PV còn thiếu P20F Desktop/Tablet, Bệnh Lỗi thiếu P11F Tablet hợp lệ; 12 nhóm còn lại đủ mã/cặp thiết bị trong inventory hiện hành. Miễn độ phủ cho 8 nhóm có không quá 3 ảnh. Ảnh AI lưu đúng kích thước native, không coi là master đã duyệt. Import có chế độ `--reviewed-only` để không cuốn theo ảnh mới của công việc khác trong thư mục nguồn; thêm `--group=danh_muc_benh_loi` để chỉ nhập profile nhóm đã chỉ định và giữ nguyên các nhóm khác.
 
 **GitHub Pages:** https://duc-nguyen98.github.io/SystemHNWeb/
 

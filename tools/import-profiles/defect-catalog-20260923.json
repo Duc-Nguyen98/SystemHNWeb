@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "id": "defect-catalog-20260923",
+  "group": "danh_muc_benh_loi",
+  "groupTitle": "Danh mục Bệnh Lỗi",
+  "updatedAt": "2026-09-23",
+  "sourceDirectory": "danh_muc_benh_loi",
+  "requestedDriveFolder": "https://drive.google.com/drive/folders/1XSHFE3v9aF56qHGbEb8UGJFQhAsxz2SU",
+  "sourceVerification": "Local workspace export verified; requested Google Drive folder denied access in current browser session. No cloud listing/download comparison was possible.",
+  "sourceDocument": {
+    "path": "danh_muc_benh_loi/HN_DANH_MUC_BENH_LOI_BASELINE_STATE_PROMPTS_v1.0.md",
+    "sha256": "a875c4aacebb686851b755c4371a1feb853dc0299050b855d8830485d51ec10c",
+    "status": "REVIEW; baseline, fixture and backend contracts not approved"
+  },
+  "artPolicy": "Import valid supplied images unchanged; keep P01 REVIEW v5.0 and other states REVIEW v1.0. Do not synthesize, upscale, or infer approval. Exclude truncated P11F Tablet.",
+  "missingStates": [
+    {
+      "code": "P11F",
+      "label": "OPEN FORM FAILED",
+      "devices": [
+        "tablet"
+      ],
+      "status": "source-corrupt",
+      "reason": "Ảnh P11F Tablet trong bản xuất trên máy bị cắt dữ liệu PNG; cần cung cấp lại file nguyên vẹn. Desktop vẫn có sẵn."
+    }
+  ],
+  "files": [
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P01_Default_Desktop_1920x1080_REVIEW_v5.0.png",
+      "sha256": "7e8706398dc77e4bae3e9820bc4632eb75b6137720e37f6c9ec63a1a02b26ae4",
+      "title": "HN DANH MUC BENH LOI P01 DEFAULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P01_Default_Tablet_1600x2560_REVIEW_v5.0.png",
+      "sha256": "115716a5aad1ab9bc15dd9fc73b4255f5b4f040f42a06c058cbea0d73edb3532",
+      "title": "HN DANH MUC BENH LOI P01 DEFAULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P02_InitialLoading_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "37e5051580233c4f242d7382596f5966c5261035a33e5bcea377d4ca4c44b1f4",
+      "title": "HN DANH MUC BENH LOI P02 INITIAL LOADING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P02_InitialLoading_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "811f033facddb8736946b78a920722baba44389062b3f75982ce7c03aa64045f",
+      "title": "HN DANH MUC BENH LOI P02 INITIAL LOADING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P03_Refreshing_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "0b7db5765cc77dd3f670f5b1c713f19a9aae29578be538021abc70c7d9c25363",
+      "title": "HN DANH MUC BENH LOI P03 REFRESHING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P03_Refreshing_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "fde062538b4abc390a9c51ab35187ca1f63e36ca9309b0dd8f89e3493910ab09",
+      "title": "HN DANH MUC BENH LOI P03 REFRESHING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P04_EmptyCatalog_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "ba05584e63ebf83333d2723c22e3c32b8297e6e4ccc14f95c6acb6c5db1350c3",
+      "title": "HN DANH MUC BENH LOI P04 EMPTY CATALOG",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P04_EmptyCatalog_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "73a4ab95ee22fd5db00cbaebd5f09b4552af2634c91205a92c1e16bb90ee2039",
+      "title": "HN DANH MUC BENH LOI P04 EMPTY CATALOG",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P05_NoResult_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "393cdc42b9f4a07bbdf1fa43b417cc464032d91a49ef8f92673fe7b17cbf27b8",
+      "title": "HN DANH MUC BENH LOI P05 NO RESULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P05_NoResult_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "4abc5f37a242769f772cf48e3baa0bfd55ec25d4de7a440eae544f2847c39aa9",
+      "title": "HN DANH MUC BENH LOI P05 NO RESULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P06_LoadError_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "3cec1c257c0c28273ee8034ff57b41a8f076d3b88eba42cec29c16c069751b37",
+      "title": "HN DANH MUC BENH LOI P06 LOAD ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P06_LoadError_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "6b0432392caf34137ebd78f4a6150eeb5626da6871df00cc9e504399663f10d9",
+      "title": "HN DANH MUC BENH LOI P06 LOAD ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P07_Offline_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "60c65d95be4a22294776dcdf7c3b7be248e7457f8775795e24cf8456501e7c6b",
+      "title": "HN DANH MUC BENH LOI P07 OFFLINE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P07_Offline_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "f6b0f6ded9477fa2d17ffb304905a1135581aef577f9125d912dd803d9a53730",
+      "title": "HN DANH MUC BENH LOI P07 OFFLINE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P08_StaleSnapshot_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "4f56df62bad0643c2245f5dba442cd9b2cd37658284ee1952b7a3e6cd53c345b",
+      "title": "HN DANH MUC BENH LOI P08 STALE SNAPSHOT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P08_StaleSnapshot_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "430c473255099b7b16b00ebd65db1b7ac5a4d0cfd2c9d387ab7468110e8495fb",
+      "title": "HN DANH MUC BENH LOI P08 STALE SNAPSHOT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P09_FilteredResult_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "e35e5f88888356156f1b111c58c9750372a5acdc7a85364efc0f5094ccfa3500",
+      "title": "HN DANH MUC BENH LOI P09 FILTERED RESULT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P09_FilteredResult_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "8e8b0239f73d3bf7f12f877d681f2c72310dfcb549103d790045ed84c214f81d",
+      "title": "HN DANH MUC BENH LOI P09 FILTERED RESULT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P10_Readonly_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "bb60d48dbb6800ca9faccb244014d750f353b109d68d6ebd6f719d088f2c3825",
+      "title": "HN DANH MUC BENH LOI P10 READONLY",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P10_Readonly_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "5d6562943eeb5eeefa46ab94c1cfa1f977579eb45a27a490c1a92995c8afe29b",
+      "title": "HN DANH MUC BENH LOI P10 READONLY",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11_OpeningAdd_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "434511fab03f5cb3be587a4cefc98dd2262f5ed7ff0654fb42475780ea01492e",
+      "title": "HN DANH MUC BENH LOI P11 OPENING ADD",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11_OpeningAdd_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "41c46dd9ea4ba2b26f3349827b7241377dffc62500e3b623847e836bdbea43b7",
+      "title": "HN DANH MUC BENH LOI P11 OPENING ADD",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11A_OpeningEdit_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "e7e5475fac445f84392a50fc6749add3defd9e70e11a1c21c6fc641d2b9854ec",
+      "title": "HN DANH MUC BENH LOI P11A OPENING EDIT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11A_OpeningEdit_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "2dc2a85d29d60ad0dc781379982914c8f586d177d7a3879e4310e8cd5ca6cba3",
+      "title": "HN DANH MUC BENH LOI P11A OPENING EDIT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11B_AddForm_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "4234fbecb635fa248662af974667df45c98f5dcfca0f6e9d0a3b3135b12300ee",
+      "title": "HN DANH MUC BENH LOI P11B ADD FORM",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11B_AddForm_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "1b7561dc07105c5942afcfd281d02063e452ff769c1741a604d8e8360a6133be",
+      "title": "HN DANH MUC BENH LOI P11B ADD FORM",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11C_EditForm_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "b2f65248f668cd61b4d8cc34cf3c1f92338849169456c907e2e50933574ca77d",
+      "title": "HN DANH MUC BENH LOI P11C EDIT FORM",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11C_EditForm_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "03fe7a3524d9f92fadc62bb25049811b610f665ac81bbfb507ac8fddd804bbbc",
+      "title": "HN DANH MUC BENH LOI P11C EDIT FORM",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11D_UnsavedChanges_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "da1e32cc68597d3f80f64a9de9c42b3c21fc63fd37938218487242af956c5c78",
+      "title": "HN DANH MUC BENH LOI P11D UNSAVED CHANGES",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11D_UnsavedChanges_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "3afb717e845d08950f7315697f0c8e5ba1d583d3e07be707e61eb2c9e460cec1",
+      "title": "HN DANH MUC BENH LOI P11D UNSAVED CHANGES",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11E_SaveProcessing_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "33600e93b9fa7dffdb946ba9ae0f22a3d6feded4ce78d21c8ca42184f5d83749",
+      "title": "HN DANH MUC BENH LOI P11E SAVE PROCESSING",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11E_SaveProcessing_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "24d622203a22aa37732ff60b9cc640cd98ad6ba62055c23f380f8d677a054ce8",
+      "title": "HN DANH MUC BENH LOI P11E SAVE PROCESSING",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11F_OpenFormFailed_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "687297044dce3f8407f5591d1b7f60c0cbb6475fa6d32cadb4d92e87aa806020",
+      "title": "HN DANH MUC BENH LOI P11F OPEN FORM FAILED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P12_SaveSuccess_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "9158841f329900e68e49e7d16d73c6bdbe4f0d7286d572be728731bb4f31084f",
+      "title": "HN DANH MUC BENH LOI P12 SAVE SUCCESS",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P12_SaveSuccess_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "fe11f5608840a827e2760d591e85b099bd69c105fab77e2ecb4eb1fdb432786d",
+      "title": "HN DANH MUC BENH LOI P12 SAVE SUCCESS",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P13_Validation_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "c632c4c797c71d4d3c951709013c2d11d29072ababa3ec05b59414aa971e2ed0",
+      "title": "HN DANH MUC BENH LOI P13 VALIDATION",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P13_Validation_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "ad59f821b910ca5b3f7d5836259a82a15a27c38377bfa63a4b993fb7abdb3438",
+      "title": "HN DANH MUC BENH LOI P13 VALIDATION",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P13A_DuplicateCode_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "aeac791fde42fda95e9f3bfc74f6c08bebeb34607f9d51d37c8298cebe3073b5",
+      "title": "HN DANH MUC BENH LOI P13A DUPLICATE CODE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P13A_DuplicateCode_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "3049e40ae8e48f33f592f23c20bcd033803a0adedc9972a41fbd9e22d38068ae",
+      "title": "HN DANH MUC BENH LOI P13A DUPLICATE CODE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P13B_ConcurrencyConflict_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "260ef8e8aa23069c2bb33b74ad0cdf83bad1d95d6181aa2c0a3d4b0bab3d7c48",
+      "title": "HN DANH MUC BENH LOI P13B CONCURRENCY CONFLICT",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P13B_ConcurrencyConflict_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "4d00f12fdf7e19e9b8f90fd327b3e797489b25dce9708f958a0615179301c157",
+      "title": "HN DANH MUC BENH LOI P13B CONCURRENCY CONFLICT",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P14_SaveFailed_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "1b220f098bf8a1778535f316856da0cc5b4c026c23f42f484064976a15d90947",
+      "title": "HN DANH MUC BENH LOI P14 SAVE FAILED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P14_SaveFailed_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "abe8e3287e5a2c385c2a0e40901dbc73e72584897814c202aadc900e41067ac9",
+      "title": "HN DANH MUC BENH LOI P14 SAVE FAILED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P15_SaveTimeoutUnknown_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "4aa11bcb6a6e1dfe687340c14818da36f069f3f9620afab6bdc2f556e9424da2",
+      "title": "HN DANH MUC BENH LOI P15 SAVE TIMEOUT UNKNOWN",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P15_SaveTimeoutUnknown_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "98808a8d5c772e348ed362e90d7b974518b9d1359e6b52429f71f6fa5a0c6649",
+      "title": "HN DANH MUC BENH LOI P15 SAVE TIMEOUT UNKNOWN",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P16_401_SessionExpired_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "9209d9a36e6eb03a69000c9acb07cba47f2071dc35bfa62475849f5aa44aa8ff",
+      "title": "HN DANH MUC BENH LOI P16 401 SESSION EXPIRED",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P16_401_SessionExpired_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "2d126e4885bf4b2746f2817809e891f88ee4a8080c7fff832a5d0cfe64c13f1b",
+      "title": "HN DANH MUC BENH LOI P16 401 SESSION EXPIRED",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P17_403_Forbidden_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "38c5ad87f611c691e87edd91064db5a991bc04606ad2004ab3f0992f7d24c5d3",
+      "title": "HN DANH MUC BENH LOI P17 403 FORBIDDEN",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P17_403_Forbidden_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "db69c8191b232ccddbfbc40b6b9f295a4858300bc91260e8fdbbbccbecbb0927",
+      "title": "HN DANH MUC BENH LOI P17 403 FORBIDDEN",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P18_404_NotFound_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "0c2937156430e90b2be60dc5ba8d5db2e9196b49317bbb0febc70d5785193ac4",
+      "title": "HN DANH MUC BENH LOI P18 404 NOT FOUND",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P18_404_NotFound_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "c6d2fc260490153ed5245d0657388e8406e7cc18cf9ff725f6d437ea3d730b24",
+      "title": "HN DANH MUC BENH LOI P18 404 NOT FOUND",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P19_500_SystemError_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "da6c3f1ec9c5e7e5f60adc65a0e7cf5e92ed15c6763454b9c4d25dd491c633f5",
+      "title": "HN DANH MUC BENH LOI P19 500 SYSTEM ERROR",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P19_500_SystemError_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "62c0fdec3cba029715256f8c251e3a7553cdd1f9b1f17645c52a709de12e3621",
+      "title": "HN DANH MUC BENH LOI P19 500 SYSTEM ERROR",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P20_Maintenance_Desktop_1920x1080_REVIEW_v1.0.png",
+      "sha256": "960a385e8623827df8c8f5a45b965fd86a5768fc51794b56a766eb524d6c4635",
+      "title": "HN DANH MUC BENH LOI P20 MAINTENANCE",
+      "device": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P20_Maintenance_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "0c0af2507a95fa1b42dbd0e5426bbb271091775c1893d3aed392f8f6823ce339",
+      "title": "HN DANH MUC BENH LOI P20 MAINTENANCE",
+      "device": "tablet",
+      "width": 1600,
+      "height": 2560
+    }
+  ],
+  "excluded": [
+    {
+      "path": "danh_muc_benh_loi/HN_DanhMuc_BenhLoi_P01_Default_Desktop_1920x1080_REVIEW_v5.0.png",
+      "sha256": "7e8706398dc77e4bae3e9820bc4632eb75b6137720e37f6c9ec63a1a02b26ae4",
+      "reason": "Byte-identical top-level P01 duplicate; use the update folder only."
+    },
+    {
+      "path": "danh_muc_benh_loi/HN_DanhMuc_BenhLoi_P01_Default_Tablet_1600x2560_REVIEW_v5.0.png",
+      "sha256": "115716a5aad1ab9bc15dd9fc73b4255f5b4f040f42a06c058cbea0d73edb3532",
+      "reason": "Byte-identical top-level P01 duplicate; use the update folder only."
+    },
+    {
+      "path": "danh_muc_benh_loi/update/HN_DanhMuc_BenhLoi_P11F_OpenFormFailed_Tablet_1600x2560_REVIEW_v1.0.png",
+      "sha256": "3e575392181077e9b6db85c2ef9ea686a4e455f82f1348a8f704f9815f815d2a",
+      "reason": "Truncated PNG: incomplete IDAT data and no IEND chunk; full PNG decode fails. Preserve source, do not upload or fabricate replacement."
+    }
+  ],
+  "superseded": []
+}

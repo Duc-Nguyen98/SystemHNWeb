@@ -100,6 +100,24 @@
       "baselineStatus": "reference-unverified"
     },
     {
+      "group": "ton_kho&doi_soat",
+      "device": "desktop",
+      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p01-default-desktop-1920x1080-5677509abe",
+      "sha256": "5677509abe48816fc5fe24f976d2e8cde7165b3201568a50237bae5ce8a42625",
+      "src": "previews/drive-screens/originals/ton-kho-doi-soat/desktop/hn-tkds-p01-default-desktop-1920x1080-5677509abe.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "ton_kho&doi_soat",
+      "device": "tablet",
+      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p01-default-tablet-1600x2560-ad286f92cd",
+      "sha256": "ad286f92cdab7de5f477d25def3338b97f134de9f2504d57f7a16333449e2874",
+      "src": "previews/drive-screens/originals/ton-kho-doi-soat/tablet/hn-tkds-p01-default-tablet-1600x2560-ad286f92cd.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
       "group": "bao_cao_truy_vet_hang_hoa",
       "device": "desktop",
       "screenId": "drive-bao-cao-truy-vet-hang-hoa-hn-trace-report-p01-default-desktop-1920x1080-a143700095",
@@ -366,24 +384,6 @@
       "baselineStatus": "reference-unverified"
     },
     {
-      "group": "ton_kho&doi_soat",
-      "device": "desktop",
-      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p01-default-desktop-1920x1080-5677509abe",
-      "sha256": "5677509abe48816fc5fe24f976d2e8cde7165b3201568a50237bae5ce8a42625",
-      "src": "previews/drive-screens/originals/ton-kho-doi-soat/desktop/hn-tkds-p01-default-desktop-1920x1080-5677509abe.png",
-      "reviewStatus": "approval-not-recorded",
-      "baselineStatus": "reference-unverified"
-    },
-    {
-      "group": "ton_kho&doi_soat",
-      "device": "tablet",
-      "screenId": "drive-ton-kho-doi-soat-hn-tkds-p01-default-tablet-1600x2560-ad286f92cd",
-      "sha256": "ad286f92cdab7de5f477d25def3338b97f134de9f2504d57f7a16333449e2874",
-      "src": "previews/drive-screens/originals/ton-kho-doi-soat/tablet/hn-tkds-p01-default-tablet-1600x2560-ad286f92cd.png",
-      "reviewStatus": "approval-not-recorded",
-      "baselineStatus": "reference-unverified"
-    },
-    {
       "group": "xuat_kho",
       "device": "desktop",
       "screenId": "drive-xuat-kho-hn-xuatkho-phieuxuatkho-p01-default-desktop-1920x1080-locked-v1-0-98f30bd216",
@@ -398,6 +398,24 @@
       "screenId": "drive-xuat-kho-hn-xuatkho-phieuxuatkho-p01-default-tablet-1600x2560-locked-v1-0-e79d5f7d2c",
       "sha256": "e79d5f7d2c2b395c1bf58781fb6947518203bbdb08aa7f32ea26d60fe31b1bd4",
       "src": "previews/drive-screens/originals/xuat-kho/tablet/hn-xuatkho-phieuxuatkho-p01-default-tablet-1600x2560-locked-v1-0-e79d5f7d2c.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "danh_muc_benh_loi",
+      "device": "desktop",
+      "screenId": "drive-danh-muc-benh-loi-hn-danh-muc-benh-loi-p01-default-desktop-1920x1080-review-7e8706398d",
+      "sha256": "7e8706398dc77e4bae3e9820bc4632eb75b6137720e37f6c9ec63a1a02b26ae4",
+      "src": "previews/drive-screens/originals/danh-muc-benh-loi/desktop/hn-danh-muc-benh-loi-p01-default-desktop-1920x1080-review-7e8706398d.png",
+      "reviewStatus": "approval-not-recorded",
+      "baselineStatus": "reference-unverified"
+    },
+    {
+      "group": "danh_muc_benh_loi",
+      "device": "tablet",
+      "screenId": "drive-danh-muc-benh-loi-hn-danh-muc-benh-loi-p01-default-tablet-1600x2560-review-115716a5aa",
+      "sha256": "115716a5aad1ab9bc15dd9fc73b4255f5b4f040f42a06c058cbea0d73edb3532",
+      "src": "previews/drive-screens/originals/danh-muc-benh-loi/tablet/hn-danh-muc-benh-loi-p01-default-tablet-1600x2560-review-115716a5aa.png",
       "reviewStatus": "approval-not-recorded",
       "baselineStatus": "reference-unverified"
     }

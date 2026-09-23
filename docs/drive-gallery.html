@@ -68,7 +68,7 @@
     $('source-note').textContent = profile ? `Bộ update ${profile.updatedAt.split('-').reverse().join('/')} · Đã kiểm tra bản xuất trên máy. Chưa đối chiếu được danh sách Drive trực tiếp do quyền truy cập.` : '';
     const missing = profile?.missingStates || [];
     $('coverage-note').hidden = missing.length === 0;
-    $('coverage-note').textContent = missing.length ? `Chưa có ảnh nguồn: ${missing.map(item => `${item.code} — ${item.label} (Desktop và Tablet)`).join('; ')}. Các ảnh hiện có được nhập nguyên trạng; chưa thể coi bộ thiết kế là đầy đủ.` : '';
+    $('coverage-note').textContent = missing.length ? `Chưa có ảnh nguồn hợp lệ: ${missing.map(item => `${item.code} — ${item.label} (${item.devices.map(device => device === 'desktop' ? 'Desktop' : 'Tablet').join(' và ')}${item.status === 'source-corrupt' ? ' — file nguồn bị hỏng, cần cung cấp lại' : ''})`).join('; ')}. Các ảnh hiện có được nhập nguyên trạng; chưa thể coi bộ thiết kế là đầy đủ.` : '';
   }
   $('group').addEventListener('change', event => { state.group = event.target.value; render(); });
   $('search').addEventListener('input', event => { state.search = event.target.value; render(); });

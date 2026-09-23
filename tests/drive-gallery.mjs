@@ -142,6 +142,39 @@ try {
       assert.equal(createHash('sha256').update(await readFile(await file.path())).digest('hex'), screen.sha256);
     }
     await appPvDetail.close();
+
+    await page.goto(`${base}/${prefix}drive-gallery.html?group=danh_muc_benh_loi`);
+    await page.waitForFunction(() => document.querySelectorAll('.card').length === 55);
+    assert.equal(await page.locator('#group option:checked').textContent(), 'Danh mục Bệnh Lỗi · 55');
+    assert(await page.locator('#source-note').isVisible());
+    assert(await page.locator('#coverage-note').isVisible());
+    const defectWarning = await page.locator('#coverage-note').textContent();
+    assert(defectWarning.includes('P11F') && defectWarning.includes('Tablet') && defectWarning.includes('bị hỏng'));
+    assert(!defectWarning.includes('Desktop'), 'Only the Tablet source is corrupt');
+    for (const [device, count] of [['Desktop', 28], ['Tablet', 27]]) {
+      await page.getByRole('button', { name: device, exact: true }).click();
+      assert.equal(await page.locator('.card').count(), count);
+    }
+    await page.locator('#search').fill('P11F');
+    assert.equal(await page.locator('.card').count(), 0, 'Never publish corrupt Tablet artwork');
+    assert(await page.locator('#coverage-note').isVisible());
+    await page.getByRole('button', { name: 'Desktop', exact: true }).click();
+    assert.equal(await page.locator('.card').count(), 1, 'Keep the valid P11F Desktop');
+    await page.getByRole('button', { name: 'Tất cả', exact: true }).click();
+    await page.locator('#search').fill('P13B');
+    assert.equal(await page.locator('.card').count(), 2, 'Letter-suffixed state codes remain searchable');
+    const defectDetail = await browser.newPage();
+    for (const screen of manifest.screens.filter(item => item.importProfile === 'defect-catalog-20260923')) {
+      await defectDetail.goto(`${base}/${prefix}viewer.html?collection=drive&screen=${encodeURIComponent(screen.id)}`);
+      await defectDetail.locator('#frame').waitFor({ state: 'visible' });
+      assert.equal(await defectDetail.locator('#title').textContent(), screen.title);
+      const pending = defectDetail.waitForEvent('download');
+      await defectDetail.locator('#download').click();
+      const file = await pending;
+      assert.equal(file.suggestedFilename(), screen.fileName);
+      assert.equal(createHash('sha256').update(await readFile(await file.path())).digest('hex'), screen.sha256);
+    }
+    await defectDetail.close();
   }
 } finally {
   await browser.close();
